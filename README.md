@@ -1,2 +1,2 @@
 # wdps
-Complete base installation and wordpress module
+Complete pack base installation and wordpress module with elementor for starting project.
