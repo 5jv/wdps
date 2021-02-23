@@ -18,5 +18,5 @@ Ex: www.yoursite.com/installer.php
 ## Access
 The username and password for the first connection, you can change them later.
 
-Username: wdps
+Username: wdps<br>
 Password: wdps
