@@ -8,7 +8,17 @@ Complete pack for quick installation of wordpress with duplicator
 - Elementor
 - Duplicator
 - ACF
-- Yoast SEO
+- Classic Editor
+- Custom Post Type UI
+- Duplicate Page
+- Ele Custom Skin
+- Query Monitor
+- SiteOrigin CSS
+- WP Pusher
+
+## Template
+Hello Elementor<br>
+Hello Elementor Child (https://github.com/elementor/hello-theme-child)
 
 ## Run
 Upload the contents of the "www" folder to the root folder of your ftp and access the "installer.php" file then configure your database to finalize the installation with duplicator.
