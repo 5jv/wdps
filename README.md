@@ -1,4 +1,4 @@
-# wdps
+# WDPS - Quick install complet wordpress
 Complete pack for quick installation of wordpress with duplicator
 
 ## Installation & Documentation
