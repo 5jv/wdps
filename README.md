@@ -10,3 +10,4 @@ Complete pack for quick installation of wordpress with duplicator
 - ACF
 - Yoast SEO
 
+## Run
