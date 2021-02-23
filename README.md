@@ -1,5 +1,12 @@
 # wdps
-Complete pack base installation and wordpress module with elementor for starting project.
+Complete pack for quick installation of wordpress with duplicator
 
 ## Installation & Documentation
 - Install with duplicator or import manualy.
+
+## Plugins included, installed and configured
+- Elementor
+- Duplicator
+- ACF
+- Yoast SEO
+
