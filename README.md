@@ -9,9 +9,9 @@ Complete pack for quick installation of wordpress with duplicator
 - Duplicator
 - ACF
 - Classic Editor
-- Custom Post Type UI
+- Custom Post Type UI 
 - Duplicate Page
-- Ele Custom Skin
+- Ele Custom Skin (requires elementor pro)
 - Query Monitor
 - SiteOrigin CSS
 - WP Pusher
