@@ -1,0 +1,228 @@
+.htmove-gallery-filter {
+  margin: 0 0 55px;
+  padding: 0 15px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.htmove-gallery-filter > ul {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.htmove-gallery-filter > ul > li {
+  font-family: "Space Grotesk";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.25;
+  position: relative;
+  z-index: 1;
+  display: block;
+  cursor: pointer;
+  -webkit-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  white-space: nowrap;
+  text-decoration: none;
+  color: #333333;
+}
+
+.htmove-gallery-filter-one > ul > li, .htmove-gallery-filter-five > ul > li {
+  margin: 0 25px;
+  padding: 30px 12px;
+}
+
+.htmove-gallery-filter-one > ul > li::before, .htmove-gallery-filter-five > ul > li::before {
+  position: absolute;
+  right: 0;
+  bottom: -1px;
+  width: 0;
+  height: 2px;
+  content: "";
+  -webkit-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  background-color: #1D39D7;
+}
+
+.htmove-gallery-filter-one > ul > li:hover, .htmove-gallery-filter-five > ul > li:hover {
+  color: #1D39D7;
+}
+
+.htmove-gallery-filter-one > ul > li.active, .htmove-gallery-filter-five > ul > li.active {
+  color: #1D39D7;
+}
+
+.htmove-gallery-filter-one > ul > li.active:before, .htmove-gallery-filter-five > ul > li.active:before {
+  right: 0;
+  left: 0;
+  width: 100%;
+}
+
+.htmove-gallery-filter-two > ul > li {
+  margin: 0 25px;
+  padding: 30px 13px;
+}
+
+.htmove-gallery-filter-two > ul > li:first-child {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.htmove-gallery-filter-two > ul > li::before {
+  position: absolute;
+  z-index: -1;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  content: "";
+  -webkit-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  background-color: #1D39D7;
+}
+
+.htmove-gallery-filter-two > ul > li:hover {
+  color: #1D39D7;
+}
+
+.htmove-gallery-filter-two > ul > li.active {
+  color: #FFFFFF;
+}
+
+.htmove-gallery-filter-two > ul > li.active:before {
+  height: 100%;
+}
+
+.htmove-gallery-filter-three > ul > li {
+  overflow: hidden;
+  margin: 0 25px 20px;
+  padding: 12px 25px 10px;
+  border-radius: 50px;
+}
+
+.htmove-gallery-filter-three > ul > li::before {
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 100%;
+  content: "";
+  -webkit-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+      -ms-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+  border-radius: 50px;
+  background-color: #1D39D7;
+}
+
+.htmove-gallery-filter-three > ul > li:hover {
+  color: #1D39D7;
+}
+
+.htmove-gallery-filter-three > ul > li.active {
+  color: #FFFFFF;
+}
+
+.htmove-gallery-filter-three > ul > li.active:before {
+  width: 100%;
+}
+
+.htmove-gallery-filter-four > ul > li {
+  overflow: hidden;
+  margin: 0 25px 20px;
+  padding: 12px 12px 10px;
+  border-radius: 4px;
+}
+
+.htmove-gallery-filter-four > ul > li:hover {
+  color: #1D39D7;
+}
+
+.htmove-gallery-filter-four > ul > li.active {
+  color: #FFFFFF;
+  background-color: #1D39D7;
+}
+
+.htmove-gallery-filter-five {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .htmove-gallery-filter-one > ul > li, .htmove-gallery-filter-five > ul > li, .htmove-gallery-filter-two > ul > li {
+    margin: 0 15px;
+    padding: 20px 12px;
+  }
+  .htmove-gallery-filter-three > ul > li {
+    margin: 0 15px 20px;
+    padding: 12px 15px 10px;
+  }
+  .htmove-gallery-filter-four > ul > li {
+    margin: 0 15px 20px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .htmove-gallery-filter {
+    margin-bottom: 30px;
+    border-top: 0;
+    border-bottom: 0;
+  }
+  .htmove-gallery-filter-one > ul > li, .htmove-gallery-filter-five > ul > li, .htmove-gallery-filter-two > ul > li {
+    margin: 0 5px 10px;
+    padding: 12px 10px 10px;
+  }
+  .htmove-gallery-filter-three > ul > li, .htmove-gallery-filter-four > ul > li {
+    margin: 0 5px 10px;
+  }
+}
+
+.htmove-gallery-grid {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.htmove-row .htmove-gallery-sizer {
+  position: absolute;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 1px;
+      -ms-flex: 0 0 1px;
+          flex: 0 0 1px;
+}
+.htmove-gallery-grid img{
+  width: 100%;
+}
+.htmove-menu-align-flex-start .htmove-gallery-filter{
+  padding-left: 0;
+}
+.htmove-menu-align-flex-start .htmove-gallery-filter ul li:first-child{
+  margin-left: 0;
+}
+.htmove-menu-align-flex-end .htmove-gallery-filter{
+  padding-right: 0;
+}
+.htmove-menu-align-flex-end .htmove-gallery-filter ul li:last-child{
+  margin-right: 0;
+}

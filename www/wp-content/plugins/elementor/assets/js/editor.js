@@ -1,4 +1,4 @@
-/*! elementor - v3.1.1 - 31-01-2021 */
+/*! elementor - v3.1.4 - 10-03-2021 */
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
@@ -19331,7 +19331,7 @@ exports.default = _default;
   \********************************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module */
-/*! CommonJS bailout: module.exports is used directly at 185:0-14 */
+/*! CommonJS bailout: module.exports is used directly at 184:0-14 */
 /***/ ((module) => {
 
 "use strict";
@@ -19380,7 +19380,6 @@ SortableBehavior = Marionette.Behavior.extend({
 
     var $childViewContainer = this.getChildViewContainer(),
         defaultSortableOptions = {
-      connectWith: $childViewContainer.selector,
       placeholder: 'elementor-sortable-placeholder elementor-' + this.getOption('elChildType') + '-placeholder',
       cursorAt: {
         top: 20,
@@ -21826,6 +21825,7 @@ var _default = /*#__PURE__*/function (_BaseRegion) {
       manager: (0, _assertThisInitialized2.default)(_this)
     }));
     _this.isDocked = false;
+    _this.storage.size.width = _this.storage.size.width || _this.$el.css('width');
     _this.indicators = {
       customPosition: {
         title: __('Custom Positioning', 'elementor'),
@@ -26329,7 +26329,7 @@ exports.default = Heartbeat;
   \************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module, __webpack_require__ */
-/*! CommonJS bailout: module.exports is used directly at 27:0-14 */
+/*! CommonJS bailout: module.exports is used directly at 30:0-14 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -26337,6 +26337,8 @@ exports.default = Heartbeat;
 
 
 var _interopRequireDefault = __webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ "../node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js");
+
+__webpack_require__(/*! core-js/modules/es7.array.includes */ "../node_modules/core-js/modules/es7.array.includes.js");
 
 __webpack_require__(/*! core-js/modules/es6.number.constructor */ "../node_modules/core-js/modules/es6.number.constructor.js");
 
@@ -26360,6 +26362,7 @@ var _colorPicker = _interopRequireDefault(__webpack_require__(/*! ./color-picker
 
 var _helper = _interopRequireDefault(__webpack_require__(/*! elementor-editor/document/helper */ "../assets/dev/js/editor/document/helper.js"));
 
+var allowedHTMLWrapperTags = ['article', 'aside', 'div', 'footer', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'header', 'main', 'nav', 'p', 'section', 'span'];
 module.exports = {
   document: _helper.default,
   _enqueuedFonts: {
@@ -26387,7 +26390,7 @@ module.exports = {
     }
 
     if (!$document.find(selector).length) {
-      $document.find('link:last').after(link);
+      $document.find('link').last().after(link);
     }
   },
   enqueuePreviewStylesheet: function enqueuePreviewStylesheet(url) {
@@ -26992,6 +26995,19 @@ module.exports = {
   },
   hasPro: function hasPro() {
     return !!window.elementorPro;
+  },
+
+  /**
+   * Function validateHTMLTag().
+   *
+   * Validate an HTML tag against a safe allowed list.
+   *
+   * @param {string} tag
+   *
+   * @returns {string}
+   */
+  validateHTMLTag: function validateHTMLTag(tag) {
+    return allowedHTMLWrapperTags.includes(tag.toLowerCase()) ? tag : 'div';
   }
 };
 
@@ -27217,7 +27233,7 @@ var _stringify = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-c
     };
 
     var onDragEnd = function onDragEnd(event) {
-      if ($.isFunction(settings.onDragEnd)) {
+      if ('function' === typeof settings.onDragEnd) {
         settings.onDragEnd.call(elementsCache.$element, event, self);
       }
     };
@@ -27232,7 +27248,7 @@ var _stringify = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-c
         event.originalEvent.dataTransfer.setData((0, _stringify.default)(dataContainer), true);
       }
 
-      if ($.isFunction(settings.onDragStart)) {
+      if ('function' === typeof settings.onDragStart) {
         settings.onDragStart.call(elementsCache.$element, event, self);
       }
     };
@@ -27390,7 +27406,7 @@ var _stringify = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-c
         }
       }
 
-      if ($.isFunction(settings.isDroppingAllowed)) {
+      if ('function' === typeof settings.isDroppingAllowed) {
         droppingAllowed = settings.isDroppingAllowed.call(currentElement, currentSide, event, self);
 
         if (!droppingAllowed) {
@@ -27428,7 +27444,7 @@ var _stringify = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-c
       elementsCache.$element.addClass(settings.hasDraggingOnChildClass);
       $(currentElement).addClass(settings.currentElementClass);
 
-      if ($.isFunction(settings.onDragEnter)) {
+      if ('function' === typeof settings.onDragEnter) {
         settings.onDragEnter.call(currentElement, currentSide, event, self);
       }
     };
@@ -27453,7 +27469,7 @@ var _stringify = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-c
         insertPlaceholder();
       }
 
-      if ($.isFunction(settings.onDragging)) {
+      if ('function' === typeof settings.onDragging) {
         settings.onDragging.call(this, currentSide, event, self);
       }
     };
@@ -27478,7 +27494,7 @@ var _stringify = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-c
 
       event.preventDefault();
 
-      if ($.isFunction(settings.onDropping)) {
+      if ('function' === typeof settings.onDropping) {
         settings.onDropping.call(this, currentSide, event, self);
       }
     };
@@ -27500,7 +27516,7 @@ var _stringify = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-c
 
       elementsCache.$element.removeClass(settings.hasDraggingOnChildClass);
 
-      if ($.isFunction(settings.onDragLeave)) {
+      if ('function' === typeof settings.onDragLeave) {
         settings.onDragLeave.call(currentElement, event, self);
       }
 

@@ -1,0 +1,1015 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@font-face {
+  font-family: "Space Grotesk";
+  font-weight: 300;
+  font-style: normal;
+  src: url("../../fonts/SpaceGrotesk/SpaceGrotesk-Light.woff2") format("woff2"), url("../../fonts/SpaceGrotesk/SpaceGrotesk-Light.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Space Grotesk";
+  font-weight: 500;
+  font-style: normal;
+  src: url("../../fonts/SpaceGrotesk/SpaceGrotesk-Medium.woff2") format("woff2"), url("../../fonts/SpaceGrotesk/SpaceGrotesk-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Space Grotesk";
+  font-weight: 600;
+  font-style: normal;
+  src: url("../../fonts/SpaceGrotesk/SpaceGrotesk-SemiBold.woff2") format("woff2"), url("../../fonts/SpaceGrotesk/SpaceGrotesk-SemiBold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Space Grotesk";
+  font-weight: 700;
+  font-style: normal;
+  src: url("../../fonts/SpaceGrotesk/SpaceGrotesk-Bold.woff2") format("woff2"), url("../../fonts/SpaceGrotesk/SpaceGrotesk-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Space Grotesk";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../../fonts/SpaceGrotesk/SpaceGrotesk-Regular.woff2") format("woff2"), url("../../fonts/SpaceGrotesk/SpaceGrotesk-Regular.woff") format("woff");
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Admin Panel Container/Wrapper */
+.htmove-admin-panel {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  min-height: 100%;
+  background-color: #F7F7F7;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (max-width: 767px) {
+  .htmove-admin-panel {
+    display: block;
+  }
+}
+
+/* Admin Panel Sidebar */
+.htmove-admin-sidebar {
+  width: 500px;
+  min-height: 100%;
+  padding: 50px 20px;
+  position: sticky;
+  top: 0;
+  align-self: flex-start;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1599px) {
+  .htmove-admin-sidebar {
+    width: 350px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .htmove-admin-sidebar {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 100%;
+    padding: 30px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (max-width: 767px) {
+  .htmove-admin-sidebar {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .htmove-admin-sidebar {
+    padding: 30px 20px;
+  }
+}
+
+/* Admin Panel Sidebar Logo */
+.htmove-admin-sidebar-logo {
+  margin-bottom: 30px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .htmove-admin-sidebar-logo {
+    -webkit-align-self: center;
+        -ms-flex-item-align: center;
+            align-self: center;
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (max-width: 767px) {
+  .htmove-admin-sidebar-logo {
+    -webkit-align-self: center;
+        -ms-flex-item-align: center;
+            align-self: center;
+    margin-bottom: 30px;
+  }
+}
+
+/* Admin Panel Sidebar Tab List */
+.htmove-admin-tab-list {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border-radius: 4px;
+  background-color: #FFFFFF;
+}
+
+.htmove-admin-tab-list li {
+  position: relative;
+  z-index: 1;
+}
+
+.htmove-admin-tab-list li + li::before {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  right: 25px;
+  left: 25px;
+  height: 1px;
+  content: "";
+  background-color: #F1F1F1;
+}
+
+.htmove-admin-tab-list li a {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px 25px;
+  -webkit-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  text-decoration: none;
+  color: #1D39D7;
+  border-radius: 4px;
+}
+
+.htmove-admin-tab-list li a span.text {
+  font-family: "Space Grotesk";
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.htmove-admin-tab-list li a span.text small {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  display: block;
+  margin-top: 7px;
+  -webkit-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  opacity: 0.8;
+  color: #999999;
+}
+
+.htmove-admin-tab-list li a span.icon i {
+  font-size: 24px;
+  line-height: 1;
+  display: block;
+}
+
+.htmove-admin-tab-list li a.htmove-pro-nav span.text {
+  font-weight: 600;
+  color: #D8D8D8;
+}
+
+.htmove-admin-tab-list li a.htmove-pro-nav span.icon {
+  color: transparent;
+  background-image: -webkit-linear-gradient(45deg, #FF3D99 0%, #FFB87D 100%);
+  background-image: -o-linear-gradient(45deg, #FF3D99 0%, #FFB87D 100%);
+  background-image: linear-gradient(45deg, #FF3D99 0%, #FFB87D 100%);
+  -webkit-background-clip: text;
+          background-clip: text;
+}
+
+.htmove-admin-tab-list li a.htmove-pro-nav.active {
+  background-image: -webkit-gradient(linear, left top, right top, from(#FF3D99), to(#FFB87D));
+  background-image: -webkit-linear-gradient(left, #FF3D99 0%, #FFB87D 100%);
+  background-image: -o-linear-gradient(left, #FF3D99 0%, #FFB87D 100%);
+  background-image: linear-gradient(to right, #FF3D99 0%, #FFB87D 100%);
+}
+
+.htmove-admin-tab-list li a.htmove-pro-nav.active span.text {
+  color: #FFFFFF;
+}
+
+.htmove-admin-tab-list li a.htmove-pro-nav.active span.text small {
+  color: #FFFFFF;
+}
+
+.htmove-admin-tab-list li a.htmove-pro-nav.active span.icon {
+  color: #FFFFFF;
+}
+
+.htmove-admin-tab-list li a:not(.htmove-pro-nav).active {
+  color: #FFFFFF;
+  background-color: #1D39D7;
+}
+
+.htmove-admin-tab-list li a:not(.htmove-pro-nav).active span.text small {
+  color: #FFFFFF;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (max-width: 767px) {
+  .htmove-admin-tab-list {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+  }
+  .htmove-admin-tab-list li {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 0 auto;
+        -ms-flex: 1 0 auto;
+            flex: 1 0 auto;
+  }
+  .htmove-admin-tab-list li + li::before {
+    top: 0;
+    right: auto;
+    bottom: 0;
+    left: 0;
+    width: 1px;
+    height: auto;
+  }
+  .htmove-admin-tab-list li a {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 15px;
+  }
+  .htmove-admin-tab-list li a span.text {
+    font-size: 14px;
+    -webkit-box-ordinal-group: 3;
+    -webkit-order: 2;
+        -ms-flex-order: 2;
+            order: 2;
+    padding-top: 4px;
+  }
+  .htmove-admin-tab-list li a span.text small {
+    display: none;
+  }
+  .htmove-admin-tab-list li a span.icon {
+    -webkit-box-ordinal-group: 2;
+    -webkit-order: 1;
+        -ms-flex-order: 1;
+            order: 1;
+    margin-right: 6px;
+  }
+  .htmove-admin-tab-list li a span.icon i {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .htmove-admin-tab-list li a {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .htmove-admin-tab-list li a span.text {
+    padding-top: 8px;
+  }
+  .htmove-admin-tab-list li a span.text small {
+    color: #FFFFFF;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .htmove-admin-tab-list li a {
+    padding: 15px;
+  }
+  .htmove-admin-tab-list li a span.text {
+    font-size: 12px;
+  }
+  .htmove-admin-tab-list li a span.icon i {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .htmove-admin-tab-list li:nth-child(4) {
+    border-top: 1px solid #F1F1F1;
+  }
+  .htmove-admin-tab-list li:nth-child(4)::before {
+    display: none;
+  }
+  .htmove-admin-tab-list li:nth-child(5) {
+    border-top: 1px solid #F1F1F1;
+  }
+  .htmove-admin-tab-list li a {
+    padding: 15px;
+  }
+}
+
+/* Admin Panel Tab Content */
+.htmove-admin-tab-content {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 0 calc(100% - 500px);
+      -ms-flex: 1 0 calc(100% - 500px);
+          flex: 1 0 calc(100% - 500px);
+  min-height: 100%;
+  padding: 50px 30px;
+  background-color: #FFFFFF;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1599px) {
+  .htmove-admin-tab-content {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 0 calc(100% - 400px);
+        -ms-flex: 1 0 calc(100% - 400px);
+            flex: 1 0 calc(100% - 400px);
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
+  .htmove-admin-tab-content {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .htmove-admin-tab-content {
+    width: 100%;
+    padding: 30px 20px;
+  }
+}
+
+/* Admin Panel Tab Pane */
+.htmove-admin-tab-pane {
+  display: none;
+}
+
+.htmove-admin-tab-pane.active {
+  display: block;
+}
+
+/* Admin Panel Tab Head */
+.htmove-tab-head {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #E6E6E6;
+}
+
+.htmove-tab-head::before {
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 48px;
+  height: 1px;
+  content: "";
+  background-color: #1D39D7;
+}
+
+.htmove-tab-head .htmove-tab-head-left {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.htmove-tab-head .htmove-tab-head-left .htmove-tab-head-icon {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 0 auto;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 48px;
+  height: 48px;
+  margin-right: 15px;
+  color: #1D39D7;
+  border: 1px solid #E6E6E6;
+  border-radius: 3px;
+}
+
+.htmove-tab-head .htmove-tab-head-left .htmove-tab-head-icon i {
+  font-size: 24px;
+}
+
+.htmove-tab-head .htmove-tab-head-left .htmove-tab-head-title {
+  font-family: "Space Grotesk";
+  font-size: 28px;
+  font-weight: 500;
+  -webkit-align-self: center;
+      -ms-flex-item-align: center;
+          align-self: center;
+  margin: 0;
+  padding-top: 5px;
+  color: #1D39D7;
+}
+
+@media only screen and (max-width: 767px) {
+  .htmove-tab-head .htmove-tab-head-left {
+    -webkit-align-self: center;
+        -ms-flex-item-align: center;
+            align-self: center;
+  }
+  .htmove-tab-head .htmove-tab-head-left .htmove-tab-head-icon {
+    width: 40px;
+    height: 40px;
+  }
+  .htmove-tab-head .htmove-tab-head-left .htmove-tab-head-icon i {
+    font-size: 18px;
+  }
+  .htmove-tab-head .htmove-tab-head-left .htmove-tab-head-title {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .htmove-tab-head {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .htmove-tab-head .htmove-tab-head-left {
+    -webkit-align-self: flex-start;
+        -ms-flex-item-align: start;
+            align-self: flex-start;
+    margin-bottom: 20px;
+  }
+}
+
+/* Admin Panel Tab Dashboard */
+.htmove-admin-dashboard {
+  overflow: hidden;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 20px 50px rgba(29, 57, 215, 0.1);
+          box-shadow: 0 20px 50px rgba(29, 57, 215, 0.1);
+}
+
+.htmove-admin-dashboard .htmove-admin-dashboard-image img {
+  width: 100%;
+  height: auto;
+}
+
+.htmove-admin-dashboard .htmove-admin-dashboard-content {
+  padding: 30px;
+}
+
+.htmove-admin-dashboard .htmove-admin-dashboard-content .title {
+  font-family: "Space Grotesk";
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 1.5;
+  margin: 0 0 5px;
+  color: #333333;
+}
+
+.htmove-admin-dashboard .htmove-admin-dashboard-content p {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.75;
+  margin: 0 0 24px;
+  color: #999999;
+}
+
+/* Admin Panel Tab Elements */
+/* Admin Panel Tab Elements Content */
+.htmove-admin-elements-content {
+  margin-bottom: 30px;
+}
+
+.htmove-admin-elements-content .title {
+  font-family: "Space Grotesk";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.65;
+  margin: 0 0 5px;
+  color: #1D39D7;
+}
+
+.htmove-admin-elements-content p {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.75;
+  max-width: 800px;
+  margin: 0 0 15px;
+  color: #999999;
+}
+
+.htmove-admin-elements-content p:last-child {
+  margin-bottom: 0;
+}
+
+/* Admin Panel Tab Elements List */
+/* Admin Panel Tab Accordion */
+.htmove-admin-accordion .htmove-admin-accordion-card {
+  background-color: #F9F9F9;
+}
+
+.htmove-admin-accordion .htmove-admin-accordion-card + .htmove-admin-accordion-card {
+  margin-top: 16px;
+}
+
+.htmove-admin-accordion .htmove-admin-accordion-card .htmove-admin-accordion-head {
+  font-family: "Space Grotesk";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  padding: 16px 30px 14px;
+  cursor: pointer;
+  -webkit-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  background-color: #F9F9F9;
+}
+
+.htmove-admin-accordion .htmove-admin-accordion-card .htmove-admin-accordion-body .htmove-admin-accordion-content {
+  padding: 30px;
+}
+
+.htmove-admin-accordion .htmove-admin-accordion-card .htmove-admin-accordion-body .htmove-admin-accordion-content .title {
+  font-family: "Space Grotesk";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1;
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.htmove-admin-accordion .htmove-admin-accordion-card.active .htmove-admin-accordion-head {
+  color: #FFFFFF;
+  background-color: #1D39D7;
+}
+
+/* Admin Panel Tab GO Pro */
+.htmove-admin-gopro {
+  overflow: hidden;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 20px 50px rgba(29, 57, 215, 0.1);
+          box-shadow: 0 20px 50px rgba(29, 57, 215, 0.1);
+}
+
+.htmove-admin-gopro .htmove-admin-gopro-image img {
+  width: 100%;
+  height: auto;
+}
+
+.htmove-admin-gopro .htmove-admin-gopro-content {
+  padding: 30px;
+}
+
+.htmove-admin-gopro .htmove-admin-gopro-content h1,
+.htmove-admin-gopro .htmove-admin-gopro-content h2,
+.htmove-admin-gopro .htmove-admin-gopro-content h3,
+.htmove-admin-gopro .htmove-admin-gopro-content h4,
+.htmove-admin-gopro .htmove-admin-gopro-content h5,
+.htmove-admin-gopro .htmove-admin-gopro-content h6 {
+  font-family: "Space Grotesk";
+  font-weight: 500;
+  line-height: 1.5;
+  margin: 0 0 5px;
+  color: #333333;
+}
+
+.htmove-admin-gopro .htmove-admin-gopro-content p {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.75;
+  margin: 0 0 24px;
+  color: #999999;
+}
+
+/* Button */
+.htmove-admin-btn {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  line-height: 30px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 48px;
+  padding: 6px 30px !important;
+  cursor: pointer;
+  -webkit-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  white-space: nowrap;
+  text-decoration: none;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 3px;
+  background-color: #1D39D7 !important;
+}
+
+.htmove-admin-btn:focus {
+  box-shadow: none !important;
+  color: #fff;
+}
+
+.htmove-admin-btn:hover {
+  background-color: #172daa !important;
+  color: #fff;
+}
+
+.wp-core-ui .htmove-admin-btn.button-primary.disabled{
+  color: #ddd !important;
+  background: #999 !important;
+  border-color: #999 !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+  cursor: default;
+}
+.htmove-btn-footer {
+  margin-top: 20px;
+  text-align: right;
+}
+
+/* Admin Panel Checkbox List Wrapper */
+.htmove-checkbox-list-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  margin: 0;
+  padding: 22px 15px;
+  list-style: none;
+  background-color: #F9F9F9;
+}
+
+/* Admin Panel Checkbox List Item */
+.htmove-checkbox-list-item {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 0 33.3333%;
+      -ms-flex: 1 0 33.3333%;
+          flex: 1 0 33.3333%;
+  max-width: 33.3333%;
+  padding: 8px 15px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (max-width: 767px) {
+  .htmove-checkbox-list-item {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 0 50%;
+        -ms-flex: 1 0 50%;
+            flex: 1 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .htmove-checkbox-list-item {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 0 100%;
+        -ms-flex: 1 0 100%;
+            flex: 1 0 100%;
+    max-width: 100%;
+  }
+}
+
+/* Admin Panel Checkbox */
+.htmove-admin-checkbox {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px 25px;
+  border-radius: 4px;
+  background-color: #FFFFFF;
+  -webkit-box-shadow: 0 10px 35px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 10px 35px rgba(0, 0, 0, 0.05);
+}
+
+.htmove-admin-checkbox .htmove-pro-badge {
+  font-family: "Inter", sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 1;
+  position: absolute;
+  top: 4px;
+  left: -16px;
+  padding: 4px 20px 3px 20px;
+  -webkit-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background-image: -webkit-gradient(linear, right top, left top, from(#FF3D99), to(#FFB87D));
+  background-image: -webkit-linear-gradient(right, #FF3D99 0%, #FFB87D 100%);
+  background-image: -o-linear-gradient(right, #FF3D99 0%, #FFB87D 100%);
+  background-image: linear-gradient(to left, #FF3D99 0%, #FFB87D 100%);
+}
+
+.htmove-admin-checkbox .htmove-admin-checkbox-title {
+  font-family: "Space Grotesk";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #333333;
+}
+
+.htmove-admin-checkbox label {
+  position: relative;
+  cursor: pointer;
+}
+
+.htmove-admin-checkbox label .htmove-checkbox-text {
+  font-family: "Inter", sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  position: absolute;
+  top: 50%;
+  display: block;
+  padding-top: 1px;
+  -webkit-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  text-transform: uppercase;
+  color: #333333;
+}
+
+.htmove-admin-checkbox label .htmove-checkbox-text.on {
+  left: 8px;
+  opacity: 0;
+  color: #1D39D7;
+}
+
+.htmove-admin-checkbox label .htmove-checkbox-text.off {
+  right: 8px;
+}
+
+.htmove-admin-checkbox label .htmove-checkbox-indicator {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 56px;
+  height: 28px;
+  -webkit-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  border: 1px solid #333333;
+  border-radius: 50px;
+}
+
+.htmove-admin-checkbox label .htmove-checkbox-indicator::before {
+  position: absolute;
+  top: 50%;
+  right: auto;
+  left: 8px;
+  width: 16px;
+  height: 16px;
+  content: "";
+  -webkit-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  border-radius: 50%;
+  background-color: #333333;
+}
+
+.htmove-admin-checkbox label input {
+  position: absolute;
+  z-index: -999;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  opacity: 0;
+}
+
+.htmove-admin-checkbox label input:checked ~ .htmove-checkbox-indicator {
+  border-color: #1D39D7;
+}
+
+.htmove-admin-checkbox label input:checked ~ .htmove-checkbox-indicator::before {
+  left: 32px;
+  background-color: #1D39D7;
+}
+
+.htmove-admin-checkbox label input:checked ~ .htmove-checkbox-text.on {
+  opacity: 1;
+}
+
+.htmove-admin-checkbox label input:checked ~ .htmove-checkbox-text.off {
+  opacity: 0;
+}
+
+/* Admin Panel From Field */
+.htmove-admin-from-field + .htmove-admin-from-field {
+  margin-top: 15px;
+}
+
+.htmove-admin-from-field input {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  width: 100%;
+  height: 56px;
+  padding: 15px 20px;
+  border: 1px solid #E6E6E6;
+  border-radius: 4px;
+}
+
+/* Admin Panel GO Pro Popup */
+.htmove-gopro-popup {
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  visibility: hidden;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  -webkit-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.htmove-gopro-popup.active {
+  visibility: visible;
+  -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+          transform: scale(1);
+  opacity: 1;
+}
+
+/* Admin Panel GO Pro Popup Close */
+.htmove-gopro-popup-close {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+}
+
+/* Admin Panel GO Pro Popup Content */
+.htmove-gopro-popup-content {
+  position: relative;
+  z-index: 9;
+  width: 100%;
+  max-width: 510px;
+  padding: 16px;
+  border-radius: 4px;
+  background-color: #FFFFFF;
+}
+
+.htmove-gopro-popup-content .htmove-gopro-popup-content-inner {
+  padding: 40px;
+  text-align: center;
+  background-image: url(../images/gopro-popup.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+
+.htmove-gopro-popup-content .htmove-gopro-popup-content-inner .title {
+  font-family: "Space Grotesk";
+  font-size: 51px;
+  font-weight: 600;
+  line-height: 1;
+  margin: 16px 0 10px;
+  color: #FFFFFF;
+}
+
+.htmove-gopro-popup-content .htmove-gopro-popup-content-inner p {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.75;
+  max-width: 310px;
+  margin: auto auto 23px;
+  color: #FFFFFF;
+}
+
+.htmove-gopro-popup-content .htmove-gopro-popup-content-inner .htmove-admin-btn {
+  background-image: -webkit-gradient(linear, left top, right top, from(#FF3D99), color-stop(50%, #FFB87D), to(#FF3D99));
+  background-image: -webkit-linear-gradient(left, #FF3D99 0%, #FFB87D 50%, #FF3D99 100%);
+  background-image: -o-linear-gradient(left, #FF3D99 0%, #FFB87D 50%, #FF3D99 100%);
+  background-image: linear-gradient(to right, #FF3D99 0%, #FFB87D 50%, #FF3D99 100%);
+  background-position: left center;
+  background-size: 200% 100%;
+}
+
+.htmove-gopro-popup-content .htmove-gopro-popup-content-inner .htmove-admin-btn:hover {
+  background-position: right center;
+}

@@ -1,0 +1,213 @@
+.htmove-flipbox {
+  position: relative;
+  height: 300px;
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+}
+
+.htmove-flipbox .htmove-flipbox-layer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+  padding: 30px 40px;
+  -webkit-transition: all 0.6s ease-in-out;
+  -o-transition: all 0.6s ease-in-out;
+  transition: all 0.6s ease-in-out;
+  border: 1px solid transparent;
+  background-color: #FFFFFF;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+}
+
+.htmove-flipbox .htmove-flipbox-layer .htmove-flipbox-overlay {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.4;
+  background-color: #000000;
+}
+
+.htmove-flipbox .htmove-flipbox-layer .htmove-flipbox-content {
+  text-align: center;
+}
+
+.htmove-flipboxh-flex-start .htmove-flipbox .htmove-flipbox-layer .htmove-flipbox-content {
+  text-align: left;
+}
+
+.htmove-flipboxh-flex-end .htmove-flipbox .htmove-flipbox-layer .htmove-flipbox-content {
+  text-align: right;
+}
+
+.htmove-flipbox .htmove-flipbox-layer .htmove-flipbox-content .htmove-flipbox-icon {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 16px;
+  color: #1D39D7;
+}
+
+.htmove-flipbox .htmove-flipbox-layer .htmove-flipbox-content .htmove-flipbox-icon:last-child {
+  margin-bottom: 0;
+}
+
+.htmove-flipbox .htmove-flipbox-layer .htmove-flipbox-content .htmove-flipbox-icon i {
+  font-size: 36px;
+  line-height: 1;
+  display: block;
+}
+
+.htmove-flipbox .htmove-flipbox-layer .htmove-flipbox-content .htmove-flipbox-icon svg{
+  display: inline-block;
+}
+
+.htmove-flipbox .htmove-flipbox-layer .htmove-flipbox-content .htmove-flipbox-icon svg [fill="none"] {
+  fill: transparent !important;
+}
+.htmove-flipbox .htmove-flipbox-layer .htmove-flipbox-content .htmove-flipbox-icon svg [stroke="none"] {
+  stroke: transparent !important;
+}
+
+.htmove-flipbox .htmove-flipbox-layer .htmove-flipbox-content .htmove-flipbox-title {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.425;
+  margin-bottom: 12px;
+  color: #1D39D7;
+}
+
+.htmove-flipbox .htmove-flipbox-layer .htmove-flipbox-content .htmove-flipbox-title:last-child {
+  margin-bottom: 0;
+}
+
+.htmove-flipbox .htmove-flipbox-layer .htmove-flipbox-content .htmove-flipbox-title a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.htmove-flipbox .htmove-flipbox-layer .htmove-flipbox-content .htmove-flipbox-text {
+  font-size: 15px;
+  line-height: 1.75;
+  margin-bottom: 30px;
+  color: #999999;
+}
+
+.htmove-flipbox .htmove-flipbox-layer .htmove-flipbox-content .htmove-flipbox-text:last-child {
+  margin-bottom: 0;
+}
+
+.htmove-flipbox .htmove-flipbox-layer .htmove-flipbox-content .htmove-flipbox-btn {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 48px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 48px;
+  padding: 0 30px;
+  white-space: nowrap;
+  text-decoration: none;
+  letter-spacing: 1px;
+  color: #1D39D7;
+  border: 1px solid #1D39D7;
+  border-radius: 100px;
+  background-color: transparent;
+}
+
+.htmove-flipbox .htmove-flipbox-layer .htmove-flipbox-content .htmove-flipbox-btn:hover {
+  color: #FFFFFF;
+  background-color: #1D39D7;
+}
+
+.htmove-flipbox .htmove-flipbox-layer.htmove-flipbox-front-side {
+  z-index: 1;
+  -webkit-transform: none;
+      -ms-transform: none;
+          transform: none;
+  border-color: #E6E6E6;
+}
+
+.htmove-flipbox .htmove-flipbox-layer.htmove-flipbox-back-side {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: rotateX(0) rotateY(180deg);
+          transform: rotateX(0) rotateY(180deg);
+  border-radius: 4px;
+  -webkit-box-shadow: 0 10px 50px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 10px 50px rgba(0, 0, 0, 0.1);
+}
+
+.htmove-flipbox:hover .htmove-flipbox-layer.htmove-flipbox-front-side {
+  -webkit-transform: rotateX(0) rotateY(180deg);
+          transform: rotateX(0) rotateY(180deg);
+}
+
+.htmove-flipbox:hover .htmove-flipbox-layer.htmove-flipbox-back-side {
+  -webkit-transform: rotateX(0) rotateY(360deg);
+          transform: rotateX(0) rotateY(360deg);
+}
+
+.htmove-flipbox.from-right:hover .htmove-flipbox-layer.htmove-flipbox-front-side {
+  -webkit-transform: rotateX(0) rotateY(-180deg);
+          transform: rotateX(0) rotateY(-180deg);
+}
+
+.htmove-flipbox.from-right:hover .htmove-flipbox-layer.htmove-flipbox-back-side {
+  -webkit-transform: rotateX(0) rotateY(0);
+          transform: rotateX(0) rotateY(0);
+}
+
+.htmove-flipbox.from-top .htmove-flipbox-layer.htmove-flipbox-back-side {
+  -webkit-transform: rotateX(180deg) rotateY(0);
+          transform: rotateX(180deg) rotateY(0);
+}
+
+.htmove-flipbox.from-top:hover .htmove-flipbox-layer.htmove-flipbox-front-side {
+  -webkit-transform: rotateX(-180deg) rotateY(0);
+          transform: rotateX(-180deg) rotateY(0);
+}
+
+.htmove-flipbox.from-top:hover .htmove-flipbox-layer.htmove-flipbox-back-side {
+  -webkit-transform: rotateX(0) rotateY(0);
+          transform: rotateX(0) rotateY(0);
+}
+
+.htmove-flipbox.from-bottom .htmove-flipbox-layer.htmove-flipbox-back-side {
+  -webkit-transform: rotateX(180deg) rotateY(0);
+          transform: rotateX(180deg) rotateY(0);
+}
+
+.htmove-flipbox.from-bottom:hover .htmove-flipbox-layer.htmove-flipbox-front-side {
+  -webkit-transform: rotateX(180deg) rotateY(0);
+          transform: rotateX(180deg) rotateY(0);
+}
+
+.htmove-flipbox.from-bottom:hover .htmove-flipbox-layer.htmove-flipbox-back-side {
+  -webkit-transform: rotateX(360deg) rotateY(0);
+          transform: rotateX(360deg) rotateY(0);
+}

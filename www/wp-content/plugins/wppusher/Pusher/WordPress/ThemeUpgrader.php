@@ -11,6 +11,7 @@ use Pusher\Dashboard;
 use Pusher\Log\Logger;
 use Theme_Upgrader;
 use Pusher\Theme;
+use stdClass;
 
 class ThemeUpgrader extends Theme_Upgrader
 {
@@ -65,6 +66,12 @@ class ThemeUpgrader extends Theme_Upgrader
     public function preSiteTransientUpdateThemesFilter($transient)
     {
         $options = array('package' => $this->theme->repository->getZipUrl());
+
+        // If $transient doesn't exist - create it
+        if (! $transient) {
+            $transient = new stdClass;
+        };
+
         $transient->response[$this->theme->stylesheet] = $options;
 
         return $transient;

@@ -2902,13 +2902,16 @@ button.swiper-pagination-bullet {
   font-size: 25px;
   color: rgba(238, 238, 238, 0.9);
   top: 50%;
-  transform: translate3d(0, -50%, 1px); }
+  transform: translateY(-50%); }
   .elementor-swiper-button-prev {
     left: 10px; }
   .elementor-swiper-button-next {
     right: 10px; }
   .elementor-swiper-button.swiper-button-disabled {
     opacity: 0.3; }
+
+.swiper-container-cube .elementor-swiper-button {
+  transform: translate3d(0, -50%, 1px); }
 
 /* Preloader */
 .swiper-lazy-preloader {

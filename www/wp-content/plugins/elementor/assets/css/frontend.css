@@ -1,4 +1,4 @@
-/*! elementor - v3.1.1 - 31-01-2021 */
+/*! elementor - v3.1.4 - 10-03-2021 */
 .dialog-widget-content {
   background-color: #fff;
   position: absolute;
@@ -3406,14 +3406,19 @@ button.swiper-pagination-bullet {
   font-size: 25px;
   color: rgba(238, 238, 238, 0.9);
   top: 50%;
-  -webkit-transform: translate3d(0, -50%, 1px);
-          transform: translate3d(0, -50%, 1px); }
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%); }
   .elementor-swiper-button-prev {
     left: 10px; }
   .elementor-swiper-button-next {
     right: 10px; }
   .elementor-swiper-button.swiper-button-disabled {
     opacity: 0.3; }
+
+.swiper-container-cube .elementor-swiper-button {
+  -webkit-transform: translate3d(0, -50%, 1px);
+          transform: translate3d(0, -50%, 1px); }
 
 /* Preloader */
 .swiper-lazy-preloader {

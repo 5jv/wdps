@@ -1,0 +1,6157 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Move Addons\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-08-25 09:09+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.4.2; wp-5.5"
+
+#. 1: Plugin name 2: Elementor
+#: classes/admin-notices.php:81
+#, php-format
+msgid "\"%1$s\" requires \"%2$s\" to be installed and activated."
+msgstr ""
+
+#. 1: Plugin name 2: Elementor 3: Required Elementor version
+#. 1: Plugin name 2: PHP 3: Required PHP version
+#: classes/admin-notices.php:97 classes/admin-notices.php:114
+#, php-format
+msgid "\"%1$s\" requires \"%2$s\" version %3$s or greater."
+msgstr ""
+
+#: includes/widgets/recent-blog/widget.php:252
+msgid "#"
+msgstr ""
+
+#: includes/widgets/animated-heading/widget.php:140
+msgid "+"
+msgstr ""
+
+#: includes/widgets/data-table/widget.php:275
+#: includes/widgets/data-table/widget.php:276
+#: includes/widgets/data-table/widget.php:281
+#: includes/widgets/data-table/widget.php:286
+#: includes/widgets/data-table/widget.php:291
+#: includes/widgets/data-table/widget.php:296
+#: includes/widgets/data-table/widget.php:305
+#: includes/widgets/data-table/widget.php:310
+#: includes/widgets/data-table/widget.php:315
+#: includes/widgets/data-table/widget.php:320
+#: includes/widgets/data-table/widget.php:325
+#: includes/widgets/data-table/widget.php:334
+#: includes/widgets/data-table/widget.php:339
+#: includes/widgets/data-table/widget.php:344
+#: includes/widgets/data-table/widget.php:349
+#: includes/widgets/data-table/widget.php:354
+msgid "1"
+msgstr ""
+
+#: includes/widgets/data-table/widget.php:290
+msgid "100%"
+msgstr ""
+
+#: includes/widgets/data-table/widget.php:304
+msgid "2"
+msgstr ""
+
+#: includes/widgets/data-table/widget.php:343
+msgid "2009"
+msgstr ""
+
+#: includes/widgets/data-table/widget.php:314
+msgid "2014"
+msgstr ""
+
+#: includes/widgets/data-table/widget.php:285
+msgid "2019"
+msgstr ""
+
+#: includes/widgets/data-table/widget.php:333
+msgid "3"
+msgstr ""
+
+#: includes/widgets/data-table/widget.php:324
+msgid "64"
+msgstr ""
+
+#: includes/widgets/data-table/widget.php:295
+msgid "75"
+msgstr ""
+
+#: includes/widgets/data-table/widget.php:353
+msgid "87"
+msgstr ""
+
+#: includes/widgets/data-table/widget.php:319
+#: includes/widgets/data-table/widget.php:348
+msgid "97%"
+msgstr ""
+
+#: includes/widgets/business-hours/widget.php:70
+#: includes/widgets/business-hours/widget.php:102
+#: includes/widgets/business-hours/widget.php:108
+#: includes/widgets/business-hours/widget.php:114
+#: includes/widgets/business-hours/widget.php:120
+#: includes/widgets/business-hours/widget.php:126
+msgid "9:00 Am to 5:30 Pm"
+msgstr ""
+
+#: includes/widgets/shop-product-grid/widget.php:1266
+msgid "<p>No product found.</p>"
+msgstr ""
+
+#: includes/widgets/inline-menu/widget.php:76
+#, php-format
+msgid ""
+"<strong>There are no menus in your site.</strong><br>Go to the <a "
+"href=\"%s\" target=\"_blank\">Menus Option</a> to create one."
+msgstr ""
+
+#: classes/widgets-control.php:46 includes/widgets/accordion/widget.php:16
+msgid "Accordion"
+msgstr ""
+
+#: includes/widgets/accordion/widget.php:526
+#: includes/widgets/job-manager/widget.php:893
+msgid "Accordion Content"
+msgstr ""
+
+#: includes/widgets/accordion/widget.php:595
+#: includes/widgets/job-manager/widget.php:965
+msgid "Accordion Icon"
+msgstr ""
+
+#: includes/widgets/accordion/widget.php:241
+#: includes/widgets/job-manager/widget.php:602
+msgid "Accordion Item"
+msgstr ""
+
+#: includes/widgets/accordion/widget.php:249
+#: includes/widgets/job-manager/widget.php:613
+msgid "Accordion Item Spacing"
+msgstr ""
+
+#: includes/widgets/job-manager/widget.php:528
+msgid "Accordion Options"
+msgstr ""
+
+#: includes/widgets/image-accordion/widget.php:89
+msgid "Accordion Sub Title"
+msgstr ""
+
+#: includes/widgets/accordion/widget.php:65
+#: includes/widgets/accordion/widget.php:324
+#: includes/widgets/image-accordion/widget.php:75
+#: includes/widgets/job-manager/widget.php:688
+msgid "Accordion Title"
+msgstr ""
+
+#: includes/widgets/shop-product-grid/widget.php:637
+msgid "Action Button Style"
+msgstr ""
+
+#: classes/admin-notices.php:70
+msgid "Activate Elementor"
+msgstr ""
+
+#: includes/widgets/accordion/widget.php:446
+#: includes/widgets/accordion/widget.php:741
+#: includes/widgets/event-calendar/widget.php:378
+#: includes/widgets/faq/widget.php:451 includes/widgets/faq/widget.php:746
+#: includes/widgets/filterable-gallery/widget.php:474
+#: includes/widgets/job-manager/widget.php:813
+#: includes/widgets/job-manager/widget.php:1114
+msgid "Active"
+msgstr ""
+
+#: includes/widgets/advanced-tab/widget.php:373
+msgid "Active Border Color"
+msgstr ""
+
+#: includes/widgets/image-accordion/widget.php:208
+msgid "Active Item No"
+msgstr ""
+
+#: includes/widgets/filterable-gallery/widget.php:190
+msgid "Active Menu Key"
+msgstr ""
+
+#: includes/widgets/shop-product-grid/widget.php:80
+msgid "Add ID Manually"
+msgstr ""
+
+#: includes/widgets/feature-list/widget.php:75
+msgid "Add separate by new line."
+msgstr ""
+
+#: includes/widgets/shop-product-grid/widget.php:228
+msgid "Add To Cart"
+msgstr ""
+
+#: includes/widgets/shop-product-grid/widget.php:766
+msgid "Add To Cart Button"
+msgstr ""
+
+#: includes/widgets/shop-product-grid/widget.php:237
+msgid "Add to Cart Button Icon"
+msgstr ""
+
+#: includes/widgets/shop-product-grid/widget.php:226
+msgid "Add to Cart Button Text"
+msgstr ""
+
+#: includes/widgets/shop-product-grid/widget.php:251
+msgid "Add to Cart Icon Position"
+msgstr ""
+
+#: includes/helper-functions.php:457
+msgid "Add to Compare"
+msgstr ""
+
+#: includes/widgets/inline-menu/widget.php:88
+msgid "Addintional Option"
+msgstr ""
+
+#: includes/widgets/category-list/widget.php:105
+#: includes/widgets/image-accordion/widget.php:163
+#: includes/widgets/image-grid/widget.php:136
+#: includes/widgets/image-masonry/widget.php:139
+#: includes/widgets/job-manager/widget.php:154
+#: includes/widgets/page-list/widget.php:82
+#: includes/widgets/recent-blog/widget.php:118
+#: includes/widgets/social-media/widget.php:244
+#: includes/widgets/testimonial/widget.php:145
+msgid "Additional Option"
+msgstr ""
+
+#: includes/widgets/countdown/widget.php:101
+#: includes/widgets/user-login/widget.php:259
+msgid "Additional Options"
+msgstr ""
+
+#: includes/widgets/image-comparison/widget.php:104
+msgid "Additional Settings"
+msgstr ""
+
+#: includes/widgets/accordion/widget.php:178
+#: includes/widgets/faq/widget.php:183 includes/widgets/flip-box/widget.php:176
+#: includes/widgets/info-box/widget.php:117
+msgid "Aditional Options"
+msgstr ""
+
+#: classes/admin-options-fields.php:217
+msgid "Advanced Menu"
+msgstr ""
+
+#: classes/widgets-control.php:250 includes/widgets/advanced-tab/widget.php:15
+msgid "Advanced Tab"
+msgstr ""
+
+#: classes/admin-options-fields.php:109
+msgid "Advanced Toggle"
+msgstr ""
+
+#: includes/widgets/blockquote/widget.php:332
+#: includes/widgets/image-comparison/widget.php:180
+#: includes/widgets/image-comparison/widget.php:354
+msgid "After"
+msgstr ""
+
+#: includes/widgets/testimonial/widget.php:316
+msgid "After Client Say"
+msgstr ""
+
+#: includes/widgets/image-comparison/widget.php:81
+msgid "After Image"
+msgstr ""
+
+#: includes/widgets/fun-fact/widget.php:66
+msgid "After Number"
+msgstr ""
+
+#: includes/widgets/animated-heading/widget.php:366
+msgid "After Text Style"
+msgstr ""
+
+#: includes/widgets/accordion/widget.php:228
+#: includes/widgets/banner/widget.php:133
+#: includes/widgets/dual-color-heading/widget.php:144
+#: includes/widgets/faq/widget.php:233
+#: includes/widgets/image-comparison/widget.php:178
+#: includes/widgets/job-manager/widget.php:589
+#: includes/widgets/news-ticker/widget.php:120
+#: includes/widgets/recent-blog/widget.php:212
+#: includes/widgets/video/widget.php:322
+msgid "After Title"
+msgstr ""
+
+#: includes/widgets/accordion/widget.php:332
+#: includes/widgets/accordion/widget.php:555
+#: includes/widgets/banner/widget.php:358
+#: includes/widgets/banner/widget.php:446
+#: includes/widgets/banner/widget.php:534
+#: includes/widgets/banner/widget.php:598
+#: includes/widgets/banner/widget.php:798
+#: includes/widgets/blockquote/widget.php:106
+#: includes/widgets/brand/widget.php:502 includes/widgets/button/widget.php:168
+#: includes/widgets/call-to-action/widget.php:182
+#: includes/widgets/call-to-action/widget.php:249
+#: includes/widgets/cf7/widget.php:120
+#: includes/widgets/data-table/widget.php:516
+#: includes/widgets/data-table/widget.php:595
+#: includes/widgets/dual-button/widget.php:305
+#: includes/widgets/dual-color-heading/widget.php:387
+#: includes/widgets/event-calendar/widget.php:482
+#: includes/widgets/event-calendar/widget.php:561
+#: includes/widgets/faq/widget.php:337 includes/widgets/faq/widget.php:560
+#: includes/widgets/filterable-gallery/widget.php:373
+#: includes/widgets/fun-fact/widget.php:107
+#: includes/widgets/heading/widget.php:452
+#: includes/widgets/image-accordion/widget.php:229
+#: includes/widgets/image-box/widget.php:213
+#: includes/widgets/info-box/widget.php:179
+#: includes/widgets/inline-menu/widget.php:267
+#: includes/widgets/job-manager/widget.php:699
+#: includes/widgets/job-manager/widget.php:925
+#: includes/widgets/off-canvas/widget.php:183
+#: includes/widgets/social-media/widget.php:275
+#: includes/widgets/team-member/widget.php:668
+#: includes/widgets/team-member/widget.php:829
+#: includes/widgets/team-member/widget.php:990
+#: includes/widgets/team-member/widget.php:1086
+#: includes/widgets/testimonial/widget.php:536
+#: includes/widgets/user-login/widget.php:447
+#: includes/widgets/user-login/widget.php:531
+#: includes/widgets/user-login/widget.php:972
+#: includes/widgets/video/widget.php:348
+msgid "Alignment"
+msgstr ""
+
+#: includes/widgets/filterable-gallery/widget.php:180
+#: includes/widgets/filterable-gallery/widget.php:574
+msgid "All"
+msgstr ""
+
+#: includes/widgets/event-calendar/widget.php:76
+msgid "All Day"
+msgstr ""
+
+#: includes/widgets/filterable-gallery/widget.php:178
+msgid "All Menu Text"
+msgstr ""
+
+#: includes/widgets/dual-color-heading/widget.php:125
+msgid "An Effective Business Card"
+msgstr ""
+
+#: classes/widgets-control.php:58
+#: includes/widgets/animated-heading/widget.php:16
+#: includes/widgets/animated-heading/widget.php:47
+msgid "Animated Heading"
+msgstr ""
+
+#: includes/widgets/animated-heading/widget.php:102
+msgid "Animated Heading Text"
+msgstr ""
+
+#: includes/widgets/animated-heading/widget.php:264
+msgid "Animated Text Style"
+msgstr ""
+
+#: includes/widgets/countdown/widget.php:255
+msgid "Animation"
+msgstr ""
+
+#: includes/widgets/animated-heading/widget.php:67
+msgid "Animation Type"
+msgstr ""
+
+#: includes/widgets/testimonial/widget.php:84
+#: includes/widgets/testimonial/widget.php:125
+msgid "Annie Quinn"
+msgstr ""
+
+#: includes/widgets/job-manager/widget.php:407
+msgid "Apply Button"
+msgstr ""
+
+#: includes/widgets/job-manager/widget.php:166
+msgid "Apply now"
+msgstr ""
+
+#: includes/widgets/banner/widget.php:257
+#: includes/widgets/business-hours/widget.php:153
+#: includes/widgets/inline-menu/widget.php:216
+#: includes/widgets/job-manager/widget.php:200
+#: includes/widgets/mailchimp/widget.php:334
+#: includes/widgets/user-login/widget.php:352
+msgid "Area"
+msgstr ""
+
+#: includes/widgets/testimonial/widget.php:120
+msgid "Arthur Hansen"
+msgstr ""
+
+#: includes/widgets/category-list/widget.php:61
+#: includes/widgets/job-manager/widget.php:86
+#: includes/widgets/news-ticker/widget.php:176
+#: includes/widgets/page-list/widget.php:61
+#: includes/widgets/post-list/widget.php:113
+#: includes/widgets/recent-blog/widget.php:83
+#: includes/widgets/shop-product-grid/widget.php:205
+msgid "Ascending"
+msgstr ""
+
+#: includes/widgets/video/widget.php:148
+msgid "Auto Play"
+msgstr ""
+
+#: includes/widgets/brand/widget.php:305
+#: includes/widgets/news-ticker/widget.php:246
+#: includes/widgets/recent-blog/widget.php:462
+#: includes/widgets/testimonial/widget.php:433
+msgid "Autoplay"
+msgstr ""
+
+#: includes/widgets/brand/widget.php:315
+#: includes/widgets/news-ticker/widget.php:256
+#: includes/widgets/recent-blog/widget.php:472
+#: includes/widgets/testimonial/widget.php:443
+msgid "Autoplay Delay"
+msgstr ""
+
+#: includes/widgets/data-table/widget.php:280
+msgid "Avenger: End Game"
+msgstr ""
+
+#: includes/widgets/flip-box/widget.php:86
+#: includes/widgets/flip-box/widget.php:298
+#: includes/widgets/flip-box/widget.php:504
+#: includes/widgets/flip-box/widget.php:646
+#: includes/widgets/flip-box/widget.php:767
+#: includes/widgets/flip-box/widget.php:907
+msgid "Back Side"
+msgstr ""
+
+#: includes/widgets/accordion/widget.php:290
+#: includes/widgets/accordion/widget.php:368
+#: includes/widgets/accordion/widget.php:453
+#: includes/widgets/accordion/widget.php:631
+#: includes/widgets/accordion/widget.php:765
+#: includes/widgets/advanced-tab/widget.php:364
+#: includes/widgets/animated-heading/widget.php:229
+#: includes/widgets/animated-heading/widget.php:316
+#: includes/widgets/animated-heading/widget.php:418
+#: includes/widgets/animated-heading/widget.php:505
+#: includes/widgets/banner/widget.php:287
+#: includes/widgets/banner/widget.php:762
+#: includes/widgets/banner/widget.php:870
+#: includes/widgets/blockquote/widget.php:134
+#: includes/widgets/blockquote/widget.php:445
+#: includes/widgets/brand/widget.php:589 includes/widgets/brand/widget.php:675
+#: includes/widgets/brand/widget.php:1066
+#: includes/widgets/business-hours/widget.php:162
+#: includes/widgets/business-hours/widget.php:253
+#: includes/widgets/business-hours/widget.php:319
+#: includes/widgets/button/widget.php:259
+#: includes/widgets/button/widget.php:369
+#: includes/widgets/call-to-action/widget.php:447
+#: includes/widgets/call-to-action/widget.php:497
+#: includes/widgets/category-list/widget.php:338
+#: includes/widgets/cf7/widget.php:102
+#: includes/widgets/countdown/widget.php:458
+#: includes/widgets/countdown/widget.php:560
+#: includes/widgets/countdown/widget.php:691
+#: includes/widgets/countdown/widget.php:789
+#: includes/widgets/drop-cap/widget.php:145
+#: includes/widgets/dual-button/widget.php:416
+#: includes/widgets/dual-button/widget.php:503
+#: includes/widgets/dual-button/widget.php:745
+#: includes/widgets/dual-button/widget.php:832
+#: includes/widgets/dual-color-heading/widget.php:578
+#: includes/widgets/event-calendar/widget.php:355
+#: includes/widgets/event-calendar/widget.php:396
+#: includes/widgets/event-calendar/widget.php:432
+#: includes/widgets/event-calendar/widget.php:531
+#: includes/widgets/event-calendar/widget.php:608
+#: includes/widgets/faq/widget.php:295 includes/widgets/faq/widget.php:373
+#: includes/widgets/faq/widget.php:458 includes/widgets/faq/widget.php:636
+#: includes/widgets/faq/widget.php:770
+#: includes/widgets/filterable-gallery/widget.php:364
+#: includes/widgets/flip-box/widget.php:482
+#: includes/widgets/flip-box/widget.php:556
+#: includes/widgets/flip-box/widget.php:1041
+#: includes/widgets/flip-box/widget.php:1150
+#: includes/widgets/fun-fact/widget.php:201
+#: includes/widgets/fun-fact/widget.php:251
+#: includes/widgets/fun-fact/widget.php:329
+#: includes/widgets/fun-fact/widget.php:416
+#: includes/widgets/fun-fact/widget.php:521
+#: includes/widgets/heading/widget.php:643
+#: includes/widgets/image-accordion/widget.php:425
+#: includes/widgets/image-accordion/widget.php:503
+#: includes/widgets/image-box/widget.php:266
+#: includes/widgets/image-box/widget.php:685
+#: includes/widgets/image-box/widget.php:767
+#: includes/widgets/image-comparison/widget.php:250
+#: includes/widgets/image-comparison/widget.php:327
+#: includes/widgets/info-box/widget.php:261
+#: includes/widgets/info-box/widget.php:311
+#: includes/widgets/info-box/widget.php:605
+#: includes/widgets/info-box/widget.php:691
+#: includes/widgets/inline-menu/widget.php:258
+#: includes/widgets/job-manager/widget.php:472
+#: includes/widgets/job-manager/widget.php:511
+#: includes/widgets/job-manager/widget.php:654
+#: includes/widgets/job-manager/widget.php:735
+#: includes/widgets/job-manager/widget.php:820
+#: includes/widgets/job-manager/widget.php:1004
+#: includes/widgets/job-manager/widget.php:1138
+#: includes/widgets/mailchimp/widget.php:342
+#: includes/widgets/mailchimp/widget.php:441
+#: includes/widgets/mailchimp/widget.php:587
+#: includes/widgets/mailchimp/widget.php:617
+#: includes/widgets/news-ticker/widget.php:360
+#: includes/widgets/news-ticker/widget.php:469
+#: includes/widgets/news-ticker/widget.php:559
+#: includes/widgets/news-ticker/widget.php:812
+#: includes/widgets/off-canvas/widget.php:259
+#: includes/widgets/off-canvas/widget.php:358
+#: includes/widgets/off-canvas/widget.php:405
+#: includes/widgets/page-list/widget.php:315
+#: includes/widgets/recent-blog/widget.php:1007
+#: includes/widgets/recent-blog/widget.php:1085
+#: includes/widgets/recent-blog/widget.php:1388
+#: includes/widgets/shop-product-grid/widget.php:711
+#: includes/widgets/shop-product-grid/widget.php:751
+#: includes/widgets/shop-product-grid/widget.php:857
+#: includes/widgets/shop-product-grid/widget.php:901
+#: includes/widgets/shop-product-grid/widget.php:959
+#: includes/widgets/shop-product-grid/widget.php:986
+#: includes/widgets/social-media/widget.php:415
+#: includes/widgets/social-media/widget.php:488
+#: includes/widgets/testimonial/widget.php:1098
+#: includes/widgets/user-login/widget.php:405
+#: includes/widgets/user-login/widget.php:607
+#: includes/widgets/user-login/widget.php:728
+#: includes/widgets/user-login/widget.php:829
+#: includes/widgets/user-login/widget.php:917
+#: includes/widgets/video/widget.php:553 includes/widgets/video/widget.php:686
+msgid "Background"
+msgstr ""
+
+#: includes/widgets/countdown/widget.php:300
+msgid "Background Circle Width"
+msgstr ""
+
+#: includes/widgets/brand/widget.php:840 includes/widgets/cf7/widget.php:180
+#: includes/widgets/cf7/widget.php:344 includes/widgets/cf7/widget.php:445
+#: includes/widgets/cf7/widget.php:578 includes/widgets/cf7/widget.php:666
+#: includes/widgets/data-table/widget.php:376
+#: includes/widgets/data-table/widget.php:451
+#: includes/widgets/event-calendar/widget.php:136
+#: includes/widgets/event-calendar/widget.php:440
+#: includes/widgets/event-calendar/widget.php:648
+#: includes/widgets/event-calendar/widget.php:679
+#: includes/widgets/feature-list/widget.php:457
+#: includes/widgets/feature-list/widget.php:523
+#: includes/widgets/filterable-gallery/widget.php:494
+#: includes/widgets/filterable-gallery/widget.php:509
+#: includes/widgets/news-ticker/widget.php:608
+#: includes/widgets/recent-blog/widget.php:1184
+#: includes/widgets/social-media/widget.php:123
+#: includes/widgets/social-media/widget.php:165
+#: includes/widgets/team-member/widget.php:366
+#: includes/widgets/team-member/widget.php:397
+#: includes/widgets/team-member/widget.php:1152
+#: includes/widgets/team-member/widget.php:1184
+#: includes/widgets/team-member/widget.php:1234
+#: includes/widgets/team-member/widget.php:1266
+#: includes/widgets/testimonial/widget.php:894
+msgid "Background Color"
+msgstr ""
+
+#: includes/widgets/data-table/widget.php:631
+#: includes/widgets/data-table/widget.php:684
+msgid "Background Color ( Event )"
+msgstr ""
+
+#: includes/widgets/data-table/widget.php:642
+#: includes/widgets/data-table/widget.php:695
+msgid "Background Color ( Odd )"
+msgstr ""
+
+#: includes/widgets/banner/widget.php:144
+#: includes/widgets/banner/widget.php:567
+#: includes/widgets/category-list/widget.php:175
+#: includes/widgets/category-list/widget.php:308
+#: includes/widgets/news-ticker/widget.php:394
+#: includes/widgets/page-list/widget.php:152
+#: includes/widgets/page-list/widget.php:285
+msgid "Badge"
+msgstr ""
+
+#: includes/widgets/banner/widget.php:627
+msgid "Badge Position"
+msgstr ""
+
+#: includes/widgets/shop-product-grid/widget.php:918
+msgid "Badge Style"
+msgstr ""
+
+#: includes/widgets/shop-product-grid/widget.php:291
+msgid "Badges"
+msgstr ""
+
+#: classes/widgets-control.php:64 includes/widgets/banner/widget.php:17
+#: includes/widgets/banner/widget.php:39
+msgid "Banner"
+msgstr ""
+
+#: includes/widgets/banner/widget.php:156
+msgid "Banner Description"
+msgstr ""
+
+#: includes/widgets/banner/widget.php:163
+msgid "Banner Link"
+msgstr ""
+
+#: includes/widgets/banner/widget.php:121
+msgid "Banner Sub Title"
+msgstr ""
+
+#: includes/widgets/banner/widget.php:112
+msgid "Banner Title"
+msgstr ""
+
+#: includes/widgets/data-table/widget.php:309
+msgid "Batman Return"
+msgstr ""
+
+#: includes/widgets/blockquote/widget.php:331
+#: includes/widgets/image-comparison/widget.php:171
+#: includes/widgets/image-comparison/widget.php:353
+msgid "Before"
+msgstr ""
+
+#: includes/widgets/image-comparison/widget.php:265
+msgid "Before After Label"
+msgstr ""
+
+#: includes/widgets/testimonial/widget.php:315
+msgid "Before Client Say"
+msgstr ""
+
+#: includes/widgets/image-comparison/widget.php:61
+msgid "Before Image"
+msgstr ""
+
+#: includes/widgets/fun-fact/widget.php:65
+msgid "Before Number"
+msgstr ""
+
+#: includes/widgets/image-comparison/widget.php:124
+msgid "Before Start Amount"
+msgstr ""
+
+#: includes/widgets/animated-heading/widget.php:177
+msgid "Before Text Style"
+msgstr ""
+
+#: includes/widgets/accordion/widget.php:227
+#: includes/widgets/banner/widget.php:132
+#: includes/widgets/dual-color-heading/widget.php:143
+#: includes/widgets/faq/widget.php:232
+#: includes/widgets/feature-list/widget.php:166
+#: includes/widgets/image-comparison/widget.php:169
+#: includes/widgets/job-manager/widget.php:588
+#: includes/widgets/news-ticker/widget.php:119
+#: includes/widgets/recent-blog/widget.php:213
+#: includes/widgets/video/widget.php:323
+msgid "Before Title"
+msgstr ""
+
+#: includes/widgets/social-media/widget.php:227
+msgid "Behance"
+msgstr ""
+
+#: includes/widgets/shop-product-grid/widget.php:75
+msgid "Best Selling Products"
+msgstr ""
+
+#: includes/widgets/team-member/widget.php:927
+#: includes/widgets/team-member/widget.php:1023
+msgid "Bio"
+msgstr ""
+
+#: includes/widgets/team-member/widget.php:125
+#: includes/widgets/team-member/widget.php:183
+msgid "Bio Info"
+msgstr ""
+
+#: includes/widgets/event-calendar/widget.php:167
+#: includes/widgets/event-calendar/widget.php:183
+msgid ""
+"BioLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod "
+"tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse "
+"ultrices gravida.Chemistry"
+msgstr ""
+
+#: classes/widgets-control.php:118 includes/widgets/blockquote/widget.php:16
+msgid "Block quote"
+msgstr ""
+
+#: includes/widgets/blockquote/widget.php:52
+msgid "Blockquote By"
+msgstr ""
+
+#: includes/widgets/blockquote/widget.php:63
+msgid "Blockquote Icon"
+msgstr ""
+
+#: includes/widgets/accordion/widget.php:270
+#: includes/widgets/accordion/widget.php:391
+#: includes/widgets/accordion/widget.php:475
+#: includes/widgets/accordion/widget.php:659
+#: includes/widgets/accordion/widget.php:793
+#: includes/widgets/advanced-tab/widget.php:242
+#: includes/widgets/animated-heading/widget.php:209
+#: includes/widgets/animated-heading/widget.php:296
+#: includes/widgets/animated-heading/widget.php:398
+#: includes/widgets/animated-heading/widget.php:485
+#: includes/widgets/banner/widget.php:266
+#: includes/widgets/banner/widget.php:742
+#: includes/widgets/banner/widget.php:850
+#: includes/widgets/blockquote/widget.php:170
+#: includes/widgets/blockquote/widget.php:305
+#: includes/widgets/blockquote/widget.php:481
+#: includes/widgets/brand/widget.php:439 includes/widgets/brand/widget.php:753
+#: includes/widgets/brand/widget.php:852 includes/widgets/brand/widget.php:1018
+#: includes/widgets/brand/widget.php:1078
+#: includes/widgets/brand/widget.php:1119
+#: includes/widgets/business-hours/widget.php:172
+#: includes/widgets/business-hours/widget.php:278
+#: includes/widgets/business-hours/widget.php:344
+#: includes/widgets/button/widget.php:239
+#: includes/widgets/button/widget.php:349
+#: includes/widgets/button/widget.php:448
+#: includes/widgets/call-to-action/widget.php:438
+#: includes/widgets/call-to-action/widget.php:488
+#: includes/widgets/cf7/widget.php:252 includes/widgets/cf7/widget.php:388
+#: includes/widgets/cf7/widget.php:476 includes/widgets/cf7/widget.php:616
+#: includes/widgets/cf7/widget.php:678
+#: includes/widgets/countdown/widget.php:477
+#: includes/widgets/countdown/widget.php:579
+#: includes/widgets/countdown/widget.php:701
+#: includes/widgets/countdown/widget.php:799
+#: includes/widgets/data-table/widget.php:421
+#: includes/widgets/data-table/widget.php:497
+#: includes/widgets/data-table/widget.php:576
+#: includes/widgets/data-table/widget.php:744
+#: includes/widgets/drop-cap/widget.php:95
+#: includes/widgets/drop-cap/widget.php:189
+#: includes/widgets/dual-button/widget.php:396
+#: includes/widgets/dual-button/widget.php:483
+#: includes/widgets/dual-button/widget.php:582
+#: includes/widgets/dual-button/widget.php:725
+#: includes/widgets/dual-button/widget.php:812
+#: includes/widgets/dual-button/widget.php:911
+#: includes/widgets/dual-color-heading/widget.php:451
+#: includes/widgets/dual-color-heading/widget.php:534
+#: includes/widgets/dual-color-heading/widget.php:627
+#: includes/widgets/event-calendar/widget.php:367
+#: includes/widgets/event-calendar/widget.php:408
+#: includes/widgets/faq/widget.php:275 includes/widgets/faq/widget.php:396
+#: includes/widgets/faq/widget.php:480 includes/widgets/faq/widget.php:664
+#: includes/widgets/faq/widget.php:798
+#: includes/widgets/feature-list/widget.php:469
+#: includes/widgets/feature-list/widget.php:535
+#: includes/widgets/filterable-gallery/widget.php:331
+#: includes/widgets/flip-box/widget.php:462
+#: includes/widgets/flip-box/widget.php:536
+#: includes/widgets/flip-box/widget.php:1021
+#: includes/widgets/flip-box/widget.php:1130
+#: includes/widgets/fun-fact/widget.php:211
+#: includes/widgets/fun-fact/widget.php:261
+#: includes/widgets/fun-fact/widget.php:364
+#: includes/widgets/fun-fact/widget.php:451
+#: includes/widgets/fun-fact/widget.php:556
+#: includes/widgets/heading/widget.php:516
+#: includes/widgets/heading/widget.php:599
+#: includes/widgets/heading/widget.php:692
+#: includes/widgets/image-accordion/widget.php:405
+#: includes/widgets/image-accordion/widget.php:483
+#: includes/widgets/image-box/widget.php:285
+#: includes/widgets/image-box/widget.php:344
+#: includes/widgets/image-box/widget.php:664
+#: includes/widgets/image-box/widget.php:746
+#: includes/widgets/image-comparison/widget.php:294
+#: includes/widgets/image-grid/widget.php:258
+#: includes/widgets/image-masonry/widget.php:261
+#: includes/widgets/info-box/widget.php:241
+#: includes/widgets/info-box/widget.php:291
+#: includes/widgets/info-box/widget.php:585
+#: includes/widgets/info-box/widget.php:671
+#: includes/widgets/inline-menu/widget.php:225
+#: includes/widgets/job-manager/widget.php:247
+#: includes/widgets/job-manager/widget.php:451
+#: includes/widgets/job-manager/widget.php:502
+#: includes/widgets/job-manager/widget.php:634
+#: includes/widgets/job-manager/widget.php:758
+#: includes/widgets/job-manager/widget.php:842
+#: includes/widgets/job-manager/widget.php:1032
+#: includes/widgets/job-manager/widget.php:1166
+#: includes/widgets/mailchimp/widget.php:420
+#: includes/widgets/mailchimp/widget.php:566
+#: includes/widgets/mailchimp/widget.php:627
+#: includes/widgets/news-ticker/widget.php:324
+#: includes/widgets/news-ticker/widget.php:423
+#: includes/widgets/news-ticker/widget.php:513
+#: includes/widgets/news-ticker/widget.php:620
+#: includes/widgets/news-ticker/widget.php:764
+#: includes/widgets/news-ticker/widget.php:824
+#: includes/widgets/news-ticker/widget.php:865
+#: includes/widgets/off-canvas/widget.php:239
+#: includes/widgets/off-canvas/widget.php:349
+#: includes/widgets/recent-blog/widget.php:610
+#: includes/widgets/recent-blog/widget.php:987
+#: includes/widgets/recent-blog/widget.php:1065
+#: includes/widgets/recent-blog/widget.php:1196
+#: includes/widgets/recent-blog/widget.php:1340
+#: includes/widgets/recent-blog/widget.php:1400
+#: includes/widgets/recent-blog/widget.php:1441
+#: includes/widgets/shop-product-grid/widget.php:702
+#: includes/widgets/shop-product-grid/widget.php:742
+#: includes/widgets/shop-product-grid/widget.php:848
+#: includes/widgets/shop-product-grid/widget.php:892
+#: includes/widgets/social-media/widget.php:434
+#: includes/widgets/social-media/widget.php:507
+#: includes/widgets/team-member/widget.php:549
+#: includes/widgets/testimonial/widget.php:610
+#: includes/widgets/testimonial/widget.php:906
+#: includes/widgets/testimonial/widget.php:1050
+#: includes/widgets/testimonial/widget.php:1110
+#: includes/widgets/testimonial/widget.php:1151
+#: includes/widgets/user-login/widget.php:384
+#: includes/widgets/user-login/widget.php:666
+#: includes/widgets/user-login/widget.php:787
+#: includes/widgets/user-login/widget.php:839
+#: includes/widgets/user-login/widget.php:952
+#: includes/widgets/video/widget.php:532 includes/widgets/video/widget.php:666
+msgid "Border"
+msgstr ""
+
+#: includes/widgets/advanced-tab/widget.php:352
+#: includes/widgets/event-calendar/widget.php:449
+#: includes/widgets/event-calendar/widget.php:542
+#: includes/widgets/social-media/widget.php:134
+#: includes/widgets/social-media/widget.php:176
+msgid "Border Color"
+msgstr ""
+
+#: includes/widgets/accordion/widget.php:278
+#: includes/widgets/accordion/widget.php:399
+#: includes/widgets/accordion/widget.php:483
+#: includes/widgets/accordion/widget.php:670
+#: includes/widgets/accordion/widget.php:804
+#: includes/widgets/animated-heading/widget.php:217
+#: includes/widgets/animated-heading/widget.php:304
+#: includes/widgets/animated-heading/widget.php:406
+#: includes/widgets/animated-heading/widget.php:493
+#: includes/widgets/banner/widget.php:274
+#: includes/widgets/banner/widget.php:750
+#: includes/widgets/banner/widget.php:858
+#: includes/widgets/blockquote/widget.php:178
+#: includes/widgets/blockquote/widget.php:313
+#: includes/widgets/blockquote/widget.php:489
+#: includes/widgets/brand/widget.php:447 includes/widgets/brand/widget.php:761
+#: includes/widgets/brand/widget.php:860 includes/widgets/brand/widget.php:1026
+#: includes/widgets/brand/widget.php:1086
+#: includes/widgets/brand/widget.php:1127
+#: includes/widgets/button/widget.php:247
+#: includes/widgets/button/widget.php:357
+#: includes/widgets/button/widget.php:456
+#: includes/widgets/call-to-action/widget.php:394
+#: includes/widgets/cf7/widget.php:260 includes/widgets/cf7/widget.php:396
+#: includes/widgets/cf7/widget.php:484 includes/widgets/cf7/widget.php:624
+#: includes/widgets/countdown/widget.php:485
+#: includes/widgets/countdown/widget.php:587
+#: includes/widgets/countdown/widget.php:709
+#: includes/widgets/countdown/widget.php:807
+#: includes/widgets/data-table/widget.php:429
+#: includes/widgets/data-table/widget.php:505
+#: includes/widgets/data-table/widget.php:584
+#: includes/widgets/data-table/widget.php:752
+#: includes/widgets/drop-cap/widget.php:103
+#: includes/widgets/drop-cap/widget.php:197
+#: includes/widgets/dual-button/widget.php:404
+#: includes/widgets/dual-button/widget.php:491
+#: includes/widgets/dual-button/widget.php:590
+#: includes/widgets/dual-button/widget.php:733
+#: includes/widgets/dual-button/widget.php:820
+#: includes/widgets/dual-button/widget.php:919
+#: includes/widgets/dual-color-heading/widget.php:459
+#: includes/widgets/dual-color-heading/widget.php:542
+#: includes/widgets/dual-color-heading/widget.php:635
+#: includes/widgets/event-calendar/widget.php:323
+#: includes/widgets/faq/widget.php:283 includes/widgets/faq/widget.php:404
+#: includes/widgets/faq/widget.php:488 includes/widgets/faq/widget.php:675
+#: includes/widgets/faq/widget.php:809
+#: includes/widgets/feature-list/widget.php:477
+#: includes/widgets/filterable-gallery/widget.php:339
+#: includes/widgets/flip-box/widget.php:470
+#: includes/widgets/flip-box/widget.php:544
+#: includes/widgets/flip-box/widget.php:1029
+#: includes/widgets/flip-box/widget.php:1138
+#: includes/widgets/fun-fact/widget.php:219
+#: includes/widgets/fun-fact/widget.php:269
+#: includes/widgets/fun-fact/widget.php:372
+#: includes/widgets/fun-fact/widget.php:459
+#: includes/widgets/fun-fact/widget.php:564
+#: includes/widgets/heading/widget.php:524
+#: includes/widgets/heading/widget.php:607
+#: includes/widgets/heading/widget.php:700
+#: includes/widgets/image-accordion/widget.php:413
+#: includes/widgets/image-accordion/widget.php:491
+#: includes/widgets/image-box/widget.php:293
+#: includes/widgets/image-box/widget.php:352
+#: includes/widgets/image-box/widget.php:672
+#: includes/widgets/image-box/widget.php:754
+#: includes/widgets/image-comparison/widget.php:302
+#: includes/widgets/info-box/widget.php:249
+#: includes/widgets/info-box/widget.php:299
+#: includes/widgets/info-box/widget.php:593
+#: includes/widgets/info-box/widget.php:679
+#: includes/widgets/inline-menu/widget.php:233
+#: includes/widgets/job-manager/widget.php:642
+#: includes/widgets/job-manager/widget.php:766
+#: includes/widgets/job-manager/widget.php:850
+#: includes/widgets/job-manager/widget.php:1043
+#: includes/widgets/job-manager/widget.php:1177
+#: includes/widgets/mailchimp/widget.php:428
+#: includes/widgets/mailchimp/widget.php:574
+#: includes/widgets/news-ticker/widget.php:332
+#: includes/widgets/news-ticker/widget.php:431
+#: includes/widgets/news-ticker/widget.php:521
+#: includes/widgets/news-ticker/widget.php:628
+#: includes/widgets/news-ticker/widget.php:772
+#: includes/widgets/news-ticker/widget.php:832
+#: includes/widgets/news-ticker/widget.php:873
+#: includes/widgets/off-canvas/widget.php:247
+#: includes/widgets/recent-blog/widget.php:618
+#: includes/widgets/recent-blog/widget.php:995
+#: includes/widgets/recent-blog/widget.php:1073
+#: includes/widgets/recent-blog/widget.php:1204
+#: includes/widgets/recent-blog/widget.php:1348
+#: includes/widgets/recent-blog/widget.php:1408
+#: includes/widgets/recent-blog/widget.php:1449
+#: includes/widgets/shop-product-grid/widget.php:668
+#: includes/widgets/shop-product-grid/widget.php:784
+#: includes/widgets/shop-product-grid/widget.php:935
+#: includes/widgets/social-media/widget.php:442
+#: includes/widgets/team-member/widget.php:557
+#: includes/widgets/testimonial/widget.php:618
+#: includes/widgets/testimonial/widget.php:914
+#: includes/widgets/testimonial/widget.php:1058
+#: includes/widgets/testimonial/widget.php:1118
+#: includes/widgets/testimonial/widget.php:1159
+#: includes/widgets/user-login/widget.php:392
+#: includes/widgets/user-login/widget.php:675
+#: includes/widgets/user-login/widget.php:796
+#: includes/widgets/user-login/widget.php:848
+#: includes/widgets/user-login/widget.php:961
+#: includes/widgets/video/widget.php:540 includes/widgets/video/widget.php:674
+msgid "Border Radius"
+msgstr ""
+
+#: includes/widgets/countdown/widget.php:275
+msgid "Both"
+msgstr ""
+
+#: includes/widgets/blockquote/widget.php:84
+#: includes/widgets/call-to-action/widget.php:171
+#: includes/widgets/dual-color-heading/widget.php:99
+#: includes/widgets/dual-color-heading/widget.php:258
+#: includes/widgets/feature-list/widget.php:165
+#: includes/widgets/flip-box/widget.php:210
+#: includes/widgets/flip-box/widget.php:385
+#: includes/widgets/fun-fact/widget.php:64
+#: includes/widgets/heading/widget.php:99
+#: includes/widgets/heading/widget.php:198
+#: includes/widgets/image-box/widget.php:87
+#: includes/widgets/image-box/widget.php:251
+#: includes/widgets/image-comparison/widget.php:193
+#: includes/widgets/inline-menu/widget.php:137
+#: includes/widgets/off-canvas/widget.php:97
+#: includes/widgets/testimonial/widget.php:302
+#: includes/widgets/tooltip/widget.php:131
+#: includes/widgets/video/widget.php:307
+msgid "Bottom"
+msgstr ""
+
+#: includes/widgets/banner/widget.php:71
+msgid "Bottom Center"
+msgstr ""
+
+#: includes/widgets/banner/widget.php:70
+msgid "Bottom Left"
+msgstr ""
+
+#: includes/widgets/banner/widget.php:72
+msgid "Bottom Right"
+msgstr ""
+
+#: includes/widgets/feature-list/widget.php:280
+#: includes/widgets/filterable-gallery/widget.php:273
+#: includes/widgets/image-grid/widget.php:208
+#: includes/widgets/image-masonry/widget.php:211
+#: includes/widgets/post-list/widget.php:219
+#: includes/widgets/shop-product-grid/widget.php:459
+#: includes/widgets/testimonial/widget.php:234
+msgid "Bottom Space"
+msgstr ""
+
+#: includes/widgets/flip-box/widget.php:365
+#: includes/widgets/info-box/widget.php:171
+msgid "Box"
+msgstr ""
+
+#: includes/widgets/accordion/widget.php:300
+#: includes/widgets/accordion/widget.php:412
+#: includes/widgets/accordion/widget.php:509
+#: includes/widgets/accordion/widget.php:686
+#: includes/widgets/accordion/widget.php:820
+#: includes/widgets/animated-heading/widget.php:240
+#: includes/widgets/animated-heading/widget.php:327
+#: includes/widgets/animated-heading/widget.php:429
+#: includes/widgets/animated-heading/widget.php:516
+#: includes/widgets/brand/widget.php:599 includes/widgets/brand/widget.php:685
+#: includes/widgets/business-hours/widget.php:181
+#: includes/widgets/button/widget.php:270
+#: includes/widgets/button/widget.php:380
+#: includes/widgets/button/widget.php:482 includes/widgets/cf7/widget.php:112
+#: includes/widgets/cf7/widget.php:637
+#: includes/widgets/countdown/widget.php:468
+#: includes/widgets/countdown/widget.php:570
+#: includes/widgets/data-table/widget.php:388
+#: includes/widgets/drop-cap/widget.php:155
+#: includes/widgets/dual-button/widget.php:427
+#: includes/widgets/dual-button/widget.php:514
+#: includes/widgets/dual-button/widget.php:616
+#: includes/widgets/dual-button/widget.php:756
+#: includes/widgets/dual-button/widget.php:843
+#: includes/widgets/dual-button/widget.php:945
+#: includes/widgets/faq/widget.php:305 includes/widgets/faq/widget.php:417
+#: includes/widgets/faq/widget.php:514 includes/widgets/faq/widget.php:691
+#: includes/widgets/faq/widget.php:825 includes/widgets/flip-box/widget.php:493
+#: includes/widgets/flip-box/widget.php:567
+#: includes/widgets/flip-box/widget.php:1052
+#: includes/widgets/flip-box/widget.php:1161
+#: includes/widgets/image-box/widget.php:276
+#: includes/widgets/image-grid/widget.php:267
+#: includes/widgets/image-masonry/widget.php:270
+#: includes/widgets/info-box/widget.php:272
+#: includes/widgets/info-box/widget.php:337
+#: includes/widgets/info-box/widget.php:616
+#: includes/widgets/info-box/widget.php:702
+#: includes/widgets/job-manager/widget.php:664
+#: includes/widgets/job-manager/widget.php:779
+#: includes/widgets/job-manager/widget.php:876
+#: includes/widgets/job-manager/widget.php:1059
+#: includes/widgets/job-manager/widget.php:1193
+#: includes/widgets/off-canvas/widget.php:270
+#: includes/widgets/off-canvas/widget.php:369
+#: includes/widgets/recent-blog/widget.php:581
+#: includes/widgets/social-media/widget.php:425
+#: includes/widgets/social-media/widget.php:498
+#: includes/widgets/user-login/widget.php:415
+#: includes/widgets/video/widget.php:564 includes/widgets/video/widget.php:697
+msgid "Box Shadow"
+msgstr ""
+
+#: classes/widgets-control.php:76 includes/widgets/brand/widget.php:16
+#: includes/widgets/brand/widget.php:40
+msgid "Brand"
+msgstr ""
+
+#: includes/widgets/brand/widget.php:530
+msgid "Brand Image"
+msgstr ""
+
+#: includes/widgets/brand/widget.php:70
+msgid "Brand Link"
+msgstr ""
+
+#: includes/widgets/brand/widget.php:122
+msgid "Brand Option"
+msgstr ""
+
+#: includes/widgets/brand/widget.php:430
+msgid "Brand Style"
+msgstr ""
+
+#: includes/widgets/brand/widget.php:49 includes/widgets/brand/widget.php:89
+msgid "Brand Title"
+msgstr ""
+
+#: includes/widgets/advanced-tab/widget.php:164
+#: includes/widgets/advanced-tab/widget.php:171
+msgid "Break Through Self Doubt"
+msgstr ""
+
+#: includes/widgets/advanced-tab/widget.php:157
+#: includes/widgets/advanced-tab/widget.php:178
+msgid "Break Through Self Doubt And Fear"
+msgstr ""
+
+#: includes/widgets/news-ticker/widget.php:62
+msgid "Breaking News"
+msgstr ""
+
+#: includes/widgets/brand/widget.php:607 includes/widgets/brand/widget.php:693
+msgid "Brightness"
+msgstr ""
+
+#: classes/widgets-control.php:208
+#: includes/widgets/business-hours/widget.php:16
+#: includes/widgets/business-hours/widget.php:36
+msgid "Business Hours"
+msgstr ""
+
+#: classes/widgets-control.php:70 includes/widgets/banner/widget.php:688
+#: includes/widgets/button/widget.php:16 includes/widgets/button/widget.php:36
+#: includes/widgets/call-to-action/widget.php:365
+#: includes/widgets/cf7/widget.php:526
+#: includes/widgets/event-calendar/widget.php:305
+#: includes/widgets/flip-box/widget.php:983
+#: includes/widgets/image-accordion/widget.php:367
+#: includes/widgets/image-box/widget.php:609
+#: includes/widgets/info-box/widget.php:543
+#: includes/widgets/off-canvas/widget.php:107
+#: includes/widgets/off-canvas/widget.php:175
+#: includes/widgets/video/widget.php:494
+msgid "Button"
+msgstr ""
+
+#: includes/widgets/button/widget.php:304
+#: includes/widgets/dual-button/widget.php:331
+#: includes/widgets/flip-box/widget.php:1086
+#: includes/widgets/off-canvas/widget.php:304
+#: includes/widgets/video/widget.php:621
+msgid "Button Height"
+msgstr ""
+
+#: includes/widgets/banner/widget.php:188
+#: includes/widgets/button/widget.php:119
+#: includes/widgets/call-to-action/widget.php:128
+#: includes/widgets/dual-button/widget.php:127
+#: includes/widgets/dual-button/widget.php:245
+#: includes/widgets/image-box/widget.php:156
+#: includes/widgets/off-canvas/widget.php:123
+#: includes/widgets/video/widget.php:84
+msgid "Button Icon"
+msgstr ""
+
+#: includes/widgets/button/widget.php:103
+#: includes/widgets/call-to-action/widget.php:113
+#: includes/widgets/dual-button/widget.php:111
+#: includes/widgets/dual-button/widget.php:229
+#: includes/widgets/flip-box/widget.php:150
+#: includes/widgets/image-accordion/widget.php:114
+#: includes/widgets/image-box/widget.php:141
+#: includes/widgets/info-box/widget.php:99
+msgid "Button Link"
+msgstr ""
+
+#: includes/widgets/dual-button/widget.php:61
+msgid "Button One"
+msgstr ""
+
+#: includes/widgets/dual-button/widget.php:537
+msgid "Button One Icon Style"
+msgstr ""
+
+#: includes/widgets/dual-button/widget.php:357
+msgid "Button One Style"
+msgstr ""
+
+#: includes/widgets/video/widget.php:300
+msgid "Button Position"
+msgstr ""
+
+#: includes/widgets/button/widget.php:76
+#: includes/widgets/dual-button/widget.php:42
+msgid "Button Size"
+msgstr ""
+
+#: includes/widgets/banner/widget.php:699
+#: includes/widgets/button/widget.php:201
+#: includes/widgets/image-box/widget.php:620
+msgid "Button Style"
+msgstr ""
+
+#: includes/widgets/banner/widget.php:178
+#: includes/widgets/banner/widget.php:181 includes/widgets/button/widget.php:92
+#: includes/widgets/dual-button/widget.php:100
+#: includes/widgets/dual-button/widget.php:218
+#: includes/widgets/flip-box/widget.php:139
+#: includes/widgets/image-accordion/widget.php:101
+#: includes/widgets/image-box/widget.php:131
+#: includes/widgets/info-box/widget.php:89
+#: includes/widgets/job-manager/widget.php:164
+#: includes/widgets/job-manager/widget.php:538
+#: includes/widgets/off-canvas/widget.php:114
+#: includes/widgets/user-login/widget.php:247
+#: includes/widgets/video/widget.php:72
+msgid "Button Text"
+msgstr ""
+
+#: includes/widgets/call-to-action/widget.php:103
+msgid "Button Title"
+msgstr ""
+
+#: includes/widgets/dual-button/widget.php:179
+msgid "Button Two"
+msgstr ""
+
+#: includes/widgets/dual-button/widget.php:866
+msgid "Button Two Icon Style"
+msgstr ""
+
+#: includes/widgets/dual-button/widget.php:686
+msgid "Button Two Style"
+msgstr ""
+
+#: includes/widgets/button/widget.php:43
+#: includes/widgets/dual-button/widget.php:67
+#: includes/widgets/dual-button/widget.php:185
+msgid "Button Type"
+msgstr ""
+
+#: includes/widgets/video/widget.php:598
+msgid "Button Width"
+msgstr ""
+
+#: includes/templates/admin/dashboard-gopro.php:14
+msgid "Buy Move Pro"
+msgstr ""
+
+#: classes/widgets-control.php:268
+#: includes/widgets/call-to-action/widget.php:17
+msgid "Call To Action"
+msgstr ""
+
+#: includes/widgets/dual-button/widget.php:221
+msgid "Cancel"
+msgstr ""
+
+#: includes/widgets/news-ticker/widget.php:140
+#: includes/widgets/post-list/widget.php:77
+#: includes/widgets/recent-blog/widget.php:47
+msgid "Categories"
+msgstr ""
+
+#: includes/widgets/shop-product-grid/widget.php:348
+#: includes/widgets/shop-product-grid/widget.php:541
+msgid "Category"
+msgstr ""
+
+#: classes/widgets-control.php:178 includes/widgets/category-list/widget.php:16
+#: includes/widgets/category-list/widget.php:36
+msgid "Category List"
+msgstr ""
+
+#: includes/widgets/data-table/widget.php:226
+#: includes/widgets/data-table/widget.php:228
+msgid "Cell Content"
+msgstr ""
+
+#: includes/widgets/data-table/widget.php:240
+msgid "Cell Image"
+msgstr ""
+
+#: includes/widgets/data-table/widget.php:735
+msgid "Cell image"
+msgstr ""
+
+#: includes/widgets/accordion/widget.php:340
+#: includes/widgets/accordion/widget.php:563
+#: includes/widgets/banner/widget.php:366
+#: includes/widgets/banner/widget.php:454
+#: includes/widgets/banner/widget.php:542
+#: includes/widgets/banner/widget.php:606
+#: includes/widgets/banner/widget.php:806
+#: includes/widgets/blockquote/widget.php:114
+#: includes/widgets/brand/widget.php:510 includes/widgets/button/widget.php:176
+#: includes/widgets/call-to-action/widget.php:190
+#: includes/widgets/call-to-action/widget.php:257
+#: includes/widgets/cf7/widget.php:128
+#: includes/widgets/countdown/widget.php:531
+#: includes/widgets/countdown/widget.php:633
+#: includes/widgets/data-table/widget.php:524
+#: includes/widgets/data-table/widget.php:603
+#: includes/widgets/dual-button/widget.php:313
+#: includes/widgets/dual-color-heading/widget.php:395
+#: includes/widgets/event-calendar/widget.php:490
+#: includes/widgets/event-calendar/widget.php:569
+#: includes/widgets/faq/widget.php:345 includes/widgets/faq/widget.php:568
+#: includes/widgets/filterable-gallery/widget.php:381
+#: includes/widgets/flip-box/widget.php:408
+#: includes/widgets/fun-fact/widget.php:115
+#: includes/widgets/heading/widget.php:460
+#: includes/widgets/image-accordion/widget.php:237
+#: includes/widgets/image-box/widget.php:221
+#: includes/widgets/image-comparison/widget.php:192
+#: includes/widgets/info-box/widget.php:187
+#: includes/widgets/inline-menu/widget.php:275
+#: includes/widgets/job-manager/widget.php:707
+#: includes/widgets/job-manager/widget.php:933
+#: includes/widgets/off-canvas/widget.php:191
+#: includes/widgets/social-media/widget.php:283
+#: includes/widgets/team-member/widget.php:676
+#: includes/widgets/team-member/widget.php:837
+#: includes/widgets/team-member/widget.php:998
+#: includes/widgets/team-member/widget.php:1094
+#: includes/widgets/testimonial/widget.php:544
+#: includes/widgets/user-login/widget.php:455
+#: includes/widgets/user-login/widget.php:539
+#: includes/widgets/user-login/widget.php:980
+#: includes/widgets/video/widget.php:356
+msgid "Center"
+msgstr ""
+
+#: includes/widgets/testimonial/widget.php:121
+msgid "CEO / Letters Inc"
+msgstr ""
+
+#: includes/templates/admin/dashboard-welcome.php:20
+msgid "Check this documentation & be confident to start working on Move."
+msgstr ""
+
+#: includes/widgets/testimonial/widget.php:130
+msgid "Chester Torres"
+msgstr ""
+
+#: includes/widgets/brand/widget.php:59
+#: includes/widgets/image-accordion/widget.php:62
+msgid "Choose Image"
+msgstr ""
+
+#: includes/widgets/countdown/widget.php:326
+msgid "Circle Background Color"
+msgstr ""
+
+#: includes/widgets/button/widget.php:95
+msgid "Click Me"
+msgstr ""
+
+#: includes/widgets/image-comparison/widget.php:156
+msgid "Click To Move"
+msgstr ""
+
+#: includes/widgets/testimonial/widget.php:102
+msgid "Client Say"
+msgstr ""
+
+#: includes/widgets/testimonial/widget.php:756
+msgid "Client say"
+msgstr ""
+
+#: includes/widgets/animated-heading/widget.php:74
+msgid "Clip"
+msgstr ""
+
+#: includes/widgets/countdown/widget.php:273
+msgid "Clockwise"
+msgstr ""
+
+#: includes/widgets/business-hours/widget.php:132
+#: includes/widgets/business-hours/widget.php:138
+msgid "Close"
+msgstr ""
+
+#: includes/widgets/business-hours/widget.php:297
+#: includes/widgets/business-hours/widget.php:363
+msgid "Close day Text Color"
+msgstr ""
+
+#: includes/widgets/accordion/widget.php:131
+#: includes/widgets/accordion/widget.php:210
+#: includes/widgets/event-calendar/widget.php:841
+#: includes/widgets/faq/widget.php:131 includes/widgets/faq/widget.php:215
+#: includes/widgets/job-manager/widget.php:571
+msgid "Close Icon"
+msgstr ""
+
+#: includes/widgets/event-calendar/widget.php:849
+msgid "Close Icon Color"
+msgstr ""
+
+#: includes/widgets/event-calendar/widget.php:860
+msgid "Close Icon Hover Color"
+msgstr ""
+
+#: includes/widgets/business-hours/widget.php:87
+msgid "Closing Day"
+msgstr ""
+
+#: includes/widgets/team-member/widget.php:110
+#: includes/widgets/team-member/widget.php:114
+#: includes/widgets/team-member/widget.php:171
+#: includes/widgets/team-member/widget.php:175
+#: includes/widgets/team-member/widget.php:222
+msgid "Co-founder & CEO"
+msgstr ""
+
+#: includes/widgets/testimonial/widget.php:126
+msgid "Co-Founder / April Inc"
+msgstr ""
+
+#: includes/widgets/banner/widget.php:111
+msgid "Coats and Jackets"
+msgstr ""
+
+#: includes/widgets/data-table/widget.php:274
+#: includes/widgets/data-table/widget.php:279
+#: includes/widgets/data-table/widget.php:284
+#: includes/widgets/data-table/widget.php:289
+#: includes/widgets/data-table/widget.php:294
+#: includes/widgets/data-table/widget.php:303
+#: includes/widgets/data-table/widget.php:308
+#: includes/widgets/data-table/widget.php:313
+#: includes/widgets/data-table/widget.php:318
+#: includes/widgets/data-table/widget.php:323
+#: includes/widgets/data-table/widget.php:332
+#: includes/widgets/data-table/widget.php:337
+#: includes/widgets/data-table/widget.php:342
+#: includes/widgets/data-table/widget.php:347
+#: includes/widgets/data-table/widget.php:352
+msgid "col"
+msgstr ""
+
+#: includes/widgets/accordion/widget.php:421
+#: includes/widgets/accordion/widget.php:462
+#: includes/widgets/accordion/widget.php:534
+#: includes/widgets/accordion/widget.php:614
+#: includes/widgets/accordion/widget.php:643
+#: includes/widgets/accordion/widget.php:748
+#: includes/widgets/accordion/widget.php:777
+#: includes/widgets/advanced-tab/widget.php:317
+#: includes/widgets/advanced-tab/widget.php:339
+#: includes/widgets/animated-heading/widget.php:188
+#: includes/widgets/animated-heading/widget.php:275
+#: includes/widgets/animated-heading/widget.php:377
+#: includes/widgets/animated-heading/widget.php:464
+#: includes/widgets/banner/widget.php:314
+#: includes/widgets/banner/widget.php:402
+#: includes/widgets/banner/widget.php:490
+#: includes/widgets/banner/widget.php:578
+#: includes/widgets/banner/widget.php:721
+#: includes/widgets/banner/widget.php:837
+#: includes/widgets/blockquote/widget.php:203
+#: includes/widgets/blockquote/widget.php:259
+#: includes/widgets/blockquote/widget.php:433
+#: includes/widgets/brand/widget.php:829 includes/widgets/brand/widget.php:1006
+#: includes/widgets/brand/widget.php:1055
+#: includes/widgets/brand/widget.php:1106
+#: includes/widgets/button/widget.php:425
+#: includes/widgets/button/widget.php:523
+#: includes/widgets/call-to-action/widget.php:287
+#: includes/widgets/call-to-action/widget.php:330
+#: includes/widgets/call-to-action/widget.php:415
+#: includes/widgets/call-to-action/widget.php:465
+#: includes/widgets/category-list/widget.php:211
+#: includes/widgets/category-list/widget.php:288
+#: includes/widgets/category-list/widget.php:317
+#: includes/widgets/countdown/widget.php:662
+#: includes/widgets/countdown/widget.php:760
+#: includes/widgets/drop-cap/widget.php:63
+#: includes/widgets/drop-cap/widget.php:125
+#: includes/widgets/dual-button/widget.php:559
+#: includes/widgets/dual-button/widget.php:657
+#: includes/widgets/dual-button/widget.php:888
+#: includes/widgets/dual-button/widget.php:986
+#: includes/widgets/dual-color-heading/widget.php:425
+#: includes/widgets/dual-color-heading/widget.php:508
+#: includes/widgets/dual-color-heading/widget.php:601
+#: includes/widgets/dual-color-heading/widget.php:684
+#: includes/widgets/dual-color-heading/widget.php:769
+#: includes/widgets/dual-color-heading/widget.php:804
+#: includes/widgets/dual-color-heading/widget.php:844
+#: includes/widgets/event-calendar/widget.php:294
+#: includes/widgets/event-calendar/widget.php:344
+#: includes/widgets/event-calendar/widget.php:385
+#: includes/widgets/event-calendar/widget.php:461
+#: includes/widgets/event-calendar/widget.php:519
+#: includes/widgets/event-calendar/widget.php:596
+#: includes/widgets/event-calendar/widget.php:780
+#: includes/widgets/event-calendar/widget.php:820
+#: includes/widgets/faq/widget.php:426 includes/widgets/faq/widget.php:467
+#: includes/widgets/faq/widget.php:539 includes/widgets/faq/widget.php:619
+#: includes/widgets/faq/widget.php:648 includes/widgets/faq/widget.php:753
+#: includes/widgets/faq/widget.php:782
+#: includes/widgets/feature-list/widget.php:323
+#: includes/widgets/feature-list/widget.php:366
+#: includes/widgets/feature-list/widget.php:445
+#: includes/widgets/feature-list/widget.php:511
+#: includes/widgets/filterable-gallery/widget.php:461
+#: includes/widgets/filterable-gallery/widget.php:481
+#: includes/widgets/flip-box/widget.php:600
+#: includes/widgets/flip-box/widget.php:653
+#: includes/widgets/flip-box/widget.php:721
+#: includes/widgets/flip-box/widget.php:774
+#: includes/widgets/flip-box/widget.php:842
+#: includes/widgets/flip-box/widget.php:914
+#: includes/widgets/fun-fact/widget.php:309
+#: includes/widgets/fun-fact/widget.php:396
+#: includes/widgets/fun-fact/widget.php:484
+#: includes/widgets/heading/widget.php:490
+#: includes/widgets/heading/widget.php:573
+#: includes/widgets/heading/widget.php:666
+#: includes/widgets/heading/widget.php:749
+#: includes/widgets/heading/widget.php:834
+#: includes/widgets/heading/widget.php:869
+#: includes/widgets/image-accordion/widget.php:265
+#: includes/widgets/image-accordion/widget.php:320
+#: includes/widgets/image-accordion/widget.php:384
+#: includes/widgets/image-accordion/widget.php:471
+#: includes/widgets/image-box/widget.php:502
+#: includes/widgets/image-box/widget.php:561
+#: includes/widgets/image-box/widget.php:642
+#: includes/widgets/image-box/widget.php:733
+#: includes/widgets/image-comparison/widget.php:273
+#: includes/widgets/info-box/widget.php:363
+#: includes/widgets/info-box/widget.php:420
+#: includes/widgets/info-box/widget.php:497
+#: includes/widgets/inline-menu/widget.php:359
+#: includes/widgets/inline-menu/widget.php:379
+#: includes/widgets/job-manager/widget.php:269
+#: includes/widgets/job-manager/widget.php:315
+#: includes/widgets/job-manager/widget.php:361
+#: includes/widgets/job-manager/widget.php:459
+#: includes/widgets/job-manager/widget.php:490
+#: includes/widgets/job-manager/widget.php:788
+#: includes/widgets/job-manager/widget.php:829
+#: includes/widgets/job-manager/widget.php:904
+#: includes/widgets/job-manager/widget.php:987
+#: includes/widgets/job-manager/widget.php:1016
+#: includes/widgets/job-manager/widget.php:1121
+#: includes/widgets/job-manager/widget.php:1150
+#: includes/widgets/mailchimp/widget.php:374
+#: includes/widgets/mailchimp/widget.php:493
+#: includes/widgets/mailchimp/widget.php:545
+#: includes/widgets/mailchimp/widget.php:605
+#: includes/widgets/news-ticker/widget.php:402
+#: includes/widgets/news-ticker/widget.php:492
+#: includes/widgets/news-ticker/widget.php:597
+#: includes/widgets/news-ticker/widget.php:752
+#: includes/widgets/news-ticker/widget.php:801
+#: includes/widgets/news-ticker/widget.php:852
+#: includes/widgets/page-list/widget.php:188
+#: includes/widgets/page-list/widget.php:265
+#: includes/widgets/page-list/widget.php:294
+#: includes/widgets/recent-blog/widget.php:746
+#: includes/widgets/recent-blog/widget.php:813
+#: includes/widgets/recent-blog/widget.php:878
+#: includes/widgets/recent-blog/widget.php:931
+#: includes/widgets/recent-blog/widget.php:966
+#: includes/widgets/recent-blog/widget.php:1053
+#: includes/widgets/recent-blog/widget.php:1173
+#: includes/widgets/recent-blog/widget.php:1328
+#: includes/widgets/recent-blog/widget.php:1377
+#: includes/widgets/recent-blog/widget.php:1428
+#: includes/widgets/shop-product-grid/widget.php:509
+#: includes/widgets/shop-product-grid/widget.php:550
+#: includes/widgets/shop-product-grid/widget.php:602
+#: includes/widgets/shop-product-grid/widget.php:690
+#: includes/widgets/shop-product-grid/widget.php:730
+#: includes/widgets/shop-product-grid/widget.php:833
+#: includes/widgets/shop-product-grid/widget.php:877
+#: includes/widgets/social-media/widget.php:112
+#: includes/widgets/social-media/widget.php:154
+#: includes/widgets/social-media/widget.php:403
+#: includes/widgets/social-media/widget.php:476
+#: includes/widgets/team-member/widget.php:355
+#: includes/widgets/team-member/widget.php:386
+#: includes/widgets/team-member/widget.php:617
+#: includes/widgets/team-member/widget.php:712
+#: includes/widgets/team-member/widget.php:778
+#: includes/widgets/team-member/widget.php:873
+#: includes/widgets/team-member/widget.php:939
+#: includes/widgets/team-member/widget.php:1034
+#: includes/widgets/team-member/widget.php:1141
+#: includes/widgets/team-member/widget.php:1173
+#: includes/widgets/team-member/widget.php:1223
+#: includes/widgets/team-member/widget.php:1255
+#: includes/widgets/testimonial/widget.php:573
+#: includes/widgets/testimonial/widget.php:651
+#: includes/widgets/testimonial/widget.php:707
+#: includes/widgets/testimonial/widget.php:764
+#: includes/widgets/testimonial/widget.php:883
+#: includes/widgets/testimonial/widget.php:1038
+#: includes/widgets/testimonial/widget.php:1087
+#: includes/widgets/testimonial/widget.php:1138
+#: includes/widgets/tooltip/widget.php:175
+#: includes/widgets/tooltip/widget.php:205
+#: includes/widgets/user-login/widget.php:488
+#: includes/widgets/user-login/widget.php:708
+#: includes/widgets/user-login/widget.php:817
+#: includes/widgets/user-login/widget.php:874
+#: includes/widgets/video/widget.php:389 includes/widgets/video/widget.php:447
+#: includes/widgets/video/widget.php:511 includes/widgets/video/widget.php:654
+msgid "Color"
+msgstr ""
+
+#: includes/widgets/data-table/widget.php:253
+msgid "Colspan"
+msgstr ""
+
+#: includes/widgets/data-table/widget.php:200
+#: includes/widgets/feature-list/widget.php:204
+msgid "Column"
+msgstr ""
+
+#: includes/widgets/countdown/widget.php:401
+msgid "Column Height"
+msgstr ""
+
+#: includes/widgets/data-table/widget.php:147
+msgid "Column Name"
+msgstr ""
+
+#: includes/widgets/filterable-gallery/widget.php:201
+#: includes/widgets/post-list/widget.php:148
+#: includes/widgets/shop-product-grid/widget.php:387
+msgid "Column Option"
+msgstr ""
+
+#: includes/widgets/countdown/widget.php:423
+msgid "Column Spacing"
+msgstr ""
+
+#: includes/widgets/countdown/widget.php:379
+msgid "Column Width"
+msgstr ""
+
+#: includes/widgets/brand/widget.php:132
+#: includes/widgets/feature-list/widget.php:214
+#: includes/widgets/filterable-gallery/widget.php:208
+#: includes/widgets/image-grid/widget.php:143
+#: includes/widgets/image-masonry/widget.php:146
+#: includes/widgets/post-list/widget.php:158
+#: includes/widgets/recent-blog/widget.php:277
+#: includes/widgets/shop-product-grid/widget.php:394
+#: includes/widgets/testimonial/widget.php:162
+msgid "Columns"
+msgstr ""
+
+#: classes/admin-dashboard.php:233
+msgid "Coming Soon"
+msgstr ""
+
+#: includes/widgets/job-manager/widget.php:106
+#: includes/widgets/news-ticker/widget.php:196
+#: includes/widgets/post-list/widget.php:133
+#: includes/widgets/recent-blog/widget.php:103
+#: includes/widgets/shop-product-grid/widget.php:188
+msgid "Comment count"
+msgstr ""
+
+#: classes/admin-options-fields.php:55
+msgid "Comparison Table"
+msgstr ""
+
+#: classes/widgets-control.php:160 includes/widgets/cf7/widget.php:16
+#: includes/widgets/cf7/widget.php:36
+msgid "Contact Form 7"
+msgstr ""
+
+#: includes/widgets/accordion/widget.php:40
+#: includes/widgets/accordion/widget.php:77
+#: includes/widgets/advanced-tab/widget.php:39
+#: includes/widgets/advanced-tab/widget.php:123
+#: includes/widgets/advanced-tab/widget.php:391
+#: includes/widgets/advanced-tab/widget.php:470
+#: includes/widgets/blockquote/widget.php:36
+#: includes/widgets/blockquote/widget.php:43
+#: includes/widgets/blockquote/widget.php:195
+#: includes/widgets/call-to-action/widget.php:37
+#: includes/widgets/call-to-action/widget.php:94
+#: includes/widgets/call-to-action/widget.php:322
+#: includes/widgets/drop-cap/widget.php:43
+#: includes/widgets/event-calendar/widget.php:659
+#: includes/widgets/event-calendar/widget.php:812
+#: includes/widgets/faq/widget.php:40 includes/widgets/faq/widget.php:77
+#: includes/widgets/faq/widget.php:531
+#: includes/widgets/feature-list/widget.php:73
+#: includes/widgets/feature-list/widget.php:88
+#: includes/widgets/feature-list/widget.php:358
+#: includes/widgets/image-box/widget.php:37
+#: includes/widgets/info-box/widget.php:36
+#: includes/widgets/job-manager/widget.php:304
+#: includes/widgets/recent-blog/widget.php:805
+#: includes/widgets/tooltip/widget.php:186
+msgid "Content"
+msgstr ""
+
+#: includes/widgets/countdown/widget.php:625
+msgid "Content Alignment"
+msgstr ""
+
+#: includes/widgets/advanced-tab/widget.php:421
+#: includes/widgets/call-to-action/widget.php:209
+msgid "Content Area Border"
+msgstr ""
+
+#: includes/widgets/call-to-action/widget.php:220
+#: includes/widgets/recent-blog/widget.php:568
+msgid "Content Area Padding"
+msgstr ""
+
+#: includes/widgets/advanced-tab/widget.php:408
+msgid "Content Area padding"
+msgstr ""
+
+#: includes/widgets/advanced-tab/widget.php:479
+#: includes/widgets/fun-fact/widget.php:230
+#: includes/widgets/fun-fact/widget.php:280
+#: includes/widgets/info-box/widget.php:321
+#: includes/widgets/news-ticker/widget.php:370
+msgid "Content Color"
+msgstr ""
+
+#: includes/widgets/shop-product-grid/widget.php:327
+msgid "Content Display"
+msgstr ""
+
+#: includes/widgets/advanced-tab/widget.php:97
+msgid "Content Image"
+msgstr ""
+
+#: includes/widgets/feature-list/widget.php:411
+msgid "Content Item Space"
+msgstr ""
+
+#: includes/widgets/job-manager/widget.php:118
+#: includes/widgets/recent-blog/widget.php:179
+msgid "Content Length"
+msgstr ""
+
+#: includes/widgets/advanced-tab/widget.php:499
+msgid "Content Margin"
+msgstr ""
+
+#: includes/widgets/banner/widget.php:66
+#: includes/widgets/call-to-action/widget.php:165
+msgid "Content Position"
+msgstr ""
+
+#: includes/widgets/shop-product-grid/widget.php:219
+msgid "Content Setting"
+msgstr ""
+
+#: includes/widgets/shop-product-grid/widget.php:492
+msgid "Content Style"
+msgstr ""
+
+#: includes/widgets/advanced-tab/widget.php:85
+#: includes/widgets/advanced-tab/widget.php:429
+msgid "Content Title"
+msgstr ""
+
+#: includes/widgets/data-table/widget.php:209
+msgid "Content Type"
+msgstr ""
+
+#: includes/widgets/advanced-tab/widget.php:491
+#: includes/widgets/news-ticker/widget.php:383
+msgid "Content Typography"
+msgstr ""
+
+#: includes/widgets/countdown/widget.php:369
+msgid "Count Layout"
+msgstr ""
+
+#: classes/widgets-control.php:136 includes/widgets/countdown/widget.php:16
+#: includes/widgets/countdown/widget.php:40
+msgid "Countdown"
+msgstr ""
+
+#: includes/widgets/animated-heading/widget.php:453
+msgid "Counter"
+msgstr ""
+
+#: includes/widgets/countdown/widget.php:449
+msgid "Counter Area"
+msgstr ""
+
+#: includes/widgets/countdown/widget.php:274
+msgid "Counter clockwise"
+msgstr ""
+
+#: includes/widgets/countdown/widget.php:552
+msgid "Counter Item"
+msgstr ""
+
+#: includes/widgets/animated-heading/widget.php:127
+msgid "Counter Prefix"
+msgstr ""
+
+#: includes/widgets/animated-heading/widget.php:138
+msgid "Counter Suffix"
+msgstr ""
+
+#: includes/widgets/fun-fact/widget.php:77
+msgid "Counter Title"
+msgstr ""
+
+#: includes/widgets/video/widget.php:101
+msgid "Cover Image"
+msgstr ""
+
+#: classes/admin-options-fields.php:73
+msgid "Creative Button"
+msgstr ""
+
+#: includes/widgets/flip-box/widget.php:56
+#: includes/widgets/flip-box/widget.php:105
+msgid "Creative Design"
+msgstr ""
+
+#: includes/widgets/fun-fact/widget.php:79
+msgid "Creative Designers"
+msgstr ""
+
+#: includes/widgets/accordion/widget.php:53
+#: includes/widgets/advanced-tab/widget.php:52
+#: includes/widgets/event-calendar/widget.php:51
+#: includes/widgets/faq/widget.php:53
+msgid "Custom"
+msgstr ""
+
+#: includes/widgets/accordion/widget.php:185
+#: includes/widgets/category-list/widget.php:118
+#: includes/widgets/faq/widget.php:190
+#: includes/widgets/job-manager/widget.php:546
+#: includes/widgets/page-list/widget.php:95
+msgid "Custom Icon"
+msgstr ""
+
+#: includes/widgets/countdown/widget.php:174
+msgid "Custom Label"
+msgstr ""
+
+#: includes/widgets/user-login/widget.php:54
+msgid "Custom label"
+msgstr ""
+
+#: includes/widgets/filterable-gallery/widget.php:55
+#: includes/widgets/filterable-gallery/widget.php:105
+#: includes/widgets/image-grid/widget.php:55
+#: includes/widgets/image-grid/widget.php:95
+#: includes/widgets/image-masonry/widget.php:55
+#: includes/widgets/image-masonry/widget.php:98
+msgid "Custom Link"
+msgstr ""
+
+#: includes/widgets/inline-menu/widget.php:118
+#: includes/widgets/inline-menu/widget.php:183
+msgid "Custom Menu Icon"
+msgstr ""
+
+#: includes/widgets/job-manager/widget.php:71
+#: includes/widgets/news-ticker/widget.php:161
+#: includes/widgets/post-list/widget.php:98
+#: includes/widgets/recent-blog/widget.php:68
+#: includes/widgets/shop-product-grid/widget.php:169
+msgid "Custom order"
+msgstr ""
+
+#: includes/widgets/category-list/widget.php:143
+#: includes/widgets/page-list/widget.php:120
+msgid "Custom Sub Title"
+msgstr ""
+
+#: includes/widgets/category-list/widget.php:268
+#: includes/widgets/page-list/widget.php:245
+msgid "Custom Title / Badge"
+msgstr ""
+
+#: includes/widgets/button/widget.php:50
+#: includes/widgets/dual-button/widget.php:74
+#: includes/widgets/dual-button/widget.php:192
+msgid "Danger"
+msgstr ""
+
+#: includes/widgets/button/widget.php:54
+#: includes/widgets/dual-button/widget.php:78
+#: includes/widgets/dual-button/widget.php:196
+#: includes/widgets/tooltip/widget.php:145
+msgid "Dark"
+msgstr ""
+
+#: includes/templates/admin/dashboard-header.php:15
+msgid "Dashboard"
+msgstr ""
+
+#: includes/widgets/image-accordion/widget.php:193
+msgid "Data Expandable column"
+msgstr ""
+
+#: classes/admin-dashboard.php:149
+msgid "Data Saved successfully!"
+msgstr ""
+
+#: classes/widgets-control.php:274 includes/widgets/data-table/widget.php:16
+msgid "Data Table"
+msgstr ""
+
+#: includes/widgets/event-calendar/widget.php:511
+#: includes/widgets/event-calendar/widget.php:772
+#: includes/widgets/job-manager/widget.php:103
+#: includes/widgets/news-ticker/widget.php:193
+#: includes/widgets/news-ticker/widget.php:481
+#: includes/widgets/post-list/widget.php:130
+#: includes/widgets/recent-blog/widget.php:100
+#: includes/widgets/shop-product-grid/widget.php:185
+msgid "Date"
+msgstr ""
+
+#: includes/widgets/news-ticker/widget.php:115
+msgid "Date Position"
+msgstr ""
+
+#: includes/widgets/business-hours/widget.php:59
+#: includes/widgets/countdown/widget.php:116
+#: includes/widgets/event-calendar/widget.php:223
+#: includes/widgets/event-calendar/widget.php:423
+msgid "Day"
+msgstr ""
+
+#: includes/widgets/countdown/widget.php:334
+msgid "Day Circle Color"
+msgstr ""
+
+#: includes/widgets/business-hours/widget.php:213
+msgid "Day Typography"
+msgstr ""
+
+#: includes/widgets/countdown/widget.php:186
+#: includes/widgets/countdown/widget.php:188
+#: includes/widgets/countdown/widget.php:861
+msgid "Days"
+msgstr ""
+
+#: includes/widgets/feature-list/widget.php:218
+msgid "Default"
+msgstr ""
+
+#: includes/widgets/recent-blog/widget.php:188
+msgid "Default Date Formate"
+msgstr ""
+
+#: includes/widgets/brand/widget.php:51
+msgid "Default title"
+msgstr ""
+
+#: includes/widgets/event-calendar/widget.php:220
+msgid "Default View"
+msgstr ""
+
+#: includes/widgets/category-list/widget.php:62
+#: includes/widgets/job-manager/widget.php:85
+#: includes/widgets/news-ticker/widget.php:175
+#: includes/widgets/page-list/widget.php:62
+#: includes/widgets/post-list/widget.php:112
+#: includes/widgets/recent-blog/widget.php:82
+#: includes/widgets/shop-product-grid/widget.php:204
+msgid "Descending"
+msgstr ""
+
+#: includes/widgets/banner/widget.php:154
+#: includes/widgets/banner/widget.php:479
+#: includes/widgets/event-calendar/widget.php:165
+#: includes/widgets/flip-box/widget.php:65
+#: includes/widgets/flip-box/widget.php:129
+#: includes/widgets/flip-box/widget.php:703
+#: includes/widgets/image-box/widget.php:121
+#: includes/widgets/image-box/widget.php:550
+#: includes/widgets/info-box/widget.php:79
+#: includes/widgets/info-box/widget.php:486
+msgid "Description"
+msgstr ""
+
+#: includes/widgets/feature-list/widget.php:117
+msgid "Design"
+msgstr ""
+
+#: includes/widgets/team-member/widget.php:108
+#: includes/widgets/team-member/widget.php:169
+#: includes/widgets/team-member/widget.php:766
+#: includes/widgets/team-member/widget.php:862
+#: includes/widgets/testimonial/widget.php:92
+#: includes/widgets/testimonial/widget.php:699
+msgid "Designation"
+msgstr ""
+
+#: includes/widgets/brand/widget.php:219
+#: includes/widgets/recent-blog/widget.php:376
+#: includes/widgets/testimonial/widget.php:347
+msgid "Desktop Item"
+msgstr ""
+
+#: includes/widgets/feature-list/widget.php:125
+msgid "Development"
+msgstr ""
+
+#: includes/widgets/countdown/widget.php:269
+#: includes/widgets/image-comparison/widget.php:111
+msgid "Direction"
+msgstr ""
+
+#: includes/helper-functions.php:108
+msgid "div"
+msgstr ""
+
+#: classes/admin-options-fields.php:205
+msgid "Divider"
+msgstr ""
+
+#: includes/helper-functions.php:422
+msgid "Do not Found Mailchimp API Key"
+msgstr ""
+
+#: includes/helper-functions.php:122
+msgid "Do not Saved Templates."
+msgstr ""
+
+#: includes/widgets/category-list/widget.php:79
+msgid "Do you want custom category list"
+msgstr ""
+
+#: includes/widgets/accordion/widget.php:106
+#: includes/widgets/faq/widget.php:106
+msgid "Do you want to individual icon ?"
+msgstr ""
+
+#: includes/widgets/social-media/widget.php:84
+#: includes/widgets/team-member/widget.php:327
+msgid "Do you want to individual style ?"
+msgstr ""
+
+#: includes/templates/admin/dashboard-welcome.php:19
+#: includes/templates/admin/dashboard-welcome.php:21
+msgid "Documentation"
+msgstr ""
+
+#: includes/widgets/user-login/widget.php:212
+msgid "Don't have an account?"
+msgstr ""
+
+#: includes/widgets/social-media/widget.php:219
+msgid "Dribbble"
+msgstr ""
+
+#: classes/widgets-control.php:196 includes/widgets/drop-cap/widget.php:16
+msgid "Drop Cap"
+msgstr ""
+
+#: includes/widgets/drop-cap/widget.php:36
+msgid "Drop cap"
+msgstr ""
+
+#: includes/widgets/drop-cap/widget.php:117
+msgid "Dropcap Latter"
+msgstr ""
+
+#: classes/widgets-control.php:202 includes/widgets/dual-button/widget.php:16
+#: includes/widgets/dual-button/widget.php:36
+msgid "Dual Button"
+msgstr ""
+
+#: classes/widgets-control.php:88
+msgid "Dual Color Heading"
+msgstr ""
+
+#: includes/widgets/dual-color-heading/widget.php:16
+msgid "Dual Color Headline"
+msgstr ""
+
+#: includes/widgets/countdown/widget.php:72
+#: includes/widgets/countdown/widget.php:85
+msgid "Due Date"
+msgstr ""
+
+#: includes/widgets/call-to-action/widget.php:96
+msgid ""
+"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore "
+"eu fugiat nulla pariatur."
+msgstr ""
+
+#: includes/widgets/team-member/widget.php:223
+msgid ""
+"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore "
+"eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, "
+"sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut "
+"perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem."
+msgstr ""
+
+#: includes/widgets/feature-list/widget.php:118
+msgid ""
+"Duis aute irure in reprehenderit in voluptate velit esse cillum dolore. "
+"Lorem ispum kaixa design"
+msgstr ""
+
+#: includes/widgets/brand/widget.php:143
+#: includes/widgets/feature-list/widget.php:226
+#: includes/widgets/filterable-gallery/widget.php:219
+#: includes/widgets/image-grid/widget.php:154
+#: includes/widgets/image-masonry/widget.php:157
+#: includes/widgets/post-list/widget.php:169
+#: includes/widgets/recent-blog/widget.php:288
+#: includes/widgets/shop-product-grid/widget.php:405
+#: includes/widgets/testimonial/widget.php:173
+msgid "Eight"
+msgstr ""
+
+#: classes/admin-notices.php:83 classes/admin-notices.php:99
+msgid "Elementor"
+msgstr ""
+
+#: includes/widgets/accordion/widget.php:54
+#: includes/widgets/advanced-tab/widget.php:53
+#: includes/widgets/faq/widget.php:54 includes/widgets/off-canvas/widget.php:53
+msgid "Elementor Template"
+msgstr ""
+
+#: includes/widgets/mailchimp/widget.php:102
+msgid "Email"
+msgstr ""
+
+#: includes/widgets/mailchimp/widget.php:135
+msgid "Email Icon"
+msgstr ""
+
+#: includes/widgets/mailchimp/widget.php:111
+msgid "Email Label"
+msgstr ""
+
+#: includes/widgets/mailchimp/widget.php:124
+msgid "Email Placeholder"
+msgstr ""
+
+#: includes/widgets/banner/widget.php:238
+msgid "Enable link in image"
+msgstr ""
+
+#: includes/widgets/dual-color-heading/widget.php:273
+#: includes/widgets/heading/widget.php:213
+msgid "Enable Separator"
+msgstr ""
+
+#: includes/widgets/dual-color-heading/widget.php:332
+#: includes/widgets/heading/widget.php:277
+msgid "Enable Transparent text"
+msgstr ""
+
+#: classes/admin-dashboard.php:227
+msgid "Enable/Disable widgets"
+msgstr ""
+
+#: includes/widgets/event-calendar/widget.php:98
+#: includes/widgets/event-calendar/widget.php:123
+msgid "End Date"
+msgstr ""
+
+#: includes/widgets/team-member/widget.php:206
+msgid "Enter Link separate by new line"
+msgstr ""
+
+#: includes/widgets/team-member/widget.php:197
+msgid "Enter Name separate by new line"
+msgstr ""
+
+#: includes/widgets/team-member/widget.php:308
+msgid "Enter your profile link"
+msgstr ""
+
+#: includes/widgets/button/widget.php:94 includes/widgets/button/widget.php:96
+#: includes/widgets/dual-button/widget.php:102
+#: includes/widgets/dual-button/widget.php:104
+#: includes/widgets/dual-button/widget.php:220
+#: includes/widgets/dual-button/widget.php:222
+msgid "Enter your Text"
+msgstr ""
+
+#: includes/widgets/mailchimp/widget.php:320
+#: includes/widgets/mailchimp/widget.php:679
+#: includes/widgets/user-login/widget.php:314
+msgid "Error Message"
+msgstr ""
+
+#: includes/widgets/mailchimp/widget.php:688
+msgid "Error Message Color"
+msgstr ""
+
+#: includes/widgets/mailchimp/widget.php:700
+msgid "Error Message Typography"
+msgstr ""
+
+#: includes/widgets/event-calendar/widget.php:177
+msgid "Event"
+msgstr ""
+
+#: includes/widgets/event-calendar/widget.php:16
+msgid "Event Calendar"
+msgstr ""
+
+#: classes/widgets-control.php:280
+msgid "Event Calender"
+msgstr ""
+
+#: includes/widgets/event-calendar/widget.php:40
+msgid "Event List"
+msgstr ""
+
+#: includes/widgets/event-calendar/widget.php:47
+msgid "Event Source"
+msgstr ""
+
+#: includes/widgets/event-calendar/widget.php:64
+#: includes/widgets/event-calendar/widget.php:182
+#: includes/widgets/event-calendar/widget.php:901
+msgid "Event Title"
+msgstr ""
+
+#: includes/widgets/feature-list/widget.php:134
+msgid ""
+"Excepteur sint occaecat cupidatat proident, sunt culpa qui officia deserunt."
+msgstr ""
+
+#: includes/widgets/button/widget.php:84
+#: includes/widgets/dual-button/widget.php:50
+msgid "Extra Large"
+msgstr ""
+
+#: includes/widgets/button/widget.php:80
+#: includes/widgets/dual-button/widget.php:46
+msgid "Extra Small"
+msgstr ""
+
+#: includes/widgets/social-media/widget.php:47
+#: includes/widgets/social-media/widget.php:195
+#: includes/widgets/team-member/widget.php:416
+msgid "Facebook"
+msgstr ""
+
+#: classes/admin-options-fields.php:79
+msgid "Facebook Feed"
+msgstr ""
+
+#: classes/admin-dashboard.php:239
+msgid "Facebook, Twitter, etc. data"
+msgstr ""
+
+#: classes/widgets-control.php:154 includes/widgets/faq/widget.php:16
+msgid "Faq"
+msgstr ""
+
+#: includes/widgets/faq/widget.php:65
+msgid "Faq Title"
+msgstr ""
+
+#: includes/widgets/shop-product-grid/widget.php:992
+msgid "Feature Badge Background"
+msgstr ""
+
+#: includes/widgets/shop-product-grid/widget.php:974
+msgid "Feature Badge Color"
+msgstr ""
+
+#: includes/widgets/feature-list/widget.php:186
+msgid "Feature Bar"
+msgstr ""
+
+#: classes/widgets-control.php:256 includes/widgets/feature-list/widget.php:15
+#: includes/widgets/feature-list/widget.php:39
+msgid "Feature List"
+msgstr ""
+
+#: includes/widgets/feature-list/widget.php:50
+msgid "Feature Title"
+msgstr ""
+
+#: includes/widgets/shop-product-grid/widget.php:74
+msgid "Featured Products"
+msgstr ""
+
+#: includes/widgets/shop-product-grid/widget.php:309
+msgid "Features Product Badge"
+msgstr ""
+
+#: includes/widgets/data-table/widget.php:195
+msgid "Fild Type"
+msgstr ""
+
+#: includes/widgets/shop-product-grid/widget.php:69
+msgid "Filter By"
+msgstr ""
+
+#: includes/widgets/filterable-gallery/widget.php:81
+msgid "Filter Name"
+msgstr ""
+
+#: includes/widgets/filterable-gallery/widget.php:16
+#: includes/widgets/filterable-gallery/widget.php:40
+msgid "Filterable Gallery"
+msgstr ""
+
+#: classes/widgets-control.php:244
+msgid "Filterable gallery"
+msgstr ""
+
+#: includes/widgets/event-calendar/widget.php:236
+msgid "First Day of Week"
+msgstr ""
+
+#: includes/widgets/mailchimp/widget.php:145
+#: includes/widgets/mailchimp/widget.php:168
+#: includes/widgets/mailchimp/widget.php:182
+#: includes/widgets/mailchimp/widget.php:183
+msgid "First Name"
+msgstr ""
+
+#: includes/widgets/mailchimp/widget.php:194
+msgid "First Name Icon"
+msgstr ""
+
+#: includes/widgets/mailchimp/widget.php:166
+msgid "First Name Label"
+msgstr ""
+
+#: includes/widgets/mailchimp/widget.php:180
+msgid "First Name Placeholder"
+msgstr ""
+
+#: includes/widgets/brand/widget.php:140
+#: includes/widgets/feature-list/widget.php:223
+#: includes/widgets/filterable-gallery/widget.php:216
+#: includes/widgets/filterable-gallery/widget.php:322
+#: includes/widgets/image-grid/widget.php:151
+#: includes/widgets/image-masonry/widget.php:154
+#: includes/widgets/post-list/widget.php:166
+#: includes/widgets/recent-blog/widget.php:285
+#: includes/widgets/shop-product-grid/widget.php:402
+#: includes/widgets/testimonial/widget.php:170
+msgid "Five"
+msgstr ""
+
+#: includes/widgets/image-accordion/widget.php:133
+#: includes/widgets/image-accordion/widget.php:139
+#: includes/widgets/image-accordion/widget.php:145
+msgid "Flash Sale"
+msgstr ""
+
+#: classes/widgets-control.php:94 includes/widgets/flip-box/widget.php:16
+msgid "Flip Box"
+msgstr ""
+
+#: classes/admin-options-fields.php:175
+msgid "Flip Carousel"
+msgstr ""
+
+#: includes/widgets/mailchimp/widget.php:399
+msgid "Focus Border Color"
+msgstr ""
+
+#: includes/widgets/blockquote/widget.php:503
+#: includes/widgets/social-media/widget.php:369
+msgid "Font Size"
+msgstr ""
+
+#: includes/widgets/data-table/widget.php:124
+msgid "Footer Info"
+msgstr ""
+
+#: includes/widgets/countdown/widget.php:284
+msgid "Foreground Circle Width"
+msgstr ""
+
+#: includes/widgets/user-login/widget.php:162
+msgid "Forgot password?"
+msgstr ""
+
+#: includes/widgets/user-login/widget.php:276
+msgid "Form Height light Title"
+msgstr ""
+
+#: includes/widgets/user-login/widget.php:266
+#: includes/widgets/user-login/widget.php:480
+msgid "Form Title"
+msgstr ""
+
+#: includes/widgets/brand/widget.php:139
+#: includes/widgets/feature-list/widget.php:222
+#: includes/widgets/filterable-gallery/widget.php:215
+#: includes/widgets/filterable-gallery/widget.php:321
+#: includes/widgets/image-grid/widget.php:150
+#: includes/widgets/image-masonry/widget.php:153
+#: includes/widgets/post-list/widget.php:165
+#: includes/widgets/recent-blog/widget.php:284
+#: includes/widgets/shop-product-grid/widget.php:401
+#: includes/widgets/testimonial/widget.php:169
+msgid "Four"
+msgstr ""
+
+#: includes/templates/admin/dashboard-widgets.php:28
+msgid ""
+"Freely use these elements to create your site. You can enable which you are "
+"not using, and, all associated assets will be disable to improve your site "
+"loading speed."
+msgstr ""
+
+#: includes/widgets/business-hours/widget.php:125
+#: includes/widgets/event-calendar/widget.php:244
+msgid "Friday"
+msgstr ""
+
+#: includes/widgets/flip-box/widget.php:37
+#: includes/widgets/flip-box/widget.php:235
+#: includes/widgets/flip-box/widget.php:430
+#: includes/widgets/flip-box/widget.php:593
+#: includes/widgets/flip-box/widget.php:714
+#: includes/widgets/flip-box/widget.php:835
+msgid "Front Side"
+msgstr ""
+
+#: classes/widgets-control.php:142 includes/widgets/fun-fact/widget.php:16
+#: includes/widgets/fun-fact/widget.php:40
+msgid "Fun Fact"
+msgstr ""
+
+#: classes/admin-dashboard.php:221
+msgid "General Information"
+msgstr ""
+
+#: classes/admin-dashboard.php:206 classes/admin-dashboard.php:244
+#: includes/templates/admin/dashboard-gopro.php:11
+msgid "Go Pro"
+msgstr ""
+
+#: includes/templates/admin/dashboard-propopup.php:10
+msgid "Go Pro !"
+msgstr ""
+
+#: includes/widgets/inline-menu/widget.php:68
+#, php-format
+msgid ""
+"Go to the <a href=\"%s\" target=\"_blank\">Menus Option</a> to manage your "
+"menus."
+msgstr ""
+
+#: classes/admin-options-fields.php:115
+msgid "Google Map"
+msgstr ""
+
+#: includes/widgets/button/widget.php:56
+#: includes/widgets/dual-button/widget.php:80
+#: includes/widgets/dual-button/widget.php:198
+msgid "Gradient"
+msgstr ""
+
+#: includes/widgets/button/widget.php:55
+#: includes/widgets/dual-button/widget.php:79
+#: includes/widgets/dual-button/widget.php:197
+msgid "Grey"
+msgstr ""
+
+#: includes/helper-functions.php:101
+msgid "H1"
+msgstr ""
+
+#: includes/helper-functions.php:102
+msgid "H2"
+msgstr ""
+
+#: includes/helper-functions.php:103
+msgid "H3"
+msgstr ""
+
+#: includes/helper-functions.php:104
+msgid "H4"
+msgstr ""
+
+#: includes/helper-functions.php:105
+msgid "H5"
+msgstr ""
+
+#: includes/helper-functions.php:106
+msgid "H6"
+msgstr ""
+
+#: includes/widgets/image-comparison/widget.php:232
+msgid "Handle Color"
+msgstr ""
+
+#: includes/widgets/image-comparison/widget.php:224
+msgid "Handler"
+msgstr ""
+
+#: includes/widgets/event-calendar/widget.php:629
+#: includes/widgets/event-calendar/widget.php:701
+msgid "Header"
+msgstr ""
+
+#: includes/widgets/event-calendar/widget.php:761
+msgid "Header Background Color"
+msgstr ""
+
+#: classes/widgets-control.php:82
+#: includes/widgets/dual-color-heading/widget.php:38
+#: includes/widgets/dual-color-heading/widget.php:45
+#: includes/widgets/dual-color-heading/widget.php:417
+#: includes/widgets/heading/widget.php:16
+#: includes/widgets/heading/widget.php:38
+#: includes/widgets/heading/widget.php:45
+#: includes/widgets/heading/widget.php:482
+msgid "Heading"
+msgstr ""
+
+#: includes/widgets/animated-heading/widget.php:164
+msgid "Heading After Text"
+msgstr ""
+
+#: includes/widgets/animated-heading/widget.php:91
+msgid "Heading Before Text"
+msgstr ""
+
+#: includes/widgets/dual-color-heading/widget.php:71
+#: includes/widgets/dual-color-heading/widget.php:590
+#: includes/widgets/heading/widget.php:71
+#: includes/widgets/heading/widget.php:655
+msgid "Heading Description"
+msgstr ""
+
+#: includes/widgets/dual-color-heading/widget.php:236
+#: includes/widgets/heading/widget.php:176
+msgid "Heading Description HTML Tag"
+msgstr ""
+
+#: includes/widgets/dual-color-heading/widget.php:211
+#: includes/widgets/heading/widget.php:151
+msgid "Heading HTML Tag"
+msgstr ""
+
+#: includes/widgets/dual-color-heading/widget.php:165
+#: includes/widgets/heading/widget.php:120
+msgid "Heading Link"
+msgstr ""
+
+#: includes/widgets/dual-color-heading/widget.php:760
+#: includes/widgets/heading/widget.php:825
+msgid "Heading Transparent"
+msgstr ""
+
+#: includes/widgets/dual-color-heading/widget.php:344
+#: includes/widgets/heading/widget.php:289
+msgid "Heading Transparent Text"
+msgstr ""
+
+#: includes/widgets/blockquote/widget.php:559
+#: includes/widgets/brand/widget.php:483 includes/widgets/cf7/widget.php:157
+#: includes/widgets/cf7/widget.php:327 includes/widgets/cf7/widget.php:543
+#: includes/widgets/flip-box/widget.php:183
+#: includes/widgets/fun-fact/widget.php:155
+#: includes/widgets/social-media/widget.php:350
+#: includes/widgets/user-login/widget.php:641
+#: includes/widgets/user-login/widget.php:762
+#: includes/widgets/video/widget.php:230
+msgid "Height"
+msgstr ""
+
+#: includes/widgets/user-login/widget.php:499
+msgid "Height Light Text Color"
+msgstr ""
+
+#: includes/widgets/user-login/widget.php:286
+msgid "Height Light Title Position"
+msgstr ""
+
+#: includes/widgets/data-table/widget.php:66
+#: includes/widgets/data-table/widget.php:91
+#: includes/widgets/data-table/widget.php:103
+#: includes/widgets/data-table/widget.php:115
+#: includes/widgets/data-table/widget.php:127
+#: includes/widgets/filterable-gallery/widget.php:168
+#: includes/widgets/shop-product-grid/widget.php:339
+#: includes/widgets/shop-product-grid/widget.php:351
+#: includes/widgets/shop-product-grid/widget.php:363
+#: includes/widgets/shop-product-grid/widget.php:375
+#: includes/widgets/user-login/widget.php:46
+#: includes/widgets/user-login/widget.php:57
+#: includes/widgets/user-login/widget.php:152
+#: includes/widgets/user-login/widget.php:176
+#: includes/widgets/user-login/widget.php:202
+msgid "Hide"
+msgstr ""
+
+#: includes/widgets/countdown/widget.php:164
+msgid "Hide Label"
+msgstr ""
+
+#: includes/widgets/dual-color-heading/widget.php:833
+msgid "Highlight Text"
+msgstr ""
+
+#: includes/widgets/dual-color-heading/widget.php:110
+msgid "Highlight Text Enable"
+msgstr ""
+
+#: includes/widgets/dual-color-heading/widget.php:180
+msgid "Highlight Text Link"
+msgstr ""
+
+#: includes/widgets/dual-color-heading/widget.php:139
+msgid "Highlight text position"
+msgstr ""
+
+#: includes/widgets/dual-color-heading/widget.php:122
+msgid "Highlight Title"
+msgstr ""
+
+#: includes/widgets/category-list/widget.php:48
+#: includes/widgets/image-accordion/widget.php:51
+#: includes/widgets/image-comparison/widget.php:116
+#: includes/widgets/page-list/widget.php:48
+msgid "Horizontal"
+msgstr ""
+
+#: includes/widgets/flip-box/widget.php:400
+msgid "Horizontal Alignment"
+msgstr ""
+
+#: includes/widgets/banner/widget.php:638 includes/widgets/brand/widget.php:952
+#: includes/widgets/news-ticker/widget.php:698
+#: includes/widgets/recent-blog/widget.php:1274
+#: includes/widgets/testimonial/widget.php:984
+msgid "Horizontal Postion"
+msgstr ""
+
+#: includes/widgets/countdown/widget.php:126
+#: includes/widgets/countdown/widget.php:200
+#: includes/widgets/countdown/widget.php:202
+#: includes/widgets/countdown/widget.php:862
+msgid "Hours"
+msgstr ""
+
+#: includes/widgets/countdown/widget.php:342
+msgid "Hours Circle Color"
+msgstr ""
+
+#: includes/widgets/advanced-tab/widget.php:332
+#: includes/widgets/banner/widget.php:830 includes/widgets/brand/widget.php:627
+#: includes/widgets/brand/widget.php:1040
+#: includes/widgets/business-hours/widget.php:311
+#: includes/widgets/button/widget.php:330
+#: includes/widgets/button/widget.php:516
+#: includes/widgets/call-to-action/widget.php:459
+#: includes/widgets/cf7/widget.php:648
+#: includes/widgets/data-table/widget.php:677
+#: includes/widgets/dual-button/widget.php:464
+#: includes/widgets/dual-button/widget.php:650
+#: includes/widgets/dual-button/widget.php:793
+#: includes/widgets/dual-button/widget.php:979
+#: includes/widgets/feature-list/widget.php:505
+#: includes/widgets/flip-box/widget.php:1112
+#: includes/widgets/fun-fact/widget.php:243
+#: includes/widgets/image-accordion/widget.php:464
+#: includes/widgets/image-box/widget.php:448
+#: includes/widgets/image-box/widget.php:726
+#: includes/widgets/info-box/widget.php:283
+#: includes/widgets/info-box/widget.php:653
+#: includes/widgets/inline-menu/widget.php:373
+#: includes/widgets/job-manager/widget.php:483
+#: includes/widgets/mailchimp/widget.php:598
+#: includes/widgets/news-ticker/widget.php:786
+#: includes/widgets/off-canvas/widget.php:330
+#: includes/widgets/recent-blog/widget.php:695
+#: includes/widgets/recent-blog/widget.php:925
+#: includes/widgets/recent-blog/widget.php:1046
+#: includes/widgets/recent-blog/widget.php:1362
+#: includes/widgets/shop-product-grid/widget.php:724
+#: includes/widgets/shop-product-grid/widget.php:870
+#: includes/widgets/social-media/widget.php:147
+#: includes/widgets/social-media/widget.php:469
+#: includes/widgets/team-member/widget.php:379
+#: includes/widgets/team-member/widget.php:1166
+#: includes/widgets/team-member/widget.php:1248
+#: includes/widgets/testimonial/widget.php:1072
+#: includes/widgets/user-login/widget.php:810
+#: includes/widgets/video/widget.php:647
+msgid "Hover"
+msgstr ""
+
+#: includes/widgets/button/widget.php:388
+#: includes/widgets/dual-button/widget.php:522
+#: includes/widgets/dual-button/widget.php:851
+msgid "Hover Animation"
+msgstr ""
+
+#: includes/widgets/recent-blog/widget.php:590
+msgid "Hover Box Shadow"
+msgstr ""
+
+#: includes/widgets/recent-blog/widget.php:757
+#: includes/widgets/shop-product-grid/widget.php:561
+msgid "Hover Color"
+msgstr ""
+
+#: includes/widgets/faq/widget.php:153
+msgid "How do I authenticate my requests to Move?"
+msgstr ""
+
+#: includes/widgets/faq/widget.php:158
+msgid "How do I authenticate requests from Move to me?"
+msgstr ""
+
+#: includes/widgets/faq/widget.php:168
+msgid "How do I revoke a token?"
+msgstr ""
+
+#: includes/widgets/faq/widget.php:148
+msgid "How do I set up my developer environment?"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://demo.moveaddons.com"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://moveaddons.com"
+msgstr ""
+
+#: includes/widgets/filterable-gallery/widget.php:93
+#: includes/widgets/filterable-gallery/widget.php:94
+#: includes/widgets/image-grid/widget.php:83
+#: includes/widgets/image-grid/widget.php:84
+#: includes/widgets/image-masonry/widget.php:86
+#: includes/widgets/image-masonry/widget.php:87
+#: includes/widgets/video/widget.php:63 includes/widgets/video/widget.php:64
+msgid "https://www.youtube.com/watch?v=yDAC3JhW4jU"
+msgstr ""
+
+#: includes/widgets/banner/widget.php:165 includes/widgets/brand/widget.php:72
+#: includes/widgets/button/widget.php:108
+#: includes/widgets/call-to-action/widget.php:115
+#: includes/widgets/dual-button/widget.php:116
+#: includes/widgets/dual-button/widget.php:234
+#: includes/widgets/dual-color-heading/widget.php:167
+#: includes/widgets/dual-color-heading/widget.php:182
+#: includes/widgets/dual-color-heading/widget.php:197
+#: includes/widgets/flip-box/widget.php:116
+#: includes/widgets/flip-box/widget.php:152
+#: includes/widgets/heading/widget.php:122
+#: includes/widgets/heading/widget.php:137
+#: includes/widgets/image-accordion/widget.php:116
+#: includes/widgets/image-box/widget.php:143
+#: includes/widgets/info-box/widget.php:101
+#: includes/widgets/info-box/widget.php:126
+#: includes/widgets/social-media/widget.php:58
+msgid "https://your-link.com"
+msgstr ""
+
+#: includes/widgets/info-box/widget.php:70
+msgid "Huge Collection"
+msgstr ""
+
+#: classes/admin-dashboard.php:245
+msgid "Huge Features in our pro"
+msgstr ""
+
+#: includes/widgets/team-member/widget.php:127
+#: includes/widgets/team-member/widget.php:185
+msgid "I am web developer."
+msgstr ""
+
+#: includes/widgets/business-hours/widget.php:77
+#: includes/widgets/dual-color-heading/widget.php:84
+#: includes/widgets/dual-color-heading/widget.php:673
+#: includes/widgets/faq/widget.php:600
+#: includes/widgets/feature-list/widget.php:103
+#: includes/widgets/feature-list/widget.php:427
+#: includes/widgets/flip-box/widget.php:44
+#: includes/widgets/flip-box/widget.php:93
+#: includes/widgets/flip-box/widget.php:824
+#: includes/widgets/fun-fact/widget.php:47
+#: includes/widgets/fun-fact/widget.php:473
+#: includes/widgets/heading/widget.php:84
+#: includes/widgets/heading/widget.php:738
+#: includes/widgets/info-box/widget.php:58
+#: includes/widgets/info-box/widget.php:409
+#: includes/widgets/mailchimp/widget.php:450
+#: includes/widgets/social-media/widget.php:71
+#: includes/widgets/social-media/widget.php:256
+#: includes/widgets/team-member/widget.php:318
+msgid "Icon"
+msgstr ""
+
+#: includes/widgets/button/widget.php:437
+#: includes/widgets/button/widget.php:535
+#: includes/widgets/dual-button/widget.php:571
+#: includes/widgets/dual-button/widget.php:669
+#: includes/widgets/dual-button/widget.php:900
+#: includes/widgets/dual-button/widget.php:998
+msgid "Icon Background"
+msgstr ""
+
+#: includes/widgets/call-to-action/widget.php:426
+#: includes/widgets/call-to-action/widget.php:476
+#: includes/widgets/inline-menu/widget.php:408
+#: includes/widgets/mailchimp/widget.php:459
+#: includes/widgets/post-list/widget.php:302
+msgid "Icon Color"
+msgstr ""
+
+#: includes/widgets/brand/widget.php:906
+msgid "Icon Font Size"
+msgstr ""
+
+#: includes/widgets/post-list/widget.php:314
+msgid "Icon Hover Color"
+msgstr ""
+
+#: includes/widgets/accordion/widget.php:698
+#: includes/widgets/accordion/widget.php:832
+#: includes/widgets/faq/widget.php:703 includes/widgets/faq/widget.php:837
+#: includes/widgets/job-manager/widget.php:1071
+#: includes/widgets/job-manager/widget.php:1205
+msgid "Icon Line Height"
+msgstr ""
+
+#: includes/widgets/accordion/widget.php:223
+#: includes/widgets/banner/widget.php:198
+#: includes/widgets/button/widget.php:129
+#: includes/widgets/call-to-action/widget.php:138
+#: includes/widgets/dual-button/widget.php:137
+#: includes/widgets/dual-button/widget.php:255
+#: includes/widgets/dual-color-heading/widget.php:94
+#: includes/widgets/faq/widget.php:228
+#: includes/widgets/feature-list/widget.php:158
+#: includes/widgets/fun-fact/widget.php:57
+#: includes/widgets/heading/widget.php:94
+#: includes/widgets/image-box/widget.php:166
+#: includes/widgets/info-box/widget.php:150
+#: includes/widgets/inline-menu/widget.php:130
+#: includes/widgets/job-manager/widget.php:584
+#: includes/widgets/news-ticker/widget.php:80
+#: includes/widgets/off-canvas/widget.php:133
+msgid "Icon Position"
+msgstr ""
+
+#: includes/widgets/advanced-tab/widget.php:283
+#: includes/widgets/button/widget.php:490
+#: includes/widgets/dual-button/widget.php:624
+#: includes/widgets/dual-button/widget.php:953
+#: includes/widgets/event-calendar/widget.php:800
+#: includes/widgets/mailchimp/widget.php:470
+#: includes/widgets/post-list/widget.php:325
+#: includes/widgets/shop-product-grid/widget.php:799
+msgid "Icon Size"
+msgstr ""
+
+#: includes/widgets/call-to-action/widget.php:382
+msgid "Icon size"
+msgstr ""
+
+#: includes/widgets/advanced-tab/widget.php:259
+msgid "Icon Space"
+msgstr ""
+
+#: includes/widgets/banner/widget.php:215
+#: includes/widgets/button/widget.php:145
+#: includes/widgets/dual-button/widget.php:153
+#: includes/widgets/dual-button/widget.php:271
+#: includes/widgets/image-box/widget.php:182
+#: includes/widgets/inline-menu/widget.php:148
+#: includes/widgets/off-canvas/widget.php:149
+#: includes/widgets/shop-product-grid/widget.php:268
+msgid "Icon Spacing"
+msgstr ""
+
+#: includes/widgets/button/widget.php:403
+#: includes/widgets/category-list/widget.php:112
+#: includes/widgets/page-list/widget.php:89
+msgid "Icon Style"
+msgstr ""
+
+#: includes/widgets/accordion/widget.php:718
+#: includes/widgets/faq/widget.php:723
+#: includes/widgets/job-manager/widget.php:1091
+msgid "Icon Width"
+msgstr ""
+
+#: includes/widgets/job-manager/widget.php:102
+#: includes/widgets/news-ticker/widget.php:192
+#: includes/widgets/post-list/widget.php:129
+#: includes/widgets/recent-blog/widget.php:99
+#: includes/widgets/shop-product-grid/widget.php:184
+msgid "ID"
+msgstr ""
+
+#: includes/widgets/banner/widget.php:86
+#: includes/widgets/call-to-action/widget.php:60
+#: includes/widgets/call-to-action/widget.php:238
+#: includes/widgets/data-table/widget.php:214
+#: includes/widgets/filterable-gallery/widget.php:73
+#: includes/widgets/flip-box/widget.php:75
+#: includes/widgets/flip-box/widget.php:165
+#: includes/widgets/image-box/widget.php:57
+#: includes/widgets/image-box/widget.php:332
+#: includes/widgets/image-grid/widget.php:73
+#: includes/widgets/image-masonry/widget.php:73
+#: includes/widgets/recent-blog/widget.php:601
+#: includes/widgets/team-member/widget.php:513
+#: includes/widgets/testimonial/widget.php:62
+#: includes/widgets/testimonial/widget.php:269
+#: includes/widgets/tooltip/widget.php:48
+msgid "Image"
+msgstr ""
+
+#: classes/widgets-control.php:52
+#: includes/widgets/image-accordion/widget.php:16
+#: includes/widgets/image-accordion/widget.php:40
+msgid "Image Accordion"
+msgstr ""
+
+#: includes/widgets/brand/widget.php:549 includes/widgets/brand/widget.php:635
+msgid "Image Border"
+msgstr ""
+
+#: includes/widgets/brand/widget.php:557 includes/widgets/brand/widget.php:643
+msgid "Image Border Radius"
+msgstr ""
+
+#: classes/widgets-control.php:106 includes/widgets/image-box/widget.php:17
+msgid "Image Box"
+msgstr ""
+
+#: includes/widgets/image-comparison/widget.php:16
+#: includes/widgets/image-comparison/widget.php:40
+msgid "Image Comparison"
+msgstr ""
+
+#: classes/widgets-control.php:166
+msgid "Image comparison"
+msgstr ""
+
+#: classes/widgets-control.php:214 includes/widgets/image-grid/widget.php:16
+#: includes/widgets/image-grid/widget.php:40
+msgid "Image Grid"
+msgstr ""
+
+#: classes/admin-options-fields.php:121
+msgid "Image Marker"
+msgstr ""
+
+#: classes/widgets-control.php:220 includes/widgets/image-masonry/widget.php:16
+#: includes/widgets/image-masonry/widget.php:40
+msgid "Image Masonry"
+msgstr ""
+
+#: includes/widgets/filterable-gallery/widget.php:121
+#: includes/widgets/image-grid/widget.php:111
+#: includes/widgets/image-masonry/widget.php:114
+msgid "Image One"
+msgstr ""
+
+#: includes/widgets/call-to-action/widget.php:68
+#: includes/widgets/image-box/widget.php:80
+msgid "Image Position"
+msgstr ""
+
+#: classes/admin-options-fields.php:223
+msgid "Image Scrolling"
+msgstr ""
+
+#: includes/widgets/recent-blog/widget.php:144
+msgid "Image Size"
+msgstr ""
+
+#: includes/widgets/filterable-gallery/widget.php:133
+#: includes/widgets/image-grid/widget.php:121
+#: includes/widgets/image-masonry/widget.php:124
+msgid "Image Three"
+msgstr ""
+
+#: includes/widgets/filterable-gallery/widget.php:127
+#: includes/widgets/image-grid/widget.php:116
+#: includes/widgets/image-masonry/widget.php:119
+msgid "Image Two"
+msgstr ""
+
+#: includes/widgets/job-manager/widget.php:127
+msgid "Individual Select"
+msgstr ""
+
+#: includes/widgets/button/widget.php:52
+#: includes/widgets/dual-button/widget.php:76
+#: includes/widgets/dual-button/widget.php:194
+msgid "Info"
+msgstr ""
+
+#: classes/widgets-control.php:100 includes/widgets/info-box/widget.php:16
+msgid "Info Box"
+msgstr ""
+
+#: classes/widgets-control.php:232 includes/widgets/inline-menu/widget.php:16
+#: includes/widgets/inline-menu/widget.php:40
+msgid "Inline Menu"
+msgstr ""
+
+#: includes/widgets/post-list/widget.php:57
+msgid "Inline Style"
+msgstr ""
+
+#: includes/widgets/user-login/widget.php:560
+msgid "Input"
+msgstr ""
+
+#: includes/widgets/cf7/widget.php:149
+#: includes/widgets/mailchimp/widget.php:366
+msgid "Input Box"
+msgstr ""
+
+#: includes/widgets/social-media/widget.php:203
+#: includes/widgets/team-member/widget.php:426
+msgid "Instagram"
+msgstr ""
+
+#: classes/admin-options-fields.php:61
+msgid "Instagram Feed"
+msgstr ""
+
+#: classes/admin-notices.php:76
+msgid "Install Elementor"
+msgstr ""
+
+#: classes/admin-options-fields.php:181
+msgid "Interactive Card"
+msgstr ""
+
+#: classes/admin-options-fields.php:169
+msgid "Interactive Content"
+msgstr ""
+
+#: classes/login-register-manager.php:64
+#: includes/widgets/user-login/widget.php:316
+msgid "Invalid username or password!"
+msgstr ""
+
+#: includes/widgets/business-hours/widget.php:204
+#: includes/widgets/faq/widget.php:246
+#: includes/widgets/recent-blog/widget.php:557
+msgid "Item"
+msgstr ""
+
+#: includes/widgets/countdown/widget.php:523
+msgid "Item Alignment"
+msgstr ""
+
+#: includes/widgets/faq/widget.php:254
+#: includes/widgets/image-accordion/widget.php:170
+msgid "Item Spacing"
+msgstr ""
+
+#: includes/widgets/fun-fact/widget.php:99
+msgid "Item Style"
+msgstr ""
+
+#: classes/widgets-control.php:302 includes/widgets/job-manager/widget.php:16
+#: includes/widgets/job-manager/widget.php:40
+msgid "Job Manager"
+msgstr ""
+
+#: includes/widgets/banner/widget.php:374
+#: includes/widgets/banner/widget.php:462
+#: includes/widgets/banner/widget.php:550
+#: includes/widgets/banner/widget.php:614
+#: includes/widgets/banner/widget.php:814
+#: includes/widgets/button/widget.php:184
+#: includes/widgets/team-member/widget.php:684
+#: includes/widgets/team-member/widget.php:845
+#: includes/widgets/team-member/widget.php:1006
+#: includes/widgets/team-member/widget.php:1102
+msgid "Justified"
+msgstr ""
+
+#: includes/widgets/cf7/widget.php:437
+#: includes/widgets/countdown/widget.php:750
+#: includes/widgets/mailchimp/widget.php:485
+#: includes/widgets/user-login/widget.php:43
+#: includes/widgets/user-login/widget.php:866
+msgid "Label"
+msgstr ""
+
+#: includes/widgets/news-ticker/widget.php:70
+msgid "Label Icon"
+msgstr ""
+
+#: includes/widgets/image-comparison/widget.php:187
+#: includes/widgets/image-comparison/widget.php:204
+msgid "Label Position"
+msgstr ""
+
+#: includes/widgets/countdown/widget.php:156
+msgid "Label Setting"
+msgstr ""
+
+#: includes/widgets/event-calendar/widget.php:255
+msgid "Language"
+msgstr ""
+
+#: includes/widgets/button/widget.php:83
+#: includes/widgets/dual-button/widget.php:49
+msgid "Large"
+msgstr ""
+
+#: includes/widgets/brand/widget.php:246
+#: includes/widgets/recent-blog/widget.php:403
+#: includes/widgets/testimonial/widget.php:374
+msgid "Large mobile"
+msgstr ""
+
+#: includes/widgets/mailchimp/widget.php:207
+#: includes/widgets/mailchimp/widget.php:230
+#: includes/widgets/mailchimp/widget.php:244
+#: includes/widgets/mailchimp/widget.php:245
+msgid "Last Name"
+msgstr ""
+
+#: includes/widgets/mailchimp/widget.php:256
+msgid "Last Name Icon"
+msgstr ""
+
+#: includes/widgets/mailchimp/widget.php:228
+msgid "Last Name Label"
+msgstr ""
+
+#: includes/widgets/mailchimp/widget.php:242
+msgid "Last Name Placeholder"
+msgstr ""
+
+#: includes/widgets/animated-heading/widget.php:54
+#: includes/widgets/call-to-action/widget.php:44
+#: includes/widgets/data-table/widget.php:47
+#: includes/widgets/image-accordion/widget.php:47
+#: includes/widgets/mailchimp/widget.php:67
+#: includes/widgets/shop-product-grid/widget.php:40
+#: includes/widgets/shop-product-grid/widget.php:47
+msgid "Layout"
+msgstr ""
+
+#: includes/widgets/data-table/widget.php:54
+msgid "Layout Four"
+msgstr ""
+
+#: includes/widgets/data-table/widget.php:51
+#: includes/widgets/mailchimp/widget.php:71
+#: includes/widgets/shop-product-grid/widget.php:51
+msgid "Layout One"
+msgstr ""
+
+#: includes/widgets/data-table/widget.php:53
+#: includes/widgets/shop-product-grid/widget.php:53
+msgid "Layout Three"
+msgstr ""
+
+#: includes/widgets/data-table/widget.php:52
+#: includes/widgets/mailchimp/widget.php:72
+#: includes/widgets/shop-product-grid/widget.php:52
+msgid "Layout Two"
+msgstr ""
+
+#: includes/widgets/recent-blog/widget.php:200
+msgid "Learn More"
+msgstr ""
+
+#: includes/widgets/image-accordion/widget.php:135
+#: includes/widgets/image-accordion/widget.php:141
+#: includes/widgets/image-accordion/widget.php:147
+msgid "Learn more"
+msgstr ""
+
+#: includes/widgets/accordion/widget.php:336
+#: includes/widgets/accordion/widget.php:559
+#: includes/widgets/banner/widget.php:202
+#: includes/widgets/banner/widget.php:362
+#: includes/widgets/banner/widget.php:450
+#: includes/widgets/banner/widget.php:538
+#: includes/widgets/banner/widget.php:602
+#: includes/widgets/banner/widget.php:802
+#: includes/widgets/blockquote/widget.php:81
+#: includes/widgets/blockquote/widget.php:110
+#: includes/widgets/brand/widget.php:506 includes/widgets/button/widget.php:133
+#: includes/widgets/button/widget.php:172
+#: includes/widgets/call-to-action/widget.php:72
+#: includes/widgets/call-to-action/widget.php:142
+#: includes/widgets/call-to-action/widget.php:186
+#: includes/widgets/call-to-action/widget.php:253
+#: includes/widgets/cf7/widget.php:124
+#: includes/widgets/countdown/widget.php:527
+#: includes/widgets/countdown/widget.php:629
+#: includes/widgets/data-table/widget.php:520
+#: includes/widgets/data-table/widget.php:599
+#: includes/widgets/dual-button/widget.php:141
+#: includes/widgets/dual-button/widget.php:259
+#: includes/widgets/dual-button/widget.php:309
+#: includes/widgets/dual-color-heading/widget.php:391
+#: includes/widgets/event-calendar/widget.php:486
+#: includes/widgets/event-calendar/widget.php:565
+#: includes/widgets/faq/widget.php:341 includes/widgets/faq/widget.php:564
+#: includes/widgets/feature-list/widget.php:162
+#: includes/widgets/filterable-gallery/widget.php:377
+#: includes/widgets/flip-box/widget.php:211
+#: includes/widgets/flip-box/widget.php:404
+#: includes/widgets/fun-fact/widget.php:61
+#: includes/widgets/fun-fact/widget.php:111
+#: includes/widgets/heading/widget.php:456
+#: includes/widgets/image-accordion/widget.php:233
+#: includes/widgets/image-box/widget.php:84
+#: includes/widgets/image-box/widget.php:170
+#: includes/widgets/image-box/widget.php:217
+#: includes/widgets/image-comparison/widget.php:208
+#: includes/widgets/info-box/widget.php:154
+#: includes/widgets/info-box/widget.php:183
+#: includes/widgets/inline-menu/widget.php:134
+#: includes/widgets/inline-menu/widget.php:271
+#: includes/widgets/job-manager/widget.php:703
+#: includes/widgets/job-manager/widget.php:929
+#: includes/widgets/news-ticker/widget.php:84
+#: includes/widgets/off-canvas/widget.php:94
+#: includes/widgets/off-canvas/widget.php:137
+#: includes/widgets/off-canvas/widget.php:187
+#: includes/widgets/shop-product-grid/widget.php:255
+#: includes/widgets/social-media/widget.php:279
+#: includes/widgets/team-member/widget.php:672
+#: includes/widgets/team-member/widget.php:833
+#: includes/widgets/team-member/widget.php:994
+#: includes/widgets/team-member/widget.php:1090
+#: includes/widgets/testimonial/widget.php:299
+#: includes/widgets/testimonial/widget.php:540
+#: includes/widgets/tooltip/widget.php:130
+#: includes/widgets/user-login/widget.php:290
+#: includes/widgets/user-login/widget.php:451
+#: includes/widgets/user-login/widget.php:535
+#: includes/widgets/user-login/widget.php:976
+#: includes/widgets/video/widget.php:304 includes/widgets/video/widget.php:352
+msgid "Left"
+msgstr ""
+
+#: includes/widgets/animated-heading/widget.php:104
+msgid "Life Coach,Life,Coach"
+msgstr ""
+
+#: includes/widgets/button/widget.php:53
+#: includes/widgets/dual-button/widget.php:77
+#: includes/widgets/dual-button/widget.php:195
+#: includes/widgets/tooltip/widget.php:144
+msgid "Light"
+msgstr ""
+
+#: classes/admin-options-fields.php:163
+msgid "Light Box Modal"
+msgstr ""
+
+#: includes/widgets/job-manager/widget.php:62
+#: includes/widgets/news-ticker/widget.php:152
+#: includes/widgets/post-list/widget.php:89
+#: includes/widgets/recent-blog/widget.php:59
+msgid "Limit"
+msgstr ""
+
+#: includes/widgets/team-member/widget.php:306
+msgid "Link"
+msgstr ""
+
+#: includes/widgets/event-calendar/widget.php:226
+msgid "List"
+msgstr ""
+
+#: includes/templates/admin/dashboard-widgets.php:16
+msgid "List Elements"
+msgstr ""
+
+#: includes/widgets/category-list/widget.php:126
+#: includes/widgets/page-list/widget.php:103
+#: includes/widgets/post-list/widget.php:43
+msgid "List Icon"
+msgstr ""
+
+#: includes/widgets/feature-list/widget.php:61
+msgid "List type content ?"
+msgstr ""
+
+#: includes/widgets/event-calendar/widget.php:621
+msgid "List view"
+msgstr ""
+
+#: includes/widgets/animated-heading/widget.php:72
+msgid "Loading bar"
+msgstr ""
+
+#: includes/widgets/animated-heading/widget.php:348
+msgid "Loading bar Color"
+msgstr ""
+
+#: includes/widgets/user-login/widget.php:304
+msgid "Loading Message"
+msgstr ""
+
+#: includes/widgets/event-calendar/widget.php:152
+#: includes/widgets/job-manager/widget.php:173
+msgid "Location"
+msgstr ""
+
+#: includes/widgets/event-calendar/widget.php:729
+msgid "Location Color"
+msgstr ""
+
+#: includes/widgets/event-calendar/widget.php:749
+msgid "Location Icon Size"
+msgstr ""
+
+#: includes/widgets/event-calendar/widget.php:741
+msgid "Location Typography"
+msgstr ""
+
+#: includes/widgets/user-login/widget.php:249
+#: includes/widgets/user-login/widget.php:1108
+msgid "Login"
+msgstr ""
+
+#: includes/widgets/user-login/widget.php:238
+msgid "Login Button"
+msgstr ""
+
+#: includes/widgets/user-login/widget.php:36
+msgid "Login Form"
+msgstr ""
+
+#: classes/login-register-manager.php:71
+#: includes/widgets/user-login/widget.php:326
+msgid "Login Successfully"
+msgstr ""
+
+#: includes/widgets/user-login/widget.php:268
+msgid "Login to"
+msgstr ""
+
+#: includes/widgets/flip-box/widget.php:67
+#: includes/widgets/flip-box/widget.php:131
+msgid "Lorem ipsum dolor sit amem dolor sit amet, consectetur adipiscing elit."
+msgstr ""
+
+#: includes/widgets/image-box/widget.php:123
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod "
+"tempor."
+msgstr ""
+
+#: includes/widgets/user-login/widget.php:160
+msgid "Lost your password Label"
+msgstr ""
+
+#: includes/widgets/user-login/widget.php:149
+msgid "Lost your password?"
+msgstr ""
+
+#: includes/widgets/testimonial/widget.php:115
+msgid "Maggie Strickland"
+msgstr ""
+
+#: classes/admin-options-fields.php:39
+msgid "Mail Chimp"
+msgstr ""
+
+#: classes/widgets-control.php:262 includes/widgets/mailchimp/widget.php:16
+#: includes/widgets/mailchimp/widget.php:40
+msgid "MailChimp"
+msgstr ""
+
+#: includes/templates/admin/dashboard-welcome.php:11
+msgid "Main Dashboard"
+msgstr ""
+
+#: includes/widgets/testimonial/widget.php:94
+msgid "Managing Director"
+msgstr ""
+
+#: includes/widgets/banner/widget.php:334
+#: includes/widgets/banner/widget.php:422
+#: includes/widgets/banner/widget.php:510
+#: includes/widgets/banner/widget.php:785
+#: includes/widgets/blockquote/widget.php:143
+#: includes/widgets/blockquote/widget.php:223
+#: includes/widgets/blockquote/widget.php:278
+#: includes/widgets/blockquote/widget.php:467
+#: includes/widgets/brand/widget.php:471 includes/widgets/brand/widget.php:728
+#: includes/widgets/button/widget.php:291
+#: includes/widgets/call-to-action/widget.php:307
+#: includes/widgets/call-to-action/widget.php:350
+#: includes/widgets/category-list/widget.php:253
+#: includes/widgets/cf7/widget.php:88 includes/widgets/cf7/widget.php:297
+#: includes/widgets/cf7/widget.php:421 includes/widgets/cf7/widget.php:509
+#: includes/widgets/cf7/widget.php:602
+#: includes/widgets/countdown/widget.php:510
+#: includes/widgets/countdown/widget.php:612
+#: includes/widgets/countdown/widget.php:734
+#: includes/widgets/countdown/widget.php:832
+#: includes/widgets/data-table/widget.php:408
+#: includes/widgets/drop-cap/widget.php:82
+#: includes/widgets/drop-cap/widget.php:176
+#: includes/widgets/dual-button/widget.php:448
+#: includes/widgets/dual-button/widget.php:777
+#: includes/widgets/dual-color-heading/widget.php:470
+#: includes/widgets/dual-color-heading/widget.php:553
+#: includes/widgets/dual-color-heading/widget.php:646
+#: includes/widgets/dual-color-heading/widget.php:722
+#: includes/widgets/dual-color-heading/widget.php:869
+#: includes/widgets/feature-list/widget.php:343
+#: includes/widgets/feature-list/widget.php:387
+#: includes/widgets/feature-list/widget.php:490
+#: includes/widgets/flip-box/widget.php:449
+#: includes/widgets/flip-box/widget.php:523
+#: includes/widgets/flip-box/widget.php:619
+#: includes/widgets/flip-box/widget.php:672
+#: includes/widgets/flip-box/widget.php:740
+#: includes/widgets/flip-box/widget.php:793
+#: includes/widgets/flip-box/widget.php:880
+#: includes/widgets/flip-box/widget.php:952
+#: includes/widgets/flip-box/widget.php:1073
+#: includes/widgets/fun-fact/widget.php:351
+#: includes/widgets/fun-fact/widget.php:438
+#: includes/widgets/fun-fact/widget.php:543
+#: includes/widgets/heading/widget.php:535
+#: includes/widgets/heading/widget.php:618
+#: includes/widgets/heading/widget.php:711
+#: includes/widgets/heading/widget.php:787
+#: includes/widgets/image-accordion/widget.php:285
+#: includes/widgets/image-accordion/widget.php:340
+#: includes/widgets/image-accordion/widget.php:448
+#: includes/widgets/image-box/widget.php:317
+#: includes/widgets/image-box/widget.php:377
+#: includes/widgets/image-box/widget.php:522
+#: includes/widgets/image-box/widget.php:581
+#: includes/widgets/image-box/widget.php:709
+#: includes/widgets/info-box/widget.php:228
+#: includes/widgets/info-box/widget.php:382
+#: includes/widgets/info-box/widget.php:459
+#: includes/widgets/info-box/widget.php:516
+#: includes/widgets/info-box/widget.php:637
+#: includes/widgets/job-manager/widget.php:289
+#: includes/widgets/job-manager/widget.php:335
+#: includes/widgets/job-manager/widget.php:430
+#: includes/widgets/mailchimp/widget.php:513
+#: includes/widgets/news-ticker/widget.php:443
+#: includes/widgets/news-ticker/widget.php:533
+#: includes/widgets/off-canvas/widget.php:291
+#: includes/widgets/page-list/widget.php:230
+#: includes/widgets/post-list/widget.php:287
+#: includes/widgets/recent-blog/widget.php:643
+#: includes/widgets/recent-blog/widget.php:777
+#: includes/widgets/recent-blog/widget.php:833
+#: includes/widgets/recent-blog/widget.php:898
+#: includes/widgets/recent-blog/widget.php:1030
+#: includes/widgets/shop-product-grid/widget.php:529
+#: includes/widgets/shop-product-grid/widget.php:581
+#: includes/widgets/shop-product-grid/widget.php:622
+#: includes/widgets/team-member/widget.php:468
+#: includes/widgets/team-member/widget.php:524
+#: includes/widgets/team-member/widget.php:642
+#: includes/widgets/team-member/widget.php:737
+#: includes/widgets/team-member/widget.php:803
+#: includes/widgets/team-member/widget.php:898
+#: includes/widgets/team-member/widget.php:964
+#: includes/widgets/team-member/widget.php:1060
+#: includes/widgets/testimonial/widget.php:629
+#: includes/widgets/testimonial/widget.php:670
+#: includes/widgets/testimonial/widget.php:726
+#: includes/widgets/testimonial/widget.php:783
+#: includes/widgets/user-login/widget.php:435
+#: includes/widgets/user-login/widget.php:518
+#: includes/widgets/user-login/widget.php:616
+#: includes/widgets/user-login/widget.php:737
+#: includes/widgets/user-login/widget.php:926
+#: includes/widgets/video/widget.php:409 includes/widgets/video/widget.php:467
+#: includes/widgets/video/widget.php:585
+msgid "Margin"
+msgstr ""
+
+#: includes/widgets/testimonial/widget.php:116
+msgid "Marketer / May Inc"
+msgstr ""
+
+#: includes/widgets/team-member/widget.php:64
+#: includes/widgets/team-member/widget.php:143
+msgid "Member image"
+msgstr ""
+
+#: includes/widgets/advanced-tab/widget.php:221
+#: includes/widgets/inline-menu/widget.php:62
+#: includes/widgets/inline-menu/widget.php:97
+msgid "Menu"
+msgstr ""
+
+#: includes/widgets/advanced-tab/widget.php:75
+msgid "Menu Icon"
+msgstr ""
+
+#: includes/widgets/filterable-gallery/widget.php:399
+#: includes/widgets/inline-menu/widget.php:296
+msgid "Menu Item"
+msgstr ""
+
+#: includes/widgets/inline-menu/widget.php:175
+msgid "Menu items ID"
+msgstr ""
+
+#: includes/widgets/advanced-tab/widget.php:201
+#: includes/widgets/filterable-gallery/widget.php:306
+#: includes/widgets/filterable-gallery/widget.php:314
+msgid "Menu Style"
+msgstr ""
+
+#: includes/widgets/advanced-tab/widget.php:62
+msgid "Menu Title"
+msgstr ""
+
+#: includes/widgets/mailchimp/widget.php:300
+#: includes/widgets/mailchimp/widget.php:642
+msgid "Message"
+msgstr ""
+
+#: includes/widgets/user-login/widget.php:210
+msgid "Message for register link"
+msgstr ""
+
+#: includes/widgets/job-manager/widget.php:350
+#: includes/widgets/recent-blog/widget.php:861
+msgid "Meta Info"
+msgstr ""
+
+#: includes/widgets/recent-blog/widget.php:208
+msgid "Meta Position"
+msgstr ""
+
+#: includes/widgets/call-to-action/widget.php:170
+#: includes/widgets/flip-box/widget.php:381
+#: includes/widgets/image-box/widget.php:247
+#: includes/widgets/image-comparison/widget.php:209
+msgid "Middle"
+msgstr ""
+
+#: classes/admin-options-fields.php:103
+msgid "Mini Cart"
+msgstr ""
+
+#: includes/widgets/countdown/widget.php:136
+#: includes/widgets/countdown/widget.php:214
+#: includes/widgets/countdown/widget.php:216
+#: includes/widgets/countdown/widget.php:863
+msgid "Minutes"
+msgstr ""
+
+#: includes/widgets/countdown/widget.php:350
+msgid "Minutes Circle Color"
+msgstr ""
+
+#: includes/widgets/brand/widget.php:255
+#: includes/widgets/recent-blog/widget.php:412
+#: includes/widgets/testimonial/widget.php:383
+msgid "Mobile landscape"
+msgstr ""
+
+#: includes/widgets/inline-menu/widget.php:95
+msgid "Mobile Menu Text"
+msgstr ""
+
+#: includes/widgets/inline-menu/widget.php:400
+msgid "Mobile Menu Toggler"
+msgstr ""
+
+#: includes/widgets/inline-menu/widget.php:105
+msgid "Mobile Menu Toggler Icon"
+msgstr ""
+
+#: includes/widgets/dual-color-heading/widget.php:60
+#: includes/widgets/heading/widget.php:60
+msgid "Modern Heading"
+msgstr ""
+
+#: includes/widgets/business-hours/widget.php:61
+#: includes/widgets/business-hours/widget.php:101
+#: includes/widgets/event-calendar/widget.php:240
+msgid "Monday"
+msgstr ""
+
+#: includes/widgets/event-calendar/widget.php:225
+msgid "Month"
+msgstr ""
+
+#: classes/admin-options-fields.php:67
+msgid "Motion Text"
+msgstr ""
+
+#: base/move-base.php:91
+msgid "Move"
+msgstr ""
+
+#: classes/admin-dashboard.php:62 classes/admin-dashboard.php:63
+msgid "Move Addon"
+msgstr ""
+
+#. Name of the plugin
+#: classes/admin-notices.php:82 classes/admin-notices.php:98
+#: classes/admin-notices.php:115
+msgid "Move Addons"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Move Addons is an Elementor Page builder widget plugin. The only Elementor "
+"Addon you will ever need! Take Your Website to the whole new level with 80+ "
+"Elementor Widgets."
+msgstr ""
+
+#: includes/widgets/image-comparison/widget.php:146
+msgid "Move On Hover"
+msgstr ""
+
+#: includes/widgets/dual-color-heading/widget.php:47
+#: includes/widgets/heading/widget.php:47
+msgid "Move Plugin The Ultimate Addons"
+msgstr ""
+
+#. Author of the plugin
+#: includes/widgets/user-login/widget.php:278
+msgid "moveaddons"
+msgstr ""
+
+#: includes/widgets/data-table/widget.php:163
+msgid "Movie Title"
+msgstr ""
+
+#: includes/widgets/job-manager/widget.php:104
+#: includes/widgets/news-ticker/widget.php:194
+#: includes/widgets/post-list/widget.php:131
+#: includes/widgets/recent-blog/widget.php:101
+#: includes/widgets/shop-product-grid/widget.php:186
+#: includes/widgets/team-member/widget.php:90
+#: includes/widgets/team-member/widget.php:154
+#: includes/widgets/team-member/widget.php:605
+#: includes/widgets/team-member/widget.php:701
+#: includes/widgets/testimonial/widget.php:82
+#: includes/widgets/testimonial/widget.php:643
+msgid "Name"
+msgstr ""
+
+#: includes/widgets/brand/widget.php:1047
+#: includes/widgets/news-ticker/widget.php:793
+#: includes/widgets/recent-blog/widget.php:1369
+#: includes/widgets/testimonial/widget.php:1079
+msgid "Navigation"
+msgstr ""
+
+#: includes/widgets/brand/widget.php:797
+#: includes/widgets/news-ticker/widget.php:589
+#: includes/widgets/recent-blog/widget.php:1137
+#: includes/widgets/testimonial/widget.php:847
+msgid "Navigation Arrow"
+msgstr ""
+
+#: includes/widgets/brand/widget.php:805
+#: includes/widgets/recent-blog/widget.php:1145
+#: includes/widgets/testimonial/widget.php:855
+msgid "Navigation Offest"
+msgstr ""
+
+#: includes/widgets/brand/widget.php:337
+#: includes/widgets/recent-blog/widget.php:494
+#: includes/widgets/testimonial/widget.php:465
+msgid "Navigation Show On Hover"
+msgstr ""
+
+#: includes/widgets/recent-blog/widget.php:1113
+#: includes/widgets/testimonial/widget.php:823
+msgid "Navigation Style"
+msgstr ""
+
+#: includes/widgets/feature-list/widget.php:90
+#: includes/widgets/feature-list/widget.php:126
+msgid "Neque porro quisquam eos est, qui dolorem ipsum quia dolor sit amet."
+msgstr ""
+
+#: classes/widgets-control.php:226 includes/widgets/news-ticker/widget.php:16
+#: includes/widgets/news-ticker/widget.php:40
+msgid "News Ticker"
+msgstr ""
+
+#: includes/widgets/brand/widget.php:373
+#: includes/widgets/news-ticker/widget.php:288
+#: includes/widgets/recent-blog/widget.php:530
+#: includes/widgets/testimonial/widget.php:501
+msgid "Next Navigation Icon"
+msgstr ""
+
+#: includes/widgets/brand/widget.php:144
+#: includes/widgets/feature-list/widget.php:227
+#: includes/widgets/filterable-gallery/widget.php:220
+#: includes/widgets/image-grid/widget.php:155
+#: includes/widgets/image-masonry/widget.php:158
+#: includes/widgets/post-list/widget.php:170
+#: includes/widgets/recent-blog/widget.php:289
+#: includes/widgets/shop-product-grid/widget.php:406
+#: includes/widgets/testimonial/widget.php:174
+msgid "Nine"
+msgstr ""
+
+#: includes/widgets/accordion/widget.php:109
+#: includes/widgets/accordion/widget.php:188
+#: includes/widgets/banner/widget.php:241 includes/widgets/brand/widget.php:158
+#: includes/widgets/button/widget.php:67
+#: includes/widgets/category-list/widget.php:82
+#: includes/widgets/category-list/widget.php:146
+#: includes/widgets/dual-button/widget.php:91
+#: includes/widgets/dual-button/widget.php:209
+#: includes/widgets/dual-color-heading/widget.php:113
+#: includes/widgets/dual-color-heading/widget.php:276
+#: includes/widgets/dual-color-heading/widget.php:335
+#: includes/widgets/faq/widget.php:109 includes/widgets/faq/widget.php:193
+#: includes/widgets/feature-list/widget.php:64
+#: includes/widgets/feature-list/widget.php:241
+#: includes/widgets/filterable-gallery/widget.php:234
+#: includes/widgets/flip-box/widget.php:245
+#: includes/widgets/flip-box/widget.php:308
+#: includes/widgets/heading/widget.php:216
+#: includes/widgets/heading/widget.php:280
+#: includes/widgets/image-grid/widget.php:169
+#: includes/widgets/image-masonry/widget.php:172
+#: includes/widgets/inline-menu/widget.php:121
+#: includes/widgets/job-manager/widget.php:176
+#: includes/widgets/job-manager/widget.php:188
+#: includes/widgets/job-manager/widget.php:549
+#: includes/widgets/page-list/widget.php:123
+#: includes/widgets/post-list/widget.php:184
+#: includes/widgets/recent-blog/widget.php:307
+#: includes/widgets/shop-product-grid/widget.php:127
+#: includes/widgets/shop-product-grid/widget.php:420
+#: includes/widgets/social-media/widget.php:87
+#: includes/widgets/team-member/widget.php:285
+#: includes/widgets/team-member/widget.php:330
+#: includes/widgets/testimonial/widget.php:191
+#: includes/widgets/user-login/widget.php:127
+#: includes/widgets/user-login/widget.php:337
+#: includes/widgets/video/widget.php:151 includes/widgets/video/widget.php:163
+#: includes/widgets/video/widget.php:175 includes/widgets/video/widget.php:187
+#: includes/widgets/video/widget.php:199 includes/widgets/video/widget.php:256
+msgid "No"
+msgstr ""
+
+#: includes/widgets/mailchimp/widget.php:93
+#: includes/widgets/mailchimp/widget.php:157
+#: includes/widgets/mailchimp/widget.php:219
+msgid "no"
+msgstr ""
+
+#: includes/widgets/brand/widget.php:155
+#: includes/widgets/feature-list/widget.php:238
+#: includes/widgets/filterable-gallery/widget.php:231
+#: includes/widgets/image-grid/widget.php:166
+#: includes/widgets/image-masonry/widget.php:169
+#: includes/widgets/post-list/widget.php:181
+#: includes/widgets/recent-blog/widget.php:304
+#: includes/widgets/shop-product-grid/widget.php:417
+#: includes/widgets/testimonial/widget.php:188
+msgid "No Gutters"
+msgstr ""
+
+#: includes/widgets/image-comparison/widget.php:136
+msgid "No Overlay"
+msgstr ""
+
+#: includes/helper-functions.php:141
+msgid "No sidebar were found"
+msgstr ""
+
+#: includes/widgets/job-manager/widget.php:101
+#: includes/widgets/news-ticker/widget.php:191
+#: includes/widgets/post-list/widget.php:128
+#: includes/widgets/recent-blog/widget.php:98
+#: includes/widgets/shop-product-grid/widget.php:183
+msgid "None"
+msgstr ""
+
+#: includes/widgets/accordion/widget.php:360
+#: includes/widgets/accordion/widget.php:607
+#: includes/widgets/advanced-tab/widget.php:310
+#: includes/widgets/banner/widget.php:714 includes/widgets/brand/widget.php:541
+#: includes/widgets/brand/widget.php:790
+#: includes/widgets/business-hours/widget.php:245
+#: includes/widgets/button/widget.php:211
+#: includes/widgets/button/widget.php:418
+#: includes/widgets/call-to-action/widget.php:408
+#: includes/widgets/cf7/widget.php:536
+#: includes/widgets/data-table/widget.php:624
+#: includes/widgets/dual-button/widget.php:368
+#: includes/widgets/dual-button/widget.php:552
+#: includes/widgets/dual-button/widget.php:697
+#: includes/widgets/dual-button/widget.php:881
+#: includes/widgets/event-calendar/widget.php:337
+#: includes/widgets/faq/widget.php:365 includes/widgets/faq/widget.php:612
+#: includes/widgets/feature-list/widget.php:438
+#: includes/widgets/filterable-gallery/widget.php:454
+#: includes/widgets/flip-box/widget.php:994
+#: includes/widgets/fun-fact/widget.php:193
+#: includes/widgets/image-accordion/widget.php:377
+#: includes/widgets/image-box/widget.php:410
+#: includes/widgets/image-box/widget.php:635
+#: includes/widgets/info-box/widget.php:209
+#: includes/widgets/info-box/widget.php:557
+#: includes/widgets/inline-menu/widget.php:352
+#: includes/widgets/job-manager/widget.php:443
+#: includes/widgets/job-manager/widget.php:727
+#: includes/widgets/job-manager/widget.php:980
+#: includes/widgets/mailchimp/widget.php:538
+#: includes/widgets/news-ticker/widget.php:582
+#: includes/widgets/off-canvas/widget.php:211
+#: includes/widgets/recent-blog/widget.php:657
+#: includes/widgets/recent-blog/widget.php:871
+#: includes/widgets/recent-blog/widget.php:959
+#: includes/widgets/recent-blog/widget.php:1130
+#: includes/widgets/shop-product-grid/widget.php:683
+#: includes/widgets/shop-product-grid/widget.php:826
+#: includes/widgets/social-media/widget.php:105
+#: includes/widgets/social-media/widget.php:324
+#: includes/widgets/team-member/widget.php:348
+#: includes/widgets/team-member/widget.php:1134
+#: includes/widgets/team-member/widget.php:1216
+#: includes/widgets/testimonial/widget.php:840
+#: includes/widgets/user-login/widget.php:701
+#: includes/widgets/video/widget.php:504
+msgid "Normal"
+msgstr ""
+
+#: includes/widgets/countdown/widget.php:654
+#: includes/widgets/fun-fact/widget.php:298
+msgid "Number"
+msgstr ""
+
+#: includes/widgets/business-hours/widget.php:263
+#: includes/widgets/business-hours/widget.php:268
+#: includes/widgets/business-hours/widget.php:329
+#: includes/widgets/business-hours/widget.php:334
+msgid "Odd Item Background"
+msgstr ""
+
+#: includes/templates/admin/dashboard-modules.php:54
+#: includes/templates/admin/dashboard-widgets.php:54
+msgid "off"
+msgstr ""
+
+#: classes/widgets-control.php:292 includes/widgets/off-canvas/widget.php:16
+#: includes/widgets/off-canvas/widget.php:40
+msgid "Off Canvas"
+msgstr ""
+
+#: includes/widgets/off-canvas/widget.php:116
+msgid "Off canvas"
+msgstr ""
+
+#: includes/widgets/off-canvas/widget.php:384
+msgid "Off Canvas Content Area"
+msgstr ""
+
+#: includes/templates/admin/dashboard-modules.php:53
+#: includes/templates/admin/dashboard-widgets.php:53
+msgid "on"
+msgstr ""
+
+#: includes/widgets/shop-product-grid/widget.php:300
+msgid "On Sale Product Badge"
+msgstr ""
+
+#: includes/widgets/banner/widget.php:703 includes/widgets/brand/widget.php:136
+#: includes/widgets/call-to-action/widget.php:48
+#: includes/widgets/feature-list/widget.php:219
+#: includes/widgets/filterable-gallery/widget.php:212
+#: includes/widgets/filterable-gallery/widget.php:318
+#: includes/widgets/image-box/widget.php:624
+#: includes/widgets/image-grid/widget.php:147
+#: includes/widgets/image-masonry/widget.php:150
+#: includes/widgets/info-box/widget.php:47
+#: includes/widgets/post-list/widget.php:162
+#: includes/widgets/recent-blog/widget.php:281
+#: includes/widgets/recent-blog/widget.php:1117
+#: includes/widgets/shop-product-grid/widget.php:398
+#: includes/widgets/testimonial/widget.php:166
+#: includes/widgets/testimonial/widget.php:827
+msgid "One"
+msgstr ""
+
+#: classes/admin-options-fields.php:193
+msgid "Onepage Navigation"
+msgstr ""
+
+#: includes/widgets/animated-heading/widget.php:93
+msgid "Online Tutoring &"
+msgstr ""
+
+#: includes/widgets/feature-list/widget.php:414
+msgid "Only Work in content list item"
+msgstr ""
+
+#: includes/widgets/brand/widget.php:569 includes/widgets/brand/widget.php:655
+#: includes/widgets/flip-box/widget.php:269
+#: includes/widgets/flip-box/widget.php:332
+msgid "Opacity"
+msgstr ""
+
+#: includes/widgets/flip-box/widget.php:205
+msgid "Open Animation"
+msgstr ""
+
+#: includes/widgets/accordion/widget.php:118
+#: includes/widgets/accordion/widget.php:197
+#: includes/widgets/faq/widget.php:118 includes/widgets/faq/widget.php:202
+#: includes/widgets/job-manager/widget.php:558
+msgid "Open Icon"
+msgstr ""
+
+#: includes/widgets/advanced-tab/widget.php:195
+#: includes/widgets/feature-list/widget.php:151
+#: includes/widgets/filterable-gallery/widget.php:149
+msgid "Option"
+msgstr ""
+
+#: includes/widgets/category-list/widget.php:57
+#: includes/widgets/job-manager/widget.php:81
+#: includes/widgets/news-ticker/widget.php:171
+#: includes/widgets/page-list/widget.php:57
+#: includes/widgets/post-list/widget.php:108
+#: includes/widgets/recent-blog/widget.php:78
+msgid "Order"
+msgstr ""
+
+#: includes/widgets/shop-product-grid/widget.php:200
+msgid "order"
+msgstr ""
+
+#: includes/widgets/job-manager/widget.php:97
+#: includes/widgets/news-ticker/widget.php:187
+#: includes/widgets/post-list/widget.php:124
+#: includes/widgets/recent-blog/widget.php:94
+#: includes/widgets/shop-product-grid/widget.php:179
+msgid "Orderby"
+msgstr ""
+
+#: includes/widgets/data-table/widget.php:112
+msgid "Ordering"
+msgstr ""
+
+#: includes/widgets/button/widget.php:64
+#: includes/widgets/dual-button/widget.php:88
+#: includes/widgets/dual-button/widget.php:206
+msgid "Outline"
+msgstr ""
+
+#: includes/widgets/flip-box/widget.php:242
+#: includes/widgets/flip-box/widget.php:305
+#: includes/widgets/video/widget.php:253
+msgid "Overlay"
+msgstr ""
+
+#: includes/widgets/team-member/widget.php:500
+msgid "Overlay Background Type"
+msgstr ""
+
+#: includes/widgets/flip-box/widget.php:254
+#: includes/widgets/flip-box/widget.php:317
+#: includes/widgets/image-box/widget.php:416
+#: includes/widgets/image-box/widget.php:454
+#: includes/widgets/recent-blog/widget.php:663
+#: includes/widgets/recent-blog/widget.php:701
+#: includes/widgets/team-member/widget.php:493
+#: includes/widgets/video/widget.php:265
+msgid "Overlay Color"
+msgstr ""
+
+#: includes/widgets/image-box/widget.php:427
+#: includes/widgets/image-box/widget.php:465
+#: includes/widgets/recent-blog/widget.php:674
+#: includes/widgets/recent-blog/widget.php:712
+#: includes/widgets/video/widget.php:279
+msgid "Overlay Opacity"
+msgstr ""
+
+#: includes/helper-functions.php:107
+msgid "p"
+msgstr ""
+
+#: includes/widgets/accordion/widget.php:308
+#: includes/widgets/accordion/widget.php:377
+#: includes/widgets/accordion/widget.php:495
+#: includes/widgets/accordion/widget.php:580
+#: includes/widgets/advanced-tab/widget.php:229
+#: includes/widgets/animated-heading/widget.php:248
+#: includes/widgets/animated-heading/widget.php:335
+#: includes/widgets/animated-heading/widget.php:437
+#: includes/widgets/animated-heading/widget.php:524
+#: includes/widgets/banner/widget.php:346
+#: includes/widgets/banner/widget.php:434
+#: includes/widgets/banner/widget.php:522
+#: includes/widgets/banner/widget.php:772
+#: includes/widgets/blockquote/widget.php:156
+#: includes/widgets/blockquote/widget.php:236
+#: includes/widgets/blockquote/widget.php:291
+#: includes/widgets/blockquote/widget.php:454
+#: includes/widgets/brand/widget.php:459 includes/widgets/brand/widget.php:740
+#: includes/widgets/brand/widget.php:871
+#: includes/widgets/business-hours/widget.php:189
+#: includes/widgets/business-hours/widget.php:230
+#: includes/widgets/button/widget.php:278
+#: includes/widgets/button/widget.php:468 includes/widgets/cf7/widget.php:75
+#: includes/widgets/cf7/widget.php:278 includes/widgets/cf7/widget.php:408
+#: includes/widgets/cf7/widget.php:496 includes/widgets/cf7/widget.php:589
+#: includes/widgets/countdown/widget.php:497
+#: includes/widgets/countdown/widget.php:599
+#: includes/widgets/countdown/widget.php:721
+#: includes/widgets/countdown/widget.php:819
+#: includes/widgets/data-table/widget.php:396
+#: includes/widgets/drop-cap/widget.php:163
+#: includes/widgets/dual-button/widget.php:435
+#: includes/widgets/dual-button/widget.php:602
+#: includes/widgets/dual-button/widget.php:764
+#: includes/widgets/dual-button/widget.php:931
+#: includes/widgets/dual-color-heading/widget.php:482
+#: includes/widgets/dual-color-heading/widget.php:565
+#: includes/widgets/dual-color-heading/widget.php:658
+#: includes/widgets/dual-color-heading/widget.php:734
+#: includes/widgets/faq/widget.php:313 includes/widgets/faq/widget.php:382
+#: includes/widgets/faq/widget.php:500 includes/widgets/faq/widget.php:585
+#: includes/widgets/feature-list/widget.php:399
+#: includes/widgets/filterable-gallery/widget.php:351
+#: includes/widgets/filterable-gallery/widget.php:417
+#: includes/widgets/flip-box/widget.php:437
+#: includes/widgets/flip-box/widget.php:511
+#: includes/widgets/flip-box/widget.php:631
+#: includes/widgets/flip-box/widget.php:684
+#: includes/widgets/flip-box/widget.php:752
+#: includes/widgets/flip-box/widget.php:805
+#: includes/widgets/flip-box/widget.php:892
+#: includes/widgets/flip-box/widget.php:964
+#: includes/widgets/flip-box/widget.php:1060
+#: includes/widgets/fun-fact/widget.php:178
+#: includes/widgets/fun-fact/widget.php:338
+#: includes/widgets/fun-fact/widget.php:425
+#: includes/widgets/fun-fact/widget.php:530
+#: includes/widgets/heading/widget.php:547
+#: includes/widgets/heading/widget.php:630
+#: includes/widgets/heading/widget.php:723
+#: includes/widgets/heading/widget.php:799
+#: includes/widgets/image-accordion/widget.php:297
+#: includes/widgets/image-accordion/widget.php:352
+#: includes/widgets/image-accordion/widget.php:435
+#: includes/widgets/image-box/widget.php:305
+#: includes/widgets/image-box/widget.php:364
+#: includes/widgets/image-box/widget.php:535
+#: includes/widgets/image-box/widget.php:594
+#: includes/widgets/image-box/widget.php:695
+#: includes/widgets/image-comparison/widget.php:314
+#: includes/widgets/info-box/widget.php:216
+#: includes/widgets/info-box/widget.php:394
+#: includes/widgets/info-box/widget.php:471
+#: includes/widgets/info-box/widget.php:528
+#: includes/widgets/info-box/widget.php:624
+#: includes/widgets/inline-menu/widget.php:245
+#: includes/widgets/inline-menu/widget.php:313
+#: includes/widgets/job-manager/widget.php:211
+#: includes/widgets/job-manager/widget.php:417
+#: includes/widgets/job-manager/widget.php:672
+#: includes/widgets/job-manager/widget.php:744
+#: includes/widgets/job-manager/widget.php:862
+#: includes/widgets/job-manager/widget.php:950
+#: includes/widgets/mailchimp/widget.php:351
+#: includes/widgets/news-ticker/widget.php:345
+#: includes/widgets/news-ticker/widget.php:456
+#: includes/widgets/news-ticker/widget.php:546
+#: includes/widgets/news-ticker/widget.php:639
+#: includes/widgets/off-canvas/widget.php:278
+#: includes/widgets/off-canvas/widget.php:392
+#: includes/widgets/recent-blog/widget.php:630
+#: includes/widgets/recent-blog/widget.php:790
+#: includes/widgets/recent-blog/widget.php:846
+#: includes/widgets/recent-blog/widget.php:911
+#: includes/widgets/recent-blog/widget.php:1017
+#: includes/widgets/recent-blog/widget.php:1215
+#: includes/widgets/social-media/widget.php:454
+#: includes/widgets/team-member/widget.php:480
+#: includes/widgets/team-member/widget.php:536
+#: includes/widgets/team-member/widget.php:655
+#: includes/widgets/team-member/widget.php:750
+#: includes/widgets/team-member/widget.php:816
+#: includes/widgets/team-member/widget.php:911
+#: includes/widgets/team-member/widget.php:977
+#: includes/widgets/team-member/widget.php:1073
+#: includes/widgets/testimonial/widget.php:683
+#: includes/widgets/testimonial/widget.php:739
+#: includes/widgets/testimonial/widget.php:796
+#: includes/widgets/testimonial/widget.php:925
+#: includes/widgets/user-login/widget.php:423
+#: includes/widgets/user-login/widget.php:629
+#: includes/widgets/user-login/widget.php:750
+#: includes/widgets/user-login/widget.php:939
+#: includes/widgets/video/widget.php:421 includes/widgets/video/widget.php:479
+#: includes/widgets/video/widget.php:572
+msgid "Padding"
+msgstr ""
+
+#: classes/widgets-control.php:184 includes/widgets/page-list/widget.php:16
+#: includes/widgets/page-list/widget.php:36
+msgid "Page List"
+msgstr ""
+
+#: includes/widgets/brand/widget.php:933 includes/widgets/brand/widget.php:1098
+#: includes/widgets/data-table/widget.php:88
+#: includes/widgets/news-ticker/widget.php:679
+#: includes/widgets/news-ticker/widget.php:844
+#: includes/widgets/recent-blog/widget.php:1255
+#: includes/widgets/recent-blog/widget.php:1420
+#: includes/widgets/testimonial/widget.php:965
+#: includes/widgets/testimonial/widget.php:1130
+msgid "Pagination"
+msgstr ""
+
+#: includes/widgets/brand/widget.php:360
+#: includes/widgets/recent-blog/widget.php:517
+#: includes/widgets/testimonial/widget.php:488
+msgid "Pagination Show On Hover"
+msgstr ""
+
+#: classes/admin-options-fields.php:127
+msgid "Panel Slider"
+msgstr ""
+
+#: includes/widgets/user-login/widget.php:98
+#: includes/widgets/user-login/widget.php:112
+#: includes/widgets/user-login/widget.php:1025
+#: includes/widgets/user-login/widget.php:1026
+msgid "Password"
+msgstr ""
+
+#: includes/widgets/user-login/widget.php:96
+msgid "Password Label"
+msgstr ""
+
+#: includes/widgets/user-login/widget.php:110
+msgid "Password Placeholder"
+msgstr ""
+
+#: classes/admin-notices.php:116
+msgid "PHP"
+msgstr ""
+
+#: includes/widgets/cf7/widget.php:222 includes/widgets/cf7/widget.php:374
+#: includes/widgets/user-login/widget.php:579
+msgid "Placeholder Color"
+msgstr ""
+
+#: includes/widgets/mailchimp/widget.php:385
+msgid "Placeholder Text Color"
+msgstr ""
+
+#: includes/widgets/filterable-gallery/widget.php:84
+msgid "Please add seperate by comma."
+msgstr ""
+
+#: includes/widgets/cf7/widget.php:703
+msgid "Please Select contact form."
+msgstr ""
+
+#: includes/widgets/user-login/widget.php:306
+msgid "Please wait..."
+msgstr ""
+
+#: includes/widgets/video/widget.php:52
+msgid "Pop Up"
+msgstr ""
+
+#: includes/widgets/filterable-gallery/widget.php:54
+#: includes/widgets/image-grid/widget.php:54
+#: includes/widgets/image-masonry/widget.php:54
+msgid "Pop Up Image"
+msgstr ""
+
+#: includes/widgets/filterable-gallery/widget.php:53
+#: includes/widgets/image-grid/widget.php:53
+#: includes/widgets/image-masonry/widget.php:53
+msgid "Pop Up Video"
+msgstr ""
+
+#: includes/widgets/event-calendar/widget.php:693
+msgid "Popup"
+msgstr ""
+
+#: includes/widgets/video/widget.php:220
+msgid "Popup Options"
+msgstr ""
+
+#: includes/widgets/filterable-gallery/widget.php:49
+#: includes/widgets/image-grid/widget.php:49
+#: includes/widgets/image-masonry/widget.php:49
+msgid "Popup Type"
+msgstr ""
+
+#: includes/widgets/brand/widget.php:941
+#: includes/widgets/news-ticker/widget.php:687
+#: includes/widgets/off-canvas/widget.php:89
+#: includes/widgets/recent-blog/widget.php:1263
+#: includes/widgets/testimonial/widget.php:973
+msgid "Position"
+msgstr ""
+
+#: classes/admin-options-fields.php:133
+msgid "Post Grid"
+msgstr ""
+
+#: classes/widgets-control.php:190 includes/widgets/post-list/widget.php:16
+#: includes/widgets/post-list/widget.php:36
+msgid "Post List"
+msgstr ""
+
+#: classes/admin-options-fields.php:139
+msgid "Post Slider"
+msgstr ""
+
+#: includes/templates/admin/dashboard-modules.php:28
+msgid "Premium widget are coming soon."
+msgstr ""
+
+#: includes/widgets/brand/widget.php:385
+#: includes/widgets/news-ticker/widget.php:300
+#: includes/widgets/recent-blog/widget.php:542
+#: includes/widgets/testimonial/widget.php:513
+msgid "Previous Navigation Icon"
+msgstr ""
+
+#: includes/widgets/shop-product-grid/widget.php:360
+#: includes/widgets/shop-product-grid/widget.php:593
+msgid "Price"
+msgstr ""
+
+#: classes/admin-options-fields.php:199
+msgid "Price Menu"
+msgstr ""
+
+#: classes/admin-options-fields.php:145
+msgid "Pricing List"
+msgstr ""
+
+#: classes/admin-options-fields.php:151
+msgid "Pricing Table"
+msgstr ""
+
+#: includes/widgets/button/widget.php:47
+#: includes/widgets/dual-button/widget.php:71
+#: includes/widgets/dual-button/widget.php:189
+msgid "Primary"
+msgstr ""
+
+#: includes/templates/admin/dashboard-modules.php:41
+#: includes/templates/admin/dashboard-widgets.php:41
+msgid "Pro"
+msgstr ""
+
+#: classes/admin-dashboard.php:232
+#: includes/templates/admin/dashboard-modules.php:16
+msgid "Pro Widgets"
+msgstr ""
+
+#: includes/widgets/accordion/widget.php:153
+msgid "Producing Perfume From Home"
+msgstr ""
+
+#: includes/widgets/shop-product-grid/widget.php:336
+msgid "Product Badge"
+msgstr ""
+
+#: includes/widgets/shop-product-grid/widget.php:139
+msgid "Product Categories"
+msgstr ""
+
+#: classes/admin-options-fields.php:97
+msgid "Product Category"
+msgstr ""
+
+#: includes/widgets/shop-product-grid/widget.php:102
+msgid "Product IDs"
+msgstr ""
+
+#: includes/widgets/shop-product-grid/widget.php:114
+msgid "Product Limit"
+msgstr ""
+
+#: classes/admin-options-fields.php:91
+msgid "Product List"
+msgstr ""
+
+#: includes/widgets/shop-product-grid/widget.php:154
+msgid "Product Tags"
+msgstr ""
+
+#: classes/admin-options-fields.php:211
+msgid "Protected Content"
+msgstr ""
+
+#: includes/widgets/call-to-action/widget.php:87
+msgid "Purchase Move Plugin Now!"
+msgstr ""
+
+#: includes/templates/admin/dashboard-propopup.php:12
+msgid "PURCHASE NOW"
+msgstr ""
+
+#: includes/widgets/call-to-action/widget.php:105
+msgid "Purchase now"
+msgstr ""
+
+#: includes/templates/admin/dashboard-propopup.php:11
+msgid "Purchase our pro version to unblock these premium features!"
+msgstr ""
+
+#: includes/widgets/animated-heading/widget.php:77
+msgid "Push"
+msgstr ""
+
+#: includes/widgets/news-ticker/widget.php:133
+#: includes/widgets/post-list/widget.php:70
+#: includes/widgets/recent-blog/widget.php:40
+msgid "Query Option"
+msgstr ""
+
+#: includes/widgets/shop-product-grid/widget.php:63
+msgid "Query Settings"
+msgstr ""
+
+#: includes/widgets/testimonial/widget.php:270
+msgid "Quote"
+msgstr ""
+
+#: includes/widgets/blockquote/widget.php:251
+msgid "Quote By"
+msgstr ""
+
+#: includes/widgets/blockquote/widget.php:422
+#: includes/widgets/testimonial/widget.php:279
+msgid "Quote Icon"
+msgstr ""
+
+#: includes/widgets/blockquote/widget.php:77
+msgid "Quote Position"
+msgstr ""
+
+#: includes/widgets/job-manager/widget.php:107
+#: includes/widgets/news-ticker/widget.php:197
+#: includes/widgets/post-list/widget.php:134
+#: includes/widgets/recent-blog/widget.php:104
+#: includes/widgets/shop-product-grid/widget.php:189
+msgid "Random"
+msgstr ""
+
+#: includes/widgets/shop-product-grid/widget.php:78
+msgid "Random Products"
+msgstr ""
+
+#: includes/widgets/data-table/widget.php:160
+msgid "Rank"
+msgstr ""
+
+#: includes/widgets/data-table/widget.php:169
+#: includes/widgets/shop-product-grid/widget.php:372
+msgid "Rating"
+msgstr ""
+
+#: includes/widgets/recent-blog/widget.php:949
+msgid "Read More Button"
+msgstr ""
+
+#: includes/widgets/recent-blog/widget.php:198
+msgid "Read More Button Text"
+msgstr ""
+
+#: classes/widgets-control.php:148 includes/widgets/recent-blog/widget.php:16
+msgid "Recent Blog"
+msgstr ""
+
+#: includes/widgets/shop-product-grid/widget.php:73
+msgid "Recent Products"
+msgstr ""
+
+#: includes/widgets/user-login/widget.php:124
+msgid "Redirect page after Login"
+msgstr ""
+
+#: includes/widgets/user-login/widget.php:334
+msgid "Refresh current page after Login"
+msgstr ""
+
+#: includes/widgets/user-login/widget.php:199
+#: includes/widgets/user-login/widget.php:1117
+msgid "Register"
+msgstr ""
+
+#: includes/widgets/user-login/widget.php:886
+msgid "Registration Color"
+msgstr ""
+
+#: includes/widgets/user-login/widget.php:897
+msgid "Registration Link Color"
+msgstr ""
+
+#: includes/widgets/user-login/widget.php:173
+#: includes/widgets/user-login/widget.php:186
+msgid "Remember Me"
+msgstr ""
+
+#: includes/widgets/user-login/widget.php:184
+msgid "Remember Me Label"
+msgstr ""
+
+#: includes/widgets/video/widget.php:172
+msgid "Repeat Video"
+msgstr ""
+
+#: includes/widgets/brand/widget.php:295
+#: includes/widgets/news-ticker/widget.php:236
+#: includes/widgets/recent-blog/widget.php:452
+#: includes/widgets/testimonial/widget.php:423
+msgid "Repeatable Loop"
+msgstr ""
+
+#: includes/widgets/data-table/widget.php:172
+msgid "Reviews"
+msgstr ""
+
+#: includes/widgets/accordion/widget.php:344
+#: includes/widgets/accordion/widget.php:567
+#: includes/widgets/banner/widget.php:203
+#: includes/widgets/banner/widget.php:370
+#: includes/widgets/banner/widget.php:458
+#: includes/widgets/banner/widget.php:546
+#: includes/widgets/banner/widget.php:610
+#: includes/widgets/banner/widget.php:810
+#: includes/widgets/blockquote/widget.php:82
+#: includes/widgets/blockquote/widget.php:118
+#: includes/widgets/brand/widget.php:514 includes/widgets/button/widget.php:134
+#: includes/widgets/button/widget.php:180
+#: includes/widgets/call-to-action/widget.php:73
+#: includes/widgets/call-to-action/widget.php:143
+#: includes/widgets/call-to-action/widget.php:194
+#: includes/widgets/call-to-action/widget.php:261
+#: includes/widgets/cf7/widget.php:132
+#: includes/widgets/countdown/widget.php:535
+#: includes/widgets/countdown/widget.php:637
+#: includes/widgets/data-table/widget.php:528
+#: includes/widgets/data-table/widget.php:607
+#: includes/widgets/dual-button/widget.php:142
+#: includes/widgets/dual-button/widget.php:260
+#: includes/widgets/dual-button/widget.php:317
+#: includes/widgets/dual-color-heading/widget.php:399
+#: includes/widgets/event-calendar/widget.php:494
+#: includes/widgets/event-calendar/widget.php:573
+#: includes/widgets/faq/widget.php:349 includes/widgets/faq/widget.php:572
+#: includes/widgets/feature-list/widget.php:163
+#: includes/widgets/filterable-gallery/widget.php:385
+#: includes/widgets/flip-box/widget.php:212
+#: includes/widgets/flip-box/widget.php:412
+#: includes/widgets/fun-fact/widget.php:62
+#: includes/widgets/fun-fact/widget.php:119
+#: includes/widgets/heading/widget.php:464
+#: includes/widgets/image-accordion/widget.php:241
+#: includes/widgets/image-box/widget.php:85
+#: includes/widgets/image-box/widget.php:171
+#: includes/widgets/image-box/widget.php:225
+#: includes/widgets/image-comparison/widget.php:210
+#: includes/widgets/info-box/widget.php:155
+#: includes/widgets/info-box/widget.php:191
+#: includes/widgets/inline-menu/widget.php:135
+#: includes/widgets/inline-menu/widget.php:279
+#: includes/widgets/job-manager/widget.php:711
+#: includes/widgets/job-manager/widget.php:937
+#: includes/widgets/news-ticker/widget.php:85
+#: includes/widgets/off-canvas/widget.php:95
+#: includes/widgets/off-canvas/widget.php:138
+#: includes/widgets/off-canvas/widget.php:195
+#: includes/widgets/shop-product-grid/widget.php:256
+#: includes/widgets/social-media/widget.php:287
+#: includes/widgets/team-member/widget.php:680
+#: includes/widgets/team-member/widget.php:841
+#: includes/widgets/team-member/widget.php:1002
+#: includes/widgets/team-member/widget.php:1098
+#: includes/widgets/testimonial/widget.php:300
+#: includes/widgets/testimonial/widget.php:548
+#: includes/widgets/tooltip/widget.php:129
+#: includes/widgets/user-login/widget.php:291
+#: includes/widgets/user-login/widget.php:459
+#: includes/widgets/user-login/widget.php:543
+#: includes/widgets/user-login/widget.php:984
+#: includes/widgets/video/widget.php:305 includes/widgets/video/widget.php:360
+msgid "Right"
+msgstr ""
+
+#: includes/widgets/animated-heading/widget.php:78
+msgid "Rotate Style One"
+msgstr ""
+
+#: includes/widgets/animated-heading/widget.php:80
+msgid "Rotate Style Three"
+msgstr ""
+
+#: includes/widgets/animated-heading/widget.php:79
+msgid "Rotate Style Two"
+msgstr ""
+
+#: includes/widgets/data-table/widget.php:199
+msgid "Row"
+msgstr ""
+
+#: includes/widgets/data-table/widget.php:271
+#: includes/widgets/data-table/widget.php:300
+#: includes/widgets/data-table/widget.php:329
+msgid "row"
+msgstr ""
+
+#: includes/widgets/banner/widget.php:146
+#: includes/widgets/banner/widget.php:147
+msgid "Sale"
+msgstr ""
+
+#: includes/widgets/shop-product-grid/widget.php:965
+msgid "Sale Badge Background"
+msgstr ""
+
+#: includes/widgets/shop-product-grid/widget.php:947
+msgid "Sale Badge Color"
+msgstr ""
+
+#: includes/widgets/image-accordion/widget.php:134
+msgid "Sale off 50% all item"
+msgstr ""
+
+#: includes/widgets/image-accordion/widget.php:140
+msgid "Sale off 70% all item"
+msgstr ""
+
+#: includes/widgets/image-accordion/widget.php:146
+msgid "Sale off 80% all item"
+msgstr ""
+
+#: includes/widgets/shop-product-grid/widget.php:76
+msgid "Sale Products"
+msgstr ""
+
+#: includes/widgets/business-hours/widget.php:131
+#: includes/widgets/event-calendar/widget.php:245
+msgid "Saturday"
+msgstr ""
+
+#: classes/assets.php:523
+msgid "Save Changes"
+msgstr ""
+
+#: includes/widgets/dual-button/widget.php:103
+msgid "Save It"
+msgstr ""
+
+#: includes/templates/admin/dashboard-modules.php:19
+#: includes/templates/admin/dashboard-userdata.php:19
+#: includes/templates/admin/dashboard-userdata.php:53
+#: includes/templates/admin/dashboard-widgets.php:19
+#: includes/templates/admin/dashboard-widgets.php:66
+msgid "Save Settings"
+msgstr ""
+
+#: classes/assets.php:525
+msgid "Saved All Data"
+msgstr ""
+
+#: classes/assets.php:524
+msgid "Saving..."
+msgstr ""
+
+#: includes/widgets/animated-heading/widget.php:76
+msgid "Scale"
+msgstr ""
+
+#: includes/widgets/data-table/widget.php:100
+msgid "Searching"
+msgstr ""
+
+#: includes/widgets/button/widget.php:48
+#: includes/widgets/dual-button/widget.php:72
+#: includes/widgets/dual-button/widget.php:190
+msgid "Secondary"
+msgstr ""
+
+#: includes/widgets/countdown/widget.php:146
+#: includes/widgets/countdown/widget.php:228
+#: includes/widgets/countdown/widget.php:230
+#: includes/widgets/countdown/widget.php:864
+msgid "Seconds"
+msgstr ""
+
+#: includes/widgets/countdown/widget.php:358
+msgid "Seconds Circle Color"
+msgstr ""
+
+#: includes/widgets/category-list/widget.php:157
+msgid "Select Category"
+msgstr ""
+
+#: includes/widgets/accordion/widget.php:49
+#: includes/widgets/advanced-tab/widget.php:48
+#: includes/widgets/faq/widget.php:49
+msgid "Select Content Source"
+msgstr ""
+
+#: includes/widgets/cf7/widget.php:47
+msgid "Select Form"
+msgstr ""
+
+#: includes/widgets/job-manager/widget.php:137
+msgid "Select Job"
+msgstr ""
+
+#: includes/widgets/category-list/widget.php:43
+#: includes/widgets/page-list/widget.php:43
+msgid "Select Layout"
+msgstr ""
+
+#: includes/widgets/mailchimp/widget.php:56
+msgid "Select list"
+msgstr ""
+
+#: includes/widgets/page-list/widget.php:134
+msgid "Select Page"
+msgstr ""
+
+#: includes/widgets/shop-product-grid/widget.php:88
+msgid "Select Product"
+msgstr ""
+
+#: includes/helper-functions.php:143 includes/widgets/off-canvas/widget.php:75
+msgid "Select Sidebar"
+msgstr ""
+
+#: includes/widgets/off-canvas/widget.php:47
+msgid "Select Source"
+msgstr ""
+
+#: includes/widgets/job-manager/widget.php:47
+msgid "Select Style"
+msgstr ""
+
+#: includes/helper-functions.php:124 includes/widgets/accordion/widget.php:92
+#: includes/widgets/advanced-tab/widget.php:138
+#: includes/widgets/faq/widget.php:92 includes/widgets/off-canvas/widget.php:61
+msgid "Select Template"
+msgstr ""
+
+#: includes/widgets/cf7/widget.php:45
+msgid "Select Your Form"
+msgstr ""
+
+#: includes/widgets/video/widget.php:51
+msgid "Self"
+msgstr ""
+
+#: includes/widgets/brand/widget.php:397
+msgid "Separator"
+msgstr ""
+
+#: includes/widgets/blockquote/widget.php:342
+#: includes/widgets/brand/widget.php:416
+#: includes/widgets/dual-color-heading/widget.php:318
+#: includes/widgets/heading/widget.php:258
+msgid "Separator Color"
+msgstr ""
+
+#: includes/widgets/blockquote/widget.php:388
+msgid "Separator Height"
+msgstr ""
+
+#: includes/widgets/blockquote/widget.php:327
+msgid "Separator Position"
+msgstr ""
+
+#: includes/widgets/blockquote/widget.php:357
+#: includes/widgets/dual-color-heading/widget.php:288
+#: includes/widgets/heading/widget.php:228
+msgid "Separator Width"
+msgstr ""
+
+#: includes/widgets/dual-color-heading/widget.php:158
+#: includes/widgets/heading/widget.php:113
+msgid "Setting"
+msgstr ""
+
+#: classes/admin-dashboard.php:201
+#: includes/widgets/event-calendar/widget.php:199
+#: includes/widgets/mailchimp/widget.php:83
+msgid "Settings"
+msgstr ""
+
+#: includes/widgets/brand/widget.php:142
+#: includes/widgets/feature-list/widget.php:225
+#: includes/widgets/filterable-gallery/widget.php:218
+#: includes/widgets/image-grid/widget.php:153
+#: includes/widgets/image-masonry/widget.php:156
+#: includes/widgets/post-list/widget.php:168
+#: includes/widgets/recent-blog/widget.php:287
+#: includes/widgets/shop-product-grid/widget.php:404
+#: includes/widgets/testimonial/widget.php:172
+msgid "Seven"
+msgstr ""
+
+#: includes/widgets/blockquote/widget.php:54
+#: includes/widgets/blockquote/widget.php:55
+msgid "Shane McGuire"
+msgstr ""
+
+#: includes/widgets/team-member/widget.php:569
+msgid "Shape One"
+msgstr ""
+
+#: includes/widgets/team-member/widget.php:591
+msgid "Shape Three"
+msgstr ""
+
+#: includes/widgets/team-member/widget.php:580
+msgid "Shape Two"
+msgstr ""
+
+#: includes/widgets/banner/widget.php:180
+msgid "Shop Now"
+msgstr ""
+
+#: includes/widgets/shop-product-grid/widget.php:16
+msgid "Shop Product Grid"
+msgstr ""
+
+#: classes/widgets-control.php:311
+msgid "Shop product grid"
+msgstr ""
+
+#: includes/widgets/data-table/widget.php:65
+#: includes/widgets/data-table/widget.php:90
+#: includes/widgets/data-table/widget.php:102
+#: includes/widgets/data-table/widget.php:114
+#: includes/widgets/data-table/widget.php:126
+#: includes/widgets/filterable-gallery/widget.php:167
+#: includes/widgets/shop-product-grid/widget.php:338
+#: includes/widgets/shop-product-grid/widget.php:350
+#: includes/widgets/shop-product-grid/widget.php:362
+#: includes/widgets/shop-product-grid/widget.php:374
+#: includes/widgets/user-login/widget.php:47
+#: includes/widgets/user-login/widget.php:58
+#: includes/widgets/user-login/widget.php:153
+#: includes/widgets/user-login/widget.php:177
+#: includes/widgets/user-login/widget.php:203
+msgid "Show"
+msgstr ""
+
+#: includes/widgets/filterable-gallery/widget.php:165
+msgid "Show All Menu"
+msgstr ""
+
+#: includes/widgets/shop-product-grid/widget.php:79
+msgid "Show By Id"
+msgstr ""
+
+#: includes/widgets/video/widget.php:184
+msgid "Show Controller Button"
+msgstr ""
+
+#: includes/widgets/news-ticker/widget.php:105
+msgid "Show Date"
+msgstr ""
+
+#: includes/widgets/mailchimp/widget.php:154
+msgid "Show First Name"
+msgstr ""
+
+#: includes/widgets/category-list/widget.php:70
+#: includes/widgets/page-list/widget.php:70
+msgid "Show items"
+msgstr ""
+
+#: includes/widgets/mailchimp/widget.php:90
+msgid "Show Label"
+msgstr ""
+
+#: includes/widgets/mailchimp/widget.php:216
+msgid "Show Last Name"
+msgstr ""
+
+#: includes/widgets/shop-product-grid/widget.php:124
+msgid "Show Product By Tag Wise"
+msgstr ""
+
+#: includes/widgets/team-member/widget.php:282
+msgid "Show Profile Link"
+msgstr ""
+
+#: includes/widgets/data-table/widget.php:63
+msgid "Show Sorting Options"
+msgstr ""
+
+#: includes/widgets/social-media/widget.php:251
+msgid "Show Type"
+msgstr ""
+
+#: includes/widgets/video/widget.php:196
+msgid "Show video sourse Logo"
+msgstr ""
+
+#: includes/widgets/off-canvas/widget.php:52
+msgid "Sidebar"
+msgstr ""
+
+#: includes/widgets/user-login/widget.php:225
+msgid "Sign Up"
+msgstr ""
+
+#: includes/widgets/brand/widget.php:141
+#: includes/widgets/feature-list/widget.php:224
+#: includes/widgets/filterable-gallery/widget.php:217
+#: includes/widgets/image-grid/widget.php:152
+#: includes/widgets/image-masonry/widget.php:155
+#: includes/widgets/post-list/widget.php:167
+#: includes/widgets/recent-blog/widget.php:286
+#: includes/widgets/shop-product-grid/widget.php:403
+#: includes/widgets/testimonial/widget.php:171
+msgid "Six"
+msgstr ""
+
+#: includes/widgets/brand/widget.php:883
+#: includes/widgets/dual-color-heading/widget.php:695
+#: includes/widgets/flip-box/widget.php:853
+#: includes/widgets/flip-box/widget.php:925
+#: includes/widgets/fun-fact/widget.php:496
+#: includes/widgets/heading/widget.php:760
+#: includes/widgets/info-box/widget.php:432
+#: includes/widgets/news-ticker/widget.php:651
+#: includes/widgets/recent-blog/widget.php:1227
+#: includes/widgets/shop-product-grid/widget.php:645
+#: includes/widgets/testimonial/widget.php:937
+msgid "Size"
+msgstr ""
+
+#: includes/widgets/animated-heading/widget.php:73
+msgid "Slide"
+msgstr ""
+
+#: includes/widgets/brand/widget.php:109
+#: includes/widgets/recent-blog/widget.php:263
+#: includes/widgets/testimonial/widget.php:152
+msgid "Slider"
+msgstr ""
+
+#: includes/widgets/brand/widget.php:717
+msgid "Slider Area Style"
+msgstr ""
+
+#: includes/widgets/brand/widget.php:776
+#: includes/widgets/news-ticker/widget.php:571
+#: includes/widgets/recent-blog/widget.php:1102
+#: includes/widgets/testimonial/widget.php:812
+msgid "Slider Controller Style"
+msgstr ""
+
+#: includes/widgets/team-member/widget.php:242
+msgid "Slider Image Size"
+msgstr ""
+
+#: includes/widgets/brand/widget.php:210
+#: includes/widgets/recent-blog/widget.php:367
+#: includes/widgets/testimonial/widget.php:338
+msgid "Slider Item"
+msgstr ""
+
+#: includes/widgets/brand/widget.php:200
+#: includes/widgets/recent-blog/widget.php:357
+#: includes/widgets/testimonial/widget.php:328
+msgid "Slider Item Options"
+msgstr ""
+
+#: includes/widgets/brand/widget.php:327
+#: includes/widgets/news-ticker/widget.php:268
+#: includes/widgets/recent-blog/widget.php:484
+#: includes/widgets/testimonial/widget.php:455
+msgid "Slider Navigation"
+msgstr ""
+
+#: includes/widgets/brand/widget.php:267
+#: includes/widgets/news-ticker/widget.php:211
+#: includes/widgets/recent-blog/widget.php:424
+#: includes/widgets/testimonial/widget.php:395
+msgid "Slider Options"
+msgstr ""
+
+#: includes/widgets/brand/widget.php:350
+#: includes/widgets/news-ticker/widget.php:278
+#: includes/widgets/recent-blog/widget.php:507
+#: includes/widgets/testimonial/widget.php:478
+msgid "Slider Pagination"
+msgstr ""
+
+#: includes/widgets/button/widget.php:81
+#: includes/widgets/dual-button/widget.php:47
+msgid "Small"
+msgstr ""
+
+#: includes/widgets/brand/widget.php:237
+#: includes/widgets/recent-blog/widget.php:394
+#: includes/widgets/testimonial/widget.php:365
+msgid "Small mobile Item"
+msgstr ""
+
+#: includes/widgets/countdown/widget.php:259
+msgid "Smooth"
+msgstr ""
+
+#: classes/widgets-control.php:124 includes/widgets/social-media/widget.php:16
+#: includes/widgets/social-media/widget.php:36
+msgid "Social Media"
+msgstr ""
+
+#: includes/widgets/social-media/widget.php:56
+#: includes/widgets/team-member/widget.php:204
+msgid "Social Media Link"
+msgstr ""
+
+#: includes/widgets/team-member/widget.php:195
+msgid "Social Media Name"
+msgstr ""
+
+#: includes/widgets/team-member/widget.php:1119
+#: includes/widgets/team-member/widget.php:1202
+msgid "Social Profile"
+msgstr ""
+
+#: includes/widgets/team-member/widget.php:272
+msgid "Social Profiles"
+msgstr ""
+
+#: includes/widgets/mailchimp/widget.php:322
+#: includes/widgets/mailchimp/widget.php:323
+msgid "Something went wrong"
+msgstr ""
+
+#: includes/widgets/data-table/widget.php:78
+msgid "Sorting Options"
+msgstr ""
+
+#: includes/widgets/video/widget.php:160
+msgid "Sound Mute"
+msgstr ""
+
+#: includes/widgets/brand/widget.php:167
+#: includes/widgets/feature-list/widget.php:250
+#: includes/widgets/filterable-gallery/widget.php:243
+#: includes/widgets/filterable-gallery/widget.php:429
+#: includes/widgets/image-grid/widget.php:178
+#: includes/widgets/image-masonry/widget.php:181
+#: includes/widgets/inline-menu/widget.php:325
+#: includes/widgets/post-list/widget.php:193
+#: includes/widgets/recent-blog/widget.php:320
+#: includes/widgets/shop-product-grid/widget.php:429
+#: includes/widgets/testimonial/widget.php:203
+msgid "Space"
+msgstr ""
+
+#: includes/widgets/brand/widget.php:286
+#: includes/widgets/feature-list/widget.php:174
+#: includes/widgets/news-ticker/widget.php:227
+#: includes/widgets/recent-blog/widget.php:443
+#: includes/widgets/testimonial/widget.php:414
+msgid "Space Between"
+msgstr ""
+
+#: includes/widgets/category-list/widget.php:233
+#: includes/widgets/job-manager/widget.php:223
+#: includes/widgets/job-manager/widget.php:381
+#: includes/widgets/page-list/widget.php:210
+#: includes/widgets/social-media/widget.php:301
+msgid "Space between"
+msgstr ""
+
+#: includes/helper-functions.php:109
+msgid "span"
+msgstr ""
+
+#: includes/widgets/brand/widget.php:277
+#: includes/widgets/news-ticker/widget.php:218
+#: includes/widgets/recent-blog/widget.php:434
+#: includes/widgets/testimonial/widget.php:405
+msgid "Speed"
+msgstr ""
+
+#: includes/widgets/button/widget.php:82
+#: includes/widgets/dual-button/widget.php:48
+msgid "Standard"
+msgstr ""
+
+#: includes/widgets/event-calendar/widget.php:86
+#: includes/widgets/event-calendar/widget.php:110
+msgid "Start Date"
+msgstr ""
+
+#: includes/widgets/banner/widget.php:46
+#: includes/widgets/blockquote/widget.php:98
+#: includes/widgets/business-hours/widget.php:43
+#: includes/widgets/call-to-action/widget.php:157
+#: includes/widgets/category-list/widget.php:203
+#: includes/widgets/cf7/widget.php:67 includes/widgets/countdown/widget.php:47
+#: includes/widgets/drop-cap/widget.php:55
+#: includes/widgets/dual-button/widget.php:297
+#: includes/widgets/dual-color-heading/widget.php:379
+#: includes/widgets/event-calendar/widget.php:206
+#: includes/widgets/heading/widget.php:444
+#: includes/widgets/image-accordion/widget.php:221
+#: includes/widgets/image-box/widget.php:44
+#: includes/widgets/image-box/widget.php:205
+#: includes/widgets/image-comparison/widget.php:47
+#: includes/widgets/image-grid/widget.php:250
+#: includes/widgets/image-masonry/widget.php:253
+#: includes/widgets/info-box/widget.php:43
+#: includes/widgets/inline-menu/widget.php:49
+#: includes/widgets/news-ticker/widget.php:47
+#: includes/widgets/news-ticker/widget.php:315
+#: includes/widgets/page-list/widget.php:180
+#: includes/widgets/post-list/widget.php:248
+#: includes/widgets/recent-blog/widget.php:125
+#: includes/widgets/social-media/widget.php:267
+#: includes/widgets/team-member/widget.php:47
+#: includes/widgets/team-member/widget.php:457
+#: includes/widgets/testimonial/widget.php:47
+#: includes/widgets/testimonial/widget.php:528
+#: includes/widgets/video/widget.php:337
+msgid "Style"
+msgstr ""
+
+#: includes/widgets/banner/widget.php:57
+msgid "Style Eight"
+msgstr ""
+
+#: includes/widgets/advanced-tab/widget.php:209
+#: includes/widgets/banner/widget.php:54
+#: includes/widgets/team-member/widget.php:55
+msgid "Style Five"
+msgstr ""
+
+#: includes/widgets/advanced-tab/widget.php:208
+#: includes/widgets/banner/widget.php:53
+#: includes/widgets/countdown/widget.php:54
+#: includes/widgets/team-member/widget.php:54
+msgid "Style Four"
+msgstr ""
+
+#: includes/widgets/banner/widget.php:58
+msgid "Style Nine"
+msgstr ""
+
+#: includes/widgets/advanced-tab/widget.php:205
+#: includes/widgets/animated-heading/widget.php:58
+#: includes/widgets/banner/widget.php:50
+#: includes/widgets/business-hours/widget.php:47
+#: includes/widgets/category-list/widget.php:116
+#: includes/widgets/event-calendar/widget.php:210
+#: includes/widgets/image-box/widget.php:48
+#: includes/widgets/inline-menu/widget.php:53
+#: includes/widgets/job-manager/widget.php:51
+#: includes/widgets/news-ticker/widget.php:51
+#: includes/widgets/page-list/widget.php:93
+#: includes/widgets/team-member/widget.php:51
+#: includes/widgets/testimonial/widget.php:51
+msgid "Style One"
+msgstr ""
+
+#: includes/widgets/countdown/widget.php:51
+#: includes/widgets/image-comparison/widget.php:51
+#: includes/widgets/recent-blog/widget.php:129
+msgid "Style one"
+msgstr ""
+
+#: includes/widgets/banner/widget.php:56
+msgid "Style Seven"
+msgstr ""
+
+#: includes/widgets/banner/widget.php:55
+msgid "Style Six"
+msgstr ""
+
+#: includes/widgets/advanced-tab/widget.php:207
+#: includes/widgets/banner/widget.php:52
+#: includes/widgets/business-hours/widget.php:49
+#: includes/widgets/countdown/widget.php:53
+#: includes/widgets/image-comparison/widget.php:53
+#: includes/widgets/job-manager/widget.php:53
+#: includes/widgets/recent-blog/widget.php:131
+#: includes/widgets/team-member/widget.php:53
+msgid "Style Three"
+msgstr ""
+
+#: includes/widgets/advanced-tab/widget.php:206
+#: includes/widgets/animated-heading/widget.php:59
+#: includes/widgets/banner/widget.php:51
+#: includes/widgets/business-hours/widget.php:48
+#: includes/widgets/category-list/widget.php:117
+#: includes/widgets/countdown/widget.php:52
+#: includes/widgets/event-calendar/widget.php:211
+#: includes/widgets/image-box/widget.php:49
+#: includes/widgets/image-comparison/widget.php:52
+#: includes/widgets/inline-menu/widget.php:54
+#: includes/widgets/job-manager/widget.php:52
+#: includes/widgets/news-ticker/widget.php:52
+#: includes/widgets/page-list/widget.php:94
+#: includes/widgets/recent-blog/widget.php:130
+#: includes/widgets/team-member/widget.php:52
+#: includes/widgets/testimonial/widget.php:52
+msgid "Style Two"
+msgstr ""
+
+#: includes/widgets/dual-color-heading/widget.php:58
+#: includes/widgets/dual-color-heading/widget.php:497
+#: includes/widgets/heading/widget.php:58
+#: includes/widgets/heading/widget.php:562
+msgid "Sub Heading"
+msgstr ""
+
+#: includes/widgets/dual-color-heading/widget.php:222
+#: includes/widgets/heading/widget.php:162
+msgid "Sub Heading HTML Tag"
+msgstr ""
+
+#: includes/widgets/dual-color-heading/widget.php:195
+#: includes/widgets/heading/widget.php:135
+msgid "Sub Heading Link"
+msgstr ""
+
+#: includes/widgets/dual-color-heading/widget.php:250
+#: includes/widgets/heading/widget.php:190
+msgid "Sub Heading Position"
+msgstr ""
+
+#: includes/widgets/dual-color-heading/widget.php:795
+#: includes/widgets/heading/widget.php:860
+msgid "Sub Heading Transparent"
+msgstr ""
+
+#: includes/widgets/dual-color-heading/widget.php:360
+#: includes/widgets/heading/widget.php:365
+msgid "Sub Heading Transparent Text"
+msgstr ""
+
+#: includes/widgets/banner/widget.php:119
+#: includes/widgets/banner/widget.php:391
+#: includes/widgets/category-list/widget.php:167
+#: includes/widgets/image-accordion/widget.php:87
+#: includes/widgets/image-accordion/widget.php:312
+#: includes/widgets/page-list/widget.php:144
+#: includes/widgets/video/widget.php:124 includes/widgets/video/widget.php:436
+msgid "Sub Title"
+msgstr ""
+
+#: includes/widgets/banner/widget.php:128
+msgid "Sub Title Position"
+msgstr ""
+
+#: includes/widgets/mailchimp/widget.php:269
+#: includes/widgets/mailchimp/widget.php:528
+#: includes/widgets/user-login/widget.php:689
+msgid "Submit Button"
+msgstr ""
+
+#: includes/widgets/mailchimp/widget.php:289
+msgid "Submit Button Loading Text"
+msgstr ""
+
+#: includes/widgets/mailchimp/widget.php:278
+msgid "Submit Button Text"
+msgstr ""
+
+#: includes/widgets/mailchimp/widget.php:280
+#: includes/widgets/mailchimp/widget.php:281
+msgid "Subscribe Now"
+msgstr ""
+
+#: includes/widgets/mailchimp/widget.php:291
+#: includes/widgets/mailchimp/widget.php:292
+msgid "Subscribing..."
+msgstr ""
+
+#: includes/widgets/video/widget.php:318
+msgid "Subtitle Position"
+msgstr ""
+
+#: includes/widgets/button/widget.php:49
+#: includes/widgets/dual-button/widget.php:73
+#: includes/widgets/dual-button/widget.php:191
+msgid "Success"
+msgstr ""
+
+#: includes/widgets/mailchimp/widget.php:309
+#: includes/widgets/mailchimp/widget.php:650
+#: includes/widgets/user-login/widget.php:324
+msgid "Success Message"
+msgstr ""
+
+#: includes/widgets/mailchimp/widget.php:659
+msgid "Success Message Color"
+msgstr ""
+
+#: includes/widgets/mailchimp/widget.php:671
+msgid "Success Message Typography"
+msgstr ""
+
+#: includes/widgets/business-hours/widget.php:137
+#: includes/widgets/event-calendar/widget.php:239
+msgid "Sunday"
+msgstr ""
+
+#: includes/widgets/recent-blog/widget.php:226
+msgid "Suspe ndisse suscipit sagittis leoagi."
+msgstr ""
+
+#: includes/widgets/advanced-tab/widget.php:64
+#: includes/widgets/advanced-tab/widget.php:156
+msgid "Tab #1"
+msgstr ""
+
+#: includes/widgets/advanced-tab/widget.php:163
+msgid "Tab #2"
+msgstr ""
+
+#: includes/widgets/advanced-tab/widget.php:170
+msgid "Tab #3"
+msgstr ""
+
+#: includes/widgets/advanced-tab/widget.php:177
+msgid "Tab #4"
+msgstr ""
+
+#: includes/widgets/data-table/widget.php:368
+msgid "Table"
+msgstr ""
+
+#: includes/widgets/data-table/widget.php:546
+msgid "Table Body"
+msgstr ""
+
+#: includes/widgets/data-table/widget.php:563
+msgid "Table Body Padding"
+msgstr ""
+
+#: includes/widgets/data-table/widget.php:186
+msgid "Table Content"
+msgstr ""
+
+#: includes/widgets/data-table/widget.php:138
+#: includes/widgets/data-table/widget.php:443
+msgid "Table Header"
+msgstr ""
+
+#: includes/widgets/data-table/widget.php:484
+msgid "Table Header Padding"
+msgstr ""
+
+#: includes/widgets/data-table/widget.php:40
+msgid "Table Layout"
+msgstr ""
+
+#: includes/widgets/brand/widget.php:228
+#: includes/widgets/recent-blog/widget.php:385
+#: includes/widgets/testimonial/widget.php:356
+msgid "Tablet Item"
+msgstr ""
+
+#: includes/widgets/animated-heading/widget.php:114
+msgid "Target Counter Number"
+msgstr ""
+
+#: includes/widgets/fun-fact/widget.php:87
+msgid "Target Number"
+msgstr ""
+
+#: includes/widgets/category-list/widget.php:91
+msgid "Taxonomy Key"
+msgstr ""
+
+#: includes/widgets/team-member/widget.php:40
+msgid "Team"
+msgstr ""
+
+#: classes/widgets-control.php:112 includes/widgets/team-member/widget.php:16
+#: includes/widgets/team-member/widget.php:213
+msgid "Team Member"
+msgstr ""
+
+#: includes/widgets/brand/widget.php:145
+#: includes/widgets/feature-list/widget.php:228
+#: includes/widgets/filterable-gallery/widget.php:221
+#: includes/widgets/image-grid/widget.php:156
+#: includes/widgets/image-masonry/widget.php:159
+#: includes/widgets/post-list/widget.php:171
+#: includes/widgets/recent-blog/widget.php:290
+#: includes/widgets/shop-product-grid/widget.php:407
+#: includes/widgets/testimonial/widget.php:175
+msgid "Ten"
+msgstr ""
+
+#: classes/widgets-control.php:130 includes/widgets/testimonial/widget.php:16
+#: includes/widgets/testimonial/widget.php:40
+msgid "Testimonial"
+msgstr ""
+
+#: includes/widgets/feature-list/widget.php:133
+msgid "Testing"
+msgstr ""
+
+#: includes/widgets/data-table/widget.php:213
+#: includes/widgets/social-media/widget.php:255
+msgid "Text"
+msgstr ""
+
+#: includes/widgets/business-hours/widget.php:286
+#: includes/widgets/business-hours/widget.php:352
+#: includes/widgets/button/widget.php:218
+#: includes/widgets/button/widget.php:337 includes/widgets/cf7/widget.php:205
+#: includes/widgets/cf7/widget.php:363 includes/widgets/cf7/widget.php:456
+#: includes/widgets/cf7/widget.php:567 includes/widgets/cf7/widget.php:655
+#: includes/widgets/data-table/widget.php:463
+#: includes/widgets/dual-button/widget.php:375
+#: includes/widgets/dual-button/widget.php:471
+#: includes/widgets/dual-button/widget.php:704
+#: includes/widgets/dual-button/widget.php:800
+#: includes/widgets/event-calendar/widget.php:144
+#: includes/widgets/event-calendar/widget.php:637
+#: includes/widgets/event-calendar/widget.php:667
+#: includes/widgets/flip-box/widget.php:1000
+#: includes/widgets/flip-box/widget.php:1118
+#: includes/widgets/info-box/widget.php:564
+#: includes/widgets/info-box/widget.php:659
+#: includes/widgets/inline-menu/widget.php:420
+#: includes/widgets/off-canvas/widget.php:218
+#: includes/widgets/off-canvas/widget.php:337
+#: includes/widgets/post-list/widget.php:256
+#: includes/widgets/user-login/widget.php:568
+msgid "Text Color"
+msgstr ""
+
+#: includes/widgets/data-table/widget.php:653
+#: includes/widgets/data-table/widget.php:706
+msgid "Text Color ( Event )"
+msgstr ""
+
+#: includes/widgets/data-table/widget.php:664
+#: includes/widgets/data-table/widget.php:717
+msgid "Text Color ( Odd )"
+msgstr ""
+
+#: includes/widgets/user-login/widget.php:223
+msgid "Text for register link"
+msgstr ""
+
+#: includes/widgets/post-list/widget.php:267
+msgid "Text Hover Color"
+msgstr ""
+
+#: includes/widgets/countdown/widget.php:682
+#: includes/widgets/countdown/widget.php:780
+msgid "Text Shadow"
+msgstr ""
+
+#: includes/widgets/post-list/widget.php:279
+msgid "Text Typography"
+msgstr ""
+
+#: includes/widgets/cf7/widget.php:319
+msgid "Textarea"
+msgstr ""
+
+#: includes/widgets/mailchimp/widget.php:311
+#: includes/widgets/mailchimp/widget.php:312
+msgid "Thank you for subscribed"
+msgstr ""
+
+#: includes/widgets/accordion/widget.php:158
+msgid "The Basics Of Western Astrology Explained"
+msgstr ""
+
+#: includes/widgets/data-table/widget.php:338
+msgid "The Dark Knight"
+msgstr ""
+
+#: includes/widgets/tooltip/widget.php:140
+msgid "Theme"
+msgstr ""
+
+#: includes/helper-functions.php:436
+msgid "There is no list"
+msgstr ""
+
+#: includes/widgets/brand/widget.php:138
+#: includes/widgets/feature-list/widget.php:221
+#: includes/widgets/filterable-gallery/widget.php:214
+#: includes/widgets/filterable-gallery/widget.php:320
+#: includes/widgets/image-grid/widget.php:149
+#: includes/widgets/image-masonry/widget.php:152
+#: includes/widgets/post-list/widget.php:164
+#: includes/widgets/recent-blog/widget.php:283
+#: includes/widgets/shop-product-grid/widget.php:400
+#: includes/widgets/testimonial/widget.php:168
+msgid "Three"
+msgstr ""
+
+#: includes/widgets/testimonial/widget.php:565
+msgid "Thumbnail"
+msgstr ""
+
+#: includes/widgets/recent-blog/widget.php:158
+msgid "Thumbnail Image Size"
+msgstr ""
+
+#: includes/widgets/testimonial/widget.php:295
+msgid "Thumbnail Position"
+msgstr ""
+
+#: includes/widgets/team-member/widget.php:259
+msgid "Thumbnail Size"
+msgstr ""
+
+#: includes/widgets/testimonial/widget.php:265
+msgid "Thumbnail Type"
+msgstr ""
+
+#: includes/widgets/business-hours/widget.php:119
+#: includes/widgets/event-calendar/widget.php:243
+msgid "Thursday"
+msgstr ""
+
+#: includes/widgets/news-ticker/widget.php:60
+msgid "Ticker Label"
+msgstr ""
+
+#: includes/widgets/countdown/widget.php:260
+msgid "Ticks"
+msgstr ""
+
+#: includes/widgets/business-hours/widget.php:68
+msgid "Time"
+msgstr ""
+
+#: includes/widgets/countdown/widget.php:62
+msgid "Time Circle"
+msgstr ""
+
+#: includes/widgets/countdown/widget.php:245
+msgid "Time Circles Options"
+msgstr ""
+
+#: includes/widgets/countdown/widget.php:108
+msgid "Time Setting"
+msgstr ""
+
+#: includes/widgets/business-hours/widget.php:222
+msgid "Time Typography"
+msgstr ""
+
+#: classes/admin-options-fields.php:187
+msgid "Timeline Content"
+msgstr ""
+
+#: includes/widgets/accordion/widget.php:63
+#: includes/widgets/banner/widget.php:109
+#: includes/widgets/banner/widget.php:303
+#: includes/widgets/call-to-action/widget.php:84
+#: includes/widgets/call-to-action/widget.php:279
+#: includes/widgets/category-list/widget.php:279
+#: includes/widgets/event-calendar/widget.php:62
+#: includes/widgets/event-calendar/widget.php:277
+#: includes/widgets/faq/widget.php:63 includes/widgets/faq/widget.php:329
+#: includes/widgets/feature-list/widget.php:48
+#: includes/widgets/feature-list/widget.php:315
+#: includes/widgets/filterable-gallery/widget.php:64
+#: includes/widgets/flip-box/widget.php:54
+#: includes/widgets/flip-box/widget.php:103
+#: includes/widgets/flip-box/widget.php:582
+#: includes/widgets/fun-fact/widget.php:386
+#: includes/widgets/image-accordion/widget.php:73
+#: includes/widgets/image-accordion/widget.php:257
+#: includes/widgets/image-box/widget.php:99
+#: includes/widgets/image-box/widget.php:491
+#: includes/widgets/image-grid/widget.php:64
+#: includes/widgets/image-masonry/widget.php:64
+#: includes/widgets/info-box/widget.php:68
+#: includes/widgets/info-box/widget.php:352
+#: includes/widgets/job-manager/widget.php:105
+#: includes/widgets/job-manager/widget.php:258
+#: includes/widgets/news-ticker/widget.php:195
+#: includes/widgets/page-list/widget.php:256
+#: includes/widgets/post-list/widget.php:132
+#: includes/widgets/recent-blog/widget.php:102
+#: includes/widgets/recent-blog/widget.php:738
+#: includes/widgets/shop-product-grid/widget.php:187
+#: includes/widgets/shop-product-grid/widget.php:500
+#: includes/widgets/social-media/widget.php:45
+#: includes/widgets/team-member/widget.php:297
+#: includes/widgets/tooltip/widget.php:156
+#: includes/widgets/video/widget.php:112 includes/widgets/video/widget.php:378
+msgid "Title"
+msgstr ""
+
+#: includes/widgets/advanced-tab/widget.php:438
+#: includes/widgets/event-calendar/widget.php:709
+msgid "Title Color"
+msgstr ""
+
+#: includes/widgets/flip-box/widget.php:221
+#: includes/widgets/info-box/widget.php:139
+msgid "Title HTML Tag"
+msgstr ""
+
+#: includes/widgets/news-ticker/widget.php:96
+#: includes/widgets/recent-blog/widget.php:170
+msgid "Title Length"
+msgstr ""
+
+#: includes/widgets/flip-box/widget.php:114
+#: includes/widgets/info-box/widget.php:124
+msgid "Title Link"
+msgstr ""
+
+#: includes/widgets/advanced-tab/widget.php:458
+msgid "Title Margin"
+msgstr ""
+
+#: includes/widgets/image-box/widget.php:110
+msgid "Title Tag"
+msgstr ""
+
+#: includes/widgets/advanced-tab/widget.php:450
+#: includes/widgets/event-calendar/widget.php:721
+msgid "Title Typography"
+msgstr ""
+
+#: includes/widgets/testimonial/widget.php:311
+msgid "Title/Designation Position"
+msgstr ""
+
+#: includes/widgets/event-calendar/widget.php:587
+msgid "Today"
+msgstr ""
+
+#: includes/widgets/drop-cap/widget.php:45
+msgid ""
+"Today, businesses at present had creatively generated effective advertising "
+"campaigns in the form of visual media that includes the television and "
+"radios and the print media that cover the newspaper and campaign materials "
+"like the posters, blackpink in your flyers and many more. Taking part with "
+"the flyers they are tiny form or a single sheet promotional tool that easily "
+"spreads by hand. They are simply characterized as a simple yet your business."
+msgstr ""
+
+#: includes/templates/admin/dashboard-userdata.php:41
+msgid "Token"
+msgstr ""
+
+#: includes/widgets/team-member/widget.php:92
+#: includes/widgets/team-member/widget.php:97
+#: includes/widgets/team-member/widget.php:156
+#: includes/widgets/team-member/widget.php:161
+#: includes/widgets/team-member/widget.php:221
+msgid "Tony Bridges"
+msgstr ""
+
+#: includes/widgets/event-calendar/widget.php:269
+msgid "Toolbar"
+msgstr ""
+
+#: classes/widgets-control.php:286 includes/widgets/tooltip/widget.php:17
+msgid "Tooltip"
+msgstr ""
+
+#: includes/widgets/tooltip/widget.php:41
+msgid "Tooltip Button"
+msgstr ""
+
+#: includes/widgets/tooltip/widget.php:71
+#: includes/widgets/tooltip/widget.php:87
+msgid "Tooltip Content"
+msgstr ""
+
+#: includes/widgets/tooltip/widget.php:95
+msgid "Tooltip Image"
+msgstr ""
+
+#: includes/widgets/tooltip/widget.php:125
+msgid "Tooltip Position"
+msgstr ""
+
+#: includes/widgets/tooltip/widget.php:118
+msgid "Tooltip Setting"
+msgstr ""
+
+#: includes/widgets/tooltip/widget.php:78
+msgid "Tooltip Title"
+msgstr ""
+
+#: includes/widgets/blockquote/widget.php:83
+#: includes/widgets/call-to-action/widget.php:169
+#: includes/widgets/dual-color-heading/widget.php:98
+#: includes/widgets/dual-color-heading/widget.php:254
+#: includes/widgets/feature-list/widget.php:164
+#: includes/widgets/flip-box/widget.php:209
+#: includes/widgets/flip-box/widget.php:377
+#: includes/widgets/fun-fact/widget.php:63
+#: includes/widgets/heading/widget.php:98
+#: includes/widgets/heading/widget.php:194
+#: includes/widgets/image-box/widget.php:86
+#: includes/widgets/image-box/widget.php:243
+#: includes/widgets/image-comparison/widget.php:191
+#: includes/widgets/inline-menu/widget.php:136
+#: includes/widgets/off-canvas/widget.php:96
+#: includes/widgets/testimonial/widget.php:301
+#: includes/widgets/tooltip/widget.php:132
+#: includes/widgets/video/widget.php:306
+msgid "Top"
+msgstr ""
+
+#: includes/widgets/banner/widget.php:74
+msgid "Top Center"
+msgstr ""
+
+#: includes/widgets/banner/widget.php:73
+msgid "Top Left"
+msgstr ""
+
+#: includes/widgets/shop-product-grid/widget.php:77
+msgid "Top Rated Products"
+msgstr ""
+
+#: includes/widgets/banner/widget.php:75
+msgid "Top Right"
+msgstr ""
+
+#: includes/widgets/dual-color-heading/widget.php:749
+#: includes/widgets/heading/widget.php:814
+msgid "Transparent"
+msgstr ""
+
+#: includes/widgets/heading/widget.php:305
+msgid "Transparent Heading Position"
+msgstr ""
+
+#: includes/widgets/heading/widget.php:381
+msgid "Transparent Sub Heading Position"
+msgstr ""
+
+#: includes/widgets/business-hours/widget.php:107
+#: includes/widgets/event-calendar/widget.php:241
+msgid "Tuesday"
+msgstr ""
+
+#: includes/widgets/social-media/widget.php:211
+#: includes/widgets/team-member/widget.php:436
+msgid "Twitter"
+msgstr ""
+
+#: classes/admin-options-fields.php:85
+msgid "Twitter Feed"
+msgstr ""
+
+#: includes/widgets/banner/widget.php:704 includes/widgets/brand/widget.php:137
+#: includes/widgets/call-to-action/widget.php:49
+#: includes/widgets/feature-list/widget.php:220
+#: includes/widgets/filterable-gallery/widget.php:213
+#: includes/widgets/filterable-gallery/widget.php:319
+#: includes/widgets/image-box/widget.php:625
+#: includes/widgets/image-grid/widget.php:148
+#: includes/widgets/image-masonry/widget.php:151
+#: includes/widgets/info-box/widget.php:48
+#: includes/widgets/post-list/widget.php:163
+#: includes/widgets/recent-blog/widget.php:282
+#: includes/widgets/recent-blog/widget.php:1118
+#: includes/widgets/shop-product-grid/widget.php:399
+#: includes/widgets/testimonial/widget.php:167
+#: includes/widgets/testimonial/widget.php:828
+msgid "Two"
+msgstr ""
+
+#: includes/widgets/animated-heading/widget.php:71
+msgid "Type"
+msgstr ""
+
+#: includes/widgets/image-box/widget.php:133
+msgid "Type Button text here"
+msgstr ""
+
+#: includes/widgets/flip-box/widget.php:142
+#: includes/widgets/info-box/widget.php:91
+msgid "Type flip box button text here"
+msgstr ""
+
+#: includes/widgets/flip-box/widget.php:68
+#: includes/widgets/flip-box/widget.php:132
+msgid "Type flip box description here"
+msgstr ""
+
+#: includes/widgets/flip-box/widget.php:57
+#: includes/widgets/flip-box/widget.php:106
+msgid "Type flip box title here"
+msgstr ""
+
+#: includes/widgets/image-box/widget.php:124
+msgid "Type image box description here"
+msgstr ""
+
+#: includes/widgets/image-box/widget.php:102
+msgid "Type image box title here"
+msgstr ""
+
+#: includes/widgets/info-box/widget.php:82
+msgid "Type info box description here"
+msgstr ""
+
+#: includes/widgets/info-box/widget.php:71
+msgid "Type info box title here"
+msgstr ""
+
+#: includes/widgets/image-accordion/widget.php:90
+msgid "Type your accordion sub title here"
+msgstr ""
+
+#: includes/widgets/accordion/widget.php:66
+#: includes/widgets/image-accordion/widget.php:76
+#: includes/widgets/image-accordion/widget.php:103
+msgid "Type your accordion title here"
+msgstr ""
+
+#: includes/widgets/shop-product-grid/widget.php:229
+msgid "Type your cart button text"
+msgstr ""
+
+#: includes/widgets/event-calendar/widget.php:154
+msgid "Type your event location here"
+msgstr ""
+
+#: includes/widgets/event-calendar/widget.php:65
+msgid "Type your event title here"
+msgstr ""
+
+#: includes/widgets/faq/widget.php:66
+msgid "Type your faq title here"
+msgstr ""
+
+#: includes/widgets/dual-color-heading/widget.php:74
+#: includes/widgets/heading/widget.php:74
+msgid "Type your heading description here"
+msgstr ""
+
+#: includes/widgets/dual-color-heading/widget.php:48
+#: includes/widgets/heading/widget.php:48
+msgid "Type your heading here"
+msgstr ""
+
+#: includes/widgets/dual-color-heading/widget.php:124
+msgid "Type your highlight text here"
+msgstr ""
+
+#: includes/widgets/dual-color-heading/widget.php:346
+#: includes/widgets/dual-color-heading/widget.php:362
+#: includes/widgets/heading/widget.php:291
+#: includes/widgets/heading/widget.php:367
+msgid "Type your placeholder text here"
+msgstr ""
+
+#: includes/widgets/social-media/widget.php:48
+msgid "Type your social media title here"
+msgstr ""
+
+#: includes/widgets/dual-color-heading/widget.php:61
+#: includes/widgets/heading/widget.php:61
+msgid "Type your sub heading here"
+msgstr ""
+
+#: includes/widgets/brand/widget.php:52 includes/widgets/fun-fact/widget.php:80
+msgid "Type your title here"
+msgstr ""
+
+#: includes/widgets/job-manager/widget.php:185
+msgid "Types"
+msgstr ""
+
+#: includes/widgets/accordion/widget.php:434
+#: includes/widgets/accordion/widget.php:547
+#: includes/widgets/advanced-tab/widget.php:251
+#: includes/widgets/animated-heading/widget.php:200
+#: includes/widgets/animated-heading/widget.php:287
+#: includes/widgets/animated-heading/widget.php:389
+#: includes/widgets/animated-heading/widget.php:476
+#: includes/widgets/banner/widget.php:326
+#: includes/widgets/banner/widget.php:414
+#: includes/widgets/banner/widget.php:502
+#: includes/widgets/banner/widget.php:590
+#: includes/widgets/banner/widget.php:733
+#: includes/widgets/button/widget.php:230
+#: includes/widgets/call-to-action/widget.php:299
+#: includes/widgets/call-to-action/widget.php:342
+#: includes/widgets/call-to-action/widget.php:374
+#: includes/widgets/category-list/widget.php:225
+#: includes/widgets/category-list/widget.php:300
+#: includes/widgets/category-list/widget.php:329
+#: includes/widgets/data-table/widget.php:476
+#: includes/widgets/data-table/widget.php:555
+#: includes/widgets/dual-button/widget.php:387
+#: includes/widgets/dual-button/widget.php:716
+#: includes/widgets/event-calendar/widget.php:286
+#: includes/widgets/event-calendar/widget.php:315
+#: includes/widgets/event-calendar/widget.php:474
+#: includes/widgets/event-calendar/widget.php:553
+#: includes/widgets/event-calendar/widget.php:792
+#: includes/widgets/event-calendar/widget.php:833
+#: includes/widgets/faq/widget.php:439 includes/widgets/faq/widget.php:552
+#: includes/widgets/feature-list/widget.php:335
+#: includes/widgets/feature-list/widget.php:379
+#: includes/widgets/filterable-gallery/widget.php:409
+#: includes/widgets/flip-box/widget.php:1012
+#: includes/widgets/image-accordion/widget.php:277
+#: includes/widgets/image-accordion/widget.php:332
+#: includes/widgets/image-accordion/widget.php:396
+#: includes/widgets/image-box/widget.php:514
+#: includes/widgets/image-box/widget.php:573
+#: includes/widgets/image-box/widget.php:655
+#: includes/widgets/image-comparison/widget.php:285
+#: includes/widgets/info-box/widget.php:576
+#: includes/widgets/inline-menu/widget.php:305
+#: includes/widgets/job-manager/widget.php:281
+#: includes/widgets/job-manager/widget.php:327
+#: includes/widgets/job-manager/widget.php:373
+#: includes/widgets/job-manager/widget.php:801
+#: includes/widgets/job-manager/widget.php:917
+#: includes/widgets/mailchimp/widget.php:411
+#: includes/widgets/mailchimp/widget.php:505
+#: includes/widgets/mailchimp/widget.php:557
+#: includes/widgets/news-ticker/widget.php:414
+#: includes/widgets/news-ticker/widget.php:504
+#: includes/widgets/off-canvas/widget.php:230
+#: includes/widgets/page-list/widget.php:202
+#: includes/widgets/page-list/widget.php:277
+#: includes/widgets/page-list/widget.php:306
+#: includes/widgets/recent-blog/widget.php:769
+#: includes/widgets/recent-blog/widget.php:825
+#: includes/widgets/recent-blog/widget.php:890
+#: includes/widgets/recent-blog/widget.php:978
+#: includes/widgets/shop-product-grid/widget.php:521
+#: includes/widgets/shop-product-grid/widget.php:573
+#: includes/widgets/shop-product-grid/widget.php:614
+#: includes/widgets/shop-product-grid/widget.php:776
+#: includes/widgets/shop-product-grid/widget.php:927
+#: includes/widgets/social-media/widget.php:392
+#: includes/widgets/tooltip/widget.php:168
+#: includes/widgets/tooltip/widget.php:198
+#: includes/widgets/video/widget.php:401 includes/widgets/video/widget.php:459
+#: includes/widgets/video/widget.php:523
+msgid "Typography"
+msgstr ""
+
+#: includes/widgets/countdown/widget.php:316
+msgid "Use Background"
+msgstr ""
+
+#: classes/admin-dashboard.php:238
+#: includes/templates/admin/dashboard-userdata.php:16
+msgid "User Data"
+msgstr ""
+
+#: classes/widgets-control.php:238 includes/widgets/user-login/widget.php:16
+msgid "User Login"
+msgstr ""
+
+#: classes/admin-options-fields.php:157
+msgid "User Register"
+msgstr ""
+
+#: includes/widgets/user-login/widget.php:1023
+#: includes/widgets/user-login/widget.php:1024
+msgid "Username"
+msgstr ""
+
+#: includes/widgets/user-login/widget.php:68
+msgid "Username Label"
+msgstr ""
+
+#: includes/widgets/user-login/widget.php:70
+#: includes/widgets/user-login/widget.php:84
+msgid "Username or Email"
+msgstr ""
+
+#: includes/widgets/user-login/widget.php:82
+msgid "Username Placeholder"
+msgstr ""
+
+#: includes/widgets/image-box/widget.php:101
+msgid "Vase of Flowers"
+msgstr ""
+
+#: includes/widgets/category-list/widget.php:47
+#: includes/widgets/image-accordion/widget.php:52
+#: includes/widgets/image-comparison/widget.php:115
+#: includes/widgets/page-list/widget.php:47
+msgid "Vertical"
+msgstr ""
+
+#: includes/widgets/image-box/widget.php:239
+msgid "Vertical Align"
+msgstr ""
+
+#: includes/widgets/banner/widget.php:660 includes/widgets/brand/widget.php:978
+#: includes/widgets/news-ticker/widget.php:724
+#: includes/widgets/recent-blog/widget.php:1300
+#: includes/widgets/testimonial/widget.php:1010
+msgid "Vertical Postion"
+msgstr ""
+
+#: includes/widgets/flip-box/widget.php:373
+msgid "Verticle Alignment"
+msgstr ""
+
+#: classes/widgets-control.php:172 includes/widgets/video/widget.php:16
+#: includes/widgets/video/widget.php:40
+msgid "Video"
+msgstr ""
+
+#: includes/widgets/video/widget.php:47
+msgid "Video Container"
+msgstr ""
+
+#: includes/widgets/video/widget.php:139
+msgid "Video Options"
+msgstr ""
+
+#: includes/widgets/video/widget.php:208
+msgid "Video Start Time"
+msgstr ""
+
+#: includes/widgets/filterable-gallery/widget.php:91
+#: includes/widgets/image-grid/widget.php:81
+#: includes/widgets/image-masonry/widget.php:84
+#: includes/widgets/video/widget.php:61
+msgid "Video Url"
+msgstr ""
+
+#: includes/widgets/recent-blog/widget.php:1618
+msgid "view"
+msgstr ""
+
+#: includes/widgets/recent-blog/widget.php:239
+msgid "View All Post"
+msgstr ""
+
+#: includes/widgets/flip-box/widget.php:141
+msgid "View More"
+msgstr ""
+
+#: includes/widgets/recent-blog/widget.php:237
+msgid "View Post Button"
+msgstr ""
+
+#: includes/widgets/recent-blog/widget.php:224
+msgid "View Post Button before text"
+msgstr ""
+
+#: includes/widgets/recent-blog/widget.php:250
+msgid "View Post Button Link"
+msgstr ""
+
+#: includes/widgets/recent-blog/widget.php:1618
+msgid "views"
+msgstr ""
+
+#: includes/widgets/animated-heading/widget.php:150
+msgid "Visible Item Number"
+msgstr ""
+
+#: includes/widgets/testimonial/widget.php:131
+msgid "VP of Product / Local Inc"
+msgstr ""
+
+#: includes/widgets/button/widget.php:51
+#: includes/widgets/dual-button/widget.php:75
+#: includes/widgets/dual-button/widget.php:193
+msgid "Warning"
+msgstr ""
+
+#: includes/widgets/info-box/widget.php:81
+msgid ""
+"Was likeness brought divided given fruit in wherein lights green hath third"
+msgstr ""
+
+#: includes/widgets/business-hours/widget.php:113
+#: includes/widgets/event-calendar/widget.php:242
+msgid "Wednesday"
+msgstr ""
+
+#: includes/widgets/event-calendar/widget.php:224
+msgid "Week"
+msgstr ""
+
+#: classes/admin-dashboard.php:220
+msgid "Welcome"
+msgstr ""
+
+#: includes/widgets/accordion/widget.php:163
+msgid "What Curling Irons Are The Best Ones"
+msgstr ""
+
+#: includes/widgets/faq/widget.php:163
+msgid "When do authorization codes expire?"
+msgstr ""
+
+#: classes/admin-dashboard.php:226
+msgid "Widgets"
+msgstr ""
+
+#: includes/widgets/blockquote/widget.php:531
+#: includes/widgets/fun-fact/widget.php:132
+#: includes/widgets/image-box/widget.php:389
+#: includes/widgets/social-media/widget.php:331
+#: includes/widgets/user-login/widget.php:360
+msgid "Width"
+msgstr ""
+
+#: includes/widgets/accordion/widget.php:148
+msgid "Words To Live By"
+msgstr ""
+
+#: includes/widgets/heading/widget.php:319
+#: includes/widgets/heading/widget.php:395
+msgid "X Position"
+msgstr ""
+
+#: includes/widgets/heading/widget.php:339
+#: includes/widgets/heading/widget.php:415
+msgid "Y Position"
+msgstr ""
+
+#: includes/widgets/data-table/widget.php:166
+msgid "Year"
+msgstr ""
+
+#: includes/widgets/accordion/widget.php:108
+#: includes/widgets/accordion/widget.php:187
+#: includes/widgets/banner/widget.php:240 includes/widgets/brand/widget.php:157
+#: includes/widgets/button/widget.php:66
+#: includes/widgets/category-list/widget.php:81
+#: includes/widgets/category-list/widget.php:145
+#: includes/widgets/dual-button/widget.php:90
+#: includes/widgets/dual-button/widget.php:208
+#: includes/widgets/dual-color-heading/widget.php:112
+#: includes/widgets/dual-color-heading/widget.php:275
+#: includes/widgets/dual-color-heading/widget.php:334
+#: includes/widgets/faq/widget.php:108 includes/widgets/faq/widget.php:192
+#: includes/widgets/feature-list/widget.php:63
+#: includes/widgets/feature-list/widget.php:240
+#: includes/widgets/filterable-gallery/widget.php:233
+#: includes/widgets/flip-box/widget.php:244
+#: includes/widgets/flip-box/widget.php:307
+#: includes/widgets/heading/widget.php:215
+#: includes/widgets/heading/widget.php:279
+#: includes/widgets/image-grid/widget.php:168
+#: includes/widgets/image-masonry/widget.php:171
+#: includes/widgets/inline-menu/widget.php:120
+#: includes/widgets/job-manager/widget.php:175
+#: includes/widgets/job-manager/widget.php:187
+#: includes/widgets/job-manager/widget.php:548
+#: includes/widgets/mailchimp/widget.php:92
+#: includes/widgets/mailchimp/widget.php:156
+#: includes/widgets/mailchimp/widget.php:218
+#: includes/widgets/page-list/widget.php:122
+#: includes/widgets/post-list/widget.php:183
+#: includes/widgets/recent-blog/widget.php:306
+#: includes/widgets/shop-product-grid/widget.php:126
+#: includes/widgets/shop-product-grid/widget.php:419
+#: includes/widgets/social-media/widget.php:86
+#: includes/widgets/team-member/widget.php:284
+#: includes/widgets/team-member/widget.php:329
+#: includes/widgets/testimonial/widget.php:190
+#: includes/widgets/user-login/widget.php:128
+#: includes/widgets/user-login/widget.php:338
+#: includes/widgets/video/widget.php:150 includes/widgets/video/widget.php:162
+#: includes/widgets/video/widget.php:174 includes/widgets/video/widget.php:186
+#: includes/widgets/video/widget.php:198 includes/widgets/video/widget.php:255
+msgid "Yes"
+msgstr ""
+
+#: includes/widgets/user-login/widget.php:1036
+#, php-format
+msgid "You are Logged in as %1$s (<a href=\"%2$s\">Logout</a>)"
+msgstr ""
+
+#: includes/widgets/mailchimp/widget.php:113
+#: includes/widgets/mailchimp/widget.php:126
+#: includes/widgets/mailchimp/widget.php:127
+msgid "Your email"
+msgstr ""
+
+#: includes/templates/admin/dashboard-modules.php:27
+#: includes/templates/admin/dashboard-widgets.php:27
+msgid "Your Widget List"
+msgstr ""
+
+#: includes/widgets/dual-color-heading/widget.php:73
+#: includes/widgets/heading/widget.php:73
+msgid ""
+"Your Widget List freely use these elements to create your site. You can "
+"enable which you are not using."
+msgstr ""
+
+#: includes/widgets/animated-heading/widget.php:75
+msgid "Zoom"
+msgstr ""
+
+#: includes/widgets/blockquote/widget.php:45
+msgid ""
+"“Duis aute irure dolor in reprehenderit in voluptate velit esse cillum "
+"dolore eu fugiat nulla pariatur. quis nostrud exercitation ullamco.”"
+msgstr ""
+
+#: includes/widgets/testimonial/widget.php:104
+#: includes/widgets/testimonial/widget.php:117
+#: includes/widgets/testimonial/widget.php:122
+#: includes/widgets/testimonial/widget.php:127
+#: includes/widgets/testimonial/widget.php:132
+msgid ""
+"“Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia "
+"deserunt mollit anim id est laborum. Sed ut perspiciatis architecto beatae "
+"unde omnis iste natus.”"
+msgstr ""

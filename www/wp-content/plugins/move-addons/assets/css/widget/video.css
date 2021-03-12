@@ -1,0 +1,279 @@
+.htmove-video::before {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  opacity: 0.5;
+  background-color: #222222;
+  display: none;
+}
+.htmove-video.htmove-video-overlay::before{
+  display: block;
+}
+
+/*Button Position */
+.htmove-button-position-right .htmove-video-content{
+  flex-direction: row-reverse;
+}
+.htmove-video.htmove-button-position-right .htmove-video-content .htmove-video-popup-btn + .htmove-video-text{
+  margin-left: 0;
+  margin-right: 40px;
+}
+.htmove-button-position-top .htmove-video-content,.htmove-button-position-bottom .htmove-video-content{
+  flex-direction:column;
+  align-items: center;
+}
+.htmove-button-position-top .htmove-video-content .htmove-video-text,.htmove-button-position-bottom .htmove-video-content .htmove-video-text{
+  text-align: center;
+}
+.htmove-video.htmove-button-position-top .htmove-video-content .htmove-video-popup-btn + .htmove-video-text{
+  margin-left: 0;
+  margin-top: 40px;
+}
+.htmove-button-position-bottom .htmove-video-content{
+   flex-direction:column-reverse;
+}
+.htmove-video.htmove-button-position-bottom .htmove-video-content .htmove-video-popup-btn + .htmove-video-text{
+  margin-left: 0;
+  margin-bottom: 40px;
+}
+
+.htmove-content-align-start .htmove-video .htmove-video-content .htmove-video-text{
+  text-align: left;
+}
+
+.htmove-content-align-end .htmove-video .htmove-video-content .htmove-video-text{
+  text-align: right;
+}
+
+/* Video Popup Content */
+.htmove-video-content .htmove-video-sub-title {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.75;
+  display: block;
+  margin-bottom: 9px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.htmove-video-content .htmove-video-title {
+  font-family: "Space Grotesk";
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 1.2;
+  color: #FFFFFF;
+}
+
+.htmove-video-content .htmove-video-title:last-child {
+  margin-bottom: 0;
+}
+
+.htmove-video-content .htmove-video-text {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.75;
+  display: block;
+  margin-bottom: 33px;
+  color: #FFFFFF;
+}
+
+.htmove-video-content .htmove-video-text:last-child {
+  margin-bottom: 0;
+}
+
+@media only screen and (max-width: 575px) {
+  .htmove-video-content .htmove-video-title {
+    font-size: 32px;
+  }
+}
+
+/* Video Popup Button */
+.htmove-video-popup-btn {
+  position: relative;
+  z-index: 9;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 80px;
+  min-width: 80px;
+  height: 80px;
+  color: #1D39D7;
+  border-radius: 50%;
+  background-color: #FFFFFF;
+}
+
+.htmove-video-popup-btn::before {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-transform: scale(1.15);
+      -ms-transform: scale(1.15);
+          transform: scale(1.15);
+  opacity: 0.3;
+  border-radius: 50%;
+  background-color: #FFFFFF;
+}
+
+.htmove-video-popup-btn i {
+  font-size: 16px;
+}
+
+.htmove-video-popup-btn:hover {
+  text-decoration: none;
+  color: #1D39D7;
+}
+
+.htmove-video-popup-btn:hover::before {
+  -webkit-transform: scale(1.35);
+      -ms-transform: scale(1.35);
+          transform: scale(1.35);
+  opacity: 0;
+}
+
+.htmove-video-btn {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 46px;
+  position: relative;
+  z-index: 9;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 48px;
+  padding: 0 40px;
+  white-space: nowrap;
+  color: #222222;
+  border-radius: 100px;
+  background-color: #FFFFFF;
+}
+
+.htmove-video-btn i {
+  margin-right: 6px;
+  color: #1D39D7;
+}
+
+.htmove-video-btn:hover {
+  text-decoration: none;
+  color: #1D39D7;
+}
+
+.htmove-video {
+  position: relative;
+  z-index: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 490px;
+  padding: 30px 0;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+}
+
+.htmove-video .htmove-video-content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 30px;
+}
+
+.htmove-video .htmove-video-content .htmove-video-popup-btn + .htmove-video-text{
+  margin-left: 40px;
+}
+
+.htmove-video .htmove-video-content .htmove-video-popup-btn + div {
+  -webkit-align-self: center;
+      -ms-flex-item-align: center;
+          align-self: center;
+}
+.htmove-video .htmove-video-popup svg :not([stroke="none"]) {
+  fill: #1D39D7;
+}
+.htmove-video .htmove-video-popup svg :not([fill="none"]) {
+  stroke: #1D39D7;
+}
+.htmove-video .htmove-video-popup svg [fill="none"] {
+  fill: transparent !important;
+}
+.htmove-video .htmove-video-popup svg [stroke="none"] {
+  stroke: transparent !important;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .htmove-video {
+    height: 500px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .htmove-video {
+    height: 460px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .htmove-video {
+    height: 460px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .htmove-video {
+    height: 360px;
+  }
+  .htmove-video .htmove-video-content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .htmove-video .htmove-video-content .htmove-video-popup-btn {
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+  .htmove-video .htmove-video-content .htmove-video-popup-btn + div {
+    -webkit-align-self: center;
+        -ms-flex-item-align: center;
+            align-self: center;
+  }
+}

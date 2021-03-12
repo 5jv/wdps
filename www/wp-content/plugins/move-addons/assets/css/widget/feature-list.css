@@ -1,0 +1,278 @@
+.htmove-feature-list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.htmove-feature-list .htmove-feature + .htmove-feature {
+  margin-top: 45px;
+}
+
+.htmove-feature-image {
+  width: 100%;
+}
+
+.htmove-feature {
+  position: relative;
+}
+
+.htmove-feature .htmove-feature-icon {
+  position: relative;
+  z-index: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 0 80px;
+      -ms-flex: 1 0 80px;
+          flex: 1 0 80px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 80px;
+  max-width: 80px;
+  height: 80px;
+  -webkit-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  color: #1D39D7;
+  border: 1px solid #E6E6E6;
+  border-radius: 50%;
+}
+
+.htmove-feature .htmove-feature-icon::before {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: "";
+  -webkit-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -webkit-transform: scale(1.15);
+      -ms-transform: scale(1.15);
+          transform: scale(1.15);
+  opacity: 0;
+  border-radius: 50%;
+  background-color: #1D39D7;
+}
+
+.htmove-feature .htmove-feature-icon i {
+  font-size: 22px;
+  line-height: 1;
+  display: block;
+  -webkit-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.htmove-feature .htmove-feature-icon svg * {
+  -webkit-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  fill: #1D39D7;
+}
+
+.htmove-feature .htmove-feature-content .htmove-feature-title {
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-bottom: 8px;
+  color: #1D39D7;
+}
+
+.htmove-feature .htmove-feature-content p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.75;
+  color: #999999;
+}
+
+.htmove-feature .htmove-feature-content p:last-child {
+  margin-bottom: 0;
+}
+
+.htmove-feature .htmove-feature-content ul {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.htmove-feature .htmove-feature-content ul li {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.75;
+  position: relative;
+  padding-left: 21px;
+  color: #999999;
+}
+
+.htmove-feature .htmove-feature-content ul li + li {
+  margin-top: 16px;
+}
+
+.htmove-feature .htmove-feature-content ul li::before {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  display: block;
+  width: 6px;
+  height: 6px;
+  content: "";
+  border-radius: 50%;
+  background-color: #999999;
+}
+
+.htmove-feature:hover .htmove-feature-icon {
+  color: #FFFFFF;
+  border-color: #1D39D7;
+}
+
+.htmove-feature:hover .htmove-feature-icon::before {
+  -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+          transform: scale(1);
+  opacity: 1;
+}
+
+.htmove-feature:hover .htmove-feature-icon svg * {
+  fill: #FFFFFF;
+}
+
+.htmove-icon-pos-left, .htmove-icon-pos-right {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.htmove-icon-pos-left:not(:last-child)::before, .htmove-icon-pos-right:not(:last-child)::before {
+  position: absolute;
+  top: 80px;
+  bottom: -45px;
+  width: 1px;
+  content: "";
+  background-color: #E6E6E6;
+}
+
+.htmove-icon-pos-left {
+  text-align: left;
+}
+
+.htmove-icon-pos-left::before {
+  left: 39.5px;
+}
+
+.htmove-icon-pos-left .htmove-feature-content {
+  padding-left: 50px;
+}
+
+@media only screen and (max-width: 479px) {
+  .htmove-icon-pos-left .htmove-feature-content {
+    padding-left: 30px;
+  }
+}
+
+.htmove-icon-pos-right {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -webkit-flex-direction: row-reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  text-align: right;
+}
+
+.htmove-icon-pos-right::before {
+  right: 39.5px;
+}
+
+.htmove-icon-pos-right .htmove-feature-content {
+  padding-right: 50px;
+}
+
+@media only screen and (max-width: 479px) {
+  .htmove-icon-pos-right .htmove-feature-content {
+    padding-right: 30px;
+  }
+}
+
+.htmove-icon-pos-top .htmove-feature-icon {
+  margin-bottom: 21px;
+}
+
+.htmove-feature-two .htmove-feature-content .htmove-feature-head {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.htmove-feature-two .htmove-feature-content .htmove-feature-head .htmove-feature-icon {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 0 22px;
+      -ms-flex: 1 0 22px;
+          flex: 1 0 22px;
+  width: 22px;
+  max-width: 22px;
+  height: auto;
+  margin-right: 13px;
+  margin-bottom: 0;
+  border: none;
+  border-radius: 0;
+}
+
+.htmove-feature-two .htmove-feature-content .htmove-feature-head .htmove-feature-icon::before {
+  display: none;
+}
+
+.htmove-feature-two .htmove-feature-content .htmove-feature-head .htmove-feature-title {
+  margin: 0;
+}
+
+.htmove-feature-two:hover .htmove-feature-icon {
+  color: #1D39D7;
+}
+
+.htmove-feature-two:hover .htmove-feature-icon svg * {
+  fill: #1D39D7;
+}
+
+.htmove-feature-list.htmove-row {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -10px;
+  margin-left: -10px;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.htmove-feature-list.htmove-row .htmove-feature + .htmove-feature{
+  margin-top: 0;
+}

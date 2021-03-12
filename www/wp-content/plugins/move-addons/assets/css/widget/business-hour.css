@@ -1,0 +1,263 @@
+.htmove-business-hours{
+  margin: 0;
+}
+.htmove-business-hours .htmove-business-hour-day{
+  transition: 0.4s;
+}
+.htmove-business-hours-one {
+  width: 100%;
+  margin-bottom: 0;
+  padding: 50px 25px;
+  list-style: none;
+  border: 2px solid #1D39D7;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 20px 40px rgba(0, 0, 0, 0.07);
+          box-shadow: 0 20px 40px rgba(0, 0, 0, 0.07);
+}
+
+.htmove-business-hours-one .htmove-business-hour-day {
+  font-family: "Space Grotesk";
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #1D39D7;
+}
+
+.htmove-business-hours-one .htmove-business-hour-day + .htmove-business-hour-day {
+  margin-top: 40px;
+}
+
+.htmove-business-hours-one .htmove-business-hour-day span {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 3px;
+}
+
+.htmove-business-hours-one .htmove-business-hour-day span i {
+  margin-top: -2px;
+  margin-right: 16px;
+}
+
+.htmove-business-hours-one .htmove-business-hour-day span.htmove-business-hour-time {
+  font-size: 19px;
+  font-weight: 400;
+}
+
+.htmove-business-hours-one .htmove-business-hour-day-close {
+  color: #999999;
+}
+
+@media only screen and (max-width: 575px) {
+  .htmove-business-hours-one .htmove-business-hour-day {
+    font-size: 18px;
+  }
+  .htmove-business-hours-one .htmove-business-hour-day span.htmove-business-hour-time {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .htmove-business-hours-one {
+    padding: 30px 20px;
+  }
+  .htmove-business-hours-one .htmove-business-hour-day {
+    font-size: 16px;
+  }
+  .htmove-business-hours-one .htmove-business-hour-day + .htmove-business-hour-day {
+    margin-top: 25px;
+  }
+  .htmove-business-hours-one .htmove-business-hour-day span i {
+    margin-top: -1px;
+  }
+  .htmove-business-hours-one .htmove-business-hour-day span.htmove-business-hour-time {
+    font-size: 14px;
+  }
+}
+
+.htmove-business-hours-two {
+  width: 100%;
+  margin-bottom: 0;
+  padding: 30px;
+  list-style: none;
+  border: none;
+  border-radius: 4px;
+  background-color: #1D39D7;
+}
+
+.htmove-business-hours-two .htmove-business-hour-day {
+  font-family: "Space Grotesk";
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px 25px;
+  -webkit-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  color: #FFFFFF;
+  border-radius: 4px;
+}
+
+.htmove-business-hours-two .htmove-business-hour-day:hover {
+  color: #1D39D7;
+  background-color: #FFFFFF;
+  -webkit-box-shadow: 0 10px 40px rgba(29, 57, 215, 0.4);
+          box-shadow: 0 10px 40px rgba(29, 57, 215, 0.4);
+}
+
+.htmove-business-hours-two .htmove-business-hour-day span {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 3px;
+}
+
+.htmove-business-hours-two .htmove-business-hour-day span i {
+  margin-top: -2px;
+  margin-right: 16px;
+}
+
+.htmove-business-hours-two .htmove-business-hour-day span.htmove-business-hour-time {
+  font-size: 19px;
+  font-weight: 400;
+}
+
+@media only screen and (max-width: 575px) {
+  .htmove-business-hours-two .htmove-business-hour-day {
+    font-size: 18px;
+  }
+  .htmove-business-hours-two .htmove-business-hour-day span.htmove-business-hour-time {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .htmove-business-hours-two {
+    padding: 20px;
+  }
+  .htmove-business-hours-two .htmove-business-hour-day {
+    font-size: 16px;
+    padding: 15px;
+  }
+  .htmove-business-hours-two .htmove-business-hour-day span i {
+    margin-top: -1px;
+  }
+  .htmove-business-hours-two .htmove-business-hour-day span.htmove-business-hour-time {
+    font-size: 14px;
+  }
+}
+
+.htmove-business-hours-three {
+  width: 100%;
+  margin-bottom: 0;
+  padding: 0;
+  list-style: none;
+  border: none;
+  border-radius: 4px;
+  background-color: #FFFFFF;
+  -webkit-box-shadow: 0 20px 40px rgba(0, 0, 0, 0.07);
+          box-shadow: 0 20px 40px rgba(0, 0, 0, 0.07);
+}
+
+.htmove-business-hours-three .htmove-business-hour-day {
+  font-family: "Space Grotesk";
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 28px 30px;
+  -webkit-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  color: #1D39D7;
+}
+
+.htmove-business-hours-three .htmove-business-hour-day:nth-child(2n+1) {
+  background-color: rgba(230, 230, 230, 0.25);
+}
+
+.htmove-business-hours-three .htmove-business-hour-day:nth-child(2n) {
+  background-color: #FFFFFF;
+}
+
+.htmove-business-hours-three .htmove-business-hour-day span {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 3px;
+}
+
+.htmove-business-hours-three .htmove-business-hour-day span i {
+  margin-top: -2px;
+  margin-right: 16px;
+}
+
+.htmove-business-hours-three .htmove-business-hour-day span.htmove-business-hour-time {
+  font-size: 19px;
+  font-weight: 400;
+}
+
+.htmove-business-hours-three .htmove-business-hour-day-close {
+  color: #999999;
+}
+
+@media only screen and (max-width: 575px) {
+  .htmove-business-hours-three .htmove-business-hour-day {
+    font-size: 18px;
+    padding: 23px 25px;
+  }
+  .htmove-business-hours-three .htmove-business-hour-day span.htmove-business-hour-time {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .htmove-business-hours-three .htmove-business-hour-day {
+    font-size: 16px;
+    padding: 18px 20px;
+  }
+  .htmove-business-hours-three .htmove-business-hour-day span i {
+    margin-top: -1px;
+  }
+  .htmove-business-hours-three .htmove-business-hour-day span.htmove-business-hour-time {
+    font-size: 14px;
+  }
+}

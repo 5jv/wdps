@@ -1,0 +1,142 @@
+/*---------------------------------------------
+    Brand Style
+---------------------------------------------*/
+
+/* Brand Navigation style */
+.htmove-brand-area [class*="swiper-button"] {
+  width: 50px;
+  height: 50px;
+  margin: 0;
+  -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1), visibility 0.3s linear 2s, opacity 0.3s linear 2s;
+  -o-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1), visibility 0.3s linear 2s, opacity 0.3s linear 2s;
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1), visibility 0.3s linear 2s, opacity 0.3s linear 2s;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  text-align: center;
+  color: #222222;
+  border: 0;
+  border-radius: 50%;
+  outline: none;
+  background-image: none;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.01);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.01);
+}
+.htmove-brand-area [class*="swiper-button"]:after{
+  font-size: 30px;
+}
+.htmove-brand-area .swiper-button-next {
+  right: -20px;
+}
+.htmove-brand-area .swiper-button-prev {
+  left: -20px;
+}
+.htmove-brand-area .htmove-onhover [class*="swiper-button"]{
+  visibility: hidden;
+  opacity: 0;
+}
+.htmove-brand-area:hover .htmove-onhover [class*="swiper-button"] {
+  visibility: visible;
+  -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  opacity: 1;
+}
+
+.htmove-brand-area .htmove-has[class*="swiper-button"]:after{
+  display: none;
+}
+
+/*Brand Pagintaion style */
+.htmove-brand-area .swiper-pagination {
+  position: absolute;
+  bottom: -60px;
+  left: 50%;
+  transform: translate(-50%);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: auto;
+}
+.htmove-brand-area .htmove-onhover .swiper-pagination{
+  visibility: hidden;
+  opacity: 0;
+}
+.htmove-brand-area:hover .htmove-onhover .swiper-pagination{
+  visibility: visible;
+  opacity: 1;
+}
+.htmove-brand-area .swiper-pagination .swiper-pagination-bullet {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+  vertical-align: middle;
+  opacity: 1;
+  border: 0;
+  border-radius: 0;
+  outline: none;
+  background: transparent;
+}
+.htmove-brand-area .swiper-pagination .swiper-pagination-bullet::before {
+  z-index: 1;
+  display: block;
+  width: 10px;
+  height: 10px;
+  content: "";
+  -webkit-transition: all 0.7s;
+  -o-transition: all 0.7s;
+  transition: all 0.7s;
+  border-radius: 100%;
+  background-color: #EEEEEE;
+}
+.htmove-brand-area .swiper-pagination .swiper-pagination-bullet-active::before,.htmove-brand-area .swiper-pagination .swiper-pagination-bullet:hover::before {
+  background-color: #222222;
+}
+
+/* Brand Slider Style */
+.htmove-brand-area .swiper-wrapper {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+/* Brand One */
+.htmove-brand {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 120px;
+  transition: 0.4s;
+  position: relative;
+}
+
+.htmove-brand img {
+  transition: 0.4s;
+  -webkit-align-self: center;
+      -ms-flex-item-align: center;
+          align-self: center;
+}

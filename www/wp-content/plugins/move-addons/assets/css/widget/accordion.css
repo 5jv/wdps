@@ -1,0 +1,130 @@
+.htmove-accordion .htmove-accordion-card .htmove-accordion-body {
+  overflow: hidden;
+}
+
+.htmove-accordion .htmove-accordion-card:not(.is-active) .htmove-accordion-body {
+  visibility: hidden;
+}
+
+.htmove-accordion .htmove-accordion-card + .htmove-accordion-card {
+  margin-top: 12px;
+}
+
+.htmove-accordion .htmove-accordion-card .htmove-accordion-head {
+  font-family: "Space Grotesk";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.625;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 19px 25px;
+  cursor: pointer;
+  -webkit-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+.htmove-accordion .htmove-accordion-card .htmove-accordion-head .htmove-accordion-head-icon {
+  width: 30px;
+  text-align: center;
+}
+
+.htmove-accordion .htmove-accordion-card .htmove-accordion-head .htmove-accordion-head-icon i {
+  font-size: 16px;
+  line-height: 1.625;
+}
+
+.htmove-accordion .htmove-accordion-card .htmove-accordion-head .htmove-accordion-head-icon svg {
+  width: 16px;
+}
+
+.htmove-accordion .htmove-accordion-card .htmove-accordion-head .htmove-accordion-head-icon svg * {
+  -webkit-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.htmove-accordion .htmove-accordion-card.is-active .htmove-accordion-head .htmove-accordion-head-icon.htmove-accordion-close-icon,.htmove-accordion .htmove-accordion-card .htmove-accordion-head .htmove-accordion-head-icon.htmove-accordion-open-icon{
+  display: block;
+}
+
+.htmove-accordion .htmove-accordion-card.is-active .htmove-accordion-head .htmove-accordion-head-icon.htmove-accordion-open-icon,.htmove-accordion .htmove-accordion-card .htmove-accordion-head .htmove-accordion-head-icon.htmove-accordion-close-icon{
+  display: none;
+}
+
+.htmove-accordion .htmove-accordion-card.is-active .htmove-accordion-head .htmove-accordion-head-icon svg :not([stroke="none"]) {
+  fill: #FFFFFF;
+}
+.htmove-accordion .htmove-accordion-card.is-active .htmove-accordion-head .htmove-accordion-head-icon svg :not([fill="none"]) {
+  stroke: #FFFFFF;
+}
+.htmove-accordion .htmove-accordion-card .htmove-accordion-head .htmove-accordion-head-icon svg [fill="none"] {
+  fill: transparent !important;
+}
+.htmove-accordion .htmove-accordion-card .htmove-accordion-head .htmove-accordion-head-icon svg [stroke="none"] {
+  stroke: transparent !important;
+}
+
+.htmove-accordion .htmove-accordion-card .htmove-accordion-head .htmove-accordion-head-indicator {
+  position: relative;
+  width: 14px;
+  height: 14px;
+  margin-top: 5px;
+  margin-right: 10px;
+}
+.htmove-icon-pos-after.htmove-accordion .htmove-accordion-card .htmove-accordion-head .htmove-accordion-head-indicator{
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+.htmove-accordion .htmove-accordion-card .htmove-accordion-head .htmove-accordion-head-indicator::before, .htmove-accordion .htmove-accordion-card .htmove-accordion-head .htmove-accordion-head-indicator::after {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  content: "";
+  -webkit-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  border-radius: 10px;
+  background-color: #222222;
+}
+
+.htmove-accordion .htmove-accordion-card .htmove-accordion-head .htmove-accordion-head-indicator::after {
+  -webkit-transform: translateY(-50%) rotate(90deg);
+      -ms-transform: translateY(-50%) rotate(90deg);
+          transform: translateY(-50%) rotate(90deg);
+}
+.htmove-accordion .htmove-accordion-card.is-active .htmove-accordion-head .htmove-accordion-head-indicator::before, .htmove-accordion .htmove-accordion-card.is-active .htmove-accordion-head .htmove-accordion-head-indicator::after {
+  background-color: #FFFFFF;
+}
+
+.htmove-accordion .htmove-accordion-card.is-active .htmove-accordion-head .htmove-accordion-head-indicator::after {
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.htmove-accordion .htmove-accordion-card .htmove-accordion-body .htmove-accordion-content {
+  font-size: 15px;
+  padding: 16px 25px 4px;
+}
+
+.htmove-accordion .htmove-accordion-card .htmove-accordion-body .htmove-accordion-content p:last-child {
+  margin-bottom: 0;
+}
+
+.htmove-accordion .htmove-accordion-card.is-active .htmove-accordion-head {
+  color: #FFFFFF;
+  border-color: #1D39D7;
+  background-color: #1D39D7;
+}

@@ -1,0 +1,181 @@
+/* Form Wrapper */
+.htmove-form-wrapper {
+  padding: 80px 50px;
+  background-color: #FFFFFF;
+}
+
+@media only screen and (max-width: 767px) {
+  .htmove-form-wrapper {
+    padding: 50px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .htmove-form-wrapper {
+    padding: 40px 30px;
+  }
+}
+
+/* Form */
+.htmove-form-2 {
+  padding: 40px 40px 50px;
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Row */
+.htmove-form-row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+/* Form Column */
+.htmove-form-col {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 0 100%;
+      -ms-flex: 1 0 100%;
+          flex: 1 0 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.htmove-form-col-2 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 0 50%;
+      -ms-flex: 1 0 50%;
+          flex: 1 0 50%;
+}
+
+@media only screen and (max-width: 575px) {
+  .htmove-form-col-2 {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 0 100%;
+        -ms-flex: 1 0 100%;
+            flex: 1 0 100%;
+  }
+}
+
+/* Form Group */
+/* Form Label */
+.htmove-form-label {
+  font-family: "Space Grotesk";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1;
+  display: block;
+  margin-bottom: 12px;
+  color: #222222;
+}
+
+/* Form Control */
+.htmove-form-control {
+  position: relative;
+}
+
+.htmove-form-control .htmove-form-icon {
+  position: absolute;
+  top: 20px;
+  left: 16px;
+  color: #222222;
+  z-index: 99;
+}
+
+.htmove-form-control .htmove-form-icon i {
+  font-size: 16px;
+  line-height: 1;
+  display: block;
+}
+
+.htmove-form-control .htmove-form-icon + .wpcf7-form-control-wrap input:not([type="submit"]),
+.htmove-form-control .htmove-form-icon + .wpcf7-form-control-wrap textarea {
+  padding-left: 44px;
+}
+
+.htmove-form-control input:not([type="submit"]),
+.htmove-form-control textarea {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  display: block;
+  width: 100%;
+  height: 56px;
+  padding: 14px 16px;
+  -webkit-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  color: #999999;
+  border: 1px solid #E6E6E6;
+  border-radius: 4px;
+}
+
+.htmove-form-control input:not([type="submit"])::-webkit-input-placeholder,
+.htmove-form-control textarea::-webkit-input-placeholder {
+  color: #999999;
+}
+
+.htmove-form-control input:not([type="submit"]):-moz-placeholder,
+.htmove-form-control textarea:-moz-placeholder {
+  color: #999999;
+}
+
+.htmove-form-control input:not([type="submit"])::-moz-placeholder,
+.htmove-form-control textarea::-moz-placeholder {
+  color: #999999;
+}
+
+.htmove-form-control input:not([type="submit"]):-ms-input-placeholder,
+.htmove-form-control textarea:-ms-input-placeholder {
+  color: #999999;
+}
+
+.htmove-form-control input:not([type="submit"]):focus,
+.htmove-form-control textarea:focus {
+  border-color: #1D39D7;
+}
+
+.htmove-form-control textarea {
+  height: 110px;
+  resize: none;
+}
+
+.htmove-form-control input[type="submit"] {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 46px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 48px;
+  padding: 0 25px;
+  -webkit-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  white-space: nowrap;
+  letter-spacing: 1px;
+  color: #FFFFFF;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  background-color: #1D39D7;
+}
+
+.htmove-form-control input[type="submit"]:hover {
+  background-color: #1931b8;
+}
+
+div.wpcf7 .htmove-form .ajax-loader{
+  display: none;
+}

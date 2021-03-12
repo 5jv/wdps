@@ -1,0 +1,251 @@
+.htmove-image-comparison.htmove-label-pos-top .twentytwenty-overlay div::before {
+  top: 16px;
+  margin-top: 0;
+}
+
+.htmove-image-comparison.htmove-label-pos-bottom .twentytwenty-overlay div::before {
+  bottom: 16px;
+  margin-top: 0;
+  top: auto;
+}
+
+.htmove-image-comparison[class*="htmove-label-pos"] .twentytwenty-overlay div.twentytwenty-before-label::before {
+  left: 16px;
+}
+
+.htmove-image-comparison[class*="htmove-label-pos"] .twentytwenty-overlay div.twentytwenty-after-label::before {
+  right: 16px;
+}
+
+.htmove-image-comparison[class*="htmove-label-vpos"] .twentytwenty-overlay div.twentytwenty-before-label::before {
+  top: 16px;
+}
+
+.htmove-image-comparison[class*="htmove-label-vpos"] .twentytwenty-overlay div.twentytwenty-after-label::before {
+  bottom: 16px;
+}
+
+.htmove-image-comparison.htmove-label-vpos-left .twentytwenty-overlay div::before {
+  left: 16px;
+  margin-left: 0;
+}
+
+.htmove-image-comparison.htmove-label-vpos-right .twentytwenty-overlay div::before {
+  right: 16px;
+  left: auto;
+}
+
+.htmove-image-comparison .twentytwenty-handle::before,.htmove-image-comparison .twentytwenty-handle::after{
+  box-shadow: none;
+}
+.htmove-image-comparison .twentytwenty-handle::before{
+  margin-bottom: 20px;
+}
+.htmove-image-comparison .twentytwenty-handle::after{
+  margin-top: 20px;
+}
+
+/* Style One */
+.htmove-image-comparison-one {
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+.htmove-image-comparison-one img {
+  width: 100%;
+}
+
+.htmove-image-comparison-one .twentytwenty-overlay div {
+  opacity: 1;
+}
+
+.htmove-image-comparison-one .twentytwenty-overlay div::before {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.htmove-image-comparison-one.htmove-image-comparison-horizontal .twentytwenty-handle {
+  margin-left: -20px;
+  border-width: 1px;
+}
+
+.htmove-image-comparison-one.htmove-image-comparison-horizontal .twentytwenty-handle::before {
+  width: 1px;
+  margin-left: -0.5px;
+}
+
+.htmove-image-comparison-one.htmove-image-comparison-horizontal .twentytwenty-handle::after {
+  width: 1px;
+  margin-left: -0.5px;
+}
+
+.htmove-image-comparison-one.htmove-image-comparison-vertical .twentytwenty-handle {
+  margin-left: -20px;
+  border-width: 1px;
+}
+
+.htmove-image-comparison-one.htmove-image-comparison-vertical .twentytwenty-handle::before {
+  height: 1px;
+  margin-top: -0.5px;
+  margin-left: 19px;
+}
+
+.htmove-image-comparison-one.htmove-image-comparison-vertical .twentytwenty-handle::after {
+  height: 1px;
+  margin-top: -0.5px;
+  margin-right: 19px;
+}
+
+/* Style Two */
+.htmove-image-comparison-two {
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+.htmove-image-comparison-two img {
+  width: 100%;
+}
+
+.htmove-image-comparison-two .twentytwenty-overlay div {
+  opacity: 1;
+}
+
+.htmove-image-comparison-two .twentytwenty-overlay div::before {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1;
+  padding: 0;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 0;
+  background-color: transparent;
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.htmove-image-comparison-two .twentytwenty-handle {
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  background-color: transparent;
+}
+
+.htmove-image-comparison-two .twentytwenty-handle span {
+  top: 2px;
+  right: 2px;
+  bottom: 2px;
+  left: 2px;
+  width: auto;
+  height: auto;
+  margin: 0;
+  border: none;
+  border-radius: 50%;
+  background-color: #FFFFFF;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.htmove-image-comparison-two.htmove-image-comparison-horizontal .twentytwenty-handle {
+  margin-left: -20px;
+}
+
+.htmove-image-comparison-two.htmove-image-comparison-horizontal .twentytwenty-handle::before {
+  width: 2px;
+  margin-left: -1px;
+}
+
+.htmove-image-comparison-two.htmove-image-comparison-horizontal .twentytwenty-handle::after {
+  width: 2px;
+  margin-left: -1px;
+}
+
+.htmove-image-comparison-two.htmove-image-comparison-vertical .twentytwenty-handle {
+  margin-left: -20px;
+}
+
+.htmove-image-comparison-two.htmove-image-comparison-vertical .twentytwenty-handle::before {
+  height: 2px;
+  margin-top: -1px;
+  margin-left: 19px;
+}
+
+.htmove-image-comparison-two.htmove-image-comparison-vertical .twentytwenty-handle::after {
+  height: 2px;
+  margin-top: -1px;
+  margin-right: 19px;
+}
+
+/* Style Three */
+.htmove-image-comparison-three {
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+.htmove-image-comparison-three img {
+  width: 100%;
+}
+
+.htmove-image-comparison-three .twentytwenty-overlay div {
+  opacity: 1;
+}
+
+.htmove-image-comparison-three .twentytwenty-overlay div::before {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1;
+  padding: 0;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 0;
+  background-color: transparent;
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.htmove-image-comparison-three .twentytwenty-handle {
+  border: 2px solid #FFFFFF;
+  border-radius: 0;
+  background-color: transparent;
+}
+
+.htmove-image-comparison-three .twentytwenty-handle span {
+  display: none;
+}
+
+.htmove-image-comparison-three.htmove-image-comparison-horizontal .twentytwenty-handle {
+  width: 16px;
+  height: 38px;
+  margin-left: -20px;
+}
+
+.htmove-image-comparison-three.htmove-image-comparison-horizontal .twentytwenty-handle::before {
+  width: 2px;
+  margin-left: -1px;
+}
+
+.htmove-image-comparison-three.htmove-image-comparison-horizontal .twentytwenty-handle::after {
+  width: 2px;
+  margin-left: -1px;
+}
+
+.htmove-image-comparison-three.htmove-image-comparison-vertical .twentytwenty-handle {
+  width: 38px;
+  height: 16px;
+  margin-left: -20px;
+}
+
+.htmove-image-comparison-three.htmove-image-comparison-vertical .twentytwenty-handle::before {
+  height: 2px;
+  margin-top: -1px;
+  margin-left: 19px;
+}
+
+.htmove-image-comparison-three.htmove-image-comparison-vertical .twentytwenty-handle::after {
+  height: 2px;
+  margin-top: -1px;
+  margin-right: 19px;
+}

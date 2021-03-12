@@ -1,0 +1,509 @@
+/*---------------------------------------------
+    Button Style
+---------------------------------------------*/
+.htmove-btn {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 42px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 48px;
+  padding: 0 25px;
+  white-space: nowrap;
+  letter-spacing: 1px;
+  border: 2px solid transparent;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.07);
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.07);
+}
+
+.htmove-btn:hover {
+  text-decoration: none;
+}
+.htmove-btn a{
+  color: inherit;
+}
+.htmove-btn:focus{
+  color: inherit;
+  background-color: inherit;
+  text-decoration: none;
+}
+
+/* Button Sizes */
+.htmove-btn-xs {
+  line-height: 30px;
+  height: 32px;
+  padding: 0 20px;
+}
+
+.htmove-btn-sm {
+  line-height: 38px;
+  height: 40px;
+  padding: 0 25px;
+}
+
+.htmove-btn-lg {
+  line-height: 56px;
+  height: 56px;
+}
+
+.htmove-btn-xl {
+  line-height: 66px;
+  height: 66px;
+  padding: 0 60px;
+}
+
+.htmove-btn .htmove-btn-cion svg {
+  width: 16px;
+  height: 16px;
+}
+
+.htmove-btn .htmove-btn-cion svg :not([stroke="none"]) {
+  fill: #FFFFFF;
+}
+.htmove-btn .htmove-btn-cion svg :not([fill="none"]) {
+  stroke: #FFFFFF;
+}
+.htmove-btn .htmove-btn-cion svg [fill="none"] {
+  fill: transparent !important;
+}
+.htmove-btn .htmove-btn-cion svg [stroke="none"] {
+  stroke: transparent !important;
+}
+
+/*Icon Position*/
+.htmove-button-icon-left .htmove-btn{
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+/* Button Color & Style (Solid & Outline) */
+.htmove-btn-primary {
+  border-color: #1D39D7;
+  background-color: #1D39D7;
+  color: #FFFFFF;
+}
+
+.htmove-btn-primary:hover,.htmove-btn-primary:focus{
+  border-color: transparent;
+  background-color: #1830b5;
+  color: #FFFFFF;
+}
+
+.htmove-btn-outline-primary {
+  color: #1D39D7;
+  border-color: #1D39D7;
+  background-color: transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.htmove-btn-outline-primary:hover {
+  border-color: transparent;
+  background-color: #1D39D7;
+  color: #FFFFFF;
+}
+
+.htmove-btn-secondary {
+  border-color: #222222;
+  background-color: #222222;
+  color: #FFFFFF;
+}
+
+.htmove-btn-secondary:hover, .htmove-btn-secondary:focus {
+  border-color: transparent;
+  background-color: #0f0f0f;
+  color: #FFFFFF;
+}
+
+.htmove-btn-outline-secondary {
+  color: #222222;
+  border-color: #222222;
+  background-color: transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.htmove-btn-outline-secondary:hover {
+  border-color: transparent;
+  background-color: #222222;
+  color: #FFFFFF;
+}
+
+.htmove-btn-success {
+  border-color: #4CAF50;
+  background-color: #4CAF50;
+  color: #FFFFFF;
+}
+
+.htmove-btn-success:hover, .htmove-btn-success:focus {
+  border-color: transparent;
+  background-color: #409444;
+  color: #FFFFFF;
+}
+
+.htmove-btn-outline-success {
+  color: #4CAF50;
+  border-color: #4CAF50;
+  background-color: transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.htmove-btn-outline-success:hover {
+  border-color: transparent;
+  background-color: #4CAF50;
+  color: #FFFFFF;
+}
+
+.htmove-btn-danger {
+  border-color: #F44336;
+  background-color: #F44336;
+  color: #FFFFFF;
+}
+
+.htmove-btn-danger:hover, .htmove-btn-danger:focus {
+  border-color: transparent;
+  background-color: #f22112;
+  color: #FFFFFF;
+}
+
+.htmove-btn-outline-danger {
+  color: #F44336;
+  border-color: #F44336;
+  background-color: transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.htmove-btn-outline-danger:hover {
+  border-color: transparent;
+  background-color: #F44336;
+  color: #FFFFFF;
+}
+
+.htmove-btn-warning {
+  border-color: #FFC107;
+  background-color: #FFC107;
+  color: #222222;
+}
+
+.htmove-btn-warning:hover, .htmove-btn-warning:focus {
+  border-color: transparent;
+  background-color: #e0a800;
+  color: #222222;
+}
+
+.htmove-btn-outline-warning {
+  color: #FFC107;
+  border-color: #FFC107;
+  background-color: transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.htmove-btn-outline-warning:hover {
+  border-color: transparent;
+  background-color: #FFC107;
+  color: #222222;
+}
+
+.htmove-btn-info {
+  border-color: #17A2B8;
+  background-color: #17A2B8;
+  color: #FFFFFF;
+}
+
+.htmove-btn-info:hover, .htmove-btn-info:focus {
+  border-color: transparent;
+  background-color: #138496;
+  color: #FFFFFF;
+}
+
+.htmove-btn-outline-info {
+  color: #17A2B8;
+  border-color: #17A2B8;
+  background-color: transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.htmove-btn-outline-info:hover {
+  border-color: transparent;
+  background-color: #17A2B8;
+  color: #FFFFFF;
+}
+
+.htmove-btn-light {
+  border-color: #FFFFFF;
+  background-color: #FFFFFF;
+  color: #222222;
+}
+
+.htmove-btn-light:hover, .htmove-btn-light:focus {
+  border-color: transparent;
+  background-color: #ececec;
+  background-color: #FFFFFF;
+  color: #222222;
+}
+
+.htmove-btn-outline-light {
+  color: #FFFFFF;
+  border-color: #FFFFFF;
+  background-color: transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.htmove-btn-outline-light:hover {
+  border-color: transparent;
+  background-color: #FFFFFF;
+  color: #222222;
+}
+
+.htmove-btn-dark {
+  border-color: #222222;
+  background-color: #222222;
+  color: #FFFFFF;
+}
+
+.htmove-btn-dark:hover, .htmove-btn-dark:focus {
+  border-color: transparent;
+  background-color: #0f0f0f;
+  color: #FFFFFF;
+}
+
+.htmove-btn-outline-dark {
+  color: #222222;
+  border-color: #222222;
+  background-color: transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.htmove-btn-outline-dark:hover {
+  border-color: transparent;
+  background-color: #222222;
+  color: #FFFFFF;
+}
+
+.htmove-btn-grey {
+  border-color: #DDDDDD;
+  background-color: #DDDDDD;
+  color: #FFFFFF;
+}
+
+.htmove-btn-grey:hover, .htmove-btn-grey:focus {
+  border-color: transparent;
+  background-color: #cacaca;
+  color: #FFFFFF;
+}
+
+.htmove-btn-outline-grey {
+  color: #DDDDDD;
+  border-color: #DDDDDD;
+  background-color: transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.htmove-btn-outline-grey:hover {
+  border-color: transparent;
+  background-color: #DDDDDD;
+  color: #FFFFFF;
+}
+.htmove-btn-grey {
+  color: #222222;
+}
+
+.htmove-btn-grey:hover {
+  color: #222222;
+}
+
+.htmove-btn-outline-grey {
+  color: #222222;
+}
+
+.htmove-btn-outline-grey:hover {
+  color: #222222;
+}
+
+.htmove-btn-gradient {
+  color: #FFFFFF;
+  border: none;
+  background-image: -webkit-linear-gradient(315deg, #FF3F85 0%, #FAA520 51%, #FF3F85 100%);
+  background-image: -o-linear-gradient(315deg, #FF3F85 0%, #FAA520 51%, #FF3F85 100%);
+  background-image: linear-gradient(135deg, #FF3F85 0%, #FAA520 51%, #FF3F85 100%);
+  background-size: 200% auto;
+}
+
+.htmove-btn-gradient:hover {
+  background-position: right center;
+}
+
+/* Button Hover Color & Style (Solid & Outline) */
+.htmove-btn-hover-primary:hover, .htmove-btn-hover-primary:not(:disabled):not(.disabled).active {
+  border-color: transparent;
+  background-color: #1D39D7;
+  color: #FFFFFF;
+}
+
+.htmove-btn-outline-hover-primary:hover, .htmove-btn-outline-hover-primary:not(:disabled):not(.disabled).active {
+  color: #1D39D7;
+  border-color: #1D39D7;
+  background-color: transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.htmove-btn-hover-secondary:hover, .htmove-btn-hover-secondary:not(:disabled):not(.disabled).active {
+  border-color: transparent;
+  background-color: #222222;
+  color: #FFFFFF;
+}
+
+.htmove-btn-outline-hover-secondary:hover, .htmove-btn-outline-hover-secondary:not(:disabled):not(.disabled).active {
+  color: #222222;
+  border-color: #222222;
+  background-color: transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.htmove-btn-hover-success:hover, .htmove-btn-hover-success:not(:disabled):not(.disabled).active {
+  border-color: transparent;
+  background-color: #4CAF50;
+  color: #FFFFFF;
+}
+
+.htmove-btn-outline-hover-success:hover, .htmove-btn-outline-hover-success:not(:disabled):not(.disabled).active {
+  color: #4CAF50;
+  border-color: #4CAF50;
+  background-color: transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.htmove-btn-hover-danger:hover, .htmove-btn-hover-danger:not(:disabled):not(.disabled).active {
+  border-color: transparent;
+  background-color: #F44336;
+  color: #FFFFFF;
+}
+
+.htmove-btn-outline-hover-danger:hover, .htmove-btn-outline-hover-danger:not(:disabled):not(.disabled).active {
+  color: #F44336;
+  border-color: #F44336;
+  background-color: transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.htmove-btn-hover-warning:hover, .htmove-btn-hover-warning:not(:disabled):not(.disabled).active {
+  border-color: transparent;
+  background-color: #FFC107;
+  color: #222222;
+}
+
+.htmove-btn-outline-hover-warning:hover, .htmove-btn-outline-hover-warning:not(:disabled):not(.disabled).active {
+  color: #FFC107;
+  border-color: #FFC107;
+  background-color: transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.htmove-btn-hover-info:hover, .htmove-btn-hover-info:not(:disabled):not(.disabled).active {
+  border-color: transparent;
+  background-color: #17A2B8;
+  color: #FFFFFF;
+}
+
+.htmove-btn-outline-hover-info:hover, .htmove-btn-outline-hover-info:not(:disabled):not(.disabled).active {
+  color: #17A2B8;
+  border-color: #17A2B8;
+  background-color: transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.htmove-btn-hover-light:hover, .htmove-btn-hover-light:not(:disabled):not(.disabled).active {
+  border-color: transparent;
+  background-color: #FFFFFF;
+  color: #222222;
+}
+
+.htmove-btn-outline-hover-light:hover, .htmove-btn-outline-hover-light:not(:disabled):not(.disabled).active {
+  color: #FFFFFF;
+  border-color: #FFFFFF;
+  background-color: transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.htmove-btn-hover-dark:hover, .htmove-btn-hover-dark:not(:disabled):not(.disabled).active {
+  border-color: transparent;
+  background-color: #222222;
+  color: #FFFFFF;
+}
+
+.htmove-btn-outline-hover-dark:hover, .htmove-btn-outline-hover-dark:not(:disabled):not(.disabled).active {
+  color: #222222;
+  border-color: #222222;
+  background-color: transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.htmove-btn-hover-grey:hover, .htmove-btn-hover-grey:not(:disabled):not(.disabled).active {
+  border-color: transparent;
+  background-color: #DDDDDD;
+  color: #FFFFFF;
+}
+
+.htmove-btn-outline-hover-grey:hover, .htmove-btn-outline-hover-grey:not(:disabled):not(.disabled).active {
+  color: #DDDDDD;
+  border-color: #DDDDDD;
+  background-color: transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.htmove-btn-outline-hover-grey:hover {
+  color: #222222;
+}
+
+.htmove-btn-hover-custom-gradient {
+  border: none;
+}
+
+.htmove-btn-hover-custom-gradient:hover {
+  color: #FFFFFF;
+  background-image: -webkit-linear-gradient(315deg, #FF3F85 0%, #FAA520 100%);
+  background-image: -o-linear-gradient(315deg, #FF3F85 0%, #FAA520 100%);
+  background-image: linear-gradient(135deg, #FF3F85 0%, #FAA520 100%);
+}
+
+/* Dual Buttons */
+.htmove-dual-buttons {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin: -6px;
+}
+
+.htmove-dual-buttons .htmove-btn {
+  margin: 6px;
+}

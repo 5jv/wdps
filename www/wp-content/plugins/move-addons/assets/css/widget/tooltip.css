@@ -1,0 +1,122 @@
+/* Tooltip (Button/Link/Others) */
+.htmove-tooltip {
+  display: inline-block;
+  width: 100%;
+}
+
+.htmove-tooltip img {
+  width: 100%;
+}
+
+/* Tippy Box (Tooltip Wrapper) */
+.tippy-box {
+  background-color: #262626;
+}
+
+.tippy-box .tippy-content {
+  padding: 19px 16px;
+  color: #999999;
+  border-radius: 4px;
+}
+
+.tippy-box .tippy-content .htmove-tooltip-title {
+  font-family: "Space Grotesk";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.625;
+  margin-bottom: 6px;
+  color: #FFFFFF;
+}
+
+.tippy-box .tippy-content p:last-child {
+  margin-bottom: 0;
+}
+
+.tippy-box .tippy-content img {
+  width: 100%;
+}
+
+.tippy-box .tippy-arrow {
+  width: 24px;
+  height: 24px;
+}
+
+.tippy-box[data-placement^="top"] {
+  text-align: center;
+}
+
+.tippy-box[data-placement^="top"] .tippy-arrow::before {
+  bottom: -11px;
+  border-width: 12px 12px 0;
+  border-top-color: #262626;
+}
+
+.tippy-box[data-placement^="bottom"] {
+  text-align: center;
+}
+
+.tippy-box[data-placement^="bottom"] .tippy-arrow::before {
+  top: -11px;
+  border-width: 0 12px 12px;
+  border-bottom-color: #262626;
+}
+
+.tippy-box[data-placement^="right"] {
+  text-align: left;
+}
+
+.tippy-box[data-placement^="right"] .tippy-arrow::before {
+  left: -11px;
+  border-width: 12px 12px 12px 0;
+  border-right-color: #262626;
+}
+
+.tippy-box[data-placement^="left"] {
+  text-align: right;
+}
+
+.tippy-box[data-placement^="left"] .tippy-arrow::before {
+  right: -11px;
+  border-width: 12px 0 12px 12px;
+  border-left-color: #262626;
+}
+
+.tippy-box[data-theme="light"] {
+  background-color: #FFFFFF;
+}
+
+.tippy-box[data-theme="light"] .tippy-content .htmove-tooltip-title {
+  color: #1D39D7;
+}
+
+.tippy-box[data-theme="light"][data-placement^="top"] {
+  text-align: center;
+}
+
+.tippy-box[data-theme="light"][data-placement^="top"] .tippy-arrow::before {
+  border-top-color: #FFFFFF;
+}
+
+.tippy-box[data-theme="light"][data-placement^="bottom"] {
+  text-align: center;
+}
+
+.tippy-box[data-theme="light"][data-placement^="bottom"] .tippy-arrow::before {
+  border-bottom-color: #FFFFFF;
+}
+
+.tippy-box[data-theme="light"][data-placement^="right"] {
+  text-align: left;
+}
+
+.tippy-box[data-theme="light"][data-placement^="right"] .tippy-arrow::before {
+  border-right-color: #FFFFFF;
+}
+
+.tippy-box[data-theme="light"][data-placement^="left"] {
+  text-align: right;
+}
+
+.tippy-box[data-theme="light"][data-placement^="left"] .tippy-arrow::before {
+  border-left-color: #FFFFFF;
+}

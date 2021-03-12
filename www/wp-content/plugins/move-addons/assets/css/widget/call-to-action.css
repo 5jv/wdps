@@ -1,0 +1,172 @@
+/* Call To Action Content */
+.htmove-cta-content .htmove-cta-title {
+  font-family: "Space Grotesk";
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 1.25;
+  color: #FFFFFF;
+}
+
+.htmove-cta-content .htmove-cta-desc:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.htmove-cta-content .htmove-cta-desc p {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.75;
+  color: #FFFFFF;
+}
+
+.htmove-cta-content .htmove-cta-desc p:last-child {
+  margin-bottom: 0;
+}
+
+.htmove-cta-content .htmove-cta-btn {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 46px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 48px;
+  padding: 0 25px;
+  -webkit-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  white-space: nowrap;
+  text-decoration: none;
+  letter-spacing: 1px;
+  color: #333333;
+  border: 1px solid transparent;
+  border-radius: 100px;
+  background-color: #FFFFFF;
+}
+
+.htmove-cta-content .htmove-cta-btn i {
+  font-size: 16px;
+  margin-right: 3px;
+  -webkit-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  color: #1D39D7;
+}
+
+.htmove-cta-content .htmove-cta-btn svg{
+  width: 16px;
+  height: 16px;
+  margin-right: 3px;
+}
+
+.htmove-cta-content .htmove-cta-btn svg :not([stroke="none"]) {
+  fill: #1D39D7;
+}
+.htmove-cta-content .htmove-cta-btn svg :not([fill="none"]) {
+  stroke: #1D39D7;
+}
+.htmove-cta-content .htmove-cta-btn svg [fill="none"] {
+  fill: transparent !important;
+}
+.htmove-cta-content .htmove-cta-btn svg [stroke="none"] {
+  stroke: transparent !important;
+}
+
+.htmove-cta-content.htmove-icon-right .htmove-cta-btn i,.htmove-cta-content.htmove-icon-right .htmove-cta-btn svg{
+  margin-right: 0;
+  margin-left: 3px;
+}
+
+.htmove-cta-content .htmove-cta-btn:hover {
+  text-decoration: none;
+}
+
+.htmove-cta-content .htmove-cta-btn:hover i {
+  margin-right: 6px;
+}
+
+.htmove-cta-content-center {
+  text-align: center;
+}
+
+.htmove-cta-content-center .htmove-cta-desc {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.htmove-cta-content-one .htmove-cta-desc {
+  max-width: 450px;
+}
+
+.htmove-cta-content-two {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.htmove-cta-content-two .htmove-cta-btn {
+  -ms-flex-item-align: center;
+  align-self: center;
+}
+.htmove-cta-content-two .htmove-cta-content-area{
+  padding-left: 20px;
+  border-left: 4px solid #F8E71C;
+}
+
+@media only screen and (max-width: 575px) {
+  .htmove-cta-content .htmove-cta-title {
+    font-size: 32px;
+  }
+}
+
+/* Call To Action Image */
+.htmove-cta-image img {
+  max-width: 100%;
+}
+
+.htmove-crow {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.htmove-ccol-2 {
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  max-width: 50%;
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.htmove-ccol-2.htmove-img-pos-right{
+  -ms-flex-order: 2;
+  order: 2;
+}
+.htmove-ccol-2.htmove-ccontent-pos-middle{
+  -ms-flex-item-align: center;
+  align-self: center;
+}
+.htmove-ccol-2.htmove-ccontent-pos-top{
+  -ms-flex-item-align: start;
+  align-self: start;
+}
+.htmove-ccol-2.htmove-ccontent-pos-bottom{
+  -ms-flex-item-align: end;
+  align-self: end;
+}
+.htmove-cta-content-align-right .htmove-cta-content-one .htmove-cta-desc{
+  margin-left:auto;
+}
+.htmove-cta-content-align-center .htmove-cta-content-one .htmove-cta-desc{
+  margin-left:auto;
+  margin-right:auto;
+}

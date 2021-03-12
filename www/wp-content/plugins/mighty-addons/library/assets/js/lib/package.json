@@ -1,0 +1,43 @@
+{
+  "name": "mighty-addons",
+  "version": "1.0.0",
+  "description": "Mighty Addons is a collection of premium quality addons for the Elementor page builder. Addons are continually added and improved.",
+  "main": "app.js",
+  "dependencies": {
+    "react-paginate": "^6.3.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/preset-env": "^7.10.2",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.1.0",
+    "bable-loader": "^0.0.1-security",
+    "css-loader": "^3.4.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "style-loader": "^1.1.2",
+    "webpack": "^4.41.4",
+    "webpack-cli": "^3.3.10"
+  },
+  "scripts": {
+    "dev": "webpack --mode development --env.dist=false",
+    "dev:dist": "webpack --mode development",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mightythemes/Mighty-Addons.git"
+  },
+  "keywords": [
+    "wordpress",
+    "ReactJs",
+    "Plugin"
+  ],
+  "author": "MightyThemes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mightythemes/Mighty-Addons/issues"
+  },
+  "homepage": "https://github.com/mightythemes/Mighty-Addons#readme"
+}

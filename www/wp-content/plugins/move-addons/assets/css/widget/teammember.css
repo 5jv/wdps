@@ -1,0 +1,764 @@
+/*---------------------------------------------
+    01 - Team One
+---------------------------------------------*/
+.htmove-team-one .htmove-team-inner {
+  position: relative;
+}
+
+.htmove-team-one .htmove-team-inner .htmove-team-image {
+  position: relative;
+  overflow: hidden;
+  -webkit-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.htmove-team-one .htmove-team-inner .htmove-team-image .htmove-team-overlay {
+  display: none;
+}
+
+.htmove-team-one .htmove-team-inner .htmove-team-image img {
+  width: 100%;
+  -webkit-transition: all 1.5s cubic-bezier(0, 0, 0.2, 1);
+  -o-transition: all 1.5s cubic-bezier(0, 0, 0.2, 1);
+  transition: all 1.5s cubic-bezier(0, 0, 0.2, 1);
+}
+
+.htmove-team .htmove-team-inner .htmove-team-image .htmove-team-social {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  visibility: hidden;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+  opacity: 0;
+}
+
+.htmove-team .htmove-team-inner .htmove-team-image .htmove-team-social a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 50px;
+  height: 50px;
+  margin: 0 5px;
+  color: #9B9B9B;
+  border-radius: 50%;
+  background-color: #FFFFFF;
+}
+
+.htmove-team .htmove-team-inner .htmove-team-image .htmove-team-social a i {
+  font-size: 18px;
+}
+
+.htmove-team .htmove-team-inner .htmove-team-image .htmove-team-social a:hover {
+  text-decoration: none;
+  color: #FFFFFF;
+  background-color: #1D39D7;
+}
+
+.htmove-team .htmove-team-social a svg{
+  width: 16px;
+  height: 16px;
+}
+.htmove-team .htmove-team-social a svg :not([stroke="none"]) {
+  fill: #9B9B9B;
+}
+.htmove-team .htmove-team-social a svg :not([fill="none"]) {
+  stroke: #9B9B9B;
+}
+.htmove-team .htmove-team-social a svg [fill="none"] {
+  fill: transparent !important;
+}
+.htmove-team .htmove-team-social a svg [stroke="none"] {
+  stroke: transparent !important;
+}
+
+.htmove-team-one .htmove-team-inner .htmove-team-info {
+  margin-top: 32px;
+  text-align: center;
+}
+
+.htmove-team-one .htmove-team-inner .htmove-team-info .htmove-team-name {
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 1;
+  margin: 0;
+  color: #222222;
+}
+
+.htmove-team-one .htmove-team-inner .htmove-team-info .htmove-team-designation {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1;
+  display: block;
+  margin-top: 11px;
+  color: #999999;
+}
+
+.htmove-team-one:hover .htmove-team-inner .htmove-team-image {
+  -webkit-box-shadow: 0 55px 40px -40px rgba(51, 51, 51, 0.25);
+          box-shadow: 0 55px 40px -40px rgba(51, 51, 51, 0.25);
+}
+
+.htmove-team-one:hover .htmove-team-inner .htmove-team-image img {
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.htmove-team:hover .htmove-team-inner .htmove-team-image .htmove-team-social {
+  visibility: visible;
+  opacity: 1;
+}
+
+/*---------------------------------------------
+    02 - Team Two
+---------------------------------------------*/
+.htmove-team-two .htmove-team-inner {
+  position: relative;
+}
+
+.htmove-team-two .htmove-team-inner .htmove-team-image {
+  position: relative;
+  overflow: hidden;
+  -webkit-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  display: flex;
+}
+
+.htmove-team-two .htmove-team-inner .htmove-team-image .htmove-team-overlay {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  opacity: 0;
+  background:#1D39D7;
+}
+
+.htmove-team-two .htmove-team-inner .htmove-team-image img {
+  width: 100%;
+  -webkit-transition: all 1.5s cubic-bezier(0, 0, 0.2, 1);
+  -o-transition: all 1.5s cubic-bezier(0, 0, 0.2, 1);
+  transition: all 1.5s cubic-bezier(0, 0, 0.2, 1);
+}
+
+.htmove-team-two .htmove-team-inner .htmove-team-image .htmove-team-social {
+  position: absolute;
+  z-index: 9;
+  bottom: 45px;
+  left: 50%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  visibility: hidden;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+  opacity: 0;
+}
+
+.htmove-team-two .htmove-team-inner .htmove-team-image .htmove-team-social a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 40px;
+  height: 40px;
+  margin: 0 8px;
+  color: #222222;
+  border-radius: 50%;
+  background-color: #FFFFFF;
+}
+
+.htmove-team-two .htmove-team-inner .htmove-team-image .htmove-team-social a i {
+  font-size: 18px;
+}
+
+.htmove-team-two .htmove-team-inner .htmove-team-image .htmove-team-social a:hover {
+  text-decoration: none;
+  color: #FFFFFF;
+  background-color: #1D39D7;
+}
+
+.htmove-team-two .htmove-team-inner .htmove-team-info {
+  margin-top: 32px;
+  text-align: center;
+}
+
+.htmove-team-two .htmove-team-inner .htmove-team-info .htmove-team-name {
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 1;
+  margin: 0;
+  color: #222222;
+}
+
+.htmove-team-two .htmove-team-inner .htmove-team-info .htmove-team-designation {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1;
+  display: block;
+  margin-top: 11px;
+  color: #999999;
+}
+
+.htmove-team-two:hover .htmove-team-inner .htmove-team-image .htmove-team-overlay {
+  visibility: visible;
+  opacity: 0.7;
+}
+
+.htmove-team-two:hover .htmove-team-inner .htmove-team-image .htmove-team-social {
+  bottom: 40px;
+  visibility: visible;
+  opacity: 1;
+}
+
+/*---------------------------------------------
+    03 - Team Three
+---------------------------------------------*/
+.htmove-team-three .htmove-team-inner {
+  position: relative;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.htmove-team-three .htmove-team-inner [class*="shape"] {
+  position: absolute;
+  visibility: hidden;
+  width: 100%;
+  -webkit-transition: all 0.3s linear, -webkit-transform 0.3s cubic-bezier(0, 0, 0.2, 1);
+  transition: all 0.3s linear, -webkit-transform 0.3s cubic-bezier(0, 0, 0.2, 1);
+  -o-transition: all 0.3s linear, transform 0.3s cubic-bezier(0, 0, 0.2, 1);
+  transition: all 0.3s linear, transform 0.3s cubic-bezier(0, 0, 0.2, 1);
+  transition: all 0.3s linear, transform 0.3s cubic-bezier(0, 0, 0.2, 1), -webkit-transform 0.3s cubic-bezier(0, 0, 0.2, 1);
+  text-align: center;
+  opacity: 0;
+}
+
+.htmove-team-three .htmove-team-inner [class*="shape"] img {
+  max-width: 100%;
+  height: auto;
+}
+
+.htmove-team-three .htmove-team-inner .htmove-team-shape-1 {
+  top: 23px;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateX(-30px) rotate(-10deg);
+      -ms-transform: translateX(-50%) translateX(-30px) rotate(-10deg);
+          transform: translateX(-50%) translateX(-30px) rotate(-10deg);
+}
+
+.htmove-team-three .htmove-team-inner .htmove-team-shape-2 {
+  top: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateX(40px) rotate(20deg);
+      -ms-transform: translateX(-50%) translateX(40px) rotate(20deg);
+          transform: translateX(-50%) translateX(40px) rotate(20deg);
+}
+
+.htmove-team-three .htmove-team-inner .htmove-team-shape-3 {
+  top: 120px;
+  left: 50%;
+  -webkit-transform: translate(-50%, 20px);
+      -ms-transform: translate(-50%, 20px);
+          transform: translate(-50%, 20px);
+}
+
+.htmove-team-three .htmove-team-inner .htmove-team-image {
+  position: relative;
+  overflow: hidden;
+  width: 120px;
+  height: 120px;
+  margin: auto;
+  -webkit-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  border-radius: 50%;
+}
+
+.htmove-team-three .htmove-team-inner .htmove-team-image .htmove-team-overlay {
+  display: block;
+}
+
+.htmove-team-three .htmove-team-inner .htmove-team-image img {
+  width: 100%;
+  -webkit-transition: all 1.5s cubic-bezier(0, 0, 0.2, 1);
+  -o-transition: all 1.5s cubic-bezier(0, 0, 0.2, 1);
+  transition: all 1.5s cubic-bezier(0, 0, 0.2, 1);
+}
+
+.htmove-team-three .htmove-team-inner .htmove-team-info {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 30px;
+}
+
+.htmove-team-three .htmove-team-inner .htmove-team-info .htmove-team-name {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1;
+  margin-bottom: 10px;
+  color: #222222;
+}
+
+.htmove-team-three .htmove-team-inner .htmove-team-info .htmove-team-designation {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1;
+  display: block;
+  margin-bottom: 18px;
+  letter-spacing: 1px;
+  color: #999999;
+}
+
+.htmove-team-three .htmove-team-inner .htmove-team-info .htmove-team-bio {
+  font-size: 15px;
+  line-height: 1.75;
+  margin-bottom: 0;
+  color: #999999;
+}
+
+.htmove-team-three:hover .htmove-team-inner [class*="shape"] {
+  visibility: visible;
+  opacity: 1;
+}
+
+.htmove-team-three:hover .htmove-team-inner .shape-1 {
+  -webkit-transition-delay: 0.2s;
+       -o-transition-delay: 0.2s;
+          transition-delay: 0.2s;
+  -webkit-transform: translateX(-50%) translateX(-30px) rotate(0deg);
+      -ms-transform: translateX(-50%) translateX(-30px) rotate(0deg);
+          transform: translateX(-50%) translateX(-30px) rotate(0deg);
+}
+
+.htmove-team-three:hover .htmove-team-inner .shape-2 {
+  -webkit-transition-delay: 0.3s;
+       -o-transition-delay: 0.3s;
+          transition-delay: 0.3s;
+  -webkit-transform: translateX(-50%) translateX(40px) rotate(0deg);
+      -ms-transform: translateX(-50%) translateX(40px) rotate(0deg);
+          transform: translateX(-50%) translateX(40px) rotate(0deg);
+}
+
+.htmove-team-three:hover .htmove-team-inner .shape-3 {
+  -webkit-transform: translate(-50%, 0);
+      -ms-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+}
+
+.htmove-team-three:hover .htmove-team-inner .htmove-team-image {
+  -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+/*---------------------------------------------
+    04 - Team Four
+---------------------------------------------*/
+.htmove-team-four {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.htmove-team4-image-slider,.htmove-team4-content-slider {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.htmove-team4-image-slider {
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  max-width: 50%;
+  margin-right: auto;
+}
+.htmove-team4-content-slider {
+  -ms-flex: 0 0 41.666667%;
+  flex: 0 0 41.666667%;
+  max-width: 41.666667%;
+  align-self: center;
+}
+
+.htmove-team4-image-slider {
+  height: 100%;
+}
+
+.htmove-team4-image-slider .swiper-container {
+  height: 100%;
+}
+
+.htmove-team4-image {
+  height: 100%;
+}
+
+.htmove-team4-image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.htmove-team4-content-slider .swiper-pagination {
+  position: static;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 50px -15px 0;
+}
+
+.htmove-team4-content-slider .swiper-pagination .swiper-pagination-bullet {
+  position: relative;
+  overflow: hidden;
+  width: 80px;
+  height: auto;
+  margin: 0 15px;
+  -webkit-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  opacity: 1;
+  border: none;
+  background-color: transparent;
+  display: flex;
+}
+.htmove-team4-content-slider .swiper-pagination .swiper-pagination-bullet::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  -webkit-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  opacity: 0;
+  background-color: #1D39D7;
+}
+
+.htmove-team4-content-slider .swiper-pagination .swiper-pagination-bullet img {
+  width: 100%;
+  border-radius: 100%;
+}
+
+.htmove-team4-content-slider .swiper-pagination .swiper-pagination-bullet-active::before {
+  opacity: 0.8;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (max-width: 767px) {
+  .htmove-team4-content-slider .swiper-pagination {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .htmove-team4-image-slider {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .htmove-team4-content-slider {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+.htmove-team4-content .htmove-team-content-head {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.htmove-team4-content .htmove-team-content-head .htmove-team-info .htmove-team-name {
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 0;
+  color: #222222;
+}
+
+.htmove-team4-content .htmove-team-content-head .htmove-team-info .htmove-team-designation {
+  font-family: "Space Grotesk";
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 1.5;
+  display: block;
+  color: #222222;
+}
+
+.htmove-team4-content .htmove-team-content-head .htmove-team4-social {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-align-self: flex-start;
+      -ms-flex-item-align: start;
+          align-self: flex-start;
+  margin-top: 15px;
+  padding-right: 3px;
+}
+
+.htmove-team4-content .htmove-team-content-head .htmove-team4-social a {
+  margin-right: 20px;
+  color: #999999;
+}
+
+.htmove-team4-content .htmove-team-content-head .htmove-team4-social a:last-child {
+  margin-right: 0;
+}
+
+.htmove-team4-content .htmove-team-content-head .htmove-team4-social a i {
+  font-size: 16px;
+  line-height: 1;
+}
+
+.htmove-team4-content .htmove-team-content-head .htmove-team4-social a:hover {
+  color: #1D39D7;
+}
+
+.htmove-team4-content .htmove-team-bio p {
+  font-size: 15px;
+  line-height: 1.75;
+  margin-bottom: 25px;
+  color: #999999;
+}
+
+.htmove-team4-content .htmove-team-bio p:last-child {
+  margin-bottom: 0;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (max-width: 575px) {
+  .htmove-team4-content .htmove-team-content-head {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 20px;
+  }
+  .htmove-team4-content .htmove-team-content-head .htmove-team-info .htmove-team-name {
+    font-size: 32px;
+  }
+  .htmove-team4-content .htmove-team-content-head .htmove-team-info .htmove-team-designation {
+    font-size: 16px;
+  }
+  .htmove-team4-content .htmove-team-content-head .htmove-team4-social {
+    margin-top: 10px;
+  }
+}
+
+/*---------------------------------------------
+    05 - Team Five
+---------------------------------------------*/
+.htmove-widget-space-none .elementor-widget:not(:last-child) {
+  margin-bottom: 0;
+}
+.htmove-team-five .htmove-team-inner {
+  position: relative;
+}
+
+.htmove-team-five .htmove-team-inner .htmove-team-image {
+  position: relative;
+  overflow: hidden;
+  -webkit-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.htmove-team-five .htmove-team-inner .htmove-team-image .htmove-team-overlay {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.htmove-team-five .htmove-team-inner .htmove-team-image img {
+  width: 100%;
+  -webkit-transition: all 1.5s cubic-bezier(0, 0, 0.2, 1);
+  -o-transition: all 1.5s cubic-bezier(0, 0, 0.2, 1);
+  transition: all 1.5s cubic-bezier(0, 0, 0.2, 1);
+  display: flex;
+}
+
+.htmove-team-five .htmove-team-inner .htmove-team-image .htmove-team-social {
+  position: absolute;
+  z-index: 3;
+  right: 30px;
+  top: 30px;
+  bottom: auto;
+  left: auto;
+  transform: translateX(0);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  opacity: 0;
+}
+
+.htmove-team-five .htmove-team-inner .htmove-team-image .htmove-team-social a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 20px;
+  text-decoration: none;
+  color: #FFFFFF;
+  width: inherit;
+  height: inherit;
+  background: transparent;
+  margin-left: 0;
+}
+
+.htmove-team-five .htmove-team-inner .htmove-team-image .htmove-team-social a:last-child {
+  margin-right: 0;
+}
+
+.htmove-team-five .htmove-team-inner .htmove-team-image .htmove-team-social a i {
+  font-size: 16px;
+  line-height: 1;
+}
+
+.htmove-team-five .htmove-team-inner .htmove-team-image .htmove-team-social a:hover {
+  color: #ffffff;
+  background: transparent;
+}
+
+.htmove-team-five .htmove-team-inner .htmove-team-info {
+  position: absolute;
+  z-index: 9;
+  bottom: 30px;
+  left: 30px;
+  visibility: hidden;
+  -webkit-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  opacity: 0;
+}
+
+.htmove-team-five .htmove-team-inner .htmove-team-info .htmove-team-name {
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 1;
+  margin: 0;
+  color: #FFFFFF;
+}
+
+.htmove-team-five .htmove-team-inner .htmove-team-info .htmove-team-position {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1;
+  display: block;
+  margin-top: 10px;
+  letter-spacing: 1px;
+  opacity: 0.6;
+  color: #FFFFFF;
+}
+
+.htmove-team-five:hover .htmove-team-inner .htmove-team-image img {
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.htmove-team-five:hover .htmove-team-inner .htmove-team-image .htmove-team-overlay,
+.htmove-team-five:hover .htmove-team-inner .htmove-team-image .htmove-team-social {
+  opacity: 1;
+  visibility: visible;
+}
+
+.htmove-team-five:hover .htmove-team-inner .htmove-team-info {
+  opacity: 1;
+  visibility: visible;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (max-width: 479px) {
+  .htmove-team-five .htmove-team-inner .htmove-team-image .htmove-team-social {
+    right: 25px;
+    bottom: 30px;
+  }
+  .htmove-team-five .htmove-team-inner .htmove-team-info {
+    bottom: 25px;
+    left: 25px;
+  }
+  .htmove-team-five .htmove-team-inner .htmove-team-info .htmove-team-name {
+    font-size: 20px;
+  }
+  .htmove-team-five .htmove-team-inner .htmove-team-info .htmove-team-designation {
+    font-size: 14px;
+  }
+}

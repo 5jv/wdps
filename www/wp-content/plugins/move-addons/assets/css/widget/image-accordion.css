@@ -1,0 +1,223 @@
+.htmove-image-accordion {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 544px;
+}
+
+.htmove-image-accordion .htmove-image-accordion-item {
+  position: relative;
+  overflow: hidden;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 0 auto;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+  -webkit-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.htmove-image-accordion .htmove-image-accordion-item:not(.active) {
+  cursor: pointer;
+}
+
+.htmove-image-accordion .htmove-image-accordion-item .htmove-image-accordion-item-inner {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.htmove-image-accordion .htmove-image-accordion-item .htmove-image-accordion-item-inner::before {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  -webkit-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  opacity: 0;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.45)));
+  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.45) 100%);
+  background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.45) 100%);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.45) 100%);
+}
+
+.htmove-image-accordion .htmove-image-accordion-item .htmove-image-accordion-item-inner .htmove-image-accordion-content {
+  position: absolute;
+  z-index: 9;
+  bottom: 40px;
+  left: 0;
+  visibility: hidden;
+  width: 100%;
+  padding-right: 20px;
+  padding-left: 20px;
+  -webkit-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  text-align: center;
+  opacity: 0;
+}
+
+.htmove-image-accordion .htmove-image-accordion-item .htmove-image-accordion-item-inner .htmove-image-accordion-content .htmove-image-accordion-title {
+  font-family: "Space Grotesk";
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 1.215;
+  margin-bottom: 2px;
+  color: #FFFFFF;
+}
+
+.htmove-image-accordion .htmove-image-accordion-item .htmove-image-accordion-item-inner .htmove-image-accordion-content .htmove-image-accordion-title:last-child {
+  margin-bottom: 0;
+}
+
+.htmove-image-accordion .htmove-image-accordion-item .htmove-image-accordion-item-inner .htmove-image-accordion-content .htmove-image-accordion-text {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.75;
+  margin-bottom: 30px;
+  color: #FFFFFF;
+}
+
+.htmove-image-accordion .htmove-image-accordion-item .htmove-image-accordion-item-inner .htmove-image-accordion-content .htmove-image-accordion-text:last-child {
+  margin-bottom: 0;
+}
+
+.htmove-image-accordion .htmove-image-accordion-item .htmove-image-accordion-item-inner .htmove-image-accordion-content .htmove-image-accordion-btn {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 46px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 48px;
+  padding: 0 25px;
+  white-space: nowrap;
+  text-decoration: none;
+  letter-spacing: 1px;
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  border-radius: 100px;
+  background-color: transparent;
+}
+
+.htmove-image-accordion .htmove-image-accordion-item .htmove-image-accordion-item-inner .htmove-image-accordion-content .htmove-image-accordion-btn:hover {
+  color: #222222;
+  background-color: #FFFFFF;
+}
+
+.htmove-image-accordion .htmove-image-accordion-item.active .htmove-image-accordion-item-inner::before {
+  opacity: 1;
+}
+
+.htmove-image-accordion .htmove-image-accordion-item.active .htmove-image-accordion-item-inner .htmove-image-accordion-content {
+  visibility: visible;
+  opacity: 1;
+}
+
+.htmove-image-accordion-horizontal {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.htmove-image-accordion-horizontal .htmove-image-accordion-item + .htmove-image-accordion-item{
+  height: 100%;
+  margin-left: 30px;
+}
+
+.htmove-image-accordion-horizontal .htmove-image-accordion-item .htmove-image-accordion-item-inner {
+  border-radius: 4px;
+}
+
+.htmove-image-accordion-horizontal.htmove-gutter-16 {
+  margin-right: -8px;
+  margin-left: -8px;
+}
+
+.htmove-image-accordion-horizontal.htmove-gutter-16 .htmove-image-accordion-item {
+  padding-right: 8px;
+  padding-left: 8px;
+}
+
+.htmove-image-accordion-vertical {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.htmove-image-accordion-vertical .htmove-image-accordion-item {
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (max-width: 767px) {
+  .htmove-image-accordion .htmove-image-accordion-item .htmove-image-accordion-item-inner .htmove-image-accordion-content .htmove-image-accordion-title {
+    font-size: 32px;
+    margin-bottom: 0;
+  }
+  .htmove-image-accordion .htmove-image-accordion-item .htmove-image-accordion-item-inner .htmove-image-accordion-content .htmove-image-accordion-text {
+    margin-bottom: 15px;
+  }
+  .htmove-image-accordion-horizontal {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: -15px 0;
+  }
+  .htmove-image-accordion-horizontal .htmove-image-accordion-item {
+    width: 100%;
+    height: auto;
+    padding: 15px 0;
+  }
+  .htmove-image-accordion-horizontal .htmove-image-accordion-item .htmove-image-accordion-item-inner .htmove-image-accordion-content {
+    top: 50%;
+    bottom: auto;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+  .htmove-image-accordion-horizontal.htmove-gutter-16 {
+    margin: -8px 0;
+  }
+  .htmove-image-accordion-horizontal.htmove-gutter-16 .htmove-image-accordion-item {
+    padding: 8px 0;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .htmove-image-accordion .htmove-image-accordion-item .htmove-image-accordion-item-inner .htmove-image-accordion-content .htmove-image-accordion-title {
+    font-size: 26px;
+  }
+  .htmove-image-accordion .htmove-image-accordion-item .htmove-image-accordion-item-inner .htmove-image-accordion-content .htmove-image-accordion-text {
+    margin-bottom: 15px;
+  }
+  .htmove-image-accordion-vertical {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .htmove-image-accordion-vertical .htmove-image-accordion-item {
+    width: 100%;
+  }
+  .htmove-image-accordion-vertical .htmove-image-accordion-item .htmove-image-accordion-item-inner .htmove-image-accordion-content {
+    bottom: 30px;
+  }
+}

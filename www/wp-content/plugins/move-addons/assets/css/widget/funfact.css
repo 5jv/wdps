@@ -1,0 +1,116 @@
+.htmove-funfact {
+  text-align: center;
+  transition: 0.4s;
+}
+
+.htmove-funfact .htmove-funfact-top {
+  margin-bottom: 15px;
+}
+
+.htmove-funfact .htmove-funfact-number {
+  font-family: "Space Grotesk";
+  font-size: 51px;
+  font-weight: 600;
+  line-height: 1;
+  margin: 0;
+  color: #1D39D7;
+}
+
+.htmove-funfact .htmove-funfact-title {
+  font-family: "Space Grotesk";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.25;
+  margin-bottom: 0;
+  color: #666666;
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .htmove-funfact .htmove-funfact-number {
+    font-size: 44px;
+  }
+  .htmove-funfact .htmove-funfact-title {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .htmove-funfact .htmove-funfact-number {
+    font-size: 36px;
+  }
+  .htmove-funfact .htmove-funfact-title {
+    font-size: 14px;
+  }
+}
+
+.htmove-funfact .htmove-funfact-icon {
+  display: block;
+  margin-bottom: 5px;
+  color: #1D39D7;
+}
+.htmove-funfact .htmove-funfact-icon i {
+  font-size: 36px;
+  display: block;
+}
+.htmove-funfact .htmove-funfact-icon svg :not([stroke="none"]) {
+  fill: #1D39D7;
+}
+.htmove-funfact .htmove-funfact-icon svg :not([fill="none"]) {
+  stroke: #1D39D7;
+}
+.htmove-funfact .htmove-funfact-icon svg [fill="none"] {
+  fill: transparent !important;
+}
+.htmove-funfact .htmove-funfact-icon svg [stroke="none"] {
+  stroke: transparent !important;
+}
+
+/* Icon Position */
+.htmove-funfact.htmove-counter-icon-bottom {
+  flex-direction: column-reverse;
+  display: flex;
+}
+.htmove-funfact.htmove-counter-icon-bottom .htmove-funfact-icon{
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+.htmove-funfact.htmove-counter-icon-left,.htmove-funfact.htmove-counter-icon-right {
+  display: flex;
+  align-items: center;
+}
+.htmove-funfact.htmove-counter-icon-left .htmove-funfact-icon{
+  margin-bottom: 0;
+  margin-right: 15px;
+}
+.htmove-funfact.htmove-counter-icon-left .htmove-funfact-info{
+  text-align: left;
+}
+.htmove-funfact.htmove-counter-icon-right {
+  align-items: center;
+  flex-direction: row-reverse;
+}
+.htmove-funfact.htmove-counter-icon-right .htmove-funfact-icon{
+  margin-bottom: 0;
+  margin-left: 15px;
+}
+.htmove-funfact.htmove-counter-icon-right .htmove-funfact-info{
+  text-align: left;
+}
+
+.htmove-funfact.htmove-counter-icon-beforenumber .htmove-funfact-top,.htmove-funfact.htmove-counter-icon-afternumber .htmove-funfact-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.htmove-funfact.htmove-counter-icon-beforenumber .htmove-funfact-icon{
+  margin-bottom: 0;
+  margin-right: 10px;
+}
+.htmove-funfact.htmove-counter-icon-afternumber .htmove-funfact-top{
+  flex-direction: row-reverse;
+}
+.htmove-funfact.htmove-counter-icon-afternumber .htmove-funfact-icon{
+  margin-bottom: 0;
+  margin-left: 10px;
+}

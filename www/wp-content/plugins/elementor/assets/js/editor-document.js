@@ -1,4 +1,4 @@
-/*! elementor - v3.1.1 - 31-01-2021 */
+/*! elementor - v3.1.4 - 10-03-2021 */
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
@@ -12393,7 +12393,7 @@ var Helper = /*#__PURE__*/function () {
            * TODO: Try improve performance of using 'document/elements/create` instead of manual create.
            */
 
-          container.view.addChildModel(model, options);
+          container.view.addChildModel(model);
           /**
            * Manual history & not using of `$e.run('document/elements/create')`
            * For performance reasons.
@@ -18354,7 +18354,7 @@ module.exports = Marionette.Behavior.extend({
   \********************************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module */
-/*! CommonJS bailout: module.exports is used directly at 185:0-14 */
+/*! CommonJS bailout: module.exports is used directly at 184:0-14 */
 /***/ ((module) => {
 
 "use strict";
@@ -18403,7 +18403,6 @@ SortableBehavior = Marionette.Behavior.extend({
 
     var $childViewContainer = this.getChildViewContainer(),
         defaultSortableOptions = {
-      connectWith: $childViewContainer.selector,
       placeholder: 'elementor-sortable-placeholder elementor-' + this.getOption('elChildType') + '-placeholder',
       cursorAt: {
         top: 20,
@@ -21394,10 +21393,15 @@ var CommandData = /*#__PURE__*/function (_CommandBase) {
       var _e, _e$data;
 
       // TODO: If the errors that returns from the server is consistent remove the '?' from 'e'
-      var status = ((_e = e) === null || _e === void 0 ? void 0 : (_e$data = _e.data) === null || _e$data === void 0 ? void 0 : _e$data.status) || 0,
-          dataError = (0, _values.default)(errors).find(function (error) {
+      var status = ((_e = e) === null || _e === void 0 ? void 0 : (_e$data = _e.data) === null || _e$data === void 0 ? void 0 : _e$data.status) || 0;
+      var dataError = (0, _values.default)(errors).find(function (error) {
         return error.getStatus() === status;
       });
+
+      if (!dataError) {
+        dataError = errors.DefaultError;
+      }
+
       e = dataError.create(e.message, e.code, e.data || []);
       this.runCatchHooks(e);
       e.notify();

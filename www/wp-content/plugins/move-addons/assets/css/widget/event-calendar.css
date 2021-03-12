@@ -1,0 +1,632 @@
+.htmove-event-calendar.fc {
+  /* Days Style */
+  /* Event */
+  /* Day Background */
+}
+.htmove-event-calendar table{
+  margin: 0;
+}
+
+.htmove-event-calendar.fc .fc-header-toolbar {
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+
+.htmove-event-calendar.fc .fc-header-toolbar .fc-toolbar-chunk {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.htmove-event-calendar.fc .fc-header-toolbar .fc-toolbar-chunk:not(:nth-child(2)) {
+  width: 35%;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (max-width: 767px) {
+  .htmove-event-calendar.fc .fc-header-toolbar .fc-toolbar-chunk:not(:nth-child(2)) {
+    -webkit-box-ordinal-group: 3;
+    -webkit-order: 2;
+        -ms-flex-order: 2;
+            order: 2;
+    width: auto;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .htmove-event-calendar.fc .fc-header-toolbar .fc-toolbar-chunk:not(:nth-child(2)) {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 0 100%;
+        -ms-flex: 1 0 100%;
+            flex: 1 0 100%;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (max-width: 767px) {
+  .htmove-event-calendar.fc .fc-header-toolbar .fc-toolbar-chunk:nth-child(2) {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 0 100%;
+        -ms-flex: 1 0 100%;
+            flex: 1 0 100%;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-ordinal-group: 2;
+    -webkit-order: 1;
+        -ms-flex-order: 1;
+            order: 1;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+.htmove-event-calendar.fc .fc-header-toolbar .fc-toolbar-chunk > .fc-button.fc-today-button {
+  font-family: "Space Grotesk";
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 1;
+  padding: 0;
+  text-transform: capitalize;
+  opacity: 1;
+  color: #333333;
+  border: none;
+  border-radius: 0;
+  background-color: transparent;
+}
+
+.htmove-event-calendar.fc .fc-header-toolbar .fc-toolbar-chunk > .fc-button.fc-today-button:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.htmove-event-calendar.fc .fc-header-toolbar .fc-toolbar-chunk > .fc-button:not(.fc-today-button) {
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 24px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  text-transform: capitalize;
+  color: #333333;
+  border-color: #CCCCCC;
+  background-color: transparent;
+}
+
+.htmove-event-calendar.fc .fc-header-toolbar .fc-toolbar-chunk > .fc-button:not(.fc-today-button):focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.htmove-event-calendar.fc .fc-header-toolbar .fc-toolbar-chunk > .fc-button:not(.fc-today-button):hover {
+  color: #FFFFFF;
+  border-color: #1D39D7;
+  background-color: #1D39D7;
+}
+
+.htmove-event-calendar.fc .fc-header-toolbar .fc-toolbar-chunk .fc-toolbar-title {
+  font-family: "Space Grotesk";
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1;
+  color: #1D39D7;
+}
+
+.htmove-event-calendar.fc .fc-header-toolbar .fc-toolbar-chunk .fc-button-group {
+  margin-left: auto;
+}
+
+@media only screen and (max-width: 575px) {
+  .htmove-event-calendar.fc .fc-header-toolbar .fc-toolbar-chunk .fc-button-group {
+    margin: 20px auto 0;
+  }
+}
+
+.htmove-event-calendar.fc .fc-header-toolbar .fc-toolbar-chunk .fc-button-group > .fc-button {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  height: 30px;
+  padding: 2px 30px;
+  text-transform: capitalize;
+  color: #333333;
+  border-color: #CCCCCC;
+  background-color: #FFFFFF;
+}
+
+.htmove-event-calendar.fc .fc-header-toolbar .fc-toolbar-chunk .fc-button-group > .fc-button:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.htmove-event-calendar.fc .fc-header-toolbar .fc-toolbar-chunk .fc-button-group > .fc-button-active {
+  color: #FFFFFF;
+  border-color: #1D39D7;
+  background-color: #1D39D7;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .htmove-event-calendar.fc .fc-header-toolbar .fc-toolbar-chunk .fc-button-group > .fc-button {
+    padding: 2px 20px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .htmove-event-calendar.fc .fc-header-toolbar .fc-toolbar-chunk .fc-button-group > .fc-button {
+    padding: 2px 20px;
+  }
+}
+
+.htmove-event-calendar.fc .fc-view-harness .fc-view {
+  border-radius: 4px;
+  background-color: #FFFFFF;
+  -webkit-box-shadow: 0 10px 50px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 10px 50px rgba(0, 0, 0, 0.1);
+}
+
+.htmove-event-calendar.fc .fc-view-harness .fc-view.fc-list {
+  border: none;
+}
+
+.htmove-event-calendar.fc .fc-view-harness .fc-view .fc-scrollgrid {
+  border: none;
+}
+
+.htmove-event-calendar.fc .fc-view-harness .fc-view .fc-scrollgrid > * > tr > * {
+  border: none;
+}
+
+.htmove-event-calendar.fc .fc-scrollgrid-section-sticky td {
+  background-color: transparent;
+}
+
+.htmove-event-calendar.fc .fc-col-header {
+  font-family: "Space Grotesk";
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #FFFFFF;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  background-color: #1D39D7;
+}
+
+.htmove-event-calendar.fc .fc-col-header .fc-timegrid-axis,
+.htmove-event-calendar.fc .fc-col-header .fc-col-header-cell {
+  border-color: rgba(216, 216, 216, 0.2);
+}
+
+.htmove-event-calendar.fc .fc-col-header .fc-timegrid-axis a,
+.htmove-event-calendar.fc .fc-col-header .fc-col-header-cell a {
+  display: block;
+  padding: 18px 10px 14px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 767px) {
+  .htmove-event-calendar.fc .fc-col-header {
+    font-size: 16px;
+  }
+  .htmove-event-calendar.fc .fc-col-header .fc-col-header-cell a {
+    padding: 14px 10px 10px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .htmove-event-calendar.fc .fc-col-header {
+    font-size: 14px;
+  }
+}
+
+.htmove-event-calendar.fc .fc-daygrid-day {
+  border-color: #D8D8D8;
+}
+
+.htmove-event-calendar.fc .fc-daygrid-day:first-child {
+  border-left: none;
+}
+
+.htmove-event-calendar.fc .fc-daygrid-day:last-child {
+  border-right: none;
+}
+
+.htmove-event-calendar.fc .fc-daygrid-day .fc-daygrid-day-frame {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 130px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .htmove-event-calendar.fc .fc-daygrid-day .fc-daygrid-day-frame {
+    min-height: 100px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .htmove-event-calendar.fc .fc-daygrid-day .fc-daygrid-day-frame {
+    min-height: 80px;
+  }
+}
+
+.htmove-event-calendar.fc .fc-daygrid-day.fc-day-today {
+  background-color: transparent;
+}
+
+.htmove-event-calendar.fc .fc-daygrid-day.fc-day-today .fc-daygrid-day-number {
+  color: #FFFFFF;
+  background-color: #1D39D7;
+}
+
+.htmove-event-calendar.fc .fc-daygrid-day-top {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 9px;
+  padding-bottom: 9px;
+}
+
+.htmove-event-calendar.fc .fc-daygrid-day-top .fc-daygrid-day-number {
+  font-family: "Space Grotesk";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding-top: 7px;
+  color: #333333;
+  border-radius: 50%;
+}
+
+.htmove-event-calendar.fc .fc-daygrid-day-events,
+.htmove-event-calendar.fc .fc-timegrid-day-events {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin: 0;
+}
+
+.htmove-event-calendar.fc .fc-daygrid-day-events .fc-daygrid-event-harness-abs,
+.htmove-event-calendar.fc .fc-daygrid-day-events .fc-timegrid-event-harness-abs,
+.htmove-event-calendar.fc .fc-timegrid-day-events .fc-daygrid-event-harness-abs,
+.htmove-event-calendar.fc .fc-timegrid-day-events .fc-timegrid-event-harness-abs {
+  top: auto;
+  bottom: 0;
+}
+
+.htmove-event-calendar.fc .fc-daygrid-event,
+.htmove-event-calendar.fc .fc-timegrid-event {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+  margin: 0;
+  padding: 20px 16px 12px;
+  cursor: pointer;
+  white-space: normal;
+  border-color: transparent;
+  border-radius: 0;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (max-width: 767px) {
+  .htmove-event-calendar.fc .fc-daygrid-event,
+  .htmove-event-calendar.fc .fc-timegrid-event {
+    padding: 15px 10px 7px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .htmove-event-calendar.fc .fc-daygrid-event,
+  .htmove-event-calendar.fc .fc-timegrid-event {
+    padding: 12px 5px 4px;
+  }
+}
+
+.htmove-event-calendar.fc .fc-daygrid-event .fc-event-main .fc-event-main-frame,
+.htmove-event-calendar.fc .fc-timegrid-event .fc-event-main .fc-event-main-frame {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.htmove-event-calendar.fc .fc-daygrid-event .fc-daygrid-event-dot,
+.htmove-event-calendar.fc .fc-daygrid-event .fc-timegrid-event-dot,
+.htmove-event-calendar.fc .fc-timegrid-event .fc-daygrid-event-dot,
+.htmove-event-calendar.fc .fc-timegrid-event .fc-timegrid-event-dot {
+  display: none;
+}
+
+.htmove-event-calendar.fc .fc-daygrid-event .fc-event-time,
+.htmove-event-calendar.fc .fc-timegrid-event .fc-event-time {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1;
+  margin-right: 0;
+  margin-bottom: 8px;
+  white-space: normal;
+}
+
+@media only screen and (max-width: 767px) {
+  .htmove-event-calendar.fc .fc-daygrid-event .fc-event-time,
+  .htmove-event-calendar.fc .fc-timegrid-event .fc-event-time {
+    font-size: 13px;
+  }
+}
+
+.htmove-event-calendar.fc .fc-daygrid-event .fc-event-title-container,
+.htmove-event-calendar.fc .fc-daygrid-event .fc-event-title,
+.htmove-event-calendar.fc .fc-timegrid-event .fc-event-title-container,
+.htmove-event-calendar.fc .fc-timegrid-event .fc-event-title {
+  font-family: "Space Grotesk";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.25;
+}
+
+@media only screen and (max-width: 767px) {
+  .htmove-event-calendar.fc .fc-daygrid-event .fc-event-title-container,
+  .htmove-event-calendar.fc .fc-daygrid-event .fc-event-title,
+  .htmove-event-calendar.fc .fc-timegrid-event .fc-event-title-container,
+  .htmove-event-calendar.fc .fc-timegrid-event .fc-event-title {
+    font-size: 14px;
+  }
+}
+
+.htmove-event-calendar.fc .fc-timegrid-event {
+  margin: 0 -4px 0 -2px;
+}
+
+.htmove-event-calendar-dark.fc {
+  /* Days Style */
+}
+
+.htmove-event-calendar-dark.fc .fc-header-toolbar {
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+
+.htmove-event-calendar-dark.fc .fc-header-toolbar .fc-toolbar-chunk > .fc-button.fc-today-button {
+  color: #FFFFFF;
+}
+
+.htmove-event-calendar-dark.fc .fc-header-toolbar .fc-toolbar-chunk > .fc-button:not(.fc-today-button) {
+  color: #D0CFDA;
+  border-color: #D0CFDA;
+}
+
+.htmove-event-calendar-dark.fc .fc-header-toolbar .fc-toolbar-chunk > .fc-button:not(.fc-today-button):hover {
+  color: #FFFFFF;
+  border-color: #1D39D7;
+  background-color: #1D39D7;
+}
+
+.htmove-event-calendar-dark.fc .fc-header-toolbar .fc-toolbar-chunk .fc-toolbar-title {
+  color: #FFFFFF;
+}
+
+.htmove-event-calendar-dark.fc .fc-view-harness .fc-view {
+  background-color: #333333;
+}
+
+.htmove-event-calendar-dark.fc .fc-col-header .fc-timegrid-axis,
+.htmove-event-calendar-dark.fc .fc-col-header .fc-col-header-cell {
+  border-color: rgba(216, 216, 216, 0.2);
+}
+
+.htmove-event-calendar-dark.fc .fc-timegrid-axis,
+.htmove-event-calendar-dark.fc .fc-daygrid-day {
+  color: #FFFFFF;
+  border-color: #545454;
+}
+
+.htmove-event-calendar-dark.fc .fc-timegrid-axis.fc-day-today .fc-daygrid-day-number,
+.htmove-event-calendar-dark.fc .fc-daygrid-day.fc-day-today .fc-daygrid-day-number {
+  color: #1D39D7;
+  background-color: #FFFFFF;
+}
+
+.htmove-event-calendar-dark.fc .fc-timegrid-slot,
+.htmove-event-calendar-dark.fc .fc-timegrid-col {
+  border-color: #545454;
+}
+
+.htmove-event-calendar-dark.fc .fc-timegrid-slot-label,
+.htmove-event-calendar-dark.fc .fc-timegrid-col-label {
+  color: #FFFFFF;
+}
+
+.htmove-event-calendar-dark.fc .fc-daygrid-day-top .fc-daygrid-day-number {
+  color: #FFFFFF;
+}
+
+.htmove-event-details-popup {
+  position: fixed;
+  z-index: 99999;
+  top: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 15px;
+  background-color: rgba(153, 153, 153, 0.75);
+}
+
+.htmove-event-details {
+  overflow: hidden;
+  overflow: auto;
+  max-width: 570px;
+  max-height: 570px;
+  border-radius: 4px;
+  background-color: #FFFFFF;
+}
+
+.htmove-event-details-head {
+  position: relative;
+  padding: 24px;
+  background-color: #1D39D7;
+}
+
+.htmove-event-details-head .htmove-event-title {
+  font-family: "Space Grotesk";
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 1.25;
+  margin-bottom: 6px;
+  color: #FFFFFF;
+}
+
+.htmove-event-details-head .htmove-event-location {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.75;
+  display: block;
+  color: #FFFFFF;
+}
+
+.htmove-event-details-head .htmove-event-location i {
+  margin-right: 9px;
+}
+
+.htmove-event-details-head .htmove-event-details-close {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 24px;
+  height: 24px;
+  padding: 1px 0 0;
+  color: #FFFFFF;
+  border: 2px solid #FFFFFF;
+  border-radius: 50%;
+  background-color: transparent;
+}
+
+.htmove-event-details-head .htmove-event-details-close:focus {
+  outline: none;
+}
+
+.htmove-event-details-content {
+  padding: 24px;
+}
+
+.htmove-event-details-content .htmove-event-date-time {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.75;
+  display: block;
+  margin-bottom: 16px;
+  color: #1D39D7;
+}
+
+.htmove-event-details-content .htmove-event-date-time i {
+  margin-right: 9px;
+}
+
+.htmove-event-details-content .htmove-event-desc p {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.75;
+  color: #666666;
+}
+
+.htmove-event-details-content .htmove-event-desc p:last-child {
+  margin-bottom: 0;
+}

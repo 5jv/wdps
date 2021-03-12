@@ -1,0 +1,214 @@
+/* Ticker Slider Style */
+.htmove-ticker-slider {
+  position: relative;
+  max-width: 100%;
+  padding: 10px 70px 10px 20px;
+}
+
+.htmove-ticker-slider .swiper-slide .htmove-ticker-content {
+  -webkit-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -webkit-transition-duration: 0.35s;
+       -o-transition-duration: 0.35s;
+          transition-duration: 0.35s;
+}
+
+.htmove-ticker-slider .swiper-slide:not(.swiper-slide-visible) {
+  opacity: 0 !important;
+}
+
+.htmove-ticker-slider .swiper-slide:not(.swiper-slide-visible) .htmove-ticker-content {
+  -webkit-transform: translateY(100%);
+      -ms-transform: translateY(100%);
+          transform: translateY(100%);
+}
+
+.htmove-ticker-slider [class*="swiper-button"] {
+  right: 20px;
+  left: auto;
+  width: 16px;
+  height: 16px;
+  margin: 0;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  color: #1D39D7;
+}
+
+.htmove-ticker-slider [class*="swiper-button"] i {
+  font-size: 28px;
+}
+
+.htmove-ticker-slider [class*="swiper-button"]::after {
+  display: none;
+}
+
+.htmove-ticker-slider .swiper-button-prev {
+  right: 44px;
+}
+
+/* Ticker Style */
+.htmove-ticker {
+  position: relative;
+  border: 1px solid #E6E6E6;
+  border-radius: 4px;
+}
+.htmove-ticker.htmove-has-ticker-badge{
+  padding-left: 165px;
+}
+
+.htmove-ticker-one {
+  display: block;
+  border: none;
+}
+.htmove-ticker-one.htmove-has-ticker-badge{
+  padding-left: 0;
+}
+
+.htmove-ticker-one .htmove-ticker-badge {
+  position: relative;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: -4px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-transform: uppercase;
+}
+
+.htmove-ticker-one .htmove-ticker-content a {
+  color: #FFFFFF;
+}
+
+.htmove-ticker-one .htmove-ticker-slider {
+  border-radius: 4px;
+  background-color: #1D39D7;
+}
+
+.htmove-ticker-one .htmove-ticker-slider [class*="swiper-button"] {
+  color: #FFFFFF;
+}
+
+.htmove-ticker-four {
+  padding-left: 0;
+}
+
+@media only screen and (max-width: 767px) {
+  .htmove-ticker {
+    padding-left: 0;
+  }
+  .htmove-ticker-one .htmove-ticker-badge {
+    width: 165px;
+  }
+}
+
+/* Ticker Badge Style */
+.htmove-ticker-badge {
+  font-family: "Space Grotesk";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1;
+  position: absolute;
+  top: -1px;
+  bottom: -1px;
+  left: -1px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 165px;
+  padding: 17px 20px 15px;
+  white-space: nowrap;
+  color: #FFFFFF;
+  border-radius: 4px;
+  background-color: #1D39D7;
+}
+
+.htmove-ticker-badge i {
+  margin-top: -3px;
+  margin-right: 6px;
+}
+
+.htmove-icon-right.htmove-ticker-badge {
+  flex-direction: row-reverse;
+}
+.htmove-icon-right.htmove-ticker-badge i{
+  margin-left: 6px;
+  margin-right: 0;
+}
+
+.htmove-ticker-badge-one {
+  background-color: #DA0E2B;
+}
+
+@media only screen and (max-width: 767px) {
+  .htmove-ticker-badge {
+    position: static !important;
+    bottom: auto;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    width: auto;
+  }
+}
+
+/* Ticker Content Style */
+.htmove-ticker-content {
+  font-family: "Space Grotesk";
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 2px 0;
+}
+
+.htmove-ticker-content a {
+  color: #222222;
+}
+
+.htmove-ticker-content a .htmove-date {
+  font-weight: 500;
+  line-height: 1;
+  padding: 8px 25px 5px;
+  color: #FFFFFF;
+  border-radius: 4px;
+  background-color: #DA0E2B;
+  display: inline-block;
+}
+
+.htmove-ticker-content a .htmove-date-1 {
+  margin-right: 16px;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+.htmove-ticker-content a .htmove-date-2 {
+  margin-left: 16px;
+}
+
+.htmove-ticker-content a:hover {
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 767px) {
+  .htmove-ticker-content a .htmove-date {
+    padding: 8px 20px 5px;
+  }
+  .htmove-ticker-content a .htmove-date-1 {
+    margin-right: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .htmove-ticker-content a .htmove-date-2 {
+    margin-left: 10px;
+  }
+}

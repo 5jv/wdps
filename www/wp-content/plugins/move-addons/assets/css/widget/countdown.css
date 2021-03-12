@@ -1,0 +1,461 @@
+.htmove-countdown-one {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: -20px;
+  margin-left: -20px;
+}
+
+.htmove-single-countdown + .htmove-single-countdown{
+  margin-left: 20px;
+}
+
+.htmove-countdown-one .htmove-single-countdown {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 0 160px;
+      -ms-flex: 1 0 160px;
+          flex: 1 0 160px;
+  max-width: 160px;
+  text-align: center;
+  border: 1px solid #1D39D7;
+  border-radius: 4px;
+}
+
+.htmove-countdown-one .htmove-single-countdown .htmove-countdown-time {
+  font-family: "Space Grotesk";
+  font-size: 72px;
+  font-weight: 500;
+  line-height: 1;
+  display: block;
+  margin-bottom: 0;
+  padding-top: 28px;
+  padding-bottom: 12px;
+  color: #1D39D7;
+}
+
+.htmove-countdown-one .htmove-single-countdown .htmove-countdown-name {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 26px;
+  display: block;
+  color: #FFFFFF;
+  background-color: #1D39D7;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .htmove-countdown-one {
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+  .htmove-countdown-one .htmove-single-countdown {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 0 140px;
+        -ms-flex: 1 0 140px;
+            flex: 1 0 140px;
+    max-width: 140px;
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+  .htmove-countdown-one .htmove-single-countdown .htmove-countdown-time {
+    font-size: 60px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .htmove-countdown-one {
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-right: -10px;
+    margin-left: -10px;
+  }
+  .htmove-countdown-one .htmove-single-countdown {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 0 calc(25% - 20px);
+        -ms-flex: 1 0 calc(25% - 20px);
+            flex: 1 0 calc(25% - 20px);
+    max-width: none;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .htmove-countdown-one .htmove-single-countdown .htmove-countdown-time {
+    font-size: 40px;
+  }
+  .htmove-countdown-one .htmove-single-countdown .htmove-countdown-name {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .htmove-countdown-one .htmove-single-countdown .htmove-countdown-time {
+    font-size: 36px;
+    padding-top: 22px;
+    padding-bottom: 12px;
+  }
+  .htmove-countdown-one .htmove-single-countdown .htmove-countdown-name {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .htmove-countdown-one .htmove-single-countdown .htmove-countdown-time {
+    font-size: 26px;
+    padding-top: 16px;
+    padding-bottom: 8px;
+  }
+  .htmove-countdown-one .htmove-single-countdown .htmove-countdown-name {
+    font-size: 12px;
+    line-height: 22px;
+  }
+}
+
+.htmove-countdown-two {
+  position: relative;
+  z-index: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  margin: auto;
+  padding: 30px 10px;
+  border-radius: 4px;
+}
+
+.htmove-countdown-two .htmove-single-countdown {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 0 25%;
+      -ms-flex: 1 0 25%;
+          flex: 1 0 25%;
+  padding: 10px 15px;
+  text-align: center;
+}
+
+.htmove-countdown-two .htmove-single-countdown:not(:last-child) {
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+.htmove-countdown-two .htmove-single-countdown:last-child{
+  border-right: 0 !important;
+}
+
+.htmove-countdown-two .htmove-single-countdown .htmove-countdown-time {
+  font-family: "Space Grotesk";
+  font-size: 51px;
+  font-weight: 600;
+  line-height: 1;
+  display: block;
+  margin-bottom: 12px;
+  color: #1D39D7;
+}
+
+.htmove-countdown-two .htmove-single-countdown .htmove-countdown-name {
+  font-size: 15px;
+  line-height: 1;
+  display: block;
+  color: #999999;
+}
+
+@media only screen and (max-width: 767px) {
+  .htmove-countdown-two .htmove-single-countdown .htmove-countdown-time {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .htmove-countdown-two .htmove-single-countdown {
+    padding: 5px 10px;
+  }
+  .htmove-countdown-two .htmove-single-countdown .htmove-countdown-time {
+    font-size: 32px;
+    margin-bottom: 5px;
+  }
+  .htmove-countdown-two .htmove-single-countdown .htmove-countdown-name {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .htmove-countdown-two .htmove-single-countdown .htmove-countdown-time {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+  .htmove-countdown-two .htmove-single-countdown .htmove-countdown-name {
+    font-size: 11px;
+  }
+}
+
+.htmove-countdown-three {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: -20px;
+  margin-left: -20px;
+}
+
+.htmove-countdown-three .htmove-single-countdown {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-right: 20px;
+  margin-left: 20px;
+  text-align: center;
+}
+
+.htmove-countdown-three .htmove-single-countdown .htmove-countdown-time {
+  font-family: "Space Grotesk";
+  font-size: 72px;
+  font-weight: 500;
+  line-height: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-ordinal-group: 3;
+  -webkit-order: 2;
+      -ms-flex-order: 2;
+          order: 2;
+  width: 160px;
+  height: 160px;
+  margin-bottom: 0;
+  padding-top: 28px;
+  padding-bottom: 12px;
+  color: #1D39D7;
+  border: 2px solid #E6E6E6;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 10px 35px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 10px 35px rgba(0, 0, 0, 0.1);
+}
+
+.htmove-countdown-three .htmove-single-countdown .htmove-countdown-name {
+  font-family: "Space Grotesk";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1;
+  display: block;
+  -webkit-box-ordinal-group: 2;
+  -webkit-order: 1;
+      -ms-flex-order: 1;
+          order: 1;
+  margin-bottom: 20px;
+  color: #999999;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .htmove-countdown-three {
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+  .htmove-countdown-three .htmove-single-countdown {
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+  .htmove-countdown-three .htmove-single-countdown .htmove-countdown-time {
+    font-size: 60px;
+    width: 140px;
+    height: 140px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .htmove-countdown-three {
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-right: -10px;
+    margin-left: -10px;
+  }
+  .htmove-countdown-three .htmove-single-countdown {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 0 calc(25% - 20px);
+        -ms-flex: 1 0 calc(25% - 20px);
+            flex: 1 0 calc(25% - 20px);
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .htmove-countdown-three .htmove-single-countdown .htmove-countdown-time {
+    font-size: 40px;
+    width: auto;
+    height: 110px;
+    padding-top: 20px;
+  }
+  .htmove-countdown-three .htmove-single-countdown .htmove-countdown-name {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .htmove-countdown-three .htmove-single-countdown .htmove-countdown-time {
+    font-size: 36px;
+    height: 98px;
+  }
+  .htmove-countdown-three .htmove-single-countdown .htmove-countdown-name {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .htmove-countdown-three .htmove-single-countdown .htmove-countdown-time {
+    font-size: 26px;
+    height: 68px;
+    padding-top: 15px;
+  }
+  .htmove-countdown-three .htmove-single-countdown .htmove-countdown-name {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+}
+
+.htmove-countdown-four .htmove-single-countdown .htmove-countdown-time::after {
+  content: ".";
+}
+
+.htmove-circle-countdown .time_circles {
+  position: relative;
+}
+
+.htmove-circle-countdown .time_circles canvas {
+  width: 100% !important;
+}
+
+.htmove-circle-countdown .time_circles div {
+  position: absolute;
+  top: 50% !important;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  text-align: center;
+}
+
+.htmove-circle-countdown .time_circles div h4 {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  line-height: 1;
+  -webkit-box-ordinal-group: 3;
+  -webkit-order: 2;
+      -ms-flex-order: 2;
+          order: 2;
+  margin: 0;
+  color: #999999;
+}
+
+.htmove-circle-countdown .time_circles div span {
+  font-family: "Space Grotesk";
+  font-weight: 600;
+  line-height: 1;
+  display: block;
+  -webkit-box-ordinal-group: 2;
+  -webkit-order: 1;
+      -ms-flex-order: 1;
+          order: 1;
+  color: #1D39D7;
+}
+
+.htmove-circle-countdown .time_circles div span::after {
+  content: ".";
+}
+
+.htmove-circle-countdown-one {
+  margin: auto;
+}
+
+.htmove-circle-countdown-one .time_circles div h4 {
+  font-size: 15px !important;
+}
+
+.htmove-circle-countdown-one .time_circles div span {
+  font-size: 38px !important;
+  margin-bottom: 5px;
+}
+
+.htmove-circle-countdown-two {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.htmove-circle-countdown-two .time_circles div h4 {
+  font-size: 15px !important;
+}
+
+.htmove-circle-countdown-two .time_circles div span {
+  font-size: 51px !important;
+  margin-bottom: 5px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .htmove-circle-countdown-two .time_circles div span {
+    font-size: 44px !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .htmove-circle-countdown-one .time_circles div h4, .htmove-circle-countdown-two .time_circles div h4 {
+    font-size: 13px !important;
+  }
+  .htmove-circle-countdown-one .time_circles div span, .htmove-circle-countdown-two .time_circles div span {
+    font-size: 28px !important;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .htmove-circle-countdown-one .time_circles div h4, .htmove-circle-countdown-two .time_circles div h4 {
+    font-size: 12px !important;
+  }
+  .htmove-circle-countdown-one .time_circles div span, .htmove-circle-countdown-two .time_circles div span {
+    font-size: 24px !important;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .htmove-circle-countdown-one .time_circles div h4, .htmove-circle-countdown-two .time_circles div h4 {
+    font-size: 10px !important;
+  }
+  .htmove-circle-countdown-one .time_circles div span, .htmove-circle-countdown-two .time_circles div span {
+    font-size: 18px !important;
+  }
+}

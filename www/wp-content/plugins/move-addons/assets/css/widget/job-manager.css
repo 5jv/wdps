@@ -1,0 +1,213 @@
+.htmove-job-manager {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.htmove-job-manager-one > li + li {
+  margin-top: 24px;
+}
+
+.htmove-job-manager-two {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-right: -15px;
+  margin-bottom: -30px;
+  margin-left: -15px;
+}
+
+.htmove-job-manager-two > li {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 0 auto;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+  max-width: 33.3333%;
+  margin-bottom: 30px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.htmove-job-manager-two > li .htmove-job-item {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 35px 30px 40px 30px;
+}
+
+.htmove-job-manager-two > li .htmove-job-item .htmove-job-content {
+  padding-right: 0;
+}
+
+.htmove-job-manager-two > li .htmove-job-item .htmove-job-action {
+  -webkit-align-self: flex-start;
+      -ms-flex-item-align: start;
+          align-self: flex-start;
+  margin-top: 30px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .htmove-job-manager-two li {
+    max-width: 50%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .htmove-job-manager-two li {
+    max-width: 100%;
+  }
+}
+
+.htmove-job-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 25px 40px;
+  border: 1px solid #E6E6E6;
+  border-radius: 3px;
+}
+
+.htmove-job-item .htmove-job-content {
+  padding-right: 40px;
+}
+
+.htmove-job-item .htmove-job-content .htmove-job-title {
+  font-family: "Space Grotesk";
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-bottom: 6px;
+}
+
+.htmove-job-item .htmove-job-content .htmove-job-title a {
+  text-decoration: none;
+  color: #1D39D7;
+}
+
+.htmove-job-item .htmove-job-content p {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  line-height: 1.75;
+  margin-bottom: 30px;
+}
+
+.htmove-job-item .htmove-job-content p:last-child {
+  margin-bottom: 0;
+}
+
+.htmove-job-item .htmove-job-content .htmove-job-meta {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.htmove-job-item .htmove-job-content .htmove-job-meta li {
+  font-size: 15px;
+  line-height: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 20px;
+  color: #1D39D7;
+}
+
+.htmove-job-item .htmove-job-content .htmove-job-meta li i {
+  font-size: 16px;
+  line-height: 1;
+  margin-right: 4px;
+}
+
+.htmove-job-item .htmove-job-content .htmove-job-meta li:last-child {
+  margin-right: 0;
+}
+
+.htmove-job-item .htmove-job-action {
+  -webkit-align-self: center;
+      -ms-flex-item-align: center;
+          align-self: center;
+}
+
+.htmove-job-item .htmove-job-action .htmove-job-btn,.htmove-accordion-content .htmove-job-action .htmove-job-btn {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 46px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 48px;
+  padding: 0 30px;
+  white-space: nowrap;
+  text-decoration: none;
+  letter-spacing: 1px;
+  color: #333333;
+  border: 1px solid rgba(153, 153, 153, 0.5);
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.htmove-job-item .htmove-job-action .htmove-job-btn:hover,.htmove-accordion-content .htmove-job-action .htmove-job-btn:hover {
+  color: #FFFFFF;
+  border-color: #1D39D7;
+  background-color: #1D39D7;
+}
+
+@media only screen and (max-width: 767px) {
+  .htmove-job-item {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-bottom: 30px;
+  }
+  .htmove-job-item .htmove-job-content {
+    padding-right: 0;
+  }
+  .htmove-job-item .htmove-job-action {
+    -webkit-align-self: flex-start;
+        -ms-flex-item-align: start;
+            align-self: flex-start;
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .htmove-job-item {
+    padding: 25px 30px 30px;
+  }
+}

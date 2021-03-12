@@ -1,4 +1,4 @@
-/*! elementor - v3.1.1 - 31-01-2021 */
+/*! elementor - v3.1.4 - 10-03-2021 */
 (self["webpackChunkelementor"] = self["webpackChunkelementor"] || []).push([["frontend"],{
 
 /***/ "../node_modules/@babel/runtime-corejs2/core-js/array/from.js":
@@ -2713,8 +2713,7 @@ var BackgroundVideo = /*#__PURE__*/function (_elementorModules$fro) {
         startStateCode = YT.PlayerState.UNSTARTED;
       }
 
-      $backgroundVideoContainer.addClass('elementor-loading elementor-invisible');
-      this.player = new YT.Player(this.elements.$backgroundVideoEmbed[0], {
+      var playerOptions = {
         videoId: videoID,
         events: {
           onReady: function onReady() {
@@ -2747,7 +2746,15 @@ var BackgroundVideo = /*#__PURE__*/function (_elementorModules$fro) {
           rel: 0,
           playsinline: 1
         }
-      });
+      }; // To handle CORS issues, when the default host is changed, the origin parameter has to be set.
+
+      if (elementSettings.background_privacy_mode) {
+        playerOptions.host = 'https://www.youtube-nocookie.com';
+        playerOptions.origin = window.location.hostname;
+      }
+
+      $backgroundVideoContainer.addClass('elementor-loading elementor-invisible');
+      this.player = new YT.Player(this.elements.$backgroundVideoEmbed[0], playerOptions);
     }
   }, {
     key: "activate",
@@ -2902,7 +2909,7 @@ var HandlesPosition = /*#__PURE__*/function (_elementorModules$fro) {
   }, {
     key: "isFirstSection",
     value: function isFirstSection() {
-      return this.$element.is('.elementor-edit-mode .elementor-top-section:first');
+      return this.$element[0] === document.querySelector('.elementor-edit-mode .elementor-top-section');
     }
   }, {
     key: "isOverflowHidden",
@@ -3569,14 +3576,15 @@ module.exports = elementorModules.ViewModule.extend({
       case 'slideshow':
         self.setSlideshowContent(options.slideshow);
         break;
-
-      default:
-        self.setHTMLContent(options.html);
     }
 
     modal.show();
   },
   setHTMLContent: function setHTMLContent(html) {
+    if (window.elementorCommon) {
+      elementorCommon.helpers.hardDeprecated('elementorFrontend.utils.lightbox.setHTMLContent', '3.1.4');
+    }
+
     this.getModal().setMessage(html);
   },
   setVideoContent: function setVideoContent(options) {
@@ -4061,11 +4069,11 @@ module.exports = elementorModules.ViewModule.extend({
       if (event.shiftKey) {
         if (isFirst) {
           event.preventDefault();
-          $buttons.last().focus();
+          $buttons.last().trigger('focus');
         }
       } else if (isLast || !focusedButton) {
         event.preventDefault();
-        $buttons.first().focus();
+        $buttons.first().trigger('focus');
       }
     }
   },
@@ -4205,7 +4213,8 @@ module.exports = elementorModules.ViewModule.extend({
     }
   },
   isLightboxLink: function isLightboxLink(element) {
-    if ('A' === element.tagName && (element.hasAttribute('download') || !/^[^?]+\.(png|jpe?g|gif|svg|webp)(\?.*)?$/i.test(element.href))) {
+    // Check for lowercase `a` to make sure it works also for links inside SVGs.
+    if ('a' === element.tagName.toLowerCase() && (element.hasAttribute('download') || !/^[^?]+\.(png|jpe?g|gif|svg|webp)(\?.*)?$/i.test(element.href))) {
       return false;
     }
 

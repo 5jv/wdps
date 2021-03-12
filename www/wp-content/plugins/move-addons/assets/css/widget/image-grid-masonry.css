@@ -1,0 +1,20 @@
+.htmove-masonry-grid{
+    overflow: hidden;
+}
+.htmove-image-grid {
+  display: flex;
+  overflow: hidden;
+}
+
+.htmove-image-grid img {
+  width: 100%;
+  -webkit-transition: all 1.5s cubic-bezier(0, 0, 0.2, 1);
+  -o-transition: all 1.5s cubic-bezier(0, 0, 0.2, 1);
+  transition: all 1.5s cubic-bezier(0, 0, 0.2, 1);
+}
+
+.htmove-image-grid:hover img {
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
+}

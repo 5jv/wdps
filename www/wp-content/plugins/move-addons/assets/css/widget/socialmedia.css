@@ -1,0 +1,83 @@
+.htmove-social {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  justify-content: center;
+}
+
+.htmove-social li + li{
+  margin-left: 12px;
+}
+
+.htmove-social li a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 64px;
+  height: 64px;
+  -webkit-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  color: #222222;
+  border: 1px solid #E6E6E6;
+  border-radius: 50%;
+  text-decoration: none;
+}
+
+.htmove-social li a i {
+  font-size: 16px;
+  line-height: 1;
+}
+
+.htmove-social li a:hover {
+  color: #1D39D7;
+  border-color: #1D39D7;
+}
+
+.htmove-social li a svg :not([stroke="none"]) {
+  fill: #FFFFFF;
+}
+.htmove-social li a svg :not([fill="none"]) {
+  stroke: #FFFFFF;
+}
+.htmove-social li a svg [fill="none"] {
+  fill: transparent !important;
+}
+.htmove-social li a svg [stroke="none"] {
+  stroke: transparent !important;
+}
+
+
+.htmove-social-show-text.htmove-social li a {
+  width: auto;
+  height: auto;
+  font-family: "Space Grotesk";
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 1;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding: 5px 10px 0;
+  color: #222222;
+}
+.htmove-social-show-text.htmove-social li:last-child a{
+  border-right: 0 !important;
+}
