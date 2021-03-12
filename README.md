@@ -15,6 +15,13 @@ Complete pack for quick installation of wordpress with duplicator
 - Query Monitor
 - SiteOrigin CSS
 - WP Pusher
+- Wicked folders
+- Move Addons for Elementor
+- Elementor Addons – PowerPack Addons for Elementor
+- Mighty Addons for Elementor
+- ACF Frontend for Elementor
+- BulletProof Security
+- Visibility Logic for Elementor
 
 ## Template
 Hello Elementor<br>
