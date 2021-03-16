@@ -1,5 +1,5 @@
 # WDPS - Quick install complet wordpress
-Complete pack for quick installation of wordpress with duplicator
+A complete wordpress installer pack with elementor and quality free add-ons to quickly start any type of project.
 
 ## Installation & Documentation
 - Install with installer.php
