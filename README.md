@@ -28,9 +28,10 @@ Hello Elementor<br>
 Hello Elementor Child (https://github.com/elementor/hello-theme-child)
 
 ## Run
+<b>Standard installation with the duplicator module</b>
 Upload the contents of the "www" folder to the root folder of your ftp and access the "installer.php" file then configure your database to finalize the installation with duplicator.
 
-Ex: www.yoursite.com/installer.php
+Ex: yoursite.com/installer.php
 
 ## Access
 The username and password for the first connection, you can change them later.
