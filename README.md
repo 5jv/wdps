@@ -29,7 +29,7 @@ Hello Elementor Child (https://github.com/elementor/hello-theme-child)
 
 ## Run
 <b>Standard installation with the duplicator module</b> (https://github.com/snapcreek/duplicator)<br> 
-Upload the contents of the "www" folder to the root folder of your ftp and access the "installer.php" file then configure your database to finalize the installation with duplicator.
+Upload the contents of the "www" folder to the root folder of your ftp and have access to the "installer.php" file then configure your database to finalize the installation with duplicator.
 
 Ex: yoursite.com/installer.php
 
