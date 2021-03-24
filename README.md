@@ -22,6 +22,7 @@ A complete wordpress installer pack with elementor and quality free add-ons to q
 - ACF Frontend for Elementor
 - BulletProof Security
 - Visibility Logic for Elementor
+- Wp-Optimize
 
 ## Template
 Hello Elementor<br>
