@@ -206,8 +206,13 @@ Not at all! All the widgets and settings are easy to use with drag & drop interf
 
 == Changelog ==
 
-== 2.2.5 ==
-Release date: February 23, 2021
+= 2.3.0 - March 22, 2021 =
+* 	New: Random Image widget
+* 	Fixed: Info Box - Responsive Icon Position control was not working
+* 	Fixed: Display Conditions - Day of the Week option was not working for Sunday
+* 	Fixed: Gravity forms was enqueuing all scripts and styles on frontend
+
+= 2.2.5 - February 23, 2021 =
 * 	Added: Image Hotspots - Z-index option for tooltips
 * 	Enhancement: Pricing Table - Added pointer cursor if click trigger is used for tooltip
 * 	Fixed: Pricing Table - If tooltip content is left blank it was showing content from previous item's tooltip content

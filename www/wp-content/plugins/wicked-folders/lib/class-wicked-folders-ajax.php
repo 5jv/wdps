@@ -301,6 +301,7 @@ final class Wicked_Folders_Ajax {
 		if ( function_exists( 'is_plugin_active' ) && ( is_plugin_active( 'polylang/polylang.php' ) || is_plugin_active( 'polylang-pro/polylang.php' ) ) ) {
 			$data 	= file_get_contents( 'php://input' );
 			$data 	= preg_replace( '/^pll_post_id=([0-9|undefined]*)?&/', '', $data );
+			$data 	= preg_replace( '/&pll_ajax_backend=1/', '', $data );
 			$folder = json_decode( $data );
 		}
 
@@ -497,7 +498,7 @@ final class Wicked_Folders_Ajax {
 
 		foreach ( $folders as $folder ) {
 			update_term_meta( $folder['id'], 'wf_order', ( int ) $folder['order'] );
-			
+
 			// Update wp_terms.term_order if the field exists. This field is
 			// used by the Category Order and Taxonomy Terms Order plugin so
 			// this should ensure that the folders appear in the expected order

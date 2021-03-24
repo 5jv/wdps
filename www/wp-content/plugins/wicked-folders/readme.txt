@@ -2,8 +2,8 @@
 Contributors: wickedplugins
 Tags: folders, administration, tree view, content management, page organization, custom post type organization, media library folders, media library categories, media library organization
 Requires at least: 4.6
-Tested up to: 5.6
-Stable tag: 2.17.7
+Tested up to: 5.7
+Stable tag: 2.17.9
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -126,6 +126,14 @@ When you search folders by keyword, folders that don't match the keyword are gre
 6. Pro feature: media library folders
 
 == Changelog ==
+
+= 2.17.9 (March 22, 2021) =
+* Fix PHP error that can occur due to an invalid timezone identifier string
+* Fix media library folder pane resizer handle not visible (Wicked Folders Pro)
+* Fix media modal folder pane position when admin menu is folded and media modal is displayed on front end (Wicked Folders Pro)
+
+= 2.17.8 (March 13, 2021) =
+* Add work-around for issue caused by Polylang plugin mangling AJAX requests
 
 = 2.17.7 (February 2, 2021) =
 * Add folder support for classes and layout blocks post types added by Ed School theme

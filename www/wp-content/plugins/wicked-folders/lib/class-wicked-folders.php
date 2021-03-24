@@ -623,9 +623,11 @@ final class Wicked_Folders {
 	 *  A string that can be used to instantiate a DateTimeZone object.
 	 */
 	public static function timezone_identifier() {
+		$timezones 	= timezone_identifiers_list();
+		$timezone 	= get_option( 'timezone_string' );
 
-		// If site timezone string exists, return it
-		if ( $timezone = get_option( 'timezone_string' ) ) {
+		// If site timezone string is valid, return it
+		if ( in_array( $timezone, $timezones ) ) {
 			return $timezone;
 		}
 
@@ -643,7 +645,10 @@ final class Wicked_Folders {
 
 		// Attempt to guess the timezone string from the UTC offset
 		if ( $timezone = timezone_name_from_abbr( '', $utc_offset, 0 ) ) {
-			return $timezone;
+			// Make sure timezone is valid
+			if ( in_array( $timezone, $timezones ) ) {
+				return $timezone;
+			}
 		}
 
 		// Last try, guess timezone string manually
@@ -652,14 +657,16 @@ final class Wicked_Folders {
 		foreach ( timezone_abbreviations_list() as $abbr ) {
 			foreach ( $abbr as $city ) {
 				if ( $city['dst'] == $is_dst && $city['offset'] == $utc_offset ) {
-					return $city['timezone_id'];
+					// Make sure timezone is valid
+					if ( in_array( $city['timezone_id'], $timezones ) ) {
+						return $city['timezone_id'];
+					}
 				}
 			}
 		}
 
 		// Fallback to UTC
 		return 'UTC';
-
 	}
 
 	/**

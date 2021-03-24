@@ -47,6 +47,7 @@ endif;
 <th scope="row"><label for="duplicate_post_editor"><?php _e('Choose Editor', 'duplicate-page'); ?></label></th>
 <td>
     <select id="duplicate_post_editor" name="duplicate_post_editor">
+        <option value="all" <?php echo (isset($opt['duplicate_post_editor']) && $opt['duplicate_post_editor'] == 'all') ? "selected = 'selected'" : ''; ?>><?php _e('All Editors', 'duplicate-page'); ?></option>
     	<option value="classic" <?php echo (isset($opt['duplicate_post_editor']) && $opt['duplicate_post_editor'] == 'classic') ? "selected = 'selected'" : ''; ?>><?php _e('Classic Editor', 'duplicate-page'); ?></option>
     	<option value="gutenberg" <?php echo (isset($opt['duplicate_post_editor']) && $opt['duplicate_post_editor'] == 'gutenberg') ? "selected = 'selected'" : ''; ?>><?php _e('Gutenberg Editor', 'duplicate-page'); ?></option>
         </select>
@@ -84,22 +85,6 @@ endif;
 </tbody></table>
 <p class="submit"><input type="submit" value="Save Changes" class="button button-primary" id="submit" name="submit_duplicate_page"></p>
 </form>
-</div>
-<div id="postbox-container-1" class="postbox-container">
-<div id="side-sortables" class="meta-box-sortables ui-sortable">
-    <div id="submitdiv" class="postbox" style="padding: 6px;">
-    <p><strong style="color:#F00"><?php _e('Contribute some donation, to make plugin more stable. You can pay amount of your choice.', 'duplicate-page'); ?></strong></p>
-    <form name="_xclick" action="https://www.paypal.com/yt/cgi-bin/webscr" method="post">
-    <input type="hidden" name="cmd" value="_xclick">
-    <input type="hidden" name="business" value="yogesh72564@gmail.com">
-    <input type="hidden" name="item_name" value="Duplicate Page Plugin - Donation">
-    <input type="hidden" name="currency_code" value="USD">
-    <code>$</code> <input type="text" name="amount" value="" required="required" placeholder="Enter amount">
-    <input type="image" src="http://www.paypal.com/en_US/i/btn/x-click-butcc-donate.gif" border="0" name="submit" alt="Make Donations with Paypal">
-    </form>
-      <hr />
-    </div>
-</div>
 </div>
 </div>
 </div>

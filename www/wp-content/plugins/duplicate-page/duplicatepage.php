@@ -4,13 +4,16 @@ Plugin Name: Duplicate Page
 Plugin URI: https://wordpress.org/plugins/duplicate-page/
 Description: Duplicate Posts, Pages and Custom Posts using single click.
 Author: mndpsingh287
-Version: 4.3
+Version: 4.4
 Author URI: https://profiles.wordpress.org/mndpsingh287/
 License: GPLv2
 Text Domain: duplicate-page
 */
 if (!defined('DUPLICATE_PAGE_PLUGIN_DIRNAME')) {
     define('DUPLICATE_PAGE_PLUGIN_DIRNAME', plugin_basename(dirname(__FILE__)));
+}
+if (!defined('DUPLICATE_PAGE_PLUGIN_VERSION')) {
+    define('DUPLICATE_PAGE_PLUGIN_VERSION', '4.4');
 }
 if (!class_exists('duplicate_page')):
     class duplicate_page
@@ -29,6 +32,9 @@ if (!class_exists('duplicate_page')):
             add_filter('page_row_actions', array(&$this, 'dt_duplicate_post_link'), 10, 2);
             if (isset($opt['duplicate_post_editor']) && $opt['duplicate_post_editor'] == 'gutenberg') {
                 add_action('admin_head', array(&$this, 'duplicate_page_custom_button_guten'));
+            } elseif(isset($opt['duplicate_post_editor']) && $opt['duplicate_post_editor'] == 'all'){
+                add_action('admin_head', array(&$this, 'duplicate_page_custom_button_guten'));
+                add_action('post_submitbox_misc_actions', array(&$this, 'duplicate_page_custom_button_classic'));
             } else {
                 add_action('post_submitbox_misc_actions', array(&$this, 'duplicate_page_custom_button_classic'));
             }
@@ -239,44 +245,43 @@ if (!class_exists('duplicate_page')):
             if ($post) {
                 $opt = get_option('duplicate_page_options');
                 $post_status = !empty($opt['duplicate_post_status']) ? $opt['duplicate_post_status'] : 'draft';
-                if (isset($opt['duplicate_post_editor']) && $opt['duplicate_post_editor'] == 'gutenberg') {
+                if (isset($opt['duplicate_post_editor']) && ($opt['duplicate_post_editor'] == 'gutenberg' || $opt['duplicate_post_editor'] == 'all')) {
                     ?>
-             <style>
-             .duplicate_page_link_guten {
-                text-align: center;
-                margin-top: 15px;
-             }
-             .duplicate_page_link_guten a {
-                text-decoration: none;
-                display: block;
-                height: 30px;
-                line-height: 28px;
-                padding: 0 12px 2px;
-                border-color: #ccc;
-                background: #f7f7f7;
-                box-shadow: inset 0 -1px 0 #ccc;
-                border-radius: 3px;
-                border-width: 1px;
-                border-style: solid;
-            }
-            .duplicate_page_link_guten a:hover {
-                background: #fafafa;
-                border-color: #999;
-                box-shadow: inset 0 -1px 0 #999;
-            }
-             </style>       
-             <script>
-              jQuery(window).load(function(e){
-                var dp_post_id = "<?php echo $post->ID; ?>";
-                var dtnonce = "<?php echo wp_create_nonce( 'dt-duplicate-page-'.$post->ID );?>"; 
-                var dp_post_title = "Duplicate this as <?php echo $post_status; ?>";
-                var dp_duplicate_link = '<div class="duplicate_page_link_guten">';
-                    dp_duplicate_link += '<a href="admin.php?action=dt_duplicate_post_as_draft&amp;post='+dp_post_id+'&amp;nonce='+dtnonce+'" title="'+dp_post_title+'">Duplicate This</a>';
-                    dp_duplicate_link += '</div>';
-                jQuery('.edit-post-post-status').append(dp_duplicate_link);
-                });
-              </script>
-            <?php
+                    <style>
+                        .dt-duplicate-post-status-info .components-button.is-tertiary.is-link {
+                            color: #ffffff;
+                            background-color: #007cba;
+                            border: 1px solid #007cba;
+                            text-decoration: none;
+                            border-radius: 3px;
+                            padding: 5px 10px 8px;
+                            font-weight: bold;
+                            transition: all 0.3s ease;
+                            -webkit-transition: all 0.3s ease;
+                            -moz-transition: all 0.3s ease;
+                            -ms-transition: all 0.3s ease;
+                        }
+
+                        .dt-duplicate-post-status-info .components-button.is-tertiary.is-link:hover{
+                            border-color: #0071a1; 
+                            background-color: #0071a1; 
+                            transition: all 0.3s ease;
+                            -webkit-transition: all 0.3s ease;
+                            -moz-transition: all 0.3s ease;
+                            -ms-transition: all 0.3s ease;
+                            
+                        }
+                    </style>
+                    <?php 
+                    wp_register_script( "dt_duplicate_post_script", plugins_url( '/js/editor-script.js', __FILE__ ), array( 'wp-edit-post', 'wp-plugins', 'wp-i18n', 'wp-element' ), DUPLICATE_PAGE_PLUGIN_VERSION);
+                    wp_localize_script( 'dt_duplicate_post_script', 'dt_params', array(
+                        'dp_post_id' => $post->ID,
+                        'dtnonce' => wp_create_nonce( 'dt-duplicate-page-'.$post->ID ),
+                        'dp_post_title' => "Duplicate this as ".$post_status,
+                        'dp_duplicate_link' => "admin.php?action=dt_duplicate_post_as_draft"
+                        )
+                    );        
+                    wp_enqueue_script( 'dt_duplicate_post_script' );
                 }
             }
         }
@@ -318,7 +323,7 @@ if (!class_exists('duplicate_page')):
         public function load_help_desk()
         {
             $mkcontent = '';
-            $mkcontent .= '<div class="dpmrs">';
+            $mkcontent .= '<div class="dpmrs" style="display:none;">';
             $mkcontent .= '<div class="l_dpmrs">';
             $mkcontent .= '';
             $mkcontent .= '</div>';

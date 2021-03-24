@@ -1266,6 +1266,10 @@ body.wp-admin.wicked-object-folder-pane #posts-filter .actions select[name$="_fo
 	display: none;
 }
 
+#wicked-object-folder-pane .wicked-resizer.ui-resizable > div.wicked-splitter-handle {
+	display: block;
+}
+
 #wicked-object-folder-pane .wicked-navigating-mask {
 	position: fixed;
 	top: 0;
@@ -1302,7 +1306,7 @@ body.wp-admin.wicked-object-folder-pane #posts-filter .actions select[name$="_fo
 	max-width: 100%;
 }
 
-body.folded #wicked-object-folder-pane {
+body.folded #wpbody #wicked-object-folder-pane {
 	left: 36px;
 }
 
